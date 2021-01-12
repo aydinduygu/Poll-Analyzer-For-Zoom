@@ -1,9 +1,9 @@
 import pandas as pd
 
-import Student
-import Quiz
-import QuizPart
-import Question
+from Student import Student
+from Quiz import Quiz
+from QuizPart import QuizPart
+from Question import Question
 
 
 class Parser:
