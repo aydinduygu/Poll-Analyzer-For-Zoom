@@ -1,5 +1,3 @@
-from PollAnalyzer import PollAnalyzer
+print( "Hello World!!!!!!!")
 
-myPollAnalyzer = PollAnalyzer()
-
-
+import PollAnalyzer
