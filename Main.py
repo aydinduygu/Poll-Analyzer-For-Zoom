@@ -1,3 +1,5 @@
-print( "Hello World!!!!!!!")
+from PollAnalyzer import PollAnalyzer
 
-import PollAnalyzer
+myPollAnalyzer = PollAnalyzer()
+
+
