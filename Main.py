@@ -1,3 +1,9 @@
-print( "Hello World!!!!!!!!")
+import pandas as pd
 
-import PollAnalyzer
+
+filepath = "CES3063_Fall2020_rptSinifListesi-_1_.csv"
+
+
+data = pd.read_csv(filepath)
+
+print(data)
