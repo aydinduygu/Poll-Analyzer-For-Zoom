@@ -15,5 +15,14 @@ class Parser:
         self.__filePath2 = filePath2
 
     def parsestudentlist(self):
-        df = pd.read_excel(self.__filePath1)
-        print(df)
+        df = pd.read_excel(self.__filePath1,header=12)
+        
+        isimler=df["Adı"]
+        isimler=isimler.dropna()
+
+        isimlistesi=[]
+
+        isimlistesi.append(isimler)
+
+
+        print(isimler)
