@@ -7,3 +7,12 @@ class Question:
         self.__questionId = questionId
         self.__questionText = questionText
         self.__answer = answer
+
+    def getQuestionId(self):
+        return self.__questionId
+
+    def getQuestionText(self):
+        return self.__questionText
+
+    def getAnswer(self):
+        return self.__answer
