@@ -14,15 +14,26 @@ class Parser:
         self.__filePath1 = filePath1
         self.__filePath2 = filePath2
 
-    def parsestudentlist(self):
-        df = pd.read_excel(self.__filePath1,header=12)
-        
-        isimler=df["Adı"]
-        isimler=isimler.dropna()
+    def parseStudentList(self):
+        df = pd.read_excel(self.__filePath1, header=12)
+        nameList = self.parseColumn(df, "Adı")
+        surnameList = self.parseColumn(df, "Soyadı")
+        studentIdList = self.parseColumn(df, "Öğrenci No")
 
-        isimlistesi=[]
+        studentList = []
 
-        isimlistesi.append(isimler)
+        for x in range(0, len(studentIdList)):
+            stu = Student(nameList[x], surnameList[x], studentIdList[x])
+            studentList.append(stu)
 
+        return studentList
 
-        print(isimler)
+    def parseColumn(self, df, columName):
+        df = df[columName]
+        df = df.dropna()
+        df = df.values
+        nameList = []
+        nameList.extend(df)
+        nameList = [x for x in nameList if x != columName]
+
+        return nameList
