@@ -7,13 +7,13 @@ from Question import Question
 
 
 class Parser:
-    filePath1 = ""
-    filePath2 = ""
+    __filePath1 = ""
+    __filePath2 = ""
 
     def __init__(self, filePath1, filePath2):
-        self.filePath1 = filePath1
-        self.filePath2 = filePath2
+        self.__filePath1 = filePath1
+        self.__filePath2 = filePath2
 
     def parsestudentlist(self):
-        df = pd.read_excel(self.filePath1)
+        df = pd.read_excel(self.__filePath1)
         print(df)

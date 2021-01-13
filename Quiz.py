@@ -2,7 +2,7 @@ from QuizPart import QuizPart
 
 
 class Quiz:
-    quizparts = []
+    __quizParts = []
 
-    def __init__(self, quizparts):
-        self.quizparts = quizparts
+    def __init__(self, quizParts):
+        self.__quizParts = quizParts

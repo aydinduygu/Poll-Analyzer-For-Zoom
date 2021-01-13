@@ -2,9 +2,9 @@ from Question import Question
 
 
 class QuizPart:
-    question = None
-    student_respond = None
+    __question = None
+    __studentRespond = None
 
-    def __init__(self, question, student_respond):
-        self.question = question
-        self.student_respond = student_respond
+    def __init__(self, question, studentRespond):
+        self.__question = question
+        self.__studentRespond = studentRespond

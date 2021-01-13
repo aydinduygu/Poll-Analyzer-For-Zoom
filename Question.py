@@ -1,9 +1,9 @@
 class Question:
-    question_id = None
-    question_text = None
-    answer = None
+    __questionId = None
+    __questionText = None
+    __answer = None
 
-    def __init__(self, question_id, question_text, answer):
-        self.question_id = question_id
-        self.question_text = question_text
-        self.answer = answer
+    def __init__(self, questionId, questionText, answer):
+        self.__questionId = questionId
+        self.__questionText = questionText
+        self.__answer = answer
