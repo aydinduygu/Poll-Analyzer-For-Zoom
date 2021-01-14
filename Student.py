@@ -27,3 +27,8 @@ class Student:
 
     def getSurname(self):
         return self.__surname
+
+    def increaseAttendance(self):
+        self.__attendance=self.__attendance+1
+
+
