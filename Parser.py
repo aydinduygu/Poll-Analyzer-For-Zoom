@@ -38,11 +38,45 @@ class Parser:
 
         return nameList
 
+    def attendance(path):
+
+        #path = input('Input file path: ')
+
+        df = pd.read_csv(r'{}'.format(path))
+        df.reset_index(inplace=True)
+
+        for i in df.columns:
+            try:
+                if df[df[i].str.contains('Are you attending this lecture?')].shape[0] > 0:
+                    a = i
+
+            except:
+                pass
+
+        attendance = df[df[a].str.contains('Are you attending this lecture?')]
+        attendance = attendance[attendance.columns[1:6]]
+        attendance.columns = ['User Name', 'User Mail', 'Submitted Date/Time', 'Q', 'A']
+        attendance.rename(columns={'A': attendance['Q'].unique()[0]}, inplace=True)
+        attendance.reset_index(drop=True, inplace=True)
+        attendance.drop('Q', axis=1, inplace=True)
+        attendance['User Name'] = attendance['User Name'].str.title()
+
+        date = attendance['Submitted Date/Time'].unique()[0]
+
+        attendance = attendance.merge(class_list['User Name'], how='right', on='User Name')
+        attendance['Submitted Date/Time'].fillna(date, inplace=True)
+        attendance['Are you attending this lecture?'].fillna('No', inplace=True)
+
+        return attendance
+
+
+
+
     """
     # Veriden yoklama listesini çıkaran fonksiyon
 
-    def attendance():
-        path = input('Input file path: ')
+    def attendance(path):
+        #path = input('Input file path: ')
 
         df = pd.read_csv(r'{}'.format(path))
         df.reset_index(inplace=True)
