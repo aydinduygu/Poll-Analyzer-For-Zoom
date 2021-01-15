@@ -1,5 +1,6 @@
 from Quiz import Quiz
 
+
 class Student:
     __name = ""
     __surname = ""
@@ -12,12 +13,12 @@ class Student:
         self.__studentId = studentId
 
     def __eq__(self, other):
-        if other.getStudentId()==self.__studentId:
-            return True
-        else: return False
+        return other.getStudentId() == self.getStudentId()
+
 
     def __str__(self):
-        return self.__studentId+" "+self.__name+" "+self.__surname
+        return self.__studentId + " " + self.__name + " " + self.__surname
+
 
     def getStudentId(self):
         return self.__studentId
@@ -29,6 +30,4 @@ class Student:
         return self.__surname
 
     def increaseAttendance(self):
-        self.__attendance=self.__attendance+1
-
-
+        self.__attendance = self.__attendance + 1

@@ -7,15 +7,12 @@ from Question import Question
 
 
 class Parser:
-    __filePath1 = ""
-    __filePath2 = ""
 
-    def __init__(self, filePath1, filePath2):
-        self.__filePath1 = filePath1
-        self.__filePath2 = filePath2
+    def __init__(self):
+        pass
 
-    def parseStudentList(self):
-        df = pd.read_excel(self.__filePath1, header=12)
+    def parseStudentList(self, filePath):
+        df = pd.read_excel(filePath, header=12)
         nameList = self.parseColumn(df, "Adı")
         surnameList = self.parseColumn(df, "Soyadı")
         studentIdList = self.parseColumn(df, "Öğrenci No")
@@ -38,8 +35,8 @@ class Parser:
 
         return nameList
 
-    def attendance(self,path):
-       
+    def parseAttendance(self, path):
+
         global a
         df = pd.read_csv(r'{}'.format(path))
         df.reset_index(inplace=True)
@@ -59,18 +56,55 @@ class Parser:
         attendance.reset_index(drop=True, inplace=True)
         attendance.drop('Q', axis=1, inplace=True)
 
-        attendanceList=[]
-        
-        attendance=attendance['User Name']
+        attendanceList = []
+
+        attendance = attendance['User Name']
         attendanceList.extend(attendance)
 
         return attendanceList
 
+    def parseQuiz(self, path1, path2):
+
+        df_quiz = pd.read_csv(path1, skiprows=1, header=None)
+        df_answers=pd.read_csv(path2,skiprows=1,header=None)
+
+        numCol = len(df_quiz.columns)
+        numRows = len(df_quiz.index)
+        q_IndexList = [x for x in range(4, numCol) if x % 2 == 0]
+        a_IndexList = [x for x in range(4, numCol) if x % 2 != 0]
+
+        questions = df_quiz[df_quiz.columns[q_IndexList]]
+        answers = df_quiz[df_quiz.columns[a_IndexList]]
+
+        qNum = 1
+
+        for x in range(0, numRows):
+            for y in range(0, len(q_IndexList)):
+                qText = questions[y]
+                q = Question(qNum,qText)
+
+        print(len(df_quiz.columns))
+        # mailDf=pd.read_csv(self.__filePath2,usecols="User Email")
+        # dataTimeDf=pd.read_csv(self.__filePath2,usecols="Submitted Date/Time")
+        # numColumns=len(df.columns)
+        #
+        # num=df.columns.get_loc("Submitted Date/Time")
+        # num=num+1
+        #
+        # quizDf=df[df.columns[num:numColumns]]
+        #
+        # mylist=[]
+        #
+        # mylist.extend(quizDf)
+        #
+        # print(mylist)
+
+        a = 1
 
     """
     # Sınıf listesini almak için
 
-    class_list = pd.read_excel('CES3063_Fall2020_rptSinifListesi.XLS', header=12)
+    class_list = pd.read_excel('studentList.XLS', header=12)
     class_list = class_list[['No', 'Öğrenci No', 'Adı', 'Soyadı', 'Açıklama']]
     class_list = class_list[~class_list['Soyadı'].isna()]
     class_list = class_list[~class_list['Soyadı'].str.contains('Soyadı')]
@@ -90,7 +124,7 @@ class Parser:
 
     def attendance():
         
-        class_list = pd.read_excel('CES3063_Fall2020_rptSinifListesi.XLS', header=12)
+        class_list = pd.read_excel('studentList.XLS', header=12)
         class_list = class_list[['No', 'Öğrenci No', 'Adı', 'Soyadı', 'Açıklama']]
         class_list = class_list[~class_list['Soyadı'].isna()]
         class_list = class_list[~class_list['Soyadı'].str.contains('Soyadı')]
