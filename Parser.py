@@ -84,6 +84,12 @@ class Parser:
                 q = Question(qNum,qText)
 
         print(len(df_quiz.columns))
+
+    def parseAnswerKey(self, path):
+        df = pd.read_excel(path, header=12)
+        answerList = self.parseColumn(df, "Answer")
+        return answerList
+
         # mailDf=pd.read_csv(self.__filePath2,usecols="User Email")
         # dataTimeDf=pd.read_csv(self.__filePath2,usecols="Submitted Date/Time")
         # numColumns=len(df.columns)
