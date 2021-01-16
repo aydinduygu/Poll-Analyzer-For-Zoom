@@ -4,11 +4,17 @@ from Student import Student
 from Quiz import Quiz
 from QuizPart import QuizPart
 from Question import Question
+from OutputProducer import  OutputProducer
 
 
 class Parser:
 
+    __oProducer=None
+
     def __init__(self):
+
+        self.__oProducer=OutputProducer.instance()
+
         pass
 
     def parseStudentList(self, filePath):
@@ -75,16 +81,18 @@ class Parser:
 
     def parseQuiz(self, path1, studentList):
 
+        self.__oProducer.addIntoExecutionLog("Parsing quiz file : "+path1+" started")
+
         df_quiz = pd.read_csv(path1, skiprows=1, header=None)
 
         # df_quiz.sort_values(by="username",inplace=True)
 
-        print(df_quiz[4])
+        #print(df_quiz[4])
 
         numCol = len(df_quiz.columns)
         numRows = len(df_quiz.index)
-        q_IndexList = [x for x in range(5, numCol - 1) if x % 2 == 0]
-        a_IndexList = [x for x in range(5, numCol - 1) if x % 2 != 0]
+        q_IndexList = [x for x in range(4, numCol - 1) if x % 2 == 0]
+        a_IndexList = [x for x in range(4, numCol - 1) if x % 2 != 0]
 
         questions = df_quiz[df_quiz.columns[q_IndexList]]
         answers = df_quiz[df_quiz.columns[a_IndexList]]
@@ -99,12 +107,14 @@ class Parser:
                 continue
             else:
                 quizPartList = []
+                qNum=1
                 for y in q_IndexList:
                     qText = questions.iloc[x][y]
                     q = Question(qNum, qText, "")
                     aText = answers.iloc[x][y + 1]
                     qp = QuizPart(q, aText)
                     quizPartList.append(qp)
+                    qNum=qNum+1
 
                 quiz = Quiz(quizPartList)
                 userName = df_quiz.iloc[x][1]
