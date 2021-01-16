@@ -107,6 +107,41 @@ class Parser:
 
         a = 1
 
+
+    """
+    # QUIZ DATA
+
+    def quiz():
+        quiz = pd.read_csv('CSE3063_20201123_Mon_zoom_PollReport.csv')
+        quiz.reset_index(inplace=True)
+        
+        for i in quiz.columns:
+            try:
+                if quiz[quiz[i].str.contains('Are you attending this lecture?')].shape[0]>0:
+                    a = i
+            except:
+                pass
+            
+        quiz = quiz[quiz[a]!='Are you attending this lecture?']
+        quiz.drop(quiz.columns[0], axis=1, inplace=True)
+        
+        # Tüm satırı NaN olan kolonları temizle
+        for i in quiz.columns[3:]:
+            if quiz[quiz[i].isna()].shape[0] == quiz.shape[0]:
+                quiz.drop(i, axis=1, inplace=True)
+                
+                
+        # Sütun isimleri
+        cols = ['User Name', 'User Mail', 'Submitted Date/Time']
+    
+        for i in range(int(len(quiz.columns[3:])/2)):
+            cols.append('Q'+str(i+1))
+            cols.append('A'+str(i+1))
+            
+        quiz.columns=cols
+        
+        return quiz
+    """
     """
     # Sınıf listesini almak için
 
