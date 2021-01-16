@@ -1,13 +1,19 @@
 from datetime import datetime
 
-
+#singleton pattern implemented
 class OutputProducer:
+    __instance = None
 
     def __init__(self):
-        pass
+        raise RuntimeError('Call instance() method instead!')
+
+    @classmethod
+    def instance(cls):
+        if cls.__instance is None:
+            cls.__instance = cls.__new__(cls)
+        return cls.__instance
 
     def addIntoExecutionLog(self, logInfo):
-
         now = datetime.now()
         dt_string = now.strftime("%d/%m/%Y %H:%M:%S")
 
