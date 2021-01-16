@@ -32,6 +32,8 @@ class PollAnalyzer:
             self.__attendanceData.append(att)
 
         self.calculateAttendance()
+        parser.parseQuiz(self.__fileNames[0], self.__studentList)
+
         self.printStudentList()
 
     def getStudentList(self):
