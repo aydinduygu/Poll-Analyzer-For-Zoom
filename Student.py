@@ -6,6 +6,7 @@ class Student:
     __surname = ""
     __studentId = 0
     __attendance = 0
+    __quizes=[]
 
     def __init__(self, name, surname, studentId):
         self.__name = name
@@ -31,3 +32,6 @@ class Student:
 
     def increaseAttendance(self):
         self.__attendance = self.__attendance + 1
+
+    def getQuizes(self):
+        return self.__quizes

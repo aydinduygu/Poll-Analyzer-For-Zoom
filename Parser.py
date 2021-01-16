@@ -63,15 +63,28 @@ class Parser:
 
         return attendanceList
 
-    def parseQuiz(self, path1, path2):
+    def adjustUserName(self, userName: str):
+
+        for s in userName:
+            if s.isdigit() == True:
+                userName = userName.replace(s, '')
+        userName = userName.strip()
+
+        return userName
+
+
+    def parseQuiz(self, path1, studentList):
 
         df_quiz = pd.read_csv(path1, skiprows=1, header=None)
-        df_answers=pd.read_csv(path2,skiprows=1,header=None)
+
+        # df_quiz.sort_values(by="username",inplace=True)
+
+        print(df_quiz[4])
 
         numCol = len(df_quiz.columns)
         numRows = len(df_quiz.index)
-        q_IndexList = [x for x in range(4, numCol) if x % 2 == 0]
-        a_IndexList = [x for x in range(4, numCol) if x % 2 != 0]
+        q_IndexList = [x for x in range(5, numCol - 1) if x % 2 == 0]
+        a_IndexList = [x for x in range(5, numCol - 1) if x % 2 != 0]
 
         questions = df_quiz[df_quiz.columns[q_IndexList]]
         answers = df_quiz[df_quiz.columns[a_IndexList]]
@@ -79,39 +92,41 @@ class Parser:
         qNum = 1
 
         for x in range(0, numRows):
-            for y in range(0, len(q_IndexList)):
-                qText = questions[y]
-                q = Question(qNum,qText)
 
-        print(len(df_quiz.columns))
+            myatq = df_quiz.iloc[x][4]
 
-    def parseAnswerKey(self, path):
-        df = pd.read_excel(path, header=12)
-        answerList = self.parseColumn(df, "Answer")
-        return answerList
+            if myatq == "Are you attending this lecture?":
+                continue
+            else:
+                quizPartList = []
+                for y in q_IndexList:
+                    qText = questions.iloc[x][y]
+                    q = Question(qNum, qText, "")
+                    aText = answers.iloc[x][y + 1]
+                    qp = QuizPart(q, aText)
+                    quizPartList.append(qp)
 
-        # mailDf=pd.read_csv(self.__filePath2,usecols="User Email")
-        # dataTimeDf=pd.read_csv(self.__filePath2,usecols="Submitted Date/Time")
-        # numColumns=len(df.columns)
-        #
-        # num=df.columns.get_loc("Submitted Date/Time")
-        # num=num+1
-        #
-        # quizDf=df[df.columns[num:numColumns]]
-        #
-        # mylist=[]
-        #
-        # mylist.extend(quizDf)
-        #
-        # print(mylist)
+                quiz = Quiz(quizPartList)
+                userName = df_quiz.iloc[x][1]
+                if userName.isalpha() == False:
+                    userName = self.adjustUserName(userName)
+                    df_quiz.at[x, 1] = userName
 
-        a = 1
+                i = -1
+
+                for stu in studentList:
+                    if (userName.__contains__(stu.getName())) and (userName.__contains__(stu.getSurname())):
+                        i = studentList.index(stu)
+                        break
+
+                if i != -1:
+                    studentList[i].getQuizes().append(quiz)
+
+        print(df_quiz)
 
 
-    """
-    # QUIZ DATA
 
-    def quiz():
+    def quiz(self):
         quiz = pd.read_csv('CSE3063_20201123_Mon_zoom_PollReport.csv')
         quiz.reset_index(inplace=True)
         
@@ -141,8 +156,7 @@ class Parser:
         quiz.columns=cols
         
         return quiz
-    """
-    """
+    """"
     # Sınıf listesini almak için
 
     class_list = pd.read_excel('studentList.XLS', header=12)

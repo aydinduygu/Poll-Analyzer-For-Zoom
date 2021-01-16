@@ -1,3 +1,4 @@
+from OutputProducer import OutputProducer
 from Student import Student
 import pandas as pd
 from Parser import Parser
@@ -8,9 +9,12 @@ class PollAnalyzer:
     __studentList = []
     __fileNames = []
     __attendanceData = []
+    __myOutputProducer = None
 
     def __init__(self):
 
+        self.__myOutputProducer = OutputProducer.instance()
+        self.__myOutputProducer.addIntoExecutionLog("System started!")
         os.chdir("poll_files")
         for file in glob.glob("*.csv"):
             self.__fileNames.append(file)
@@ -18,7 +22,6 @@ class PollAnalyzer:
         for file in glob.glob("*.xls"):
             if file != "studentList.XLS":
                 self.__fileNames.append(file)
-
 
         parser = Parser()
         filePath = "studentList.XLS"
@@ -29,9 +32,9 @@ class PollAnalyzer:
             self.__attendanceData.append(att)
 
         self.calculateAttendance()
+        parser.parseQuiz(self.__fileNames[0], self.__studentList)
+
         self.printStudentList()
-
-
 
     def getStudentList(self):
         return self.__studentList
