@@ -50,3 +50,9 @@ class Student:
 
     def as_dict(self):
         return {'Student Id':self.__studentId,'Name':self.__name,'Surname':self.__surname}
+
+    def getAttendence(self):
+        return self.__attendance
+
+    def getNumberOfClasses(self):
+        return self.__numberOfClasses

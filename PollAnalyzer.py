@@ -57,10 +57,10 @@ class PollAnalyzer:
 
         self.calculateQuizResults()
 
-       # self.extractPollList()
+        self.extractPollList()
 
+        self.__myOutputProducer.produceOutput(self.__studentList,self.__pollList)
 
-      #  self.__myOutputProducer.produceOutput(self.__myOutputProducer)
 
 
 
@@ -87,7 +87,7 @@ class PollAnalyzer:
                    if x in attendanceList:
                        stuIndex = self.getStuIndexWithUserName(x)
                        self.__studentList[stuIndex].increaseAttendance()
-        self.__studentList[0].setNumClasses(num)
+                       self.__studentList[stuIndex].setNumClasses(num)
 
     def calculateQuizResults(self):
 

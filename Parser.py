@@ -1,7 +1,7 @@
 import pandas as pd
 import openpyxl
 
-
+# -*- coding: utf-8 -*-
 from Student import Student
 from Quiz import Quiz
 from QuizPart import QuizPart
@@ -29,7 +29,24 @@ class Parser:
         studentList = []
 
         for x in range(0, len(studentIdList)):
-            stu = Student(nameList[x], surnameList[x], studentIdList[x])
+
+            name=str(nameList[x])
+
+            surname=str(surnameList[x])
+
+
+
+            name=self.adjustString(name)
+            surname=self.adjustString(surname)
+
+            asc = [ord(c) for c in name]
+            asc2 = [ord(c) for c in surname]
+
+
+            name=name.lower()
+            surname=surname.lower()
+
+            stu = Student(name, surname, studentIdList[x])
             studentList.append(stu)
         self.__oProducer.addIntoExecutionLog("Parsing Student List : " + filePath + " finished")
         return studentList
@@ -77,13 +94,32 @@ class Parser:
 
             return attendanceList
 
-    def adjustUserName(self, userName: str):
+    def adjustString(self, userName:str):
 
         for s in userName:
             if s.isdigit() == True:
                 userName = userName.replace(s, '')
         userName = userName.strip()
+        
 
+        if userName.__contains__("  "):
+            userName.replace("  "," ")
+
+        if userName.__contains__("İ"):
+            userName = userName.replace("İ", "i")
+        if userName.__contains__("I"):
+            userName=userName.replace("I","ı")
+        if userName.__contains__("Ü"):
+            userName = userName.replace("Ü", "ü")
+        if userName.__contains__("Ğ"):
+            userName = userName.replace("Ğ", "ğ")
+        if userName.__contains__("Ş"):
+            userName = userName.replace("Ş", "ş")
+        if userName.__contains__("Ç"):
+            userName = userName.replace("Ç", "ç")
+        if userName.__contains__("Ö"):
+            userName = userName.replace("Ö", "ö")
+        userName=userName.lower()
         return userName
 
 
@@ -132,28 +168,37 @@ class Parser:
 
                 userName = df_quiz.iloc[x][1]
                 if userName.isalpha() == False:
-                    userName = self.adjustUserName(userName)
+                    userName = self.adjustString(userName)
                     df_quiz.at[x, 1] = userName
 
                 i = -1
 
                 for stu in studentList:
 
+                    s_name=self.adjustString(str(stu.getName()))
+                    s_surname=self.adjustString(str(stu.getSurname()))
+                    s_username=s_name+" "+s_surname
+                    s_username=self.adjustString(s_username)
+                    asci2=[ord(c) for c in s_username]
+                    asci1 = [ord(c) for c in userName]
+
+
+                    if s_username==userName:
+                        i = studentList.index(stu)
+                        break
+
+                if i != -1:
+
                     quizNum = 0
                     strquiznum = "quiz_" + str(quizNum)
 
-                    for mquiz in stu.getQuizes():
+                    for mquiz in studentList[i].getQuizes():
                         if mquiz.getQuizName() == strquiznum:
                             quizNum = quizNum + 1
                             strquiznum = "quiz_" + str(quizNum)
 
                     quiz.setQuizName(strquiznum)
 
-                    if (userName.lower().__contains__(stu.getName().lower())) and (userName.lower().__contains__(stu.getSurname().lower())):
-                        i = studentList.index(stu)
-                        break
-
-                if i != -1:
                     studentList[i].getQuizes().append(quiz)
 
         self.__oProducer.addIntoExecutionLog("Parsing Quiz file : " + path1 + " finished")
