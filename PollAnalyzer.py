@@ -8,6 +8,7 @@ import glob, os
 class PollAnalyzer:
     __studentList = None
     __fileNames = None
+    __answerKeys=None
     __attendanceData = None
     __myOutputProducer = None
 
@@ -16,10 +17,13 @@ class PollAnalyzer:
         self.__studentList=[]
         self.__fileNames=[]
         self.__attendanceData=[]
+        self.__answerKeys=[]
         self.__myOutputProducer = OutputProducer.instance()
         self.__myOutputProducer.addIntoExecutionLog("System started!")
-        os.chdir("poll_files")
-        for file in glob.glob("*.csv"):
+
+        path="./poll_files/"
+
+        for file in glob.glob(path+"*.csv"):
             self.__fileNames.append(file)
 
         for file in glob.glob("*.xls"):
@@ -27,7 +31,7 @@ class PollAnalyzer:
                 self.__fileNames.append(file)
 
         parser = Parser()
-        filePath = "studentList.XLS"
+        filePath = "./poll_files/studentList.XLS"
         self.__studentList = parser.parseStudentList(filePath)
 
         for file in self.__fileNames:
@@ -35,7 +39,17 @@ class PollAnalyzer:
             self.__attendanceData.append(att)
 
         self.calculateAttendance()
-        parser.parseQuiz(self.__fileNames[0], self.__studentList)
+
+        for file in self.__fileNames:
+            parser.parseQuiz(file, self.__studentList)
+
+        path="./poll_answers/"
+
+        for file in glob.glob(path+"*.xls"):
+            if file != "studentList.XLS":
+                self.__answerKeys.append(file)
+
+        parser.parseAnswerKey(self.__answerKeys[0],self.__studentList)
 
         self.printStudentList()
 
