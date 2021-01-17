@@ -178,8 +178,22 @@ class Parser:
     def parseAnswerKey(self, path2, studentList):
 
         df_answerKey = pd.read_excel(path2, skiprows=1, header=None)
-        questionList = df_answerKey.ix[:, 0]
-        answerList = df_answerKey.ix[:, 1]
+        questionList = df_answerKey.iloc[:, 0]
+        answerList = df_answerKey.iloc[:, 1]
+
+        qlist=[]
+        alist=[]
+        questionList=questionList.values
+        answerList=answerList.values
+
+        qlist.extend(questionList)
+        alist.extend(answerList)
+
+
+        qlist.extend(questionList)
+
+
+
         numRows = len(df_answerKey.index)
 
         length = len(studentList)
@@ -188,11 +202,11 @@ class Parser:
         for i in range(length):
             length2 = length2 + len(studentList[i].getQuizes())
             for j in range(length2):
-                length3 = length3 + len(self.quiz[j].getQuizParts())
+                length3 = length3 + len(studentList[i].getQuizes()[j].getQuizParts())
                 for k in range(length3):
                     for m in range(numRows):
-                        if studentList[i].self.quiz[j].__quizParts[k].getQuestion().getQuestionText == questionList[m]:
-                            studentList[i].self.quiz[j].__quizParts[k].getQuestion().setAnswer(answerList[m])
+                        if studentList[i].getQuizes()[j].getQuizParts()[k].getQuestion().getQuestionText() == qlist[m]:
+                            studentList[i].getQuizes()[j].getQuizParts()[k].getQuestion().setAnswer(alist[m])
 
     """"
     # Sınıf listesini almak için
