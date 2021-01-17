@@ -20,7 +20,7 @@ class Parser:
         pass
 
     def parseStudentList(self, filePath):
-        self.__oProducer.addIntoExecutionLog("Parsing studentList started : " + filePath + " started")
+        self.__oProducer.addIntoExecutionLog("Parsing Student List started : " + filePath + " started")
         df = pd.read_excel(filePath, header=12)
         nameList = self.parseColumn(df, "Adı")
         surnameList = self.parseColumn(df, "Soyadı")
@@ -31,7 +31,7 @@ class Parser:
         for x in range(0, len(studentIdList)):
             stu = Student(nameList[x], surnameList[x], studentIdList[x])
             studentList.append(stu)
-        print("Parsing studentList finished")
+        self.__oProducer.addIntoExecutionLog("Parsing Student List : " + filePath + " finished")
         return studentList
 
     def parseColumn(self, df, columName):
@@ -73,7 +73,7 @@ class Parser:
 
             attendance = attendance['User Name']
             attendanceList.extend(attendance)
-            print("Parsing attendence finished")
+            self.__oProducer.addIntoExecutionLog("Parsing attendence : " + path + " finished")
 
             return attendanceList
 
@@ -156,7 +156,7 @@ class Parser:
                 if i != -1:
                     studentList[i].getQuizes().append(quiz)
 
-        print("Parsing quiz file finished")
+        self.__oProducer.addIntoExecutionLog("Parsing Quiz file : " + path1 + " finished")
 
 
     def quiz(self):

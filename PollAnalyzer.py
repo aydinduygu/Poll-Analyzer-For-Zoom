@@ -57,10 +57,10 @@ class PollAnalyzer:
 
         self.calculateQuizResults()
 
-        self.extractPollList()
+       # self.extractPollList()
 
 
-        self.__myOutputProducer.produceOutput(self.__myOutputProducer)
+      #  self.__myOutputProducer.produceOutput(self.__myOutputProducer)
 
 
 
