@@ -182,12 +182,12 @@ class Parser:
         length3 = 0
         for i in range(length):
             length2 = length2 + len(studentList[i].getQuizes())
-        for j in range(length2):
-            length3 = length3 + len(self.quiz[j].getQuizParts())
-        for k in range(length3):
-            for m in range(numRows):
-                if __quizParts[k].getQuestion().getQuestionText == questionList[m]:
-                    __quizParts[k].getQuestion().setAnswer(answerList[m])
+            for j in range(length2):
+                length3 = length3 + len(self.quiz[j].getQuizParts())
+                for k in range(length3):
+                    for m in range(numRows):
+                        if studentList[i].self.quiz[j].__quizParts[k].getQuestion().getQuestionText == questionList[m]:
+                            studentList[i].self.quiz[j].__quizParts[k].getQuestion().setAnswer(answerList[m])
 
     """"
     # Sınıf listesini almak için
