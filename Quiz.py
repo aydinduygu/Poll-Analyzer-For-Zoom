@@ -34,3 +34,10 @@ class Quiz:
 
     def setQuizName(self,name):
         self.__quizName=name
+
+
+    def setNumWrong(self,num):
+        self.__numWrong=num
+
+    def setNumCorrect(self,num):
+        self.__numCorrect=num

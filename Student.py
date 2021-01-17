@@ -17,8 +17,6 @@ class Student:
         self.__attendance=0
         self.__quizes=[]
 
-    def __eq__(self, other):
-        return other.getStudentId() == self.getStudentId()
 
 
     def __str__(self):

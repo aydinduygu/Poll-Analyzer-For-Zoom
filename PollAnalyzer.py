@@ -53,6 +53,7 @@ class PollAnalyzer:
         for a in self.__answerKeys:
             parser.parseAnswerKey(a,self.__studentList)
 
+        self.calculateQuizResults()
 
 
 
@@ -85,26 +86,19 @@ class PollAnalyzer:
 
     def calculateQuizResults(self):
 
-        for studentList in self.__studentList:
-            if studentList != None:
-                fullUserNameList = []
-                studentList = [x.lower() for x in studentList]
+        for student in self.__studentList:
 
-                for x in self.__studentList:
-                    username = x.getName() + " " + x.getSurname()
-                    fullUserNameList.append(username)
+            for quiz in student.getQuizes():
 
-                for x in fullUserNameList:
-                    x = x.lower()
-                    if x in studentList:
-                        stuIndex = self.getStuIndexWithUserName(x)
-                        stuQuizes = self.__studentList[stuIndex].getQuizes()
-                        quizPart = stuQuizes[stuIndex].getQuizParts()
-                        for i in quizPart:
-                            if i.getQuestion().getAnswer() == i.getStudentRespond():
-                                x.increaseNumCorrect()
-                            else:
-                                x.increaseNumWrong()
+                for quizPart in quiz.getQuizParts():
+
+                    if quizPart.getQuestion().getAnswer()==quizPart.getStudentRespond():
+                        quiz.setNumCorrect(quiz.getNumWrong()+1)
+                    else:
+                        quiz.setNumWrong(quiz.getNumCorrect()+1)
+
+
+
 
 
     def getStuIndexWithUserName(self, username):
