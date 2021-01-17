@@ -128,7 +128,7 @@ class Parser:
                 i = -1
 
                 for stu in studentList:
-                    if (userName.__contains__(stu.getName())) and (userName.__contains__(stu.getSurname())):
+                    if (userName.lower().__contains__(stu.getName().lower())) and (userName.lower().__contains__(stu.getSurname().lower())):
                         i = studentList.index(stu)
                         break
 
@@ -175,7 +175,7 @@ class Parser:
         df_answerKey = pd.read_excel(path2, skiprows=1, header=None)
         questionList = df_answerKey.ix[:, 0]
         answerList = df_answerKey.ix[:, 1]
-        numRows = len(df_answerKey_quiz.index)
+        numRows = len(df_answerKey.index)
 
         length = len(studentList)
         length2 = 0

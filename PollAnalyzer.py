@@ -6,13 +6,16 @@ import glob, os
 
 
 class PollAnalyzer:
-    __studentList = []
-    __fileNames = []
-    __attendanceData = []
+    __studentList = None
+    __fileNames = None
+    __attendanceData = None
     __myOutputProducer = None
 
     def __init__(self):
 
+        self.__studentList=[]
+        self.__fileNames=[]
+        self.__attendanceData=[]
         self.__myOutputProducer = OutputProducer.instance()
         self.__myOutputProducer.addIntoExecutionLog("System started!")
         os.chdir("poll_files")

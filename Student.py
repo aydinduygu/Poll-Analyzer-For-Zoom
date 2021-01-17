@@ -2,16 +2,18 @@ from Quiz import Quiz
 
 
 class Student:
-    __name = ""
-    __surname = ""
-    __studentId = 0
-    __attendance = 0
-    __quizes=[]
+    __name = None
+    __surname = None
+    __studentId = None
+    __attendance = None
+    __quizes=None
 
     def __init__(self, name, surname, studentId):
         self.__name = name
         self.__surname = surname
         self.__studentId = studentId
+        self.__attendance=0
+        self.__quizes=[]
 
     def __eq__(self, other):
         return other.getStudentId() == self.getStudentId()
@@ -31,6 +33,9 @@ class Student:
         return self.__surname
 
     def increaseAttendance(self):
+
+        if self.__attendance==None:
+            self.__attendance=0
         self.__attendance = self.__attendance + 1
 
     def getQuizes(self):
