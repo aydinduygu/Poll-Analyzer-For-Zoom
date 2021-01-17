@@ -266,7 +266,7 @@ class Parser:
                 for k in range(length3):
 
                     for m in range(numRows):
-                        if studentList[i].getQuizes()[j].getQuizParts()[k].getQuestion().getQuestionText() == self.checkQuestion(qlist[m]):
+                        if studentList[i].getQuizes()[j].getQuizParts()[k].getQuestion().getQuestionText()== self.checkQuestion(qlist[m]):
                             studentList[i].getQuizes()[j].getQuizParts()[k].getQuestion().setAnswer(alist[m])
 
                             exist=False

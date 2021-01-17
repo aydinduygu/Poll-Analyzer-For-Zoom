@@ -54,27 +54,24 @@ class OutputProducer:
         self.addIntoExecutionLog("Attendence report is generated.")
 
         i=0
-        for key in poll_List:
-
-            stuList=poll_List[key]
-
-
-            for stu in stuList:
-                name = stu.getName().capitalize()
-                surname = stu.getSurname().capitalize()
-                id = stu.getStudentId()
-                qlist=stu.getQuizes()[i].getQuizParts()
-                numList = []
-                for q in qlist:
-                    numList.append(q.getIsCorrect())
-                print(numList)
-            i=i+1
-
-
-
-
+        # for key in poll_List:
+        #
+        #     stuList=poll_List[key]
+        #
+        #
+        #     for stu in stuList:
+        #         name = stu.getName().capitalize()
+        #         surname = stu.getSurname().capitalize()
+        #         id = stu.getStudentId()
+        #         qlist=stu.getQuizes()[i].getQuizParts()
+        #         numList = []
+        #         for q in qlist:
+        #             numList.append(q.getIsCorrect())
+        #         print(numList)
+        #
+        #
+        #     i=i+1
 
 
-        
         df.to_excel("./attendence_results/attendence_report.xlsx")
 
