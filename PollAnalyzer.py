@@ -74,6 +74,30 @@ class PollAnalyzer:
                        stuIndex = self.getStuIndexWithUserName(x)
                        self.__studentList[stuIndex].increaseAttendance()
 
+    def calculateQuizResults(self):
+
+        for studentList in self.__studentList:
+            if studentList != None:
+                fullUserNameList = []
+                studentList = [x.lower() for x in studentList]
+
+                for x in self.__studentList:
+                    username = x.getName() + " " + x.getSurname()
+                    fullUserNameList.append(username)
+
+                for x in fullUserNameList:
+                    x = x.lower()
+                    if x in studentList:
+                        stuIndex = self.getStuIndexWithUserName(x)
+                        stuQuizes = self.__studentList[stuIndex].getQuizes()
+                        quizPart = stuQuizes[stuIndex].getQuizParts()
+                        for i in quizPart:
+                            if i.getQuestion().getAnswer() == i.getStudentRespond():
+                                x.increaseNumCorrect()
+                            else:
+                                x.increaseNumWrong()
+
+
     def getStuIndexWithUserName(self, username):
 
         for stu in self.__studentList:
