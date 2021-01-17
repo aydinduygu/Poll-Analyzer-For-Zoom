@@ -46,3 +46,7 @@ class Student:
 
     def setNumClasses(self, num):
         self.__numberOfClasses=num
+
+
+    def as_dict(self):
+        return {'Student Id':self.__studentId,'Name':self.__name,'Surname':self.__surname}

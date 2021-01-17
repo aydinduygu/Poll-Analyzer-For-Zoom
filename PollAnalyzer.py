@@ -11,6 +11,7 @@ class PollAnalyzer:
     __answerKeys=None
     __attendanceData = None
     __myOutputProducer = None
+    __pollList=None
 
     def __init__(self):
 
@@ -20,6 +21,7 @@ class PollAnalyzer:
         self.__answerKeys=[]
         self.__myOutputProducer = OutputProducer.instance()
         self.__myOutputProducer.addIntoExecutionLog("System started!")
+        self.__pollList={}
 
         path="./poll_files/"
 
@@ -55,6 +57,11 @@ class PollAnalyzer:
 
         self.calculateQuizResults()
 
+        self.extractPollList()
+
+
+        self.__myOutputProducer.produceOutput(self.__myOutputProducer)
+
 
 
     def getStudentList(self):
@@ -82,8 +89,6 @@ class PollAnalyzer:
                        self.__studentList[stuIndex].increaseAttendance()
         self.__studentList[0].setNumClasses(num)
 
-
-
     def calculateQuizResults(self):
 
         for student in self.__studentList:
@@ -93,12 +98,11 @@ class PollAnalyzer:
                 for quizPart in quiz.getQuizParts():
 
                     if quizPart.getQuestion().getAnswer()==quizPart.getStudentRespond():
+                        quizPart.setIsCorrect(1)
                         quiz.setNumCorrect(quiz.getNumWrong()+1)
                     else:
+                        quizPart.setIsCorrect(0)
                         quiz.setNumWrong(quiz.getNumCorrect()+1)
-
-
-
 
 
     def getStuIndexWithUserName(self, username):
@@ -111,3 +115,16 @@ class PollAnalyzer:
 
     def printStudentList(self):
         print(*self.__studentList, sep='\n')
+
+    def extractPollList(self):
+
+        for stu in self.__studentList:
+            for quiz in stu.getQuizes():
+                if not self.__pollList.__contains__(quiz.getQuizName()):
+
+                    self.__pollList[quiz.getQuizName()]=[]
+                    x= self.__pollList[quiz.getQuizName()]
+                    x.append(stu)
+                else:
+                    x=self.__pollList[quiz.getQuizName()]
+                    x.append(stu)
