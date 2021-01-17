@@ -19,3 +19,9 @@ class Quiz:
 
     def getNumWrong(self):
         return self.__numWrong
+
+    def increaseNumCorrect(self):
+        self.__numCorrect = self.__numCorrect + 1
+
+    def increaseNumWrong(self):
+        self.__numWrong = self.__numWrong + 1
