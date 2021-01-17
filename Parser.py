@@ -252,23 +252,20 @@ class Parser:
         qlist.extend(questionList)
         alist.extend(answerList)
 
-
-        qlist.extend(questionList)
-
-
-
         numRows = len(df_answerKey.index)
 
         length = len(studentList)
         length2 = 0
         length3 = 0
+
+
         for i in range(length):
             length2 = len(studentList[i].getQuizes())
             for j in range(length2):
                 length3 = len(studentList[i].getQuizes()[j].getQuizParts())
                 for k in range(length3):
-                    for m in range(numRows):
 
+                    for m in range(numRows):
                         if studentList[i].getQuizes()[j].getQuizParts()[k].getQuestion().getQuestionText() == self.checkQuestion(qlist[m]):
                             studentList[i].getQuizes()[j].getQuizParts()[k].getQuestion().setAnswer(alist[m])
 
@@ -284,25 +281,30 @@ class Parser:
         a=5
 
 
+
+
     def checkQuestion(self,qText):
         
             if qText.__contains__("\n\r"):
                 qText = qText.replace('\n\r', "")
-                return qText
+
 
             elif qText.__contains__("\r\n"):
                 qText = qText.replace('\r\n', "")
-                return qText
+
             elif qText.__contains__("\r"):
                 qText = qText.replace('\r', "")
-                return qText
+
             elif qText.__contains__("\t"):
                 qText = qText.replace('\t', "")
-                return qText
+
 
             elif qText.__contains__("\n"):
                 qText = qText.replace('\n', "")
-                return qText
+
+
+
+            return qText
             
 
     """"
