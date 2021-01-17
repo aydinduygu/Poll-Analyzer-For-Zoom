@@ -13,3 +13,9 @@ class Quiz:
 
     def getQuizParts(self):
         return self.__quizParts
+
+    def getNumCorrect(self):
+        return self.__numCorrect
+
+    def getNumWrong(self):
+        return self.__numWrong
