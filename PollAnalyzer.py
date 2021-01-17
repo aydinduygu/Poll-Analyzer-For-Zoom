@@ -120,11 +120,12 @@ class PollAnalyzer:
 
         for stu in self.__studentList:
             for quiz in stu.getQuizes():
-                if not self.__pollList.__contains__(quiz.getQuizName()):
+                if not quiz.getQuizName() in self.__pollList:
 
                     self.__pollList[quiz.getQuizName()]=[]
                     x= self.__pollList[quiz.getQuizName()]
                     x.append(stu)
                 else:
                     x=self.__pollList[quiz.getQuizName()]
-                    x.append(stu)
+                    if not stu in x:
+                        x.append(stu)

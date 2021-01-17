@@ -114,6 +114,7 @@ class Parser:
             else:
                 quizPartList = []
                 qNum=1
+
                 for y in q_IndexList:
                     qText = questions.iloc[x][y]
                     
@@ -126,7 +127,9 @@ class Parser:
                     quizPartList.append(qp)
                     qNum=qNum+1
 
+
                 quiz = Quiz(quizPartList)
+
                 userName = df_quiz.iloc[x][1]
                 if userName.isalpha() == False:
                     userName = self.adjustUserName(userName)
@@ -135,6 +138,17 @@ class Parser:
                 i = -1
 
                 for stu in studentList:
+
+                    quizNum = 0
+                    strquiznum = "quiz_" + str(quizNum)
+
+                    for mquiz in stu.getQuizes():
+                        if mquiz.getQuizName() == strquiznum:
+                            quizNum = quizNum + 1
+                            strquiznum = "quiz_" + str(quizNum)
+
+                    quiz.setQuizName(strquiznum)
+
                     if (userName.lower().__contains__(stu.getName().lower())) and (userName.lower().__contains__(stu.getSurname().lower())):
                         i = studentList.index(stu)
                         break
@@ -212,8 +226,16 @@ class Parser:
 
                         if studentList[i].getQuizes()[j].getQuizParts()[k].getQuestion().getQuestionText() == self.checkQuestion(qlist[m]):
                             studentList[i].getQuizes()[j].getQuizParts()[k].getQuestion().setAnswer(alist[m])
-                            studentList[i].getQuizes()[j].setQuizName(quizName)
 
+                            exist=False
+
+                            for mquiz in studentList[i].getQuizes():
+                                if mquiz.getQuizName() == quizName:
+                                    exist=True
+
+                            if not exist:
+
+                                studentList[i].getQuizes()[j].setQuizName(quizName)
         a=5
 
 

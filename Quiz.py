@@ -41,3 +41,4 @@ class Quiz:
 
     def setNumCorrect(self,num):
         self.__numCorrect=num
+
