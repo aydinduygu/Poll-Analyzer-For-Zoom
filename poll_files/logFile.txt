@@ -1,0 +1,15 @@
+17/01/2021 04:38:49 Parsing quiz file : CSE3063_20201123_Mon_zoom_PollReport.csv started
+17/01/2021 04:41:30 Parsing quiz file : CSE3063_20201123_Mon_zoom_PollReport.csv started
+17/01/2021 04:42:43 Parsing quiz file : CSE3063_20201123_Mon_zoom_PollReport.csv started
+17/01/2021 04:44:38 Parsing studentList started : studentList.XLS started
+17/01/2021 04:44:38 Parsing quiz file : CSE3063_20201123_Mon_zoom_PollReport.csv started
+17/01/2021 04:49:50 Parsing studentList started : studentList.XLS started
+17/01/2021 04:49:50 Parsing quiz file : CSE3063_20201123_Mon_zoom_PollReport.csv started
+17/01/2021 04:54:24 Parsing studentList started : studentList.XLS started
+17/01/2021 04:54:24 Parsing quiz file : CSE3063_20201123_Mon_zoom_PollReport.csv started
+17/01/2021 04:55:48 Parsing studentList started : studentList.XLS started
+17/01/2021 04:55:48 Parsing quiz file : CSE3063_20201123_Mon_zoom_PollReport.csv started
+17/01/2021 04:58:03 Parsing studentList started : studentList.XLS started
+17/01/2021 04:58:03 Parsing attendence : CSE3063_20201123_Mon_zoom_PollReport.csv started
+17/01/2021 04:58:03 Parsing attendence : CSE3063_20201124_Tue_zoom_PollReport.csv started
+17/01/2021 04:58:03 Parsing quiz file : CSE3063_20201123_Mon_zoom_PollReport.csv started
