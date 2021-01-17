@@ -47,18 +47,19 @@ class PollAnalyzer:
     def calculateAttendance(self):
 
         for attendanceList in self.__attendanceData:
-            fullUserNameList = []
-            attendanceList = [x.lower() for x in attendanceList]
+           if attendanceList!=None:
+               fullUserNameList = []
+               attendanceList = [x.lower() for x in attendanceList]
 
-            for x in self.__studentList:
-                username = x.getName() + " " + x.getSurname()
-                fullUserNameList.append(username)
+               for x in self.__studentList:
+                   username = x.getName() + " " + x.getSurname()
+                   fullUserNameList.append(username)
 
-            for x in fullUserNameList:
-                x = x.lower()
-                if x in attendanceList:
-                    stuIndex = self.getStuIndexWithUserName(x)
-                    self.__studentList[stuIndex].increaseAttendance()
+               for x in fullUserNameList:
+                   x = x.lower()
+                   if x in attendanceList:
+                       stuIndex = self.getStuIndexWithUserName(x)
+                       self.__studentList[stuIndex].increaseAttendance()
 
     def getStuIndexWithUserName(self, username):
 

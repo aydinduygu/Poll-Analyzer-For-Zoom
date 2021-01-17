@@ -46,6 +46,8 @@ class Parser:
 
         self.__oProducer.addIntoExecutionLog("Parsing attendence : " + path + " started")
         global a
+
+        a=-1
         df = pd.read_csv(r'{}'.format(path))
         df.reset_index(inplace=True)
 
@@ -57,20 +59,21 @@ class Parser:
             except:
                 pass
 
-        attendance = df[df[a].str.contains('Are you attending this lecture?')]
-        attendance = attendance[attendance.columns[1:6]]
-        attendance.columns = ['User Name', 'User Mail', 'Submitted Date/Time', 'Q', 'A']
-        attendance.rename(columns={'A': attendance['Q'].unique()[0]}, inplace=True)
-        attendance.reset_index(drop=True, inplace=True)
-        attendance.drop('Q', axis=1, inplace=True)
+        if a!=-1:
+            attendance = df[df[a].str.contains('Are you attending this lecture?')]
+            attendance = attendance[attendance.columns[1:6]]
+            attendance.columns = ['User Name', 'User Mail', 'Submitted Date/Time', 'Q', 'A']
+            attendance.rename(columns={'A': attendance['Q'].unique()[0]}, inplace=True)
+            attendance.reset_index(drop=True, inplace=True)
+            attendance.drop('Q', axis=1, inplace=True)
 
-        attendanceList = []
+            attendanceList = []
 
-        attendance = attendance['User Name']
-        attendanceList.extend(attendance)
-        print("Parsing attendence finished")
+            attendance = attendance['User Name']
+            attendanceList.extend(attendance)
+            print("Parsing attendence finished")
 
-        return attendanceList
+            return attendanceList
 
     def adjustUserName(self, userName: str):
 
