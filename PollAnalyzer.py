@@ -51,7 +51,6 @@ class PollAnalyzer:
 
         parser.parseAnswerKey(self.__answerKeys[0],self.__studentList)
 
-        self.printStudentList()
 
 
 

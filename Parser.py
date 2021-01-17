@@ -93,9 +93,6 @@ class Parser:
 
         df_quiz = pd.read_csv(path1, skiprows=1, header=None)
 
-        # df_quiz.sort_values(by="username",inplace=True)
-
-        #print(df_quiz[4])
 
         numCol = len(df_quiz.columns)
         numRows = len(df_quiz.index)
@@ -140,7 +137,6 @@ class Parser:
                 if i != -1:
                     studentList[i].getQuizes().append(quiz)
 
-        print(df_quiz)
         print("Parsing quiz file finished")
 
 
@@ -200,9 +196,9 @@ class Parser:
         length2 = 0
         length3 = 0
         for i in range(length):
-            length2 = length2 + len(studentList[i].getQuizes())
+            length2 = len(studentList[i].getQuizes())
             for j in range(length2):
-                length3 = length3 + len(studentList[i].getQuizes()[j].getQuizParts())
+                length3 = len(studentList[i].getQuizes()[j].getQuizParts())
                 for k in range(length3):
                     for m in range(numRows):
                         if studentList[i].getQuizes()[j].getQuizParts()[k].getQuestion().getQuestionText() == qlist[m]:
