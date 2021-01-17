@@ -1,4 +1,5 @@
 from datetime import datetime
+import pandas as pd
 
 #singleton pattern implemented
 class OutputProducer:
@@ -22,3 +23,9 @@ class OutputProducer:
         f.close()
 
         print(dt_string + " " + logInfo + '\n')
+
+
+    def produceOutput(self,studentList):
+
+        df=pd.DataFrame(studentList)
+        print(df)

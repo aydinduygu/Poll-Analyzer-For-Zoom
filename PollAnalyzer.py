@@ -6,17 +6,26 @@ import glob, os
 
 
 class PollAnalyzer:
-    __studentList = []
-    __fileNames = []
-    __attendanceData = []
+    __studentList = None
+    __fileNames = None
+    __answerKeys=None
+    __attendanceData = None
     __myOutputProducer = None
+    __pollList=None
 
     def __init__(self):
 
+        self.__studentList=[]
+        self.__fileNames=[]
+        self.__attendanceData=[]
+        self.__answerKeys=[]
         self.__myOutputProducer = OutputProducer.instance()
         self.__myOutputProducer.addIntoExecutionLog("System started!")
-        os.chdir("poll_files")
-        for file in glob.glob("*.csv"):
+        self.__pollList={}
+
+        path="./poll_files/"
+
+        for file in glob.glob(path+"*.csv"):
             self.__fileNames.append(file)
 
         for file in glob.glob("*.xls"):
@@ -24,7 +33,7 @@ class PollAnalyzer:
                 self.__fileNames.append(file)
 
         parser = Parser()
-        filePath = "studentList.XLS"
+        filePath = "./poll_files/studentList.XLS"
         self.__studentList = parser.parseStudentList(filePath)
 
         for file in self.__fileNames:
@@ -32,9 +41,26 @@ class PollAnalyzer:
             self.__attendanceData.append(att)
 
         self.calculateAttendance()
-        parser.parseQuiz(self.__fileNames[0], self.__studentList)
 
-        self.printStudentList()
+        for file in self.__fileNames:
+            parser.parseQuiz(file, self.__studentList)
+
+        path="./poll_answers/"
+
+        for file in glob.glob(path+"*.xls"):
+            if file != "studentList.XLS":
+                self.__answerKeys.append(file)
+
+
+        for a in self.__answerKeys:
+            parser.parseAnswerKey(a,self.__studentList)
+
+        self.calculateQuizResults()
+
+       # self.extractPollList()
+
+
+      #  self.__myOutputProducer.produceOutput(self.__myOutputProducer)
 
 
 
@@ -43,19 +69,41 @@ class PollAnalyzer:
 
     def calculateAttendance(self):
 
+        num = 0
+
         for attendanceList in self.__attendanceData:
-            fullUserNameList = []
-            attendanceList = [x.lower() for x in attendanceList]
 
-            for x in self.__studentList:
-                username = x.getName() + " " + x.getSurname()
-                fullUserNameList.append(username)
+           if attendanceList!=None:
+               num=num+1
+               fullUserNameList = []
+               attendanceList = [x.lower() for x in attendanceList]
 
-            for x in fullUserNameList:
-                x = x.lower()
-                if x in attendanceList:
-                    stuIndex = self.getStuIndexWithUserName(x)
-                    self.__studentList[stuIndex].increaseAttendance()
+               for x in self.__studentList:
+                   username = x.getName() + " " + x.getSurname()
+                   fullUserNameList.append(username)
+
+               for x in fullUserNameList:
+                   x = x.lower()
+                   if x in attendanceList:
+                       stuIndex = self.getStuIndexWithUserName(x)
+                       self.__studentList[stuIndex].increaseAttendance()
+        self.__studentList[0].setNumClasses(num)
+
+    def calculateQuizResults(self):
+
+        for student in self.__studentList:
+
+            for quiz in student.getQuizes():
+
+                for quizPart in quiz.getQuizParts():
+
+                    if quizPart.getQuestion().getAnswer()==quizPart.getStudentRespond():
+                        quizPart.setIsCorrect(1)
+                        quiz.setNumCorrect(quiz.getNumWrong()+1)
+                    else:
+                        quizPart.setIsCorrect(0)
+                        quiz.setNumWrong(quiz.getNumCorrect()+1)
+
 
     def getStuIndexWithUserName(self, username):
 
@@ -67,3 +115,16 @@ class PollAnalyzer:
 
     def printStudentList(self):
         print(*self.__studentList, sep='\n')
+
+    def extractPollList(self):
+
+        for stu in self.__studentList:
+            for quiz in stu.getQuizes():
+                if not self.__pollList.__contains__(quiz.getQuizName()):
+
+                    self.__pollList[quiz.getQuizName()]=[]
+                    x= self.__pollList[quiz.getQuizName()]
+                    x.append(stu)
+                else:
+                    x=self.__pollList[quiz.getQuizName()]
+                    x.append(stu)

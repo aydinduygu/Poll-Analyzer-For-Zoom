@@ -1,39 +1,115 @@
-17/01/2021 04:38:49 System started!
-17/01/2021 04:40:34 System started!
-17/01/2021 04:40:47 System started!
-17/01/2021 04:41:30 System started!
-17/01/2021 04:42:43 System started!
-17/01/2021 04:44:38 System started!
-17/01/2021 04:48:24 System started!
-17/01/2021 04:48:28 System started!
-17/01/2021 04:48:32 System started!
-17/01/2021 04:48:51 System started!
-17/01/2021 04:49:14 System started!
-17/01/2021 04:49:50 System started!
-17/01/2021 04:54:24 System started!
-17/01/2021 04:55:48 System started!
-17/01/2021 04:58:03 System started!
-17/01/2021 16:13:44 System started!
-17/01/2021 16:14:48 System started!
-17/01/2021 16:15:15 System started!
-17/01/2021 16:17:18 System started!
-17/01/2021 16:18:14 System started!
-17/01/2021 16:20:38 System started!
-17/01/2021 16:21:44 System started!
-17/01/2021 16:24:04 System started!
-17/01/2021 16:24:19 System started!
-17/01/2021 16:24:19 System started!
-17/01/2021 16:25:30 System started!
-17/01/2021 16:25:53 System started!
-17/01/2021 16:26:28 System started!
-17/01/2021 16:26:28 asdsad!
-17/01/2021 16:26:40 System started!
-17/01/2021 16:26:58 System started!
-17/01/2021 16:27:18 System started!
-17/01/2021 16:27:18 asdsad!
-17/01/2021 16:27:56 System started!
-17/01/2021 16:28:23 System started!
-17/01/2021 16:33:00 System started!
-17/01/2021 16:33:00 okul
-17/01/2021 16:33:29 System started!
-17/01/2021 16:34:23 System started!
+
+17/01/2021 16:41:46 System started!
+17/01/2021 16:41:46 Parsing studentList started : ./poll_files/studentList.XLS started
+17/01/2021 16:41:46 Parsing attendence : ./poll_files\CSE3063_20201116_Mon_zoom_PollReport.csv started
+17/01/2021 16:41:47 Parsing attendence : ./poll_files\CSE3063_20201123_Mon_zoom_PollReport.csv started
+17/01/2021 16:41:47 Parsing attendence : ./poll_files\CSE3063_20201124_Tue_zoom_PollReport.csv started
+17/01/2021 16:41:47 Parsing quiz file : ./poll_files\CSE3063_20201116_Mon_zoom_PollReport.csv started
+17/01/2021 16:41:47 Parsing quiz file : ./poll_files\CSE3063_20201123_Mon_zoom_PollReport.csv started
+17/01/2021 16:41:48 Parsing quiz file : ./poll_files\CSE3063_20201124_Tue_zoom_PollReport.csv started
+17/01/2021 16:42:28 System started!
+17/01/2021 16:42:28 Parsing studentList started : ./poll_files/studentList.XLS started
+17/01/2021 16:42:28 Parsing quiz file : ./poll_files\CSE3063_20201116_Mon_zoom_PollReport.csv started
+17/01/2021 16:42:29 Parsing quiz file : ./poll_files\CSE3063_20201123_Mon_zoom_PollReport.csv started
+17/01/2021 16:42:29 Parsing quiz file : ./poll_files\CSE3063_20201124_Tue_zoom_PollReport.csv started
+17/01/2021 16:43:11 System started!
+17/01/2021 16:43:11 Parsing studentList started : ./poll_files/studentList.XLS started
+17/01/2021 16:43:11 Parsing attendence : ./poll_files\CSE3063_20201116_Mon_zoom_PollReport.csv started
+17/01/2021 16:43:11 Parsing attendence : ./poll_files\CSE3063_20201123_Mon_zoom_PollReport.csv started
+17/01/2021 16:43:11 Parsing attendence : ./poll_files\CSE3063_20201124_Tue_zoom_PollReport.csv started
+17/01/2021 16:43:11 Parsing quiz file : ./poll_files\CSE3063_20201116_Mon_zoom_PollReport.csv started
+17/01/2021 16:43:12 Parsing quiz file : ./poll_files\CSE3063_20201123_Mon_zoom_PollReport.csv started
+17/01/2021 16:43:12 Parsing quiz file : ./poll_files\CSE3063_20201124_Tue_zoom_PollReport.csv started
+17/01/2021 16:43:37 System started!
+17/01/2021 16:43:37 Parsing studentList started : ./poll_files/studentList.XLS started
+17/01/2021 16:43:37 Parsing attendence : ./poll_files\CSE3063_20201116_Mon_zoom_PollReport.csv started
+17/01/2021 16:43:37 Parsing attendence : ./poll_files\CSE3063_20201123_Mon_zoom_PollReport.csv started
+17/01/2021 16:43:37 Parsing attendence : ./poll_files\CSE3063_20201123_Mon_zoom_PollReport.csv finished
+17/01/2021 16:43:37 Parsing attendence : ./poll_files\CSE3063_20201124_Tue_zoom_PollReport.csv started
+17/01/2021 16:43:37 Parsing attendence : ./poll_files\CSE3063_20201124_Tue_zoom_PollReport.csv finished
+17/01/2021 16:43:37 Parsing quiz file : ./poll_files\CSE3063_20201116_Mon_zoom_PollReport.csv started
+17/01/2021 16:43:38 Parsing quiz file : ./poll_files\CSE3063_20201123_Mon_zoom_PollReport.csv started
+17/01/2021 16:43:38 Parsing quiz file : ./poll_files\CSE3063_20201124_Tue_zoom_PollReport.csv started
+17/01/2021 16:45:16 System started!
+17/01/2021 16:45:16 Parsing studentList started : ./poll_files/studentList.XLS started
+17/01/2021 16:45:42 System started!
+17/01/2021 16:45:42 Parsing studentList started : ./poll_files/studentList.XLS started
+17/01/2021 16:45:42 Parsing Student List : ./poll_files/studentList.XLS finished
+17/01/2021 16:45:42 Parsing attendence : ./poll_files\CSE3063_20201116_Mon_zoom_PollReport.csv started
+17/01/2021 16:45:42 Parsing attendence : ./poll_files\CSE3063_20201123_Mon_zoom_PollReport.csv started
+17/01/2021 16:45:42 Parsing attendence : ./poll_files\CSE3063_20201123_Mon_zoom_PollReport.csv finished
+17/01/2021 16:45:42 Parsing attendence : ./poll_files\CSE3063_20201124_Tue_zoom_PollReport.csv started
+17/01/2021 16:45:42 Parsing attendence : ./poll_files\CSE3063_20201124_Tue_zoom_PollReport.csv finished
+17/01/2021 16:45:42 Parsing quiz file : ./poll_files\CSE3063_20201116_Mon_zoom_PollReport.csv started
+17/01/2021 16:45:43 Parsing Wuiz file : ./poll_files\CSE3063_20201116_Mon_zoom_PollReport.csv started
+17/01/2021 16:45:43 Parsing quiz file : ./poll_files\CSE3063_20201123_Mon_zoom_PollReport.csv started
+17/01/2021 16:45:43 Parsing Wuiz file : ./poll_files\CSE3063_20201123_Mon_zoom_PollReport.csv started
+17/01/2021 16:45:43 Parsing quiz file : ./poll_files\CSE3063_20201124_Tue_zoom_PollReport.csv started
+17/01/2021 16:45:43 Parsing Wuiz file : ./poll_files\CSE3063_20201124_Tue_zoom_PollReport.csv started
+17/01/2021 16:46:20 System started!
+17/01/2021 16:46:20 Parsing studentList started : ./poll_files/studentList.XLS started
+17/01/2021 16:46:20 Parsing Student List : ./poll_files/studentList.XLS finished
+17/01/2021 16:46:20 Parsing attendence : ./poll_files\CSE3063_20201116_Mon_zoom_PollReport.csv started
+17/01/2021 16:46:20 Parsing attendence : ./poll_files\CSE3063_20201123_Mon_zoom_PollReport.csv started
+17/01/2021 16:46:20 Parsing attendence : ./poll_files\CSE3063_20201123_Mon_zoom_PollReport.csv finished
+17/01/2021 16:46:20 Parsing attendence : ./poll_files\CSE3063_20201124_Tue_zoom_PollReport.csv started
+17/01/2021 16:46:20 Parsing attendence : ./poll_files\CSE3063_20201124_Tue_zoom_PollReport.csv finished
+17/01/2021 16:46:21 Parsing quiz file : ./poll_files\CSE3063_20201116_Mon_zoom_PollReport.csv started
+17/01/2021 16:46:21 Parsing Quiz file : ./poll_files\CSE3063_20201116_Mon_zoom_PollReport.csv finished
+17/01/2021 16:46:21 Parsing quiz file : ./poll_files\CSE3063_20201123_Mon_zoom_PollReport.csv started
+17/01/2021 16:46:22 Parsing Quiz file : ./poll_files\CSE3063_20201123_Mon_zoom_PollReport.csv finished
+17/01/2021 16:46:22 Parsing quiz file : ./poll_files\CSE3063_20201124_Tue_zoom_PollReport.csv started
+17/01/2021 16:46:22 Parsing Quiz file : ./poll_files\CSE3063_20201124_Tue_zoom_PollReport.csv finished
+17/01/2021 16:47:12 System started!
+17/01/2021 16:47:12 Parsing studentList started : ./poll_files/studentList.XLS started
+17/01/2021 16:47:12 Parsing Student List : ./poll_files/studentList.XLS finished
+17/01/2021 16:47:12 Parsing attendence : ./poll_files\CSE3063_20201116_Mon_zoom_PollReport.csv started
+17/01/2021 16:47:12 Parsing attendence : ./poll_files\CSE3063_20201123_Mon_zoom_PollReport.csv started
+17/01/2021 16:47:12 Parsing attendence : ./poll_files\CSE3063_20201123_Mon_zoom_PollReport.csv finished
+17/01/2021 16:47:12 Parsing attendence : ./poll_files\CSE3063_20201124_Tue_zoom_PollReport.csv started
+17/01/2021 16:47:12 Parsing attendence : ./poll_files\CSE3063_20201124_Tue_zoom_PollReport.csv finished
+17/01/2021 16:47:12 Parsing quiz file : ./poll_files\CSE3063_20201116_Mon_zoom_PollReport.csv started
+17/01/2021 16:47:12 Parsing Quiz file : ./poll_files\CSE3063_20201116_Mon_zoom_PollReport.csv finished
+17/01/2021 16:47:12 Parsing quiz file : ./poll_files\CSE3063_20201123_Mon_zoom_PollReport.csv started
+17/01/2021 16:47:13 Parsing Quiz file : ./poll_files\CSE3063_20201123_Mon_zoom_PollReport.csv finished
+17/01/2021 16:47:13 Parsing quiz file : ./poll_files\CSE3063_20201124_Tue_zoom_PollReport.csv started
+17/01/2021 16:47:13 Parsing Quiz file : ./poll_files\CSE3063_20201124_Tue_zoom_PollReport.csv finished
+17/01/2021 16:47:43 System started!
+17/01/2021 16:47:43 Parsing studentList started : ./poll_files/studentList.XLS started
+17/01/2021 16:47:43 Parsing Student List : ./poll_files/studentList.XLS finished
+17/01/2021 16:47:43 Parsing attendence : ./poll_files\CSE3063_20201123_Mon_zoom_PollReport.csv finished
+17/01/2021 16:47:43 Parsing attendence : ./poll_files\CSE3063_20201124_Tue_zoom_PollReport.csv finished
+17/01/2021 16:47:43 Parsing quiz file : ./poll_files\CSE3063_20201116_Mon_zoom_PollReport.csv started
+17/01/2021 16:47:44 Parsing Quiz file : ./poll_files\CSE3063_20201116_Mon_zoom_PollReport.csv finished
+17/01/2021 16:47:44 Parsing quiz file : ./poll_files\CSE3063_20201123_Mon_zoom_PollReport.csv started
+17/01/2021 16:47:44 Parsing Quiz file : ./poll_files\CSE3063_20201123_Mon_zoom_PollReport.csv finished
+17/01/2021 16:47:44 Parsing quiz file : ./poll_files\CSE3063_20201124_Tue_zoom_PollReport.csv started
+17/01/2021 16:47:44 Parsing Quiz file : ./poll_files\CSE3063_20201124_Tue_zoom_PollReport.csv finished
+17/01/2021 16:48:14 System started!
+17/01/2021 16:48:14 Parsing studentList started : ./poll_files/studentList.XLS started
+17/01/2021 16:48:14 Parsing Student List : ./poll_files/studentList.XLS finished
+17/01/2021 16:48:14 Parsing attendence : ./poll_files\CSE3063_20201116_Mon_zoom_PollReport.csv started
+17/01/2021 16:48:14 Parsing attendence : ./poll_files\CSE3063_20201123_Mon_zoom_PollReport.csv started
+17/01/2021 16:48:14 Parsing attendence : ./poll_files\CSE3063_20201123_Mon_zoom_PollReport.csv finished
+17/01/2021 16:48:14 Parsing attendence : ./poll_files\CSE3063_20201124_Tue_zoom_PollReport.csv started
+17/01/2021 16:48:14 Parsing attendence : ./poll_files\CSE3063_20201124_Tue_zoom_PollReport.csv finished
+17/01/2021 16:48:14 Parsing quiz file : ./poll_files\CSE3063_20201116_Mon_zoom_PollReport.csv started
+17/01/2021 16:48:14 Parsing Quiz file : ./poll_files\CSE3063_20201116_Mon_zoom_PollReport.csv finished
+17/01/2021 16:48:14 Parsing quiz file : ./poll_files\CSE3063_20201123_Mon_zoom_PollReport.csv started
+17/01/2021 16:48:15 Parsing Quiz file : ./poll_files\CSE3063_20201123_Mon_zoom_PollReport.csv finished
+17/01/2021 16:48:15 Parsing quiz file : ./poll_files\CSE3063_20201124_Tue_zoom_PollReport.csv started
+17/01/2021 16:48:15 Parsing Quiz file : ./poll_files\CSE3063_20201124_Tue_zoom_PollReport.csv finished
+17/01/2021 16:50:09 System started!
+17/01/2021 16:50:09 Parsing Student List started : ./poll_files/studentList.XLS started
+17/01/2021 16:50:09 Parsing Student List : ./poll_files/studentList.XLS finished
+17/01/2021 16:50:09 Parsing attendence : ./poll_files\CSE3063_20201116_Mon_zoom_PollReport.csv started
+17/01/2021 16:50:09 Parsing attendence : ./poll_files\CSE3063_20201123_Mon_zoom_PollReport.csv started
+17/01/2021 16:50:09 Parsing attendence : ./poll_files\CSE3063_20201123_Mon_zoom_PollReport.csv finished
+17/01/2021 16:50:09 Parsing attendence : ./poll_files\CSE3063_20201124_Tue_zoom_PollReport.csv started
+17/01/2021 16:50:09 Parsing attendence : ./poll_files\CSE3063_20201124_Tue_zoom_PollReport.csv finished
+17/01/2021 16:50:09 Parsing quiz file : ./poll_files\CSE3063_20201116_Mon_zoom_PollReport.csv started
+17/01/2021 16:50:10 Parsing Quiz file : ./poll_files\CSE3063_20201116_Mon_zoom_PollReport.csv finished
+17/01/2021 16:50:10 Parsing quiz file : ./poll_files\CSE3063_20201123_Mon_zoom_PollReport.csv started
+17/01/2021 16:50:10 Parsing Quiz file : ./poll_files\CSE3063_20201123_Mon_zoom_PollReport.csv finished
+17/01/2021 16:50:10 Parsing quiz file : ./poll_files\CSE3063_20201124_Tue_zoom_PollReport.csv started
+17/01/2021 16:50:10 Parsing Quiz file : ./poll_files\CSE3063_20201124_Tue_zoom_PollReport.csv finished

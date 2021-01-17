@@ -16,3 +16,6 @@ class Question:
 
     def getAnswer(self):
         return self.__answer
+
+    def setAnswer(self, answer):
+        self.__answer = answer

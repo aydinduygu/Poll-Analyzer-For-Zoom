@@ -1,4 +1,6 @@
 import pandas as pd
+import openpyxl
+
 
 from Student import Student
 from Quiz import Quiz
@@ -18,7 +20,7 @@ class Parser:
         pass
 
     def parseStudentList(self, filePath):
-        self.__oProducer.addIntoExecutionLog("Parsing studentList started : " + filePath + " started")
+        self.__oProducer.addIntoExecutionLog("Parsing Student List started : " + filePath + " started")
         df = pd.read_excel(filePath, header=12)
         nameList = self.parseColumn(df, "Adı")
         surnameList = self.parseColumn(df, "Soyadı")
@@ -29,7 +31,7 @@ class Parser:
         for x in range(0, len(studentIdList)):
             stu = Student(nameList[x], surnameList[x], studentIdList[x])
             studentList.append(stu)
-        print("Parsing studentList finished")
+        self.__oProducer.addIntoExecutionLog("Parsing Student List : " + filePath + " finished")
         return studentList
 
     def parseColumn(self, df, columName):
@@ -46,6 +48,8 @@ class Parser:
 
         self.__oProducer.addIntoExecutionLog("Parsing attendence : " + path + " started")
         global a
+
+        a=-1
         df = pd.read_csv(r'{}'.format(path))
         df.reset_index(inplace=True)
 
@@ -57,20 +61,21 @@ class Parser:
             except:
                 pass
 
-        attendance = df[df[a].str.contains('Are you attending this lecture?')]
-        attendance = attendance[attendance.columns[1:6]]
-        attendance.columns = ['User Name', 'User Mail', 'Submitted Date/Time', 'Q', 'A']
-        attendance.rename(columns={'A': attendance['Q'].unique()[0]}, inplace=True)
-        attendance.reset_index(drop=True, inplace=True)
-        attendance.drop('Q', axis=1, inplace=True)
+        if a!=-1:
+            attendance = df[df[a].str.contains('Are you attending this lecture?')]
+            attendance = attendance[attendance.columns[1:6]]
+            attendance.columns = ['User Name', 'User Mail', 'Submitted Date/Time', 'Q', 'A']
+            attendance.rename(columns={'A': attendance['Q'].unique()[0]}, inplace=True)
+            attendance.reset_index(drop=True, inplace=True)
+            attendance.drop('Q', axis=1, inplace=True)
 
-        attendanceList = []
+            attendanceList = []
 
-        attendance = attendance['User Name']
-        attendanceList.extend(attendance)
-        print("Parsing attendence finished")
+            attendance = attendance['User Name']
+            attendanceList.extend(attendance)
+            self.__oProducer.addIntoExecutionLog("Parsing attendence : " + path + " finished")
 
-        return attendanceList
+            return attendanceList
 
     def adjustUserName(self, userName: str):
 
@@ -84,13 +89,11 @@ class Parser:
 
     def parseQuiz(self, path1, studentList):
 
+        global qText
         self.__oProducer.addIntoExecutionLog("Parsing quiz file : "+path1+" started")
 
         df_quiz = pd.read_csv(path1, skiprows=1, header=None)
 
-        # df_quiz.sort_values(by="username",inplace=True)
-
-        #print(df_quiz[4])
 
         numCol = len(df_quiz.columns)
         numRows = len(df_quiz.index)
@@ -113,6 +116,10 @@ class Parser:
                 qNum=1
                 for y in q_IndexList:
                     qText = questions.iloc[x][y]
+                    
+                    if str(qText)!="nan":
+                        qText = self.checkQuestion(qText)
+                            
                     q = Question(qNum, qText, "")
                     aText = answers.iloc[x][y + 1]
                     qp = QuizPart(q, aText)
@@ -128,15 +135,14 @@ class Parser:
                 i = -1
 
                 for stu in studentList:
-                    if (userName.__contains__(stu.getName())) and (userName.__contains__(stu.getSurname())):
+                    if (userName.lower().__contains__(stu.getName().lower())) and (userName.lower().__contains__(stu.getSurname().lower())):
                         i = studentList.index(stu)
                         break
 
                 if i != -1:
                     studentList[i].getQuizes().append(quiz)
 
-        print(df_quiz)
-        print("Parsing quiz file finished")
+        self.__oProducer.addIntoExecutionLog("Parsing Quiz file : " + path1 + " finished")
 
 
     def quiz(self):
@@ -169,6 +175,69 @@ class Parser:
         quiz.columns=cols
         
         return quiz
+
+    def parseAnswerKey(self, path2, studentList):
+
+        df_withHeader=pd.read_excel(path2)
+        quizName=df_withHeader.columns[0]
+
+        df_answerKey = pd.read_excel(path2, skiprows=1, header=None)
+        questionList = df_answerKey.iloc[:, 0]
+        answerList = df_answerKey.iloc[:, 1]
+
+        qlist=[]
+        alist=[]
+        questionList=questionList.values
+        answerList=answerList.values
+
+        qlist.extend(questionList)
+        alist.extend(answerList)
+
+
+        qlist.extend(questionList)
+
+
+
+        numRows = len(df_answerKey.index)
+
+        length = len(studentList)
+        length2 = 0
+        length3 = 0
+        for i in range(length):
+            length2 = len(studentList[i].getQuizes())
+            for j in range(length2):
+                length3 = len(studentList[i].getQuizes()[j].getQuizParts())
+                for k in range(length3):
+                    for m in range(numRows):
+
+                        if studentList[i].getQuizes()[j].getQuizParts()[k].getQuestion().getQuestionText() == self.checkQuestion(qlist[m]):
+                            studentList[i].getQuizes()[j].getQuizParts()[k].getQuestion().setAnswer(alist[m])
+                            studentList[i].getQuizes()[j].setQuizName(quizName)
+
+        a=5
+
+
+    def checkQuestion(self,qText):
+        
+            if qText.__contains__("\n\r"):
+                qText = qText.replace('\n\r', "")
+                return qText
+
+            elif qText.__contains__("\r\n"):
+                qText = qText.replace('\r\n', "")
+                return qText
+            elif qText.__contains__("\r"):
+                qText = qText.replace('\r', "")
+                return qText
+            elif qText.__contains__("\t"):
+                qText = qText.replace('\t', "")
+                return qText
+
+            elif qText.__contains__("\n"):
+                qText = qText.replace('\n', "")
+                return qText
+            
+
     """"
     # Sınıf listesini almak için
 
