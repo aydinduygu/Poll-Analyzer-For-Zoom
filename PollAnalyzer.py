@@ -49,7 +49,9 @@ class PollAnalyzer:
             if file != "studentList.XLS":
                 self.__answerKeys.append(file)
 
-        parser.parseAnswerKey(self.__answerKeys[0],self.__studentList)
+
+        for a in self.__answerKeys:
+            parser.parseAnswerKey(a,self.__studentList)
 
 
 
@@ -59,8 +61,12 @@ class PollAnalyzer:
 
     def calculateAttendance(self):
 
+        num = 0
+
         for attendanceList in self.__attendanceData:
+
            if attendanceList!=None:
+               num=num+1
                fullUserNameList = []
                attendanceList = [x.lower() for x in attendanceList]
 
@@ -73,6 +79,9 @@ class PollAnalyzer:
                    if x in attendanceList:
                        stuIndex = self.getStuIndexWithUserName(x)
                        self.__studentList[stuIndex].increaseAttendance()
+        self.__studentList[0].setNumClasses(num)
+
+
 
     def calculateQuizResults(self):
 

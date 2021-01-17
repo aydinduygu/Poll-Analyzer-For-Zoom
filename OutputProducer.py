@@ -22,3 +22,4 @@ class OutputProducer:
         f.close()
 
         print(dt_string + " " + logInfo + '\n')
+

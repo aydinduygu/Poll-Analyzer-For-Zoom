@@ -2,6 +2,8 @@ from QuizPart import QuizPart
 
 
 class Quiz:
+
+    __quizName=None
     __quizParts = None
     __numCorrect=None
     __numWrong=None
@@ -10,6 +12,7 @@ class Quiz:
         self.__quizParts = quizParts
         self.__numWrong=0
         self.__numCorrect=0
+
 
     def getQuizParts(self):
         return self.__quizParts
@@ -25,3 +28,9 @@ class Quiz:
 
     def increaseNumWrong(self):
         self.__numWrong = self.__numWrong + 1
+
+    def getQuizName(self):
+        return self.__quizName
+
+    def setQuizName(self,name):
+        self.__quizName=name

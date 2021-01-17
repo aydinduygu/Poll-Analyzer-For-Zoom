@@ -7,6 +7,8 @@ class Student:
     __studentId = None
     __attendance = None
     __quizes=None
+    __numberOfClasses=0
+
 
     def __init__(self, name, surname, studentId):
         self.__name = name
@@ -40,3 +42,9 @@ class Student:
 
     def getQuizes(self):
         return self.__quizes
+
+    def getNumClasses(self):
+        return self.__numberOfClasses
+
+    def setNumClasses(self, num):
+        self.__numberOfClasses=num

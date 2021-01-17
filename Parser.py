@@ -89,6 +89,7 @@ class Parser:
 
     def parseQuiz(self, path1, studentList):
 
+        global qText
         self.__oProducer.addIntoExecutionLog("Parsing quiz file : "+path1+" started")
 
         df_quiz = pd.read_csv(path1, skiprows=1, header=None)
@@ -115,6 +116,10 @@ class Parser:
                 qNum=1
                 for y in q_IndexList:
                     qText = questions.iloc[x][y]
+                    
+                    if str(qText)!="nan":
+                        qText = self.checkQuestion(qText)
+                            
                     q = Question(qNum, qText, "")
                     aText = answers.iloc[x][y + 1]
                     qp = QuizPart(q, aText)
@@ -173,6 +178,9 @@ class Parser:
 
     def parseAnswerKey(self, path2, studentList):
 
+        df_withHeader=pd.read_excel(path2)
+        quizName=df_withHeader.columns[0]
+
         df_answerKey = pd.read_excel(path2, skiprows=1, header=None)
         questionList = df_answerKey.iloc[:, 0]
         answerList = df_answerKey.iloc[:, 1]
@@ -201,8 +209,34 @@ class Parser:
                 length3 = len(studentList[i].getQuizes()[j].getQuizParts())
                 for k in range(length3):
                     for m in range(numRows):
-                        if studentList[i].getQuizes()[j].getQuizParts()[k].getQuestion().getQuestionText() == qlist[m]:
+
+                        if studentList[i].getQuizes()[j].getQuizParts()[k].getQuestion().getQuestionText() == self.checkQuestion(qlist[m]):
                             studentList[i].getQuizes()[j].getQuizParts()[k].getQuestion().setAnswer(alist[m])
+                            studentList[i].getQuizes()[j].setQuizName(quizName)
+
+        a=5
+
+
+    def checkQuestion(self,qText):
+        
+            if qText.__contains__("\n\r"):
+                qText = qText.replace('\n\r', "")
+                return qText
+
+            elif qText.__contains__("\r\n"):
+                qText = qText.replace('\r\n', "")
+                return qText
+            elif qText.__contains__("\r"):
+                qText = qText.replace('\r', "")
+                return qText
+            elif qText.__contains__("\t"):
+                qText = qText.replace('\t', "")
+                return qText
+
+            elif qText.__contains__("\n"):
+                qText = qText.replace('\n', "")
+                return qText
+            
 
     """"
     # Sınıf listesini almak için
