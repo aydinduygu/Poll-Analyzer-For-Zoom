@@ -51,9 +51,10 @@ class OutputProducer:
             attdatalist.append(data)
 
         df=pd.DataFrame(attdatalist)
+
         self.addIntoExecutionLog("Attendence report is generated.")
 
-        i=0
+        # i=0
         # for key in poll_List:
         #
         #     stuList=poll_List[key]

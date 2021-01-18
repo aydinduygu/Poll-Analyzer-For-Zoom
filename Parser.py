@@ -17,7 +17,6 @@ class Parser:
 
         self.__oProducer = OutputProducer.instance()
 
-        pass
 
     def parseStudentList(self, filePath):
         self.__oProducer.addIntoExecutionLog("Parsing Student List started : " + filePath + " started")
@@ -33,8 +32,6 @@ class Parser:
             name=str(nameList[x])
 
             surname=str(surnameList[x])
-
-
 
             name=self.adjustString(name)
             surname=self.adjustString(surname)
@@ -204,36 +201,6 @@ class Parser:
         self.__oProducer.addIntoExecutionLog("Parsing Quiz file : " + path1 + " finished")
 
 
-    def quiz(self):
-        quiz = pd.read_csv('CSE3063_20201123_Mon_zoom_PollReport.csv')
-        quiz.reset_index(inplace=True)
-        
-        for i in quiz.columns:
-            try:
-                if quiz[quiz[i].str.contains('Are you attending this lecture?')].shape[0]>0:
-                    a = i
-            except:
-                pass
-            
-        quiz = quiz[quiz[a]!='Are you attending this lecture?']
-        quiz.drop(quiz.columns[0], axis=1, inplace=True)
-        
-        # Tüm satırı NaN olan kolonları temizle
-        for i in quiz.columns[3:]:
-            if quiz[quiz[i].isna()].shape[0] == quiz.shape[0]:
-                quiz.drop(i, axis=1, inplace=True)
-                
-                
-        # Sütun isimleri
-        cols = ['User Name', 'User Mail', 'Submitted Date/Time']
-    
-        for i in range(int(len(quiz.columns[3:])/2)):
-            cols.append('Q'+str(i+1))
-            cols.append('A'+str(i+1))
-            
-        quiz.columns=cols
-        
-        return quiz
 
     def parseAnswerKey(self, path2, studentList):
 
@@ -266,7 +233,12 @@ class Parser:
                 for k in range(length3):
 
                     for m in range(numRows):
-                        if studentList[i].getQuizes()[j].getQuizParts()[k].getQuestion().getQuestionText()== self.checkQuestion(qlist[m]):
+
+
+
+
+
+                        if studentList[i].getQuizes()[j].getQuizParts()[k].getQuestion().getQuestionText()== self.checkQuestion(str(qlist[m])):
                             studentList[i].getQuizes()[j].getQuizParts()[k].getQuestion().setAnswer(alist[m])
 
                             exist=False
@@ -278,7 +250,9 @@ class Parser:
                             if not exist:
 
                                 studentList[i].getQuizes()[j].setQuizName(quizName)
-        a=5
+                                exist=False
+
+
 
 
 
@@ -302,101 +276,9 @@ class Parser:
             elif qText.__contains__("\n"):
                 qText = qText.replace('\n', "")
 
-
-
             return qText
             
 
-    """"
-    # Sınıf listesini almak için
 
-    class_list = pd.read_excel('studentList.XLS', header=12)
-    class_list = class_list[['No', 'Öğrenci No', 'Adı', 'Soyadı', 'Açıklama']]
-    class_list = class_list[~class_list['Soyadı'].isna()]
-    class_list = class_list[~class_list['Soyadı'].str.contains('Soyadı')]
-    class_list.reset_index(drop=True, inplace=True)
-    
-    class_list = class_list[['No', 'Öğrenci No', 'Adı', 'Soyadı', 'Açıklama']]
-    class_list = class_list[~class_list['Soyadı'].isna()]
-    class_list = class_list[~class_list['Soyadı'].str.contains('Soyadı')]
-    class_list.reset_index(drop=True, inplace=True)
-    
-    class_list['User Name'] = class_list['Adı'] + ' ' + class_list['Soyadı']
-    class_list['User Name'] = class_list['User Name'].str.title()
-    """
 
-    """
-    # Fonksiyonun, sınıf listesinde adı olup yoklamada adı olmayanları ekleyen hali
 
-    def attendance():
-        
-        class_list = pd.read_excel('studentList.XLS', header=12)
-        class_list = class_list[['No', 'Öğrenci No', 'Adı', 'Soyadı', 'Açıklama']]
-        class_list = class_list[~class_list['Soyadı'].isna()]
-        class_list = class_list[~class_list['Soyadı'].str.contains('Soyadı')]
-        class_list.reset_index(drop=True, inplace=True)
-        
-        class_list['Adı'] = class_list['Adı'].str.replace('İ', 'i')
-        class_list['Adı'] = class_list['Adı'].str.replace('I', 'ı')
-        class_list['Adı'] = class_list['Adı'].str.title()
-        class_list['Soyadı'] = class_list['Soyadı'].str.replace('İ', 'i')
-        class_list['Soyadı'] = class_list['Soyadı'].str.replace('I', 'ı')
-        class_list['Soyadı'] = class_list['Soyadı'].str.title()
-        
-        class_list['User Name'] = class_list['Adı'] + ' ' + class_list['Soyadı']
-        
-        
-        path = input('Input file path: ')
-        
-        df = pd.read_csv(r'{}'.format(path))
-        df.reset_index(inplace=True)
-        
-        for i in df.columns:
-            try:
-                if df[df[i].str.contains('Are you attending this lecture?')].shape[0]>0:
-                    a = i
-    
-            except:
-                pass
-        
-        attendance = df[df[a].str.contains('Are you attending this lecture?')]
-        attendance = attendance[attendance.columns[1:6]]
-        attendance.columns = ['User Name', 'User Mail', 'Submitted Date/Time', 'Q', 'A']
-        attendance.rename(columns={'A':attendance['Q'].unique()[0]}, inplace=True)
-        attendance.reset_index(drop=True, inplace=True)
-        attendance.drop('Q', axis=1, inplace=True)
-        attendance['User Name'] = attendance['User Name'].str.title()
-        
-        date = attendance['Submitted Date/Time'].unique()[0]
-        
-        attendance = attendance.merge(class_list['User Name'], how='right', on='User Name')
-        attendance['Submitted Date/Time'].fillna(date, inplace=True)
-        attendance['Are you attending this lecture?'].fillna('No', inplace=True)
-        
-        return attendance
-    """
-    """
-    # Yukarıdaki örnekte kullanılan dosyaya göre yoklama verisinde Evet diyen öğrenci sayısı:
-
-    df = pd.read_csv('C:/Users/ryilkici/Desktop/CSE3063_20201124_Tue_zoom_PollReport.csv')
-    
-    df.reset_index(inplace=True)
-    
-    for i in df.columns:
-        try:
-            if df[df[i].str.contains('Are you attending this lecture?')].shape[0]>0:
-                a = i
-    
-        except:
-            pass
-    
-    attendance = df[df[a].str.contains('Are you attending this lecture?')]
-    attendance = attendance[attendance.columns[1:6]]
-    attendance.columns = ['User Name', 'User Mail', 'Submitted Date/Time', 'Q', 'A']
-    attendance.rename(columns={'A':attendance['Q'].unique()[0]}, inplace=True)
-    attendance.reset_index(drop=True, inplace=True)
-    attendance.drop('Q', axis=1, inplace=True)
-    attendance['User Name'] = attendance['User Name'].str.title()
-    
-    attendance[attendance['Are you attending this lecture?']=='Yes'].shape[0]
-    """
