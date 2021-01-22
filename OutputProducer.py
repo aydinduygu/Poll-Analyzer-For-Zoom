@@ -1,5 +1,11 @@
 from datetime import datetime
 import pandas as pd
+import openpyxl
+from openpyxl import load_workbook
+from openpyxl.styles import Alignment,Font
+from openpyxl.chart import BarChart,BarChart3D,Reference,Series,layout
+from openpyxl.chart.marker import DataPoint
+from StringComparator import StringComparator
 
 #singleton pattern implemented
 class OutputProducer:
@@ -25,54 +31,214 @@ class OutputProducer:
         print(dt_string + " " + logInfo + '\n')
 
 
-    def produceOutput(self,studentList,poll_List):
 
-        global qlist
-        attdatalist=[]
+    def printAttendenceReport(self,studentList):
+
+        global qlist, attPer
+        attdatalist = []
 
         for stu in studentList:
-            name=stu.getName().capitalize()
-            surname=stu.getSurname().capitalize()
-            id=stu.getStudentId()
+            name = stu.getName().capitalize()
+            surname = stu.getSurname().capitalize()
+            id = stu.getStudentId()
 
-            if stu.getAttendence==0 and stu.getNumberOfClasses==0:
-                attRate=0
+            if stu.getAttendence == 0 and stu.getNumberOfClasses == 0:
+                attRate = 0
             else:
                 try:
-                    attRate=stu.getAttendence()/stu.getNumberOfClasses()
+                    attRate = str(stu.getAttendence().getNumStuAttend()) + "/" + str(
+                        stu.getAttendence().getNumClasses())
+                    attPer = 100 * stu.getAttendence().getNumStuAttend() / stu.getAttendence().getNumClasses()
+                    attPer = float("{:.2f}".format(attPer))
                 except:
-                    attRate=0
+                    attRate = ""
+                    attPer = ""
                     pass
 
-            attPer=attRate*100
-            numPoll=len(stu.getQuizes())
+            numPoll = len(stu.getQuizes())
 
-            data={"Student Id":id,"Name":name,"Surname":surname,"Attendence":stu.getAttendence(),"Num Classes":stu.getNumberOfClasses(),"Attendance Rate":attRate,"Attendence Percentage":attPer,"Number Of Polls":numPoll}
+            data = {"Student Id": id, "Name": name, "Surname": surname,
+                    "Attendence": stu.getAttendence().getNumStuAttend(),
+                    "Num Classes": stu.getAttendence().getNumClasses(), "Attendance Rate": attRate,
+                    "Attendence Percentage": attPer, "Number Of Polls": numPoll}
             attdatalist.append(data)
 
-        df=pd.DataFrame(attdatalist)
-
+        df = pd.DataFrame(attdatalist)
+        df.to_excel("./attendence_results/attendence_report.xlsx")
         self.addIntoExecutionLog("Attendence report is generated.")
 
-        # i=0
-        # for key in poll_List:
-        #
-        #     stuList=poll_List[key]
-        #
-        #
-        #     for stu in stuList:
-        #         name = stu.getName().capitalize()
-        #         surname = stu.getSurname().capitalize()
-        #         id = stu.getStudentId()
-        #         qlist=stu.getQuizes()[i].getQuizParts()
-        #         numList = []
-        #         for q in qlist:
-        #             numList.append(q.getIsCorrect())
-        #         print(numList)
-        #
-        #
-        #     i=i+1
 
 
-        df.to_excel("./attendence_results/attendence_report.xlsx")
+    def printPollResults(self,studentList,poll_List):
+        pollResults = {}
+
+        i = 0
+
+        for key in poll_List:
+
+            quizDataList = []
+
+            for stu in studentList:
+                name = stu.getName().capitalize()
+                surname = stu.getSurname().capitalize()
+                id = stu.getStudentId()
+                data = {"Student Id": id, "Name": name, "Surname": surname}
+
+                try:
+                    if stu.getQuizes():
+                        qlist = stu.getQuizes()[i].getQuizParts()
+                        for q in qlist:
+                            data["q" + str(q.getQuestion().getQuestionNumber())] = q.getIsCorrect()
+
+                        data["Number Of Questions"] = len(qlist)
+                        data["Success Rate"] = str(stu.getQuizes()[i].getNumCorrect()) + "/" + str(len(qlist))
+                        data["Success Percentage"] = 100 * stu.getQuizes()[i].getNumCorrect() / len(qlist)
+
+                    else:
+                        temp_stu = poll_List[key][0]
+                        for x in range(1, len(temp_stu.getQuizes()[i].getQuizParts()) + 1):
+                            data["q" + str(x)] = ""
+
+                    quizDataList.append(data)
+
+
+                except:
+                    pass
+            quiz_df = pd.DataFrame(quizDataList)
+            pollResults[key] = quiz_df
+            i += 1
+
+        for key in pollResults:
+            pollResults[key].to_excel("./poll_results/" + key + "_result.xlsx")
+
+
+
+    def printPollStatictics(self, quizQuestStats):
+
+
+        i=0
+        for keyQuizName in quizQuestStats:
+
+            quesAnsList=quizQuestStats[keyQuizName]
+            questions=quesAnsList[0]
+            ansDictList=quesAnsList[1]
+            trueAnswers=quesAnsList[2]
+
+            j=1
+            writer=pd.ExcelWriter("./poll_results/"+keyQuizName+"_stats.xlsx",engine='xlsxwriter')
+
+            for x in range(len(questions)):
+
+                question=questions[x]
+
+                dfAnswers=pd.DataFrame(ansDictList[x],columns=ansDictList[x].keys(),index=[0])
+                dfAnswers=dfAnswers.transpose().rename(columns={0:"count",1:"%"})
+                nums=[n for n in ansDictList[x].values()]
+
+                mysum=sum(nums)
+
+                for key in ansDictList[x]:
+                    dfAnswers.loc[key,'%']=float("{:.2f}".format(100*(ansDictList[x][key]/mysum)))
+
+                dfAnswers.to_excel(writer,sheet_name="q"+str(j))
+
+                j+=1
+
+            writer.save()
+
+            wb=load_workbook("./poll_results/"+keyQuizName+"_stats.xlsx")
+
+            my_blue = openpyxl.styles.colors.Color(rgb='CCE5FF')
+            my_fill_blue = openpyxl.styles.fills.PatternFill(patternType='solid', fgColor=my_blue)
+            my_red = openpyxl.styles.colors.Color(rgb='FFCCCC')
+            my_fill_red = openpyxl.styles.fills.PatternFill(patternType='solid', fgColor=my_red)
+            my_green = openpyxl.styles.colors.Color(rgb='CCFFCC')
+            my_fill_green = openpyxl.styles.fills.PatternFill(patternType='solid', fgColor=my_green)
+            my_orange = openpyxl.styles.colors.Color(rgb='FFE5CC')
+            my_fill_orange = openpyxl.styles.fills.PatternFill(patternType='solid', fgColor=my_orange)
+
+            k=0
+            for ws in wb.worksheets:
+
+                ws['A1']=questions[k]
+
+                for row in ws.iter_rows():
+                    for cell in row:
+                        cell.alignment=Alignment(horizontal='center', vertical='center', text_rotation=0, wrap_text=True, shrink_to_fit=False, indent=1)
+
+                for cell in ws['A']:
+                    cell.alignment=Alignment(horizontal='left', vertical='center', text_rotation=0, wrap_text=True, shrink_to_fit=False, indent=1)
+
+                for column in ws.iter_cols():
+                    column[0].fill=my_fill_blue
+
+                for row in ws.iter_rows():
+                    row[0].fill=my_fill_orange
+
+                trueCellIndex=0
+                for cell in ws['A']:
+                    s=cell.internal_value
+                    if s is not None:
+                        match=StringComparator(str(s),str(trueAnswers[k])).cmp_ig_C_S_P_N
+                        if match==0:
+                            cell.fill=my_fill_green
+                            trueCellIndex=cell.row
+                        else:
+                            cell.fill=my_fill_red
+
+
+                ws['A1'].fill=my_fill_orange
+                ws['A1'].font=Font(bold=True,color="80000")
+                ws.column_dimensions['A'].width = 40
+                ws.column_dimensions['B'].width = 15
+                ws.column_dimensions['A'].height=20
+                p=BarChart3D()
+                data=Reference(worksheet=ws,min_col=2,max_col=ws.max_column,min_row=2,max_row=ws.max_row)
+
+                #p.add_data(data)
+                p.title="Answer Distribution"
+
+                pt = DataPoint(idx=trueCellIndex-2)
+                pt.graphicalProperties.solidFill = "b2ff59"
+
+                answers=Reference(worksheet=ws,min_col=1,max_col=1,min_row=2,max_row=ws.max_row)
+
+                l=list(ws.iter_rows())
+
+                g=2
+                for row in ws.iter_rows():
+                    value=Reference(worksheet=ws,min_col=3,max_col=3,min_row=g,max_row=g)
+
+
+                    ans=str(ws['A'+str(g)].internal_value)
+                    serie = Series(value, title=ans)
+
+
+                    if ans!=None:
+                        match=StringComparator(ans,str(trueAnswers[k])).cmp_ig_C_S_P_N
+                        if match==0:
+
+                            serie.graphicalProperties.solidFill="b2ff59"
+
+                    p.append(serie)
+                    g+=1
+
+
+                p.height=13
+                p.width=20
+                p.style=2
+                p.legend.legendPos.upper()
+                p.y_axis.scaling.min=0
+                p.y_axis.scaling.max=100
+                p.y_axis.title="%"
+                ws.add_chart(p,"D1")
+                k += 1
+            wb.save("./poll_results/"+keyQuizName+"_stats.xlsx")
+
+
+
+
+
+
+
 

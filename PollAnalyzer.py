@@ -1,8 +1,7 @@
 from OutputProducer import OutputProducer
-from Student import Student
-import pandas as pd
 from Parser import Parser
 import glob, os
+from StringComparator import StringComparator
 
 
 class PollAnalyzer:
@@ -12,6 +11,7 @@ class PollAnalyzer:
     __attendanceData = None
     __myOutputProducer = None
     __pollList=None
+    __quizQuestStat=None
 
     def __init__(self):
 
@@ -22,8 +22,10 @@ class PollAnalyzer:
         self.__myOutputProducer = OutputProducer.instance()
         self.__myOutputProducer.addIntoExecutionLog("System started!")
         self.__pollList={}
+        self.__quizQuestStat={}
 
         path="./poll_files/"
+        path2="./poll_answers/"
 
         for file in glob.glob(path+"*.csv"):
             self.__fileNames.append(file)
@@ -32,35 +34,26 @@ class PollAnalyzer:
             if file != "studentList.XLS":
                 self.__fileNames.append(file)
 
-        parser = Parser()
+        for file in glob.glob(path2+"*.xls"):
+            self.__answerKeys.append(file)
+
         filePath = "./poll_files/studentList.XLS"
-        self.__studentList = parser.parseStudentList(filePath)
+        #self.__studentList = parser.parseStudentList(filePath, "Adı", "Soyadı", "Öğrenci No")
 
-        for file in self.__fileNames:
-            att = parser.parseAttendance(file)
-            self.__attendanceData.append(att)
+        columnNames={"name":"Adı","surname":"Soyadı","id":"Öğrenci No","username":"User Name","email":"User Email","datetime":"Submitted Date/Time"}
 
-        self.calculateAttendance()
-
-        for file in self.__fileNames:
-            parser.parseQuiz(file, self.__studentList)
-
-        path="./poll_answers/"
-
-        for file in glob.glob(path+"*.xls"):
-            if file != "studentList.XLS":
-                self.__answerKeys.append(file)
-
-
-        for a in self.__answerKeys:
-            parser.parseAnswerKey(a,self.__studentList)
+        parser = Parser(filePath,self.__fileNames,self.__answerKeys,columnNames)
+        self.__studentList=parser.getStudentList()
 
         self.calculateQuizResults()
 
         self.extractPollList()
 
-        self.__myOutputProducer.produceOutput(self.__studentList,self.__pollList)
+        self.calcQuestionStat()
 
+        self.__myOutputProducer.printPollStatictics(self.__quizQuestStat)
+        self.__myOutputProducer.printAttendenceReport(self.__studentList)
+        self.__myOutputProducer.printPollResults(self.__studentList,self.__pollList)
 
 
 
@@ -97,13 +90,54 @@ class PollAnalyzer:
 
                 for quizPart in quiz.getQuizParts():
 
-                    if quizPart.getQuestion().getAnswer()==quizPart.getStudentRespond():
+                    match=0
+
+                    for r in quizPart.getStudentRespond():
+
+                        for a in quizPart.getQuestion().getAnswer():
+
+                            match = StringComparator(a,r).cmp_ig_C_S_P_N
+                            if match==0:
+                                break
+                        if match!=0:
+                            break
+
+                    if match==0:
                         quizPart.setIsCorrect(1)
-                        quiz.setNumCorrect(quiz.getNumWrong()+1)
+                        quiz.setNumCorrect(quiz.getNumCorrect()+1)
                     else:
                         quizPart.setIsCorrect(0)
-                        quiz.setNumWrong(quiz.getNumCorrect()+1)
+                        quiz.setNumWrong(quiz.getNumWrong()+1)
 
+
+    def calcQuestionStat(self):
+
+        i=0
+        for key in self.__pollList:
+
+                num=len(self.__pollList[key][0].getQuizes()[i].getQuizParts())
+
+                questions=[x.getQuestion().getQuestionText() for x in self.__pollList[key][0].getQuizes()[i].getQuizParts()]
+                answers=[]
+                trueAnswers=[x.getQuestion().getAnswer() for x in  self.__pollList[key][0].getQuizes()[i].getQuizParts()]
+                for j in range(num):
+                    a_dict={}
+                    q = self.__pollList[key][0].getQuizes()[i].getQuizParts()[j].getQuestion().getQuestionText()
+
+                    stuList=self.__pollList[key]
+                    for stu in stuList:
+                        respond=stu.getQuizes()[i].getQuizParts()[j].getStudentRespond()
+
+
+                        for r in respond:
+
+                            if not r in a_dict:
+                                a_dict[r]=1
+                            else:
+                                a_dict[r]=a_dict[r]+1
+                    answers.append(a_dict)
+
+                self.__quizQuestStat[key]=[questions,answers,trueAnswers]
 
     def getStuIndexWithUserName(self, username):
 

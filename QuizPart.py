@@ -6,9 +6,11 @@ class QuizPart:
     __studentRespond = None
     __isCorrect=None
 
+
     def __init__(self, question, studentRespond):
         self.__question = question
         self.__studentRespond = studentRespond
+
 
     def getQuestion(self):
        return self.__question
@@ -21,3 +23,4 @@ class QuizPart:
 
     def setIsCorrect(self, value):
         self.__isCorrect=value
+
