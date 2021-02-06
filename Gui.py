@@ -10,10 +10,16 @@ from PollAnalyzer import PollAnalyzer
 class Gui():
 
     def __init__(self):
-        a=5
+        a = 5
 
         self.window = Tk()
         self.window.title("Poll Analyzer")
+
+        self.a = False
+        self.b = False
+        self.c = False
+
+        self.studentListPath = None
 
         width = self.window.winfo_screenwidth()
         height = self.window.winfo_screenheight()
@@ -23,11 +29,13 @@ class Gui():
         self.lbl = Label(self.window,
                          text="Welcome to the Poll Analyzer,\nPut csv files into the directory 'poll_files' \nAnd answer txt files into poll_answers directories\nPress Start to analyze poll results",
                          font=("Arial", 10)).pack(pady=20)
-        self.bar = Progressbar(self.window, orient=HORIZONTAL, length=350,mode="determinate",maximum=100)
+        self.bar = Progressbar(self.window, orient=HORIZONTAL, length=350, mode="determinate", maximum=100)
         self.bar.pack(pady=10)
 
-        buttonEnd = Button(self.window, text="Cancel", command=self.cancel).pack(side=RIGHT, padx=15, pady=5)
-        buttonStart = Button(self.window, text="Start", command=self.start).pack(side=RIGHT, padx=5, pady=5)
+        self.buttonEnd = Button(self.window, text="Cancel", command=self.cancel).pack(side=RIGHT, padx=15, pady=5)
+        self.buttonStart = Button(self.window, text="Start", command=self.start, state=DISABLED).pack(side=RIGHT,
+                                                                                                      padx=5,
+                                                                                                      pady=5)
         button_explore = Button(self.window,
                                 text="Browse Student List",
                                 command=self.browseFiles).pack(side=LEFT, padx=20, pady=5)
@@ -44,45 +52,52 @@ class Gui():
 
         self.lbl = Label(self.window, text="Please wait... This may take a little time")
 
-        PollAnalyzer(self,self.studentListPath,self.pollPath,self.answerPath)
+        PollAnalyzer(self, self.studentListPath, self.pollPath, self.answerPath)
 
     def cancel(self):
         exit()
 
     def browseFiles(self):
         self.studentListPath = filedialog.askopenfilename(initialdir="/",
-                                                     title="Select a File",
-                                                     filetypes=(("Excel files",
-                                                                 "*.XLS*"),
-                                                                ("all files",
-                                                                 "*.*")))
+                                                          title="Select a File",
+                                                          filetypes=(("Excel files",
+                                                                      "*.XLS*"),
+                                                                     ("all files",
+                                                                      "*.*")))
+        if self.studentListPath != None:
+            self.a = True
+        if self.a and self.b and self.c:
+            self.buttonStart["state"] = 'normal'
 
     def browseFiles2(self):
-
-        self.pollPath=[]
+        self.pollPath = []
 
         self.pollPath = filedialog.askopenfilenames(initialdir="/",
-                                              title="Select a File",
-                                              filetypes=(("Excel files",
-                                                          "*.csv*"),
-                                                         ("all files",
-                                                          "*.*")))
-
+                                                    title="Select a File",
+                                                    filetypes=(("Excel files",
+                                                                "*.csv*"),
+                                                               ("all files",
+                                                                "*.*")))
+        if len(self.pollPath) != 0:
+            self.b = True
+        if self.a and self.b and self.c:
+            self.buttonStart["state"] = 'normal'
 
     def browseFiles3(self):
-
-        self.answerPath=[]
+        self.answerPath = []
         self.answerPath = filedialog.askopenfilenames(initialdir="/",
-                                                title="Select a File",
-                                                filetypes=(("Text files",
-                                                            "*.txt*"),
-                                                           ("all files",
-                                                            "*.*")))
+                                                      title="Select a File",
+                                                      filetypes=(("Text files",
+                                                                  "*.txt*"),
+                                                                 ("all files",
+                                                                  "*.*")))
+        if len(self.answerPath) != 0:
+            self.c = True
+        if self.a and self.b and self.c:
 
+            self.buttonStart(state=tk().ACTIVE)
 
-    def updateBar(self,value):
-
-
-        self.bar['value']+=value
+    def updateBar(self, value):
+        self.bar['value'] += value
         self.window.update_idletasks()
         time.sleep(1)
