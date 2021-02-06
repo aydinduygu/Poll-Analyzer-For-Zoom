@@ -14,12 +14,13 @@ class PollAnalyzer:
     __pollList=None
 
 
-    def __init__(self,gui):
+    def __init__(self,gui,studentListPath,pollPath,answerPath):
 
         self.__studentList=[]
-        self.__fileNames=[]
+        self.__studentListPath = studentListPath
+        self.__fileNames=pollPath
         self.__attendanceData=[]
-        self.__answerKeys=[]
+        self.__answerKeys=answerPath
         self.__myOutputProducer = OutputProducer.instance()
         self.__myOutputProducer.addIntoExecutionLog("System started!")
         self.__pollList={}
@@ -27,31 +28,12 @@ class PollAnalyzer:
         self.__stuNotCorrelated=[]
         self.__gui=gui
 
-
-        path=".\poll_files"
-        path2=".\poll_answers"
-
-        for file in glob.glob(path+r"/*.csv"):
-
-
-            self.__fileNames.append(file)
-
-            print(file)
-        for file in glob.glob("*.xls"):
-            if file != "studentList.XLS":
-                self.__fileNames.append(file)
-
-        for file in glob.glob(path2+r"/*.txt"):
-            self.__answerKeys.append(file)
-
-        filePath = "./poll_files/studentList.XLS"
-
         columnNames={"name":"Adı","surname":"Soyadı","id":"Öğrenci No","username":"User Name","email":"User Email","datetime":"Submitted Date/Time"}
 
-        parser = Parser(filePath, self.__fileNames, self.__answerKeys, columnNames)
+        parser = Parser(self.__studentListPath, self.__fileNames, self.__answerKeys, columnNames)
         self.__gui.updateBar(5)
 
-        self.__studentList,self.__dataNotCorrelated,self.__stuNotCorrelated=parser.parse(filePath,self.__fileNames,columnNames,self.__answerKeys,self.__gui.updateBar)
+        self.__studentList,self.__dataNotCorrelated,self.__stuNotCorrelated=parser.parse(self.__studentListPath,self.__fileNames,columnNames,self.__answerKeys,self.__gui.updateBar)
 
         self.calculateQuizStats()
 

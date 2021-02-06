@@ -44,42 +44,40 @@ class Gui():
 
         self.lbl = Label(self.window, text="Please wait... This may take a little time")
 
-        PollAnalyzer(self)
+        PollAnalyzer(self,self.studentListPath,self.pollPath,self.answerPath)
 
     def cancel(self):
         exit()
 
     def browseFiles(self):
-        studentListPath = filedialog.askopenfilename(initialdir="/",
+        self.studentListPath = filedialog.askopenfilename(initialdir="/",
                                                      title="Select a File",
                                                      filetypes=(("Excel files",
                                                                  "*.XLS*"),
                                                                 ("all files",
                                                                  "*.*")))
-        print(studentListPath)
 
     def browseFiles2(self):
 
-        pollPath=[]
+        self.pollPath=[]
 
-        pollPath = filedialog.askopenfiles(initialdir="/",
+        self.pollPath = filedialog.askopenfilenames(initialdir="/",
                                               title="Select a File",
                                               filetypes=(("Excel files",
                                                           "*.csv*"),
                                                          ("all files",
                                                           "*.*")))
-        print(pollPath)
+
 
     def browseFiles3(self):
 
-        answerPath=[]
-        answerPath = filedialog.askopenfiles(initialdir="/",
+        self.answerPath=[]
+        self.answerPath = filedialog.askopenfilenames(initialdir="/",
                                                 title="Select a File",
                                                 filetypes=(("Text files",
                                                             "*.txt*"),
                                                            ("all files",
                                                             "*.*")))
-        print(answerPath)
 
 
     def updateBar(self,value):
