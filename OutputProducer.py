@@ -6,7 +6,6 @@ from openpyxl.styles import Alignment,Font
 from openpyxl.chart import BarChart,BarChart3D,Reference,Series,layout
 from openpyxl.chart.marker import DataPoint
 from StringComparator import StringComparator
-import  time
 import os
 from QuizPart import QuizPart
 from Question import Question

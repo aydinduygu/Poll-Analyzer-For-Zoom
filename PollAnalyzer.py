@@ -1,9 +1,7 @@
 from OutputProducer import OutputProducer
 from Parser import Parser
 import glob, os
-from StringComparator import StringComparator
 from QuestionStat import QuestionStat
-from AnswerStat import AnswerStat
 from QuizStat import QuizStat
 
 class PollAnalyzer:
@@ -13,7 +11,7 @@ class PollAnalyzer:
     __attendanceData = None
     __myOutputProducer = None
     __pollList=None
-    __quizQuestStat=None
+
 
     def __init__(self):
 
@@ -24,7 +22,9 @@ class PollAnalyzer:
         self.__myOutputProducer = OutputProducer.instance()
         self.__myOutputProducer.addIntoExecutionLog("System started!")
         self.__pollList={}
-        self.__quizQuestStat={}
+        self.__dataNotCorrelated={}
+        self.__stuNotCorrelated=[]
+
 
         path=".\poll_files"
         path2=".\poll_answers"
@@ -46,8 +46,11 @@ class PollAnalyzer:
 
         columnNames={"name":"Adı","surname":"Soyadı","id":"Öğrenci No","username":"User Name","email":"User Email","datetime":"Submitted Date/Time"}
 
-        parser = Parser(filePath,self.__fileNames,self.__answerKeys,columnNames)
-        self.__studentList=parser.getStudentList()
+        parser = Parser(filePath, self.__fileNames, self.__answerKeys, columnNames)
+
+
+        self.__studentList,self.__dataNotCorrelated,self.__stuNotCorrelated=parser.parse(filePath,self.__fileNames,columnNames,self.__answerKeys)
+
 
         self.calculateQuizStats()
 

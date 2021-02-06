@@ -1,12 +1,7 @@
 import pandas as pd
-import openpyxl
 import datetime
-import time
-import math
-import operator
 from TR_Text import tr_upper, tr_lower
 import locale
-import numpy as np
 import re
 
 # -*- coding: utf-8 -*-
@@ -32,25 +27,23 @@ class Parser:
         #locale.setlocale(locale.LC_COLLATE, "tr_TR")
 
         self.__oProducer = OutputProducer.instance()
-        self.__studentList = self.parseStudentList(xls_filePath, columnNames["name"], columnNames["surname"],
-                                                   columnNames["id"])
+
         #locale.setlocale(locale.LC_COLLATE,'C')
+
         self.__stuNotCorrelated = []
         self.__dataNotCorrelated = {}
         self.__dataCorrelated={}
-        self.parse(csv_filePaths, columnNames,answerKeys)
 
 
-
-    def binarySearchStuList(self,string: str):
+    def binarySearchStuList(self,string: str,studentList):
 
         l = 0
-        r = len(self.__studentList) - 1
+        r = len(studentList) - 1
 
         while (l <= r):
 
             m = int((l + r) / 2)
-            string2 = self.__studentList[m].getName() + " " + self.__studentList[m].getSurname()
+            string2 = studentList[m].getName() + " " + studentList[m].getSurname()
 
             strcmp=StringComparator(string,string2).cmp_ig_C_S_P_N
 
@@ -144,8 +137,9 @@ class Parser:
 
 
 
-    def parse(self, paths, columnNames,answerKeyPaths):
+    def parse(self, filePath,paths, columnNames,answerKeyPaths):
 
+        studentList=self.parseStudentList(filePath,columnNames["name"], columnNames["surname"],columnNames["id"])
         answerKeys=[]
         quizes={}
         for path in answerKeyPaths:
@@ -210,7 +204,8 @@ class Parser:
                 myClsdatetime = str(row.loc[0])
                 myClsdatetime = datetime.datetime.strptime(myClsdatetime, "%b %d, %Y")
 
-                for stu in self.__studentList:
+                for stu in studentList\
+                        :
                     stu.getAttendence().add_clsDate(myClsdatetime.date())
 
 
@@ -228,10 +223,10 @@ class Parser:
                     mydatetime = str(row.loc[df_att.columns[date_cIndex]])
                     mydatetime = datetime.datetime.strptime(mydatetime, "%b %d, %Y %H:%M:%S")
 
-                    stuIndex = self.binarySearchStuList(username)
+                    stuIndex = self.binarySearchStuList(username,studentList)
 
                     if stuIndex != -1:
-                        stu = self.__studentList[stuIndex]
+                        stu = studentList[stuIndex]
 
                         if stu.getUsername() == None:
                             stu.setUsername(username)
@@ -258,10 +253,10 @@ class Parser:
                 mydatetime = str(row.loc[df.columns[date_cIndex]])
                 mydatetime = datetime.datetime.strptime(mydatetime, "%b %d, %Y %H:%M:%S")
 
-                stuIndex = self.binarySearchStuList(username)
+                stuIndex = self.binarySearchStuList(username,studentList)
 
                 if stuIndex != -1:
-                    stu = self.__studentList[stuIndex]
+                    stu = studentList[stuIndex]
 
                     if stu.getUsername() == None:
                         stu.setUsername(username)
@@ -335,13 +330,15 @@ class Parser:
             self.__dataNotCorrelated[path] = self.__dataNotCorrelated[path].reset_index(drop=True)
             self.__dataNotCorrelated[path] = self.__dataNotCorrelated[path].reindex()
 
-        self.detectUncorStu()
+        self.detectUncorStu(studentList)
+        return studentList,self.__dataNotCorrelated,self.__stuNotCorrelated
 
 
 
-    def detectUncorStu(self):
+    def detectUncorStu(self,studentList):
 
-        self.__stuNotCorrelated = [stu for stu in self.__studentList if stu.getUsername() == None]
+        self.__stuNotCorrelated = [stu for stu in studentList
+                                   if stu.getUsername() == None]
 
     def parseStudentList(self, filePath, name: str, surname: str, id: str):
         self.__oProducer.addIntoExecutionLog("Parsing Student List started : " + filePath + " started")
@@ -380,8 +377,6 @@ class Parser:
 
         return nameList
 
-    def getStudentList(self):
-        return self.__studentList
 
     def getStuNotCor(self):
         return self.__stuNotCorrelated
