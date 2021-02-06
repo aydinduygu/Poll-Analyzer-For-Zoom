@@ -43,7 +43,6 @@ class PollAnalyzer:
             self.__answerKeys.append(file)
 
         filePath = "./poll_files/studentList.XLS"
-        #self.__studentList = parser.parseStudentList(filePath, "Adı", "Soyadı", "Öğrenci No")
 
         columnNames={"name":"Adı","surname":"Soyadı","id":"Öğrenci No","username":"User Name","email":"User Email","datetime":"Submitted Date/Time"}
 

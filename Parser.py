@@ -34,13 +34,11 @@ class Parser:
         self.__oProducer = OutputProducer.instance()
         self.__studentList = self.parseStudentList(xls_filePath, columnNames["name"], columnNames["surname"],
                                                    columnNames["id"])
-        self.__studentList.sort(key=lambda x: tr_lower(x.getName()) + tr_lower(x.getSurname()))
-        self.__studentList=sorted(self.__studentList, key=lambda x: locale.strxfrm(tr_lower(x.getName())+tr_lower(x.getSurname())))
         #locale.setlocale(locale.LC_COLLATE,'C')
         self.__stuNotCorrelated = []
         self.__dataNotCorrelated = {}
         self.__dataCorrelated={}
-        self.parse(csv_filePaths, columnNames, "Are you attending this lecture?",answerKeys)
+        self.parse(csv_filePaths, columnNames,answerKeys)
 
 
 
@@ -146,7 +144,7 @@ class Parser:
 
 
 
-    def parse(self, paths, columnNames, attendenceQuestion,answerKeyPaths):
+    def parse(self, paths, columnNames,answerKeyPaths):
 
         answerKeys=[]
         quizes={}

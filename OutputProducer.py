@@ -7,9 +7,14 @@ from openpyxl.chart import BarChart,BarChart3D,Reference,Series,layout
 from openpyxl.chart.marker import DataPoint
 from StringComparator import StringComparator
 import  time
+import os
 from QuizPart import QuizPart
 from Question import Question
 from Student import Student
+
+
+
+
 #singleton pattern implemented
 class OutputProducer:
     __instance = None
@@ -36,6 +41,9 @@ class OutputProducer:
 
 
     def printAttendenceReport(self,studentList):
+
+        if not os.path.exists('attendence_results'):
+            os.makedirs('attendence_results')
 
         global qlist, attPer
         attdatalist = []
@@ -70,7 +78,12 @@ class OutputProducer:
         df.to_excel("./attendence_results/attendence_report.xlsx")
         self.addIntoExecutionLog("Attendence report is generated.")
 
+
+
     def printStudentOverallResults(self,studentList,poll_list):
+
+        if not os.path.exists('poll_results'):
+            os.makedirs('poll_results')
 
         sum=0
         for poll in poll_list:
@@ -85,14 +98,18 @@ class OutputProducer:
             totalNumCorrect=stu.numTotalCorrect
             totalNumWrong=stu.numTotalWrong
 
-            data={"Student Id":id, "Name":name,"Surname":surname,"Correct Answer Rate":str(totalNumCorrect)+"/"+str(sum),"Wrong Answer Rate":str(totalNumWrong)+"/"+str(sum)}
+            data={"Student Id":id, "Name":name,"Surname":surname,"Correct Answer Rate":str(totalNumCorrect)+"/"+str(sum),"Wrong Answer Rate":str(totalNumWrong)+"/"+str(sum),"Correct Answer Percentage":float("{:.2f}".format(100*totalNumCorrect/sum))}
             overallResults.append(data)
         
-        overallResults=sorted(overallResults,key=lambda i: i["Correct Answer Rate"])
+        overallResults=sorted(overallResults,key=lambda i: i["Correct Answer Percentage"])
         pd.DataFrame(overallResults).to_excel("./poll_results/Total Success Rates.xlsx")
+
+
 
     def printPollResults(self,studentList,poll_List):
         pollResults = {}
+        if not os.path.exists('poll_results'):
+            os.makedirs('poll_results')
 
         for i, key in enumerate(poll_List):
 
@@ -138,11 +155,13 @@ class OutputProducer:
 
     def printPollStat(self,quizStats):
 
+        if not os.path.exists('poll_statistics'):
+            os.makedirs('poll_statistics')
 
         for i,keyQuizName in enumerate(quizStats):
 
 
-            writer = pd.ExcelWriter("./poll_results/" + keyQuizName + "_stats.xlsx", engine='xlsxwriter')
+            writer = pd.ExcelWriter("./poll_statistics/" + keyQuizName + "_stats.xlsx", engine='xlsxwriter')
 
             quizStat=quizStats[keyQuizName]
 
@@ -168,7 +187,7 @@ class OutputProducer:
 
             writer.save()
 
-            wb = load_workbook("./poll_results/" + keyQuizName + "_stats.xlsx")
+            wb = load_workbook("./poll_statistics/" + keyQuizName + "_stats.xlsx")
 
             my_blue = openpyxl.styles.colors.Color(rgb='CCE5FF')
             my_fill_blue = openpyxl.styles.fills.PatternFill(patternType='solid', fgColor=my_blue)
@@ -270,7 +289,7 @@ class OutputProducer:
                 p.y_axis.title = "%"
                 ws.add_chart(p, "D1")
                 k += 1
-            wb.save("./poll_results/" + keyQuizName + "_stats.xlsx")
+            wb.save("./poll_statistics/" + keyQuizName + "_stats.xlsx")
 
 
 
