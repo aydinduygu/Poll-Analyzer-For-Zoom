@@ -56,7 +56,7 @@ class PollAnalyzer:
         self.__myOutputProducer.printAttendenceReport(self.__studentList)
         self.__myOutputProducer.printPollResults(self.__studentList,self.__pollList)
         self.__myOutputProducer.printStudentOverallResults(self.__studentList,self.__pollList)
-
+        self.__myOutputProducer.addIntoExecutionLog("Process finished!!!")
 
     def getStudentList(self):
         return self.__studentList

@@ -40,7 +40,9 @@ class OutputProducer:
 
 
     def printAttendenceReport(self,studentList):
-
+        
+        self.addIntoExecutionLog("Attendence report is being generated...")
+        
         if not os.path.exists('attendence_results'):
             os.makedirs('attendence_results')
 
@@ -75,12 +77,14 @@ class OutputProducer:
 
         df = pd.DataFrame(attdatalist)
         df.to_excel("./attendence_results/attendence_report.xlsx")
-        self.addIntoExecutionLog("Attendence report is generated.")
+        self.addIntoExecutionLog("Attendence report have been generated in 'attendence_results' directory.")
 
 
 
     def printStudentOverallResults(self,studentList,poll_list):
-
+        
+        self.addIntoExecutionLog("Total Success Percentages.xlsx file is being generated...")
+        
         if not os.path.exists('poll_results'):
             os.makedirs('poll_results')
 
@@ -100,12 +104,16 @@ class OutputProducer:
             data={"Student Id":id, "Name":name,"Surname":surname,"Correct Answer Rate":str(totalNumCorrect)+"/"+str(sum),"Wrong Answer Rate":str(totalNumWrong)+"/"+str(sum),"Correct Answer Percentage":float("{:.2f}".format(100*totalNumCorrect/sum))}
             overallResults.append(data)
         
-        overallResults=sorted(overallResults,key=lambda i: i["Correct Answer Percentage"])
-        pd.DataFrame(overallResults).to_excel("./poll_results/Total Success Rates.xlsx")
+        overallResults=sorted(overallResults,key=lambda i: i["Correct Answer Percentage"],reverse=True)
 
+        pd.DataFrame(overallResults).to_excel("./poll_results/Total Success Rates.xlsx")
+        self.addIntoExecutionLog("Total Success Percentages.xlsx file has been generated in 'poll_results' directory")
 
 
     def printPollResults(self,studentList,poll_List):
+
+        self.addIntoExecutionLog("Poll Results  is being generated...")
+
         pollResults = {}
         if not os.path.exists('poll_results'):
             os.makedirs('poll_results')
@@ -151,8 +159,11 @@ class OutputProducer:
 
         for key in pollResults:
             pollResults[key].to_excel("./poll_results/" + key + "_result.xlsx")
+            self.addIntoExecutionLog(key + "_result.xlsx file has been generated in 'poll_results' directory")
 
     def printPollStat(self,quizStats):
+
+        self.addIntoExecutionLog("Poll Statistics  is being generated...")
 
         if not os.path.exists('poll_statistics'):
             os.makedirs('poll_statistics')
@@ -289,7 +300,7 @@ class OutputProducer:
                 ws.add_chart(p, "D1")
                 k += 1
             wb.save("./poll_statistics/" + keyQuizName + "_stats.xlsx")
-
+            self.addIntoExecutionLog(keyQuizName + "_stats.xlsx file has been generated in 'poll_statistics' directory")
 
 
 

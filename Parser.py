@@ -144,7 +144,7 @@ class Parser:
         answerKeys=[]
         quizes={}
 
-        self.__oProducer.addIntoExecutionLog("Answer Sheets: "+answerKeyPaths+" are started to being parsed")
+        self.__oProducer.addIntoExecutionLog("Answer Sheets: "+str(answerKeyPaths)+" are  being parsed")
         for path in answerKeyPaths:
 
             file = open(path, 'r')
@@ -156,7 +156,7 @@ class Parser:
         quizNameList={}
         for myindex,path in enumerate(paths):
 
-            self.__oProducer.addIntoExecutionLog("Poll file: "+path+" is started to being parsed")
+            self.__oProducer.addIntoExecutionLog("Poll file: "+path+" is being parsed")
 
             #get first 5 lines of csv
             df_head=pd.read_table(Path(path),skiprows=2,nrows=1,error_bad_lines=False,sep=',')
