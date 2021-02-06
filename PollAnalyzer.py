@@ -4,6 +4,7 @@ import glob, os
 from QuestionStat import QuestionStat
 from QuizStat import QuizStat
 
+
 class PollAnalyzer:
     __studentList = None
     __fileNames = None
@@ -13,7 +14,7 @@ class PollAnalyzer:
     __pollList=None
 
 
-    def __init__(self):
+    def __init__(self,gui):
 
         self.__studentList=[]
         self.__fileNames=[]
@@ -24,6 +25,7 @@ class PollAnalyzer:
         self.__pollList={}
         self.__dataNotCorrelated={}
         self.__stuNotCorrelated=[]
+        self.__gui=gui
 
 
         path=".\poll_files"
@@ -47,16 +49,26 @@ class PollAnalyzer:
         columnNames={"name":"Adı","surname":"Soyadı","id":"Öğrenci No","username":"User Name","email":"User Email","datetime":"Submitted Date/Time"}
 
         parser = Parser(filePath, self.__fileNames, self.__answerKeys, columnNames)
+        self.__gui.updateBar(5)
 
-        self.__studentList,self.__dataNotCorrelated,self.__stuNotCorrelated=parser.parse(filePath,self.__fileNames,columnNames,self.__answerKeys)
+        self.__studentList,self.__dataNotCorrelated,self.__stuNotCorrelated=parser.parse(filePath,self.__fileNames,columnNames,self.__answerKeys,self.__gui.updateBar)
 
         self.calculateQuizStats()
 
+        self.__gui.updateBar(5)
+
         self.__myOutputProducer.printPollStat(self.__pollList)
+        self.__gui.updateBar(5)
+
         self.__myOutputProducer.printAttendenceReport(self.__studentList)
+        self.__gui.updateBar(5)
+
         self.__myOutputProducer.printPollResults(self.__studentList,self.__pollList)
+        self.__gui.updateBar(5)
         self.__myOutputProducer.printStudentOverallResults(self.__studentList,self.__pollList)
+        self.__gui.bar['value']=100
         self.__myOutputProducer.addIntoExecutionLog("Process finished!!!")
+
 
     def getStudentList(self):
         return self.__studentList
@@ -115,6 +127,9 @@ class PollAnalyzer:
         self.__myOutputProducer.addIntoExecutionLog("Poll Statistics are being calculated...")
 
         for stu in self.__studentList:
+
+            self.__gui.updateBar(40/len(self.__studentList))
+
             for quiz in stu.getQuizes():
                 if not quiz.getQuizName() in self.__pollList:
 

@@ -3506,3 +3506,853 @@
 06/02/2021 17:55:34 System started!
 06/02/2021 17:55:34 Parsing Student List started : ./poll_files/studentList.XLS started
 06/02/2021 17:55:34 Parsing Student List : ./poll_files/studentList.XLS finished
+06/02/2021 18:38:59 System started!
+06/02/2021 18:38:59 Parsing Student List started : ./poll_files/studentList.XLS started
+06/02/2021 18:38:59 Parsing Student List : ./poll_files/studentList.XLS finished
+06/02/2021 18:40:36 Attendence report is generated.
+06/02/2021 18:43:18 System started!
+06/02/2021 18:43:18 Parsing Student List started : ./poll_files/studentList.XLS started
+06/02/2021 18:43:18 Parsing Student List : ./poll_files/studentList.XLS finished
+06/02/2021 18:45:02 Attendence report is generated.
+06/02/2021 19:11:25 System started!
+06/02/2021 19:13:39 System started!
+06/02/2021 19:13:39 Parsing Student List started : ./poll_files/studentList.XLS started
+06/02/2021 19:13:39 Parsing Student List : ./poll_files/studentList.XLS finished
+06/02/2021 19:14:22 System started!
+06/02/2021 19:14:22 Parsing Student List started : ./poll_files/studentList.XLS started
+06/02/2021 19:14:22 Parsing Student List : ./poll_files/studentList.XLS finished
+06/02/2021 19:16:02 Attendence report is generated.
+06/02/2021 19:44:12 System started!
+06/02/2021 19:44:12 Parsing Student List started : ./poll_files/studentList.XLS started
+06/02/2021 19:44:12 Parsing Student List : ./poll_files/studentList.XLS finished
+06/02/2021 19:44:46 System started!
+06/02/2021 19:44:46 Parsing Student List started : ./poll_files/studentList.XLS started
+06/02/2021 19:44:46 Parsing Student List : ./poll_files/studentList.XLS finished
+06/02/2021 19:44:46 Answer Sheets: ['.\\poll_answers\\CSE3063 OOSD Weekly Session 1 - Monday Quizzes ANSWER KEY.txt', '.\\poll_answers\\CSE3063 OOSD Weekly Session 2 - Tuesday Quizzes ANSWER KEY.txt'] are started to being parsed
+06/02/2021 19:44:46 Answer Sheets have been parsed.
+06/02/2021 19:44:46 Poll file: .\poll_files\94502073867_PollReport (1).csv is started to being parsed
+06/02/2021 19:44:46 Parsing of Poll file: .\poll_files\94502073867_PollReport (1).csv ended.
+06/02/2021 19:44:46 Poll file: .\poll_files\94502073867_PollReport (12).csv is started to being parsed
+06/02/2021 19:44:46 Parsing of Poll file: .\poll_files\94502073867_PollReport (12).csv ended.
+06/02/2021 19:44:46 Poll file: .\poll_files\94502073867_PollReport (14).csv is started to being parsed
+06/02/2021 19:44:47 Parsing of Poll file: .\poll_files\94502073867_PollReport (14).csv ended.
+06/02/2021 19:44:47 Poll file: .\poll_files\94502073867_PollReport (16).csv is started to being parsed
+06/02/2021 19:44:52 Parsing of Poll file: .\poll_files\94502073867_PollReport (16).csv ended.
+06/02/2021 19:44:52 Poll file: .\poll_files\94502073867_PollReport (17).csv is started to being parsed
+06/02/2021 19:44:57 Parsing of Poll file: .\poll_files\94502073867_PollReport (17).csv ended.
+06/02/2021 19:44:57 Poll file: .\poll_files\94502073867_PollReport (20).csv is started to being parsed
+06/02/2021 19:45:07 Parsing of Poll file: .\poll_files\94502073867_PollReport (20).csv ended.
+06/02/2021 19:45:07 Poll file: .\poll_files\94502073867_PollReport (21).csv is started to being parsed
+06/02/2021 19:45:16 Parsing of Poll file: .\poll_files\94502073867_PollReport (21).csv ended.
+06/02/2021 19:45:16 Poll file: .\poll_files\94502073867_PollReport (22).csv is started to being parsed
+06/02/2021 19:45:21 Parsing of Poll file: .\poll_files\94502073867_PollReport (22).csv ended.
+06/02/2021 19:45:21 Poll file: .\poll_files\94502073867_PollReport (3).csv is started to being parsed
+06/02/2021 19:45:21 Parsing of Poll file: .\poll_files\94502073867_PollReport (3).csv ended.
+06/02/2021 19:45:21 Poll file: .\poll_files\94502073867_PollReport (5).csv is started to being parsed
+06/02/2021 19:45:21 Parsing of Poll file: .\poll_files\94502073867_PollReport (5).csv ended.
+06/02/2021 19:45:21 Poll file: .\poll_files\94502073867_PollReport (7).csv is started to being parsed
+06/02/2021 19:45:22 Parsing of Poll file: .\poll_files\94502073867_PollReport (7).csv ended.
+06/02/2021 19:45:22 Poll file: .\poll_files\94502073867_PollReport (8).csv is started to being parsed
+06/02/2021 19:45:22 Parsing of Poll file: .\poll_files\94502073867_PollReport (8).csv ended.
+06/02/2021 19:45:22 Poll file: .\poll_files\94502073867_PollReport (9).csv is started to being parsed
+06/02/2021 19:45:22 Parsing of Poll file: .\poll_files\94502073867_PollReport (9).csv ended.
+06/02/2021 19:45:22 Poll file: .\poll_files\94502073867_PollReport_18-01-2021.csv is started to being parsed
+06/02/2021 19:45:22 Parsing of Poll file: .\poll_files\94502073867_PollReport_18-01-2021.csv ended.
+06/02/2021 19:45:22 Poll file: .\poll_files\94502073867_PollReport_19-10-2020.csv is started to being parsed
+06/02/2021 19:45:24 Parsing of Poll file: .\poll_files\94502073867_PollReport_19-10-2020.csv ended.
+06/02/2021 19:45:24 Poll file: .\poll_files\94502073867_PollReport_26-10-2020.csv is started to being parsed
+06/02/2021 19:45:27 Parsing of Poll file: .\poll_files\94502073867_PollReport_26-10-2020.csv ended.
+06/02/2021 19:45:27 Poll file: .\poll_files\97056655049_PollReport (1).csv is started to being parsed
+06/02/2021 19:45:27 Parsing of Poll file: .\poll_files\97056655049_PollReport (1).csv ended.
+06/02/2021 19:45:27 Poll file: .\poll_files\97056655049_PollReport (10).csv is started to being parsed
+06/02/2021 19:45:27 Parsing of Poll file: .\poll_files\97056655049_PollReport (10).csv ended.
+06/02/2021 19:45:27 Poll file: .\poll_files\97056655049_PollReport (15).csv is started to being parsed
+06/02/2021 19:45:27 Parsing of Poll file: .\poll_files\97056655049_PollReport (15).csv ended.
+06/02/2021 19:45:27 Poll file: .\poll_files\97056655049_PollReport (16).csv is started to being parsed
+06/02/2021 19:45:28 Parsing of Poll file: .\poll_files\97056655049_PollReport (16).csv ended.
+06/02/2021 19:45:28 Poll file: .\poll_files\97056655049_PollReport (23).csv is started to being parsed
+06/02/2021 19:45:35 Parsing of Poll file: .\poll_files\97056655049_PollReport (23).csv ended.
+06/02/2021 19:45:35 Poll file: .\poll_files\97056655049_PollReport (27).csv is started to being parsed
+06/02/2021 19:45:44 Parsing of Poll file: .\poll_files\97056655049_PollReport (27).csv ended.
+06/02/2021 19:45:44 Poll file: .\poll_files\97056655049_PollReport (28).csv is started to being parsed
+06/02/2021 19:45:45 Parsing of Poll file: .\poll_files\97056655049_PollReport (28).csv ended.
+06/02/2021 19:45:45 Poll file: .\poll_files\97056655049_PollReport (3).csv is started to being parsed
+06/02/2021 19:45:45 Parsing of Poll file: .\poll_files\97056655049_PollReport (3).csv ended.
+06/02/2021 19:45:45 Poll file: .\poll_files\97056655049_PollReport (4).csv is started to being parsed
+06/02/2021 19:45:45 Parsing of Poll file: .\poll_files\97056655049_PollReport (4).csv ended.
+06/02/2021 19:45:45 Poll file: .\poll_files\97056655049_PollReport (6).csv is started to being parsed
+06/02/2021 19:45:45 Parsing of Poll file: .\poll_files\97056655049_PollReport (6).csv ended.
+06/02/2021 19:45:45 Poll file: .\poll_files\97056655049_PollReport_12-01-2021.csv is started to being parsed
+06/02/2021 19:45:45 Parsing of Poll file: .\poll_files\97056655049_PollReport_12-01-2021.csv ended.
+06/02/2021 19:45:45 Poll file: .\poll_files\97056655049_PollReport_20-10-2020.csv is started to being parsed
+06/02/2021 19:45:46 Parsing of Poll file: .\poll_files\97056655049_PollReport_20-10-2020.csv ended.
+06/02/2021 19:45:46 Looking up for anomalies...
+06/02/2021 19:45:46 Anomaly detection ended!
+06/02/2021 19:45:46 Poll Statistics are being calculated...
+06/02/2021 19:46:21 Poll Statistics have been calculated.
+06/02/2021 19:46:21 Poll Statistics  is being generated...
+06/02/2021 19:46:21 CSE3063 OOSD Weekly Session 1 - Monday_3_stats.xlsx file has been generated in 'poll_statistics' directory
+06/02/2021 19:46:21 CSE3063 OOSD Weekly Session 1 - Monday_4_stats.xlsx file has been generated in 'poll_statistics' directory
+06/02/2021 19:46:22 CSE3063 OOSD Weekly Session 1 - Monday_5_stats.xlsx file has been generated in 'poll_statistics' directory
+06/02/2021 19:46:22 CSE3063 OOSD Weekly Session 1 - Monday_6_stats.xlsx file has been generated in 'poll_statistics' directory
+06/02/2021 19:46:22 CSE3063 OOSD Weekly Session 1 - Monday_8_stats.xlsx file has been generated in 'poll_statistics' directory
+06/02/2021 19:46:23 CSE3063 OOSD Weekly Session 1 - Monday_9_stats.xlsx file has been generated in 'poll_statistics' directory
+06/02/2021 19:46:23 CSE3063 OOSD Weekly Session 1 - Monday_11_stats.xlsx file has been generated in 'poll_statistics' directory
+06/02/2021 19:46:23 CSE3063 OOSD Weekly Session 2 - Tuesday_3_stats.xlsx file has been generated in 'poll_statistics' directory
+06/02/2021 19:46:24 CSE3063 OOSD Weekly Session 1 - Monday_1_stats.xlsx file has been generated in 'poll_statistics' directory
+06/02/2021 19:46:24 CSE3063 OOSD Weekly Session 1 - Monday_2_stats.xlsx file has been generated in 'poll_statistics' directory
+06/02/2021 19:46:24 CSE3063 OOSD Weekly Session 1 - Monday_7_stats.xlsx file has been generated in 'poll_statistics' directory
+06/02/2021 19:46:25 CSE3063 OOSD Weekly Session 2 - Tuesday_1_stats.xlsx file has been generated in 'poll_statistics' directory
+06/02/2021 19:46:25 CSE3063 OOSD Weekly Session 2 - Tuesday_2_stats.xlsx file has been generated in 'poll_statistics' directory
+06/02/2021 19:46:25 CSE3063 OOSD Weekly Session 1 - Monday_10_stats.xlsx file has been generated in 'poll_statistics' directory
+06/02/2021 19:46:25 Attendence report is being generated...
+06/02/2021 19:46:25 Attendence report have been generated in 'attendence_results' directory.
+06/02/2021 19:46:25 Poll Results  is being generated...
+06/02/2021 19:46:25 CSE3063 OOSD Weekly Session 1 - Monday_3_result.xlsx file has been generated in 'poll_results' directory
+06/02/2021 19:46:25 CSE3063 OOSD Weekly Session 1 - Monday_4_result.xlsx file has been generated in 'poll_results' directory
+06/02/2021 19:46:25 CSE3063 OOSD Weekly Session 1 - Monday_5_result.xlsx file has been generated in 'poll_results' directory
+06/02/2021 19:46:26 CSE3063 OOSD Weekly Session 1 - Monday_6_result.xlsx file has been generated in 'poll_results' directory
+06/02/2021 19:46:26 CSE3063 OOSD Weekly Session 1 - Monday_8_result.xlsx file has been generated in 'poll_results' directory
+06/02/2021 19:46:26 CSE3063 OOSD Weekly Session 1 - Monday_9_result.xlsx file has been generated in 'poll_results' directory
+06/02/2021 19:46:26 CSE3063 OOSD Weekly Session 1 - Monday_11_result.xlsx file has been generated in 'poll_results' directory
+06/02/2021 19:46:26 CSE3063 OOSD Weekly Session 2 - Tuesday_3_result.xlsx file has been generated in 'poll_results' directory
+06/02/2021 19:46:26 CSE3063 OOSD Weekly Session 1 - Monday_1_result.xlsx file has been generated in 'poll_results' directory
+06/02/2021 19:46:26 CSE3063 OOSD Weekly Session 1 - Monday_2_result.xlsx file has been generated in 'poll_results' directory
+06/02/2021 19:46:26 CSE3063 OOSD Weekly Session 1 - Monday_7_result.xlsx file has been generated in 'poll_results' directory
+06/02/2021 19:46:26 CSE3063 OOSD Weekly Session 2 - Tuesday_1_result.xlsx file has been generated in 'poll_results' directory
+06/02/2021 19:46:26 CSE3063 OOSD Weekly Session 2 - Tuesday_2_result.xlsx file has been generated in 'poll_results' directory
+06/02/2021 19:46:26 CSE3063 OOSD Weekly Session 1 - Monday_10_result.xlsx file has been generated in 'poll_results' directory
+06/02/2021 19:46:26 Total Success Percentages.xlsx file is being generated...
+06/02/2021 19:46:26 Total Success Percentages.xlsx file has been generated in 'poll_results' directory
+06/02/2021 19:49:06 System started!
+06/02/2021 19:49:06 Parsing Student List started : ./poll_files/studentList.XLS started
+06/02/2021 19:49:06 Parsing Student List : ./poll_files/studentList.XLS finished
+06/02/2021 19:49:06 Answer Sheets: ['.\\poll_answers\\CSE3063 OOSD Weekly Session 1 - Monday Quizzes ANSWER KEY.txt', '.\\poll_answers\\CSE3063 OOSD Weekly Session 2 - Tuesday Quizzes ANSWER KEY.txt'] are started to being parsed
+06/02/2021 19:49:06 Answer Sheets have been parsed.
+06/02/2021 19:49:06 Poll file: .\poll_files\94502073867_PollReport (1).csv is started to being parsed
+06/02/2021 19:49:07 Parsing of Poll file: .\poll_files\94502073867_PollReport (1).csv ended.
+06/02/2021 19:49:07 Poll file: .\poll_files\94502073867_PollReport (12).csv is started to being parsed
+06/02/2021 19:49:07 Parsing of Poll file: .\poll_files\94502073867_PollReport (12).csv ended.
+06/02/2021 19:49:07 Poll file: .\poll_files\94502073867_PollReport (14).csv is started to being parsed
+06/02/2021 19:49:07 Parsing of Poll file: .\poll_files\94502073867_PollReport (14).csv ended.
+06/02/2021 19:49:07 Poll file: .\poll_files\94502073867_PollReport (16).csv is started to being parsed
+06/02/2021 19:49:12 Parsing of Poll file: .\poll_files\94502073867_PollReport (16).csv ended.
+06/02/2021 19:49:12 Poll file: .\poll_files\94502073867_PollReport (17).csv is started to being parsed
+06/02/2021 19:49:17 Parsing of Poll file: .\poll_files\94502073867_PollReport (17).csv ended.
+06/02/2021 19:49:17 Poll file: .\poll_files\94502073867_PollReport (20).csv is started to being parsed
+06/02/2021 19:49:27 Parsing of Poll file: .\poll_files\94502073867_PollReport (20).csv ended.
+06/02/2021 19:49:27 Poll file: .\poll_files\94502073867_PollReport (21).csv is started to being parsed
+06/02/2021 19:49:36 Parsing of Poll file: .\poll_files\94502073867_PollReport (21).csv ended.
+06/02/2021 19:49:36 Poll file: .\poll_files\94502073867_PollReport (22).csv is started to being parsed
+06/02/2021 19:49:41 Parsing of Poll file: .\poll_files\94502073867_PollReport (22).csv ended.
+06/02/2021 19:49:41 Poll file: .\poll_files\94502073867_PollReport (3).csv is started to being parsed
+06/02/2021 19:49:41 Parsing of Poll file: .\poll_files\94502073867_PollReport (3).csv ended.
+06/02/2021 19:49:41 Poll file: .\poll_files\94502073867_PollReport (5).csv is started to being parsed
+06/02/2021 19:49:41 Parsing of Poll file: .\poll_files\94502073867_PollReport (5).csv ended.
+06/02/2021 19:49:41 Poll file: .\poll_files\94502073867_PollReport (7).csv is started to being parsed
+06/02/2021 19:49:41 Parsing of Poll file: .\poll_files\94502073867_PollReport (7).csv ended.
+06/02/2021 19:49:41 Poll file: .\poll_files\94502073867_PollReport (8).csv is started to being parsed
+06/02/2021 19:49:42 Parsing of Poll file: .\poll_files\94502073867_PollReport (8).csv ended.
+06/02/2021 19:49:42 Poll file: .\poll_files\94502073867_PollReport (9).csv is started to being parsed
+06/02/2021 19:49:42 Parsing of Poll file: .\poll_files\94502073867_PollReport (9).csv ended.
+06/02/2021 19:49:42 Poll file: .\poll_files\94502073867_PollReport_18-01-2021.csv is started to being parsed
+06/02/2021 19:49:42 Parsing of Poll file: .\poll_files\94502073867_PollReport_18-01-2021.csv ended.
+06/02/2021 19:49:42 Poll file: .\poll_files\94502073867_PollReport_19-10-2020.csv is started to being parsed
+06/02/2021 19:49:43 Parsing of Poll file: .\poll_files\94502073867_PollReport_19-10-2020.csv ended.
+06/02/2021 19:49:43 Poll file: .\poll_files\94502073867_PollReport_26-10-2020.csv is started to being parsed
+06/02/2021 19:49:47 Parsing of Poll file: .\poll_files\94502073867_PollReport_26-10-2020.csv ended.
+06/02/2021 19:49:47 Poll file: .\poll_files\97056655049_PollReport (1).csv is started to being parsed
+06/02/2021 19:49:47 Parsing of Poll file: .\poll_files\97056655049_PollReport (1).csv ended.
+06/02/2021 19:49:47 Poll file: .\poll_files\97056655049_PollReport (10).csv is started to being parsed
+06/02/2021 19:49:47 Parsing of Poll file: .\poll_files\97056655049_PollReport (10).csv ended.
+06/02/2021 19:49:47 Poll file: .\poll_files\97056655049_PollReport (15).csv is started to being parsed
+06/02/2021 19:49:47 Parsing of Poll file: .\poll_files\97056655049_PollReport (15).csv ended.
+06/02/2021 19:49:47 Poll file: .\poll_files\97056655049_PollReport (16).csv is started to being parsed
+06/02/2021 19:49:47 Parsing of Poll file: .\poll_files\97056655049_PollReport (16).csv ended.
+06/02/2021 19:49:47 Poll file: .\poll_files\97056655049_PollReport (23).csv is started to being parsed
+06/02/2021 19:49:55 Parsing of Poll file: .\poll_files\97056655049_PollReport (23).csv ended.
+06/02/2021 19:49:55 Poll file: .\poll_files\97056655049_PollReport (27).csv is started to being parsed
+06/02/2021 19:50:05 Parsing of Poll file: .\poll_files\97056655049_PollReport (27).csv ended.
+06/02/2021 19:50:05 Poll file: .\poll_files\97056655049_PollReport (28).csv is started to being parsed
+06/02/2021 19:50:05 Parsing of Poll file: .\poll_files\97056655049_PollReport (28).csv ended.
+06/02/2021 19:50:05 Poll file: .\poll_files\97056655049_PollReport (3).csv is started to being parsed
+06/02/2021 19:50:05 Parsing of Poll file: .\poll_files\97056655049_PollReport (3).csv ended.
+06/02/2021 19:50:05 Poll file: .\poll_files\97056655049_PollReport (4).csv is started to being parsed
+06/02/2021 19:50:05 Parsing of Poll file: .\poll_files\97056655049_PollReport (4).csv ended.
+06/02/2021 19:50:05 Poll file: .\poll_files\97056655049_PollReport (6).csv is started to being parsed
+06/02/2021 19:50:06 Parsing of Poll file: .\poll_files\97056655049_PollReport (6).csv ended.
+06/02/2021 19:50:06 Poll file: .\poll_files\97056655049_PollReport_12-01-2021.csv is started to being parsed
+06/02/2021 19:50:06 Parsing of Poll file: .\poll_files\97056655049_PollReport_12-01-2021.csv ended.
+06/02/2021 19:50:06 Poll file: .\poll_files\97056655049_PollReport_20-10-2020.csv is started to being parsed
+06/02/2021 19:50:06 Parsing of Poll file: .\poll_files\97056655049_PollReport_20-10-2020.csv ended.
+06/02/2021 19:50:06 Looking up for anomalies...
+06/02/2021 19:50:06 Anomaly detection ended!
+06/02/2021 19:50:06 Poll Statistics are being calculated...
+06/02/2021 19:50:42 Poll Statistics have been calculated.
+06/02/2021 19:50:42 Poll Statistics  is being generated...
+06/02/2021 19:50:42 CSE3063 OOSD Weekly Session 1 - Monday_3_stats.xlsx file has been generated in 'poll_statistics' directory
+06/02/2021 19:50:42 CSE3063 OOSD Weekly Session 1 - Monday_4_stats.xlsx file has been generated in 'poll_statistics' directory
+06/02/2021 19:50:42 CSE3063 OOSD Weekly Session 1 - Monday_5_stats.xlsx file has been generated in 'poll_statistics' directory
+06/02/2021 19:50:43 CSE3063 OOSD Weekly Session 1 - Monday_6_stats.xlsx file has been generated in 'poll_statistics' directory
+06/02/2021 19:50:43 CSE3063 OOSD Weekly Session 1 - Monday_8_stats.xlsx file has been generated in 'poll_statistics' directory
+06/02/2021 19:50:43 CSE3063 OOSD Weekly Session 1 - Monday_9_stats.xlsx file has been generated in 'poll_statistics' directory
+06/02/2021 19:50:43 CSE3063 OOSD Weekly Session 1 - Monday_11_stats.xlsx file has been generated in 'poll_statistics' directory
+06/02/2021 19:50:44 CSE3063 OOSD Weekly Session 2 - Tuesday_3_stats.xlsx file has been generated in 'poll_statistics' directory
+06/02/2021 19:50:44 CSE3063 OOSD Weekly Session 1 - Monday_1_stats.xlsx file has been generated in 'poll_statistics' directory
+06/02/2021 19:50:44 CSE3063 OOSD Weekly Session 1 - Monday_2_stats.xlsx file has been generated in 'poll_statistics' directory
+06/02/2021 19:50:44 CSE3063 OOSD Weekly Session 1 - Monday_7_stats.xlsx file has been generated in 'poll_statistics' directory
+06/02/2021 19:50:45 CSE3063 OOSD Weekly Session 2 - Tuesday_1_stats.xlsx file has been generated in 'poll_statistics' directory
+06/02/2021 19:50:45 CSE3063 OOSD Weekly Session 2 - Tuesday_2_stats.xlsx file has been generated in 'poll_statistics' directory
+06/02/2021 19:50:45 CSE3063 OOSD Weekly Session 1 - Monday_10_stats.xlsx file has been generated in 'poll_statistics' directory
+06/02/2021 19:50:45 Attendence report is being generated...
+06/02/2021 19:50:45 Attendence report have been generated in 'attendence_results' directory.
+06/02/2021 19:50:45 Poll Results  is being generated...
+06/02/2021 19:50:45 CSE3063 OOSD Weekly Session 1 - Monday_3_result.xlsx file has been generated in 'poll_results' directory
+06/02/2021 19:50:45 CSE3063 OOSD Weekly Session 1 - Monday_4_result.xlsx file has been generated in 'poll_results' directory
+06/02/2021 19:50:45 CSE3063 OOSD Weekly Session 1 - Monday_5_result.xlsx file has been generated in 'poll_results' directory
+06/02/2021 19:50:45 CSE3063 OOSD Weekly Session 1 - Monday_6_result.xlsx file has been generated in 'poll_results' directory
+06/02/2021 19:50:45 CSE3063 OOSD Weekly Session 1 - Monday_8_result.xlsx file has been generated in 'poll_results' directory
+06/02/2021 19:50:46 CSE3063 OOSD Weekly Session 1 - Monday_9_result.xlsx file has been generated in 'poll_results' directory
+06/02/2021 19:50:46 CSE3063 OOSD Weekly Session 1 - Monday_11_result.xlsx file has been generated in 'poll_results' directory
+06/02/2021 19:50:46 CSE3063 OOSD Weekly Session 2 - Tuesday_3_result.xlsx file has been generated in 'poll_results' directory
+06/02/2021 19:50:46 CSE3063 OOSD Weekly Session 1 - Monday_1_result.xlsx file has been generated in 'poll_results' directory
+06/02/2021 19:50:46 CSE3063 OOSD Weekly Session 1 - Monday_2_result.xlsx file has been generated in 'poll_results' directory
+06/02/2021 19:50:46 CSE3063 OOSD Weekly Session 1 - Monday_7_result.xlsx file has been generated in 'poll_results' directory
+06/02/2021 19:50:46 CSE3063 OOSD Weekly Session 2 - Tuesday_1_result.xlsx file has been generated in 'poll_results' directory
+06/02/2021 19:50:46 CSE3063 OOSD Weekly Session 2 - Tuesday_2_result.xlsx file has been generated in 'poll_results' directory
+06/02/2021 19:50:46 CSE3063 OOSD Weekly Session 1 - Monday_10_result.xlsx file has been generated in 'poll_results' directory
+06/02/2021 19:50:46 Total Success Percentages.xlsx file is being generated...
+06/02/2021 19:50:46 Total Success Percentages.xlsx file has been generated in 'poll_results' directory
+06/02/2021 19:50:46 Process finished!!!
+06/02/2021 19:51:40 System started!
+06/02/2021 19:51:40 Parsing Student List started : ./poll_files/studentList.XLS started
+06/02/2021 19:51:40 Parsing Student List : ./poll_files/studentList.XLS finished
+06/02/2021 19:51:40 Answer Sheets: ['.\\poll_answers\\CSE3063 OOSD Weekly Session 1 - Monday Quizzes ANSWER KEY.txt', '.\\poll_answers\\CSE3063 OOSD Weekly Session 2 - Tuesday Quizzes ANSWER KEY.txt'] are started to being parsed
+06/02/2021 19:51:40 Answer Sheets have been parsed.
+06/02/2021 19:51:40 Poll file: .\poll_files\94502073867_PollReport (1).csv is started to being parsed
+06/02/2021 19:51:40 Parsing of Poll file: .\poll_files\94502073867_PollReport (1).csv ended.
+06/02/2021 19:51:40 Poll file: .\poll_files\94502073867_PollReport (12).csv is started to being parsed
+06/02/2021 19:51:40 Parsing of Poll file: .\poll_files\94502073867_PollReport (12).csv ended.
+06/02/2021 19:51:40 Poll file: .\poll_files\94502073867_PollReport (14).csv is started to being parsed
+06/02/2021 19:51:41 Parsing of Poll file: .\poll_files\94502073867_PollReport (14).csv ended.
+06/02/2021 19:51:41 Poll file: .\poll_files\94502073867_PollReport (16).csv is started to being parsed
+06/02/2021 19:51:45 Parsing of Poll file: .\poll_files\94502073867_PollReport (16).csv ended.
+06/02/2021 19:51:45 Poll file: .\poll_files\94502073867_PollReport (17).csv is started to being parsed
+06/02/2021 19:51:51 Parsing of Poll file: .\poll_files\94502073867_PollReport (17).csv ended.
+06/02/2021 19:51:51 Poll file: .\poll_files\94502073867_PollReport (20).csv is started to being parsed
+06/02/2021 19:52:01 Parsing of Poll file: .\poll_files\94502073867_PollReport (20).csv ended.
+06/02/2021 19:52:01 Poll file: .\poll_files\94502073867_PollReport (21).csv is started to being parsed
+06/02/2021 19:52:10 Parsing of Poll file: .\poll_files\94502073867_PollReport (21).csv ended.
+06/02/2021 19:52:10 Poll file: .\poll_files\94502073867_PollReport (22).csv is started to being parsed
+06/02/2021 19:52:16 Parsing of Poll file: .\poll_files\94502073867_PollReport (22).csv ended.
+06/02/2021 19:52:16 Poll file: .\poll_files\94502073867_PollReport (3).csv is started to being parsed
+06/02/2021 19:52:16 Parsing of Poll file: .\poll_files\94502073867_PollReport (3).csv ended.
+06/02/2021 19:52:16 Poll file: .\poll_files\94502073867_PollReport (5).csv is started to being parsed
+06/02/2021 19:52:16 Parsing of Poll file: .\poll_files\94502073867_PollReport (5).csv ended.
+06/02/2021 19:52:16 Poll file: .\poll_files\94502073867_PollReport (7).csv is started to being parsed
+06/02/2021 19:52:16 Parsing of Poll file: .\poll_files\94502073867_PollReport (7).csv ended.
+06/02/2021 19:52:16 Poll file: .\poll_files\94502073867_PollReport (8).csv is started to being parsed
+06/02/2021 19:52:17 Parsing of Poll file: .\poll_files\94502073867_PollReport (8).csv ended.
+06/02/2021 19:52:17 Poll file: .\poll_files\94502073867_PollReport (9).csv is started to being parsed
+06/02/2021 19:52:17 Parsing of Poll file: .\poll_files\94502073867_PollReport (9).csv ended.
+06/02/2021 19:52:17 Poll file: .\poll_files\94502073867_PollReport_18-01-2021.csv is started to being parsed
+06/02/2021 19:52:17 Parsing of Poll file: .\poll_files\94502073867_PollReport_18-01-2021.csv ended.
+06/02/2021 19:52:17 Poll file: .\poll_files\94502073867_PollReport_19-10-2020.csv is started to being parsed
+06/02/2021 19:52:19 Parsing of Poll file: .\poll_files\94502073867_PollReport_19-10-2020.csv ended.
+06/02/2021 19:52:19 Poll file: .\poll_files\94502073867_PollReport_26-10-2020.csv is started to being parsed
+06/02/2021 19:52:22 Parsing of Poll file: .\poll_files\94502073867_PollReport_26-10-2020.csv ended.
+06/02/2021 19:52:22 Poll file: .\poll_files\97056655049_PollReport (1).csv is started to being parsed
+06/02/2021 19:52:22 Parsing of Poll file: .\poll_files\97056655049_PollReport (1).csv ended.
+06/02/2021 19:52:22 Poll file: .\poll_files\97056655049_PollReport (10).csv is started to being parsed
+06/02/2021 19:52:23 Parsing of Poll file: .\poll_files\97056655049_PollReport (10).csv ended.
+06/02/2021 19:52:23 Poll file: .\poll_files\97056655049_PollReport (15).csv is started to being parsed
+06/02/2021 19:52:23 Parsing of Poll file: .\poll_files\97056655049_PollReport (15).csv ended.
+06/02/2021 19:52:23 Poll file: .\poll_files\97056655049_PollReport (16).csv is started to being parsed
+06/02/2021 19:52:23 Parsing of Poll file: .\poll_files\97056655049_PollReport (16).csv ended.
+06/02/2021 19:52:23 Poll file: .\poll_files\97056655049_PollReport (23).csv is started to being parsed
+06/02/2021 19:52:32 Parsing of Poll file: .\poll_files\97056655049_PollReport (23).csv ended.
+06/02/2021 19:52:32 Poll file: .\poll_files\97056655049_PollReport (27).csv is started to being parsed
+06/02/2021 19:52:41 Parsing of Poll file: .\poll_files\97056655049_PollReport (27).csv ended.
+06/02/2021 19:52:41 Poll file: .\poll_files\97056655049_PollReport (28).csv is started to being parsed
+06/02/2021 19:52:42 Parsing of Poll file: .\poll_files\97056655049_PollReport (28).csv ended.
+06/02/2021 19:52:42 Poll file: .\poll_files\97056655049_PollReport (3).csv is started to being parsed
+06/02/2021 19:52:42 Parsing of Poll file: .\poll_files\97056655049_PollReport (3).csv ended.
+06/02/2021 19:52:42 Poll file: .\poll_files\97056655049_PollReport (4).csv is started to being parsed
+06/02/2021 19:52:42 Parsing of Poll file: .\poll_files\97056655049_PollReport (4).csv ended.
+06/02/2021 19:52:42 Poll file: .\poll_files\97056655049_PollReport (6).csv is started to being parsed
+06/02/2021 19:52:42 Parsing of Poll file: .\poll_files\97056655049_PollReport (6).csv ended.
+06/02/2021 19:52:42 Poll file: .\poll_files\97056655049_PollReport_12-01-2021.csv is started to being parsed
+06/02/2021 19:52:43 Parsing of Poll file: .\poll_files\97056655049_PollReport_12-01-2021.csv ended.
+06/02/2021 19:52:43 Poll file: .\poll_files\97056655049_PollReport_20-10-2020.csv is started to being parsed
+06/02/2021 19:52:43 Parsing of Poll file: .\poll_files\97056655049_PollReport_20-10-2020.csv ended.
+06/02/2021 19:52:43 Looking up for anomalies...
+06/02/2021 19:52:43 Anomaly detection ended!
+06/02/2021 19:52:43 Poll Statistics are being calculated...
+06/02/2021 19:53:20 Poll Statistics have been calculated.
+06/02/2021 19:53:20 Poll Statistics  is being generated...
+06/02/2021 19:53:20 CSE3063 OOSD Weekly Session 1 - Monday_3_stats.xlsx file has been generated in 'poll_statistics' directory
+06/02/2021 19:53:20 CSE3063 OOSD Weekly Session 1 - Monday_4_stats.xlsx file has been generated in 'poll_statistics' directory
+06/02/2021 19:53:20 CSE3063 OOSD Weekly Session 1 - Monday_5_stats.xlsx file has been generated in 'poll_statistics' directory
+06/02/2021 19:53:21 CSE3063 OOSD Weekly Session 1 - Monday_6_stats.xlsx file has been generated in 'poll_statistics' directory
+06/02/2021 19:53:21 CSE3063 OOSD Weekly Session 1 - Monday_8_stats.xlsx file has been generated in 'poll_statistics' directory
+06/02/2021 19:53:21 CSE3063 OOSD Weekly Session 1 - Monday_9_stats.xlsx file has been generated in 'poll_statistics' directory
+06/02/2021 19:53:22 CSE3063 OOSD Weekly Session 1 - Monday_11_stats.xlsx file has been generated in 'poll_statistics' directory
+06/02/2021 19:53:22 CSE3063 OOSD Weekly Session 2 - Tuesday_3_stats.xlsx file has been generated in 'poll_statistics' directory
+06/02/2021 19:53:22 CSE3063 OOSD Weekly Session 1 - Monday_1_stats.xlsx file has been generated in 'poll_statistics' directory
+06/02/2021 19:53:22 CSE3063 OOSD Weekly Session 1 - Monday_2_stats.xlsx file has been generated in 'poll_statistics' directory
+06/02/2021 19:53:23 CSE3063 OOSD Weekly Session 1 - Monday_7_stats.xlsx file has been generated in 'poll_statistics' directory
+06/02/2021 19:53:23 CSE3063 OOSD Weekly Session 2 - Tuesday_1_stats.xlsx file has been generated in 'poll_statistics' directory
+06/02/2021 19:53:23 CSE3063 OOSD Weekly Session 2 - Tuesday_2_stats.xlsx file has been generated in 'poll_statistics' directory
+06/02/2021 19:53:23 CSE3063 OOSD Weekly Session 1 - Monday_10_stats.xlsx file has been generated in 'poll_statistics' directory
+06/02/2021 19:53:23 Attendence report is being generated...
+06/02/2021 19:53:23 Attendence report have been generated in 'attendence_results' directory.
+06/02/2021 19:53:23 Poll Results  is being generated...
+06/02/2021 19:53:23 CSE3063 OOSD Weekly Session 1 - Monday_3_result.xlsx file has been generated in 'poll_results' directory
+06/02/2021 19:53:24 CSE3063 OOSD Weekly Session 1 - Monday_4_result.xlsx file has been generated in 'poll_results' directory
+06/02/2021 19:53:24 CSE3063 OOSD Weekly Session 1 - Monday_5_result.xlsx file has been generated in 'poll_results' directory
+06/02/2021 19:53:24 CSE3063 OOSD Weekly Session 1 - Monday_6_result.xlsx file has been generated in 'poll_results' directory
+06/02/2021 19:53:24 CSE3063 OOSD Weekly Session 1 - Monday_8_result.xlsx file has been generated in 'poll_results' directory
+06/02/2021 19:53:24 CSE3063 OOSD Weekly Session 1 - Monday_9_result.xlsx file has been generated in 'poll_results' directory
+06/02/2021 19:53:24 CSE3063 OOSD Weekly Session 1 - Monday_11_result.xlsx file has been generated in 'poll_results' directory
+06/02/2021 19:53:24 CSE3063 OOSD Weekly Session 2 - Tuesday_3_result.xlsx file has been generated in 'poll_results' directory
+06/02/2021 19:53:24 CSE3063 OOSD Weekly Session 1 - Monday_1_result.xlsx file has been generated in 'poll_results' directory
+06/02/2021 19:53:24 CSE3063 OOSD Weekly Session 1 - Monday_2_result.xlsx file has been generated in 'poll_results' directory
+06/02/2021 19:53:24 CSE3063 OOSD Weekly Session 1 - Monday_7_result.xlsx file has been generated in 'poll_results' directory
+06/02/2021 19:53:24 CSE3063 OOSD Weekly Session 2 - Tuesday_1_result.xlsx file has been generated in 'poll_results' directory
+06/02/2021 19:53:24 CSE3063 OOSD Weekly Session 2 - Tuesday_2_result.xlsx file has been generated in 'poll_results' directory
+06/02/2021 19:53:24 CSE3063 OOSD Weekly Session 1 - Monday_10_result.xlsx file has been generated in 'poll_results' directory
+06/02/2021 19:53:24 Total Success Percentages.xlsx file is being generated...
+06/02/2021 19:53:25 Total Success Percentages.xlsx file has been generated in 'poll_results' directory
+06/02/2021 19:53:25 Process finished!!!
+06/02/2021 20:01:26 System started!
+06/02/2021 20:01:26 Parsing Student List started : ./poll_files/studentList.XLS started
+06/02/2021 20:01:26 Parsing Student List : ./poll_files/studentList.XLS finished
+06/02/2021 20:01:26 Answer Sheets: ['.\\poll_answers\\CSE3063 OOSD Weekly Session 1 - Monday Quizzes ANSWER KEY.txt', '.\\poll_answers\\CSE3063 OOSD Weekly Session 2 - Tuesday Quizzes ANSWER KEY.txt'] are  being parsed
+06/02/2021 20:01:26 Answer Sheets have been parsed.
+06/02/2021 20:01:26 Poll file: .\poll_files\94502073867_PollReport (1).csv is being parsed
+06/02/2021 20:01:27 Parsing of Poll file: .\poll_files\94502073867_PollReport (1).csv ended.
+06/02/2021 20:01:27 Poll file: .\poll_files\94502073867_PollReport (12).csv is being parsed
+06/02/2021 20:01:27 Parsing of Poll file: .\poll_files\94502073867_PollReport (12).csv ended.
+06/02/2021 20:01:27 Poll file: .\poll_files\94502073867_PollReport (14).csv is being parsed
+06/02/2021 20:01:27 Parsing of Poll file: .\poll_files\94502073867_PollReport (14).csv ended.
+06/02/2021 20:01:27 Poll file: .\poll_files\94502073867_PollReport (16).csv is being parsed
+06/02/2021 20:01:36 Parsing of Poll file: .\poll_files\94502073867_PollReport (16).csv ended.
+06/02/2021 20:01:36 Poll file: .\poll_files\94502073867_PollReport (17).csv is being parsed
+06/02/2021 20:01:46 Parsing of Poll file: .\poll_files\94502073867_PollReport (17).csv ended.
+06/02/2021 20:01:46 Poll file: .\poll_files\94502073867_PollReport (20).csv is being parsed
+06/02/2021 20:02:02 Parsing of Poll file: .\poll_files\94502073867_PollReport (20).csv ended.
+06/02/2021 20:02:02 Poll file: .\poll_files\94502073867_PollReport (21).csv is being parsed
+06/02/2021 20:02:19 Parsing of Poll file: .\poll_files\94502073867_PollReport (21).csv ended.
+06/02/2021 20:02:19 Poll file: .\poll_files\94502073867_PollReport (22).csv is being parsed
+06/02/2021 20:02:29 Parsing of Poll file: .\poll_files\94502073867_PollReport (22).csv ended.
+06/02/2021 20:02:29 Poll file: .\poll_files\94502073867_PollReport (3).csv is being parsed
+06/02/2021 20:02:29 Parsing of Poll file: .\poll_files\94502073867_PollReport (3).csv ended.
+06/02/2021 20:02:29 Poll file: .\poll_files\94502073867_PollReport (5).csv is being parsed
+06/02/2021 20:02:30 Parsing of Poll file: .\poll_files\94502073867_PollReport (5).csv ended.
+06/02/2021 20:02:30 Poll file: .\poll_files\94502073867_PollReport (7).csv is being parsed
+06/02/2021 20:02:30 Parsing of Poll file: .\poll_files\94502073867_PollReport (7).csv ended.
+06/02/2021 20:02:30 Poll file: .\poll_files\94502073867_PollReport (8).csv is being parsed
+06/02/2021 20:02:31 Parsing of Poll file: .\poll_files\94502073867_PollReport (8).csv ended.
+06/02/2021 20:02:31 Poll file: .\poll_files\94502073867_PollReport (9).csv is being parsed
+06/02/2021 20:02:31 Parsing of Poll file: .\poll_files\94502073867_PollReport (9).csv ended.
+06/02/2021 20:02:31 Poll file: .\poll_files\94502073867_PollReport_18-01-2021.csv is being parsed
+06/02/2021 20:02:32 Parsing of Poll file: .\poll_files\94502073867_PollReport_18-01-2021.csv ended.
+06/02/2021 20:02:32 Poll file: .\poll_files\94502073867_PollReport_19-10-2020.csv is being parsed
+06/02/2021 20:02:34 Parsing of Poll file: .\poll_files\94502073867_PollReport_19-10-2020.csv ended.
+06/02/2021 20:02:34 Poll file: .\poll_files\94502073867_PollReport_26-10-2020.csv is being parsed
+06/02/2021 20:02:40 Parsing of Poll file: .\poll_files\94502073867_PollReport_26-10-2020.csv ended.
+06/02/2021 20:02:40 Poll file: .\poll_files\97056655049_PollReport (1).csv is being parsed
+06/02/2021 20:02:41 Parsing of Poll file: .\poll_files\97056655049_PollReport (1).csv ended.
+06/02/2021 20:02:41 Poll file: .\poll_files\97056655049_PollReport (10).csv is being parsed
+06/02/2021 20:02:41 Parsing of Poll file: .\poll_files\97056655049_PollReport (10).csv ended.
+06/02/2021 20:02:41 Poll file: .\poll_files\97056655049_PollReport (15).csv is being parsed
+06/02/2021 20:02:42 Parsing of Poll file: .\poll_files\97056655049_PollReport (15).csv ended.
+06/02/2021 20:02:42 Poll file: .\poll_files\97056655049_PollReport (16).csv is being parsed
+06/02/2021 20:02:42 Parsing of Poll file: .\poll_files\97056655049_PollReport (16).csv ended.
+06/02/2021 20:02:42 Poll file: .\poll_files\97056655049_PollReport (23).csv is being parsed
+06/02/2021 20:02:56 Parsing of Poll file: .\poll_files\97056655049_PollReport (23).csv ended.
+06/02/2021 20:02:56 Poll file: .\poll_files\97056655049_PollReport (27).csv is being parsed
+06/02/2021 20:03:13 Parsing of Poll file: .\poll_files\97056655049_PollReport (27).csv ended.
+06/02/2021 20:03:13 Poll file: .\poll_files\97056655049_PollReport (28).csv is being parsed
+06/02/2021 20:03:13 Parsing of Poll file: .\poll_files\97056655049_PollReport (28).csv ended.
+06/02/2021 20:03:13 Poll file: .\poll_files\97056655049_PollReport (3).csv is being parsed
+06/02/2021 20:03:14 Parsing of Poll file: .\poll_files\97056655049_PollReport (3).csv ended.
+06/02/2021 20:03:14 Poll file: .\poll_files\97056655049_PollReport (4).csv is being parsed
+06/02/2021 20:03:14 Parsing of Poll file: .\poll_files\97056655049_PollReport (4).csv ended.
+06/02/2021 20:03:14 Poll file: .\poll_files\97056655049_PollReport (6).csv is being parsed
+06/02/2021 20:03:15 Parsing of Poll file: .\poll_files\97056655049_PollReport (6).csv ended.
+06/02/2021 20:03:15 Poll file: .\poll_files\97056655049_PollReport_12-01-2021.csv is being parsed
+06/02/2021 20:03:15 Parsing of Poll file: .\poll_files\97056655049_PollReport_12-01-2021.csv ended.
+06/02/2021 20:03:15 Poll file: .\poll_files\97056655049_PollReport_20-10-2020.csv is being parsed
+06/02/2021 20:03:16 Parsing of Poll file: .\poll_files\97056655049_PollReport_20-10-2020.csv ended.
+06/02/2021 20:03:16 Looking up for anomalies...
+06/02/2021 20:03:16 Anomaly detection ended!
+06/02/2021 20:03:16 Poll Statistics are being calculated...
+06/02/2021 20:04:22 Poll Statistics have been calculated.
+06/02/2021 20:04:22 Poll Statistics  is being generated...
+06/02/2021 20:04:22 CSE3063 OOSD Weekly Session 1 - Monday_3_stats.xlsx file has been generated in 'poll_statistics' directory
+06/02/2021 20:04:23 CSE3063 OOSD Weekly Session 1 - Monday_4_stats.xlsx file has been generated in 'poll_statistics' directory
+06/02/2021 20:04:23 CSE3063 OOSD Weekly Session 1 - Monday_5_stats.xlsx file has been generated in 'poll_statistics' directory
+06/02/2021 20:04:24 CSE3063 OOSD Weekly Session 1 - Monday_6_stats.xlsx file has been generated in 'poll_statistics' directory
+06/02/2021 20:04:24 CSE3063 OOSD Weekly Session 1 - Monday_8_stats.xlsx file has been generated in 'poll_statistics' directory
+06/02/2021 20:04:25 CSE3063 OOSD Weekly Session 1 - Monday_9_stats.xlsx file has been generated in 'poll_statistics' directory
+06/02/2021 20:04:26 CSE3063 OOSD Weekly Session 1 - Monday_11_stats.xlsx file has been generated in 'poll_statistics' directory
+06/02/2021 20:04:26 CSE3063 OOSD Weekly Session 2 - Tuesday_3_stats.xlsx file has been generated in 'poll_statistics' directory
+06/02/2021 20:04:27 CSE3063 OOSD Weekly Session 1 - Monday_1_stats.xlsx file has been generated in 'poll_statistics' directory
+06/02/2021 20:04:27 CSE3063 OOSD Weekly Session 1 - Monday_2_stats.xlsx file has been generated in 'poll_statistics' directory
+06/02/2021 20:04:28 CSE3063 OOSD Weekly Session 1 - Monday_7_stats.xlsx file has been generated in 'poll_statistics' directory
+06/02/2021 20:04:28 CSE3063 OOSD Weekly Session 2 - Tuesday_1_stats.xlsx file has been generated in 'poll_statistics' directory
+06/02/2021 20:04:29 CSE3063 OOSD Weekly Session 2 - Tuesday_2_stats.xlsx file has been generated in 'poll_statistics' directory
+06/02/2021 20:04:29 CSE3063 OOSD Weekly Session 1 - Monday_10_stats.xlsx file has been generated in 'poll_statistics' directory
+06/02/2021 20:05:02 Attendence report is being generated...
+06/02/2021 20:05:36 Attendence report have been generated in 'attendence_results' directory.
+06/02/2021 20:13:24 System started!
+06/02/2021 20:13:25 Parsing Student List started : ./poll_files/studentList.XLS started
+06/02/2021 20:13:25 Parsing Student List : ./poll_files/studentList.XLS finished
+06/02/2021 20:13:25 Answer Sheets: ['.\\poll_answers\\CSE3063 OOSD Weekly Session 1 - Monday Quizzes ANSWER KEY.txt', '.\\poll_answers\\CSE3063 OOSD Weekly Session 2 - Tuesday Quizzes ANSWER KEY.txt'] are  being parsed
+06/02/2021 20:13:25 Answer Sheets have been parsed.
+06/02/2021 20:13:25 Poll file: .\poll_files\94502073867_PollReport (1).csv is being parsed
+06/02/2021 20:13:25 Parsing of Poll file: .\poll_files\94502073867_PollReport (1).csv ended.
+06/02/2021 20:13:25 Poll file: .\poll_files\94502073867_PollReport (12).csv is being parsed
+06/02/2021 20:13:25 Parsing of Poll file: .\poll_files\94502073867_PollReport (12).csv ended.
+06/02/2021 20:13:25 Poll file: .\poll_files\94502073867_PollReport (14).csv is being parsed
+06/02/2021 20:13:26 Parsing of Poll file: .\poll_files\94502073867_PollReport (14).csv ended.
+06/02/2021 20:13:26 Poll file: .\poll_files\94502073867_PollReport (16).csv is being parsed
+06/02/2021 20:13:31 Parsing of Poll file: .\poll_files\94502073867_PollReport (16).csv ended.
+06/02/2021 20:13:31 Poll file: .\poll_files\94502073867_PollReport (17).csv is being parsed
+06/02/2021 20:14:56 System started!
+06/02/2021 20:14:57 Parsing Student List started : ./poll_files/studentList.XLS started
+06/02/2021 20:14:57 Parsing Student List : ./poll_files/studentList.XLS finished
+06/02/2021 20:14:57 Answer Sheets: ['.\\poll_answers\\CSE3063 OOSD Weekly Session 1 - Monday Quizzes ANSWER KEY.txt', '.\\poll_answers\\CSE3063 OOSD Weekly Session 2 - Tuesday Quizzes ANSWER KEY.txt'] are  being parsed
+06/02/2021 20:14:57 Answer Sheets have been parsed.
+06/02/2021 20:14:57 Poll file: .\poll_files\94502073867_PollReport (1).csv is being parsed
+06/02/2021 20:14:57 Parsing of Poll file: .\poll_files\94502073867_PollReport (1).csv ended.
+06/02/2021 20:14:57 Poll file: .\poll_files\94502073867_PollReport (12).csv is being parsed
+06/02/2021 20:14:58 Parsing of Poll file: .\poll_files\94502073867_PollReport (12).csv ended.
+06/02/2021 20:14:58 Poll file: .\poll_files\94502073867_PollReport (14).csv is being parsed
+06/02/2021 20:14:58 Parsing of Poll file: .\poll_files\94502073867_PollReport (14).csv ended.
+06/02/2021 20:14:58 Poll file: .\poll_files\94502073867_PollReport (16).csv is being parsed
+06/02/2021 20:15:03 Parsing of Poll file: .\poll_files\94502073867_PollReport (16).csv ended.
+06/02/2021 20:15:03 Poll file: .\poll_files\94502073867_PollReport (17).csv is being parsed
+06/02/2021 20:15:08 Parsing of Poll file: .\poll_files\94502073867_PollReport (17).csv ended.
+06/02/2021 20:15:08 Poll file: .\poll_files\94502073867_PollReport (20).csv is being parsed
+06/02/2021 20:15:18 Parsing of Poll file: .\poll_files\94502073867_PollReport (20).csv ended.
+06/02/2021 20:15:18 Poll file: .\poll_files\94502073867_PollReport (21).csv is being parsed
+06/02/2021 20:15:26 Parsing of Poll file: .\poll_files\94502073867_PollReport (21).csv ended.
+06/02/2021 20:15:26 Poll file: .\poll_files\94502073867_PollReport (22).csv is being parsed
+06/02/2021 20:15:31 Parsing of Poll file: .\poll_files\94502073867_PollReport (22).csv ended.
+06/02/2021 20:15:31 Poll file: .\poll_files\94502073867_PollReport (3).csv is being parsed
+06/02/2021 20:15:32 Parsing of Poll file: .\poll_files\94502073867_PollReport (3).csv ended.
+06/02/2021 20:15:32 Poll file: .\poll_files\94502073867_PollReport (5).csv is being parsed
+06/02/2021 20:15:32 Parsing of Poll file: .\poll_files\94502073867_PollReport (5).csv ended.
+06/02/2021 20:15:32 Poll file: .\poll_files\94502073867_PollReport (7).csv is being parsed
+06/02/2021 20:15:32 Parsing of Poll file: .\poll_files\94502073867_PollReport (7).csv ended.
+06/02/2021 20:15:32 Poll file: .\poll_files\94502073867_PollReport (8).csv is being parsed
+06/02/2021 20:15:32 Parsing of Poll file: .\poll_files\94502073867_PollReport (8).csv ended.
+06/02/2021 20:15:32 Poll file: .\poll_files\94502073867_PollReport (9).csv is being parsed
+06/02/2021 20:15:32 Parsing of Poll file: .\poll_files\94502073867_PollReport (9).csv ended.
+06/02/2021 20:15:32 Poll file: .\poll_files\94502073867_PollReport_18-01-2021.csv is being parsed
+06/02/2021 20:15:33 Parsing of Poll file: .\poll_files\94502073867_PollReport_18-01-2021.csv ended.
+06/02/2021 20:15:33 Poll file: .\poll_files\94502073867_PollReport_19-10-2020.csv is being parsed
+06/02/2021 20:15:34 Parsing of Poll file: .\poll_files\94502073867_PollReport_19-10-2020.csv ended.
+06/02/2021 20:15:34 Poll file: .\poll_files\94502073867_PollReport_26-10-2020.csv is being parsed
+06/02/2021 20:15:37 Parsing of Poll file: .\poll_files\94502073867_PollReport_26-10-2020.csv ended.
+06/02/2021 20:15:37 Poll file: .\poll_files\97056655049_PollReport (1).csv is being parsed
+06/02/2021 20:15:37 Parsing of Poll file: .\poll_files\97056655049_PollReport (1).csv ended.
+06/02/2021 20:15:37 Poll file: .\poll_files\97056655049_PollReport (10).csv is being parsed
+06/02/2021 20:15:38 Parsing of Poll file: .\poll_files\97056655049_PollReport (10).csv ended.
+06/02/2021 20:15:38 Poll file: .\poll_files\97056655049_PollReport (15).csv is being parsed
+06/02/2021 20:15:38 Parsing of Poll file: .\poll_files\97056655049_PollReport (15).csv ended.
+06/02/2021 20:15:38 Poll file: .\poll_files\97056655049_PollReport (16).csv is being parsed
+06/02/2021 20:15:38 Parsing of Poll file: .\poll_files\97056655049_PollReport (16).csv ended.
+06/02/2021 20:15:38 Poll file: .\poll_files\97056655049_PollReport (23).csv is being parsed
+06/02/2021 20:15:46 Parsing of Poll file: .\poll_files\97056655049_PollReport (23).csv ended.
+06/02/2021 20:15:46 Poll file: .\poll_files\97056655049_PollReport (27).csv is being parsed
+06/02/2021 20:15:55 Parsing of Poll file: .\poll_files\97056655049_PollReport (27).csv ended.
+06/02/2021 20:15:55 Poll file: .\poll_files\97056655049_PollReport (28).csv is being parsed
+06/02/2021 20:15:55 Parsing of Poll file: .\poll_files\97056655049_PollReport (28).csv ended.
+06/02/2021 20:15:55 Poll file: .\poll_files\97056655049_PollReport (3).csv is being parsed
+06/02/2021 20:15:55 Parsing of Poll file: .\poll_files\97056655049_PollReport (3).csv ended.
+06/02/2021 20:15:55 Poll file: .\poll_files\97056655049_PollReport (4).csv is being parsed
+06/02/2021 20:15:56 Parsing of Poll file: .\poll_files\97056655049_PollReport (4).csv ended.
+06/02/2021 20:15:56 Poll file: .\poll_files\97056655049_PollReport (6).csv is being parsed
+06/02/2021 20:15:56 Parsing of Poll file: .\poll_files\97056655049_PollReport (6).csv ended.
+06/02/2021 20:15:56 Poll file: .\poll_files\97056655049_PollReport_12-01-2021.csv is being parsed
+06/02/2021 20:15:56 Parsing of Poll file: .\poll_files\97056655049_PollReport_12-01-2021.csv ended.
+06/02/2021 20:15:56 Poll file: .\poll_files\97056655049_PollReport_20-10-2020.csv is being parsed
+06/02/2021 20:15:56 Parsing of Poll file: .\poll_files\97056655049_PollReport_20-10-2020.csv ended.
+06/02/2021 20:15:56 Looking up for anomalies...
+06/02/2021 20:15:56 Anomaly detection ended!
+06/02/2021 20:15:57 Poll Statistics are being calculated...
+06/02/2021 20:18:05 System started!
+06/02/2021 20:18:06 Parsing Student List started : ./poll_files/studentList.XLS started
+06/02/2021 20:18:06 Parsing Student List : ./poll_files/studentList.XLS finished
+06/02/2021 20:18:06 Answer Sheets: ['.\\poll_answers\\CSE3063 OOSD Weekly Session 1 - Monday Quizzes ANSWER KEY.txt', '.\\poll_answers\\CSE3063 OOSD Weekly Session 2 - Tuesday Quizzes ANSWER KEY.txt'] are  being parsed
+06/02/2021 20:18:07 Answer Sheets have been parsed.
+06/02/2021 20:18:08 Poll file: .\poll_files\94502073867_PollReport (1).csv is being parsed
+06/02/2021 20:18:08 Parsing of Poll file: .\poll_files\94502073867_PollReport (1).csv ended.
+06/02/2021 20:18:09 Poll file: .\poll_files\94502073867_PollReport (12).csv is being parsed
+06/02/2021 20:18:09 Parsing of Poll file: .\poll_files\94502073867_PollReport (12).csv ended.
+06/02/2021 20:18:10 Poll file: .\poll_files\94502073867_PollReport (14).csv is being parsed
+06/02/2021 20:18:10 Parsing of Poll file: .\poll_files\94502073867_PollReport (14).csv ended.
+06/02/2021 20:18:11 Poll file: .\poll_files\94502073867_PollReport (16).csv is being parsed
+06/02/2021 20:18:16 Parsing of Poll file: .\poll_files\94502073867_PollReport (16).csv ended.
+06/02/2021 20:18:17 Poll file: .\poll_files\94502073867_PollReport (17).csv is being parsed
+06/02/2021 20:18:23 Parsing of Poll file: .\poll_files\94502073867_PollReport (17).csv ended.
+06/02/2021 20:18:24 Poll file: .\poll_files\94502073867_PollReport (20).csv is being parsed
+06/02/2021 20:18:34 Parsing of Poll file: .\poll_files\94502073867_PollReport (20).csv ended.
+06/02/2021 20:18:35 Poll file: .\poll_files\94502073867_PollReport (21).csv is being parsed
+06/02/2021 20:18:43 Parsing of Poll file: .\poll_files\94502073867_PollReport (21).csv ended.
+06/02/2021 20:18:44 Poll file: .\poll_files\94502073867_PollReport (22).csv is being parsed
+06/02/2021 20:18:49 Parsing of Poll file: .\poll_files\94502073867_PollReport (22).csv ended.
+06/02/2021 20:18:50 Poll file: .\poll_files\94502073867_PollReport (3).csv is being parsed
+06/02/2021 20:18:50 Parsing of Poll file: .\poll_files\94502073867_PollReport (3).csv ended.
+06/02/2021 20:18:51 Poll file: .\poll_files\94502073867_PollReport (5).csv is being parsed
+06/02/2021 20:18:52 Parsing of Poll file: .\poll_files\94502073867_PollReport (5).csv ended.
+06/02/2021 20:18:53 Poll file: .\poll_files\94502073867_PollReport (7).csv is being parsed
+06/02/2021 20:18:53 Parsing of Poll file: .\poll_files\94502073867_PollReport (7).csv ended.
+06/02/2021 20:18:54 Poll file: .\poll_files\94502073867_PollReport (8).csv is being parsed
+06/02/2021 20:18:54 Parsing of Poll file: .\poll_files\94502073867_PollReport (8).csv ended.
+06/02/2021 20:18:55 Poll file: .\poll_files\94502073867_PollReport (9).csv is being parsed
+06/02/2021 20:18:55 Parsing of Poll file: .\poll_files\94502073867_PollReport (9).csv ended.
+06/02/2021 20:18:56 Poll file: .\poll_files\94502073867_PollReport_18-01-2021.csv is being parsed
+06/02/2021 20:18:56 Parsing of Poll file: .\poll_files\94502073867_PollReport_18-01-2021.csv ended.
+06/02/2021 20:18:57 Poll file: .\poll_files\94502073867_PollReport_19-10-2020.csv is being parsed
+06/02/2021 20:18:59 Parsing of Poll file: .\poll_files\94502073867_PollReport_19-10-2020.csv ended.
+06/02/2021 20:19:00 Poll file: .\poll_files\94502073867_PollReport_26-10-2020.csv is being parsed
+06/02/2021 20:19:03 Parsing of Poll file: .\poll_files\94502073867_PollReport_26-10-2020.csv ended.
+06/02/2021 20:19:04 Poll file: .\poll_files\97056655049_PollReport (1).csv is being parsed
+06/02/2021 20:19:04 Parsing of Poll file: .\poll_files\97056655049_PollReport (1).csv ended.
+06/02/2021 20:19:05 Poll file: .\poll_files\97056655049_PollReport (10).csv is being parsed
+06/02/2021 20:19:05 Parsing of Poll file: .\poll_files\97056655049_PollReport (10).csv ended.
+06/02/2021 20:19:06 Poll file: .\poll_files\97056655049_PollReport (15).csv is being parsed
+06/02/2021 20:19:07 Parsing of Poll file: .\poll_files\97056655049_PollReport (15).csv ended.
+06/02/2021 20:19:08 Poll file: .\poll_files\97056655049_PollReport (16).csv is being parsed
+06/02/2021 20:20:32 System started!
+06/02/2021 20:20:33 Parsing Student List started : ./poll_files/studentList.XLS started
+06/02/2021 20:20:33 Parsing Student List : ./poll_files/studentList.XLS finished
+06/02/2021 20:20:33 Answer Sheets: ['.\\poll_answers\\CSE3063 OOSD Weekly Session 1 - Monday Quizzes ANSWER KEY.txt', '.\\poll_answers\\CSE3063 OOSD Weekly Session 2 - Tuesday Quizzes ANSWER KEY.txt'] are  being parsed
+06/02/2021 20:20:33 Answer Sheets have been parsed.
+06/02/2021 20:20:34 Poll file: .\poll_files\94502073867_PollReport (1).csv is being parsed
+06/02/2021 20:20:35 Parsing of Poll file: .\poll_files\94502073867_PollReport (1).csv ended.
+06/02/2021 20:20:36 Poll file: .\poll_files\94502073867_PollReport (12).csv is being parsed
+06/02/2021 20:20:36 Parsing of Poll file: .\poll_files\94502073867_PollReport (12).csv ended.
+06/02/2021 20:20:37 Poll file: .\poll_files\94502073867_PollReport (14).csv is being parsed
+06/02/2021 20:20:37 Parsing of Poll file: .\poll_files\94502073867_PollReport (14).csv ended.
+06/02/2021 20:20:38 Poll file: .\poll_files\94502073867_PollReport (16).csv is being parsed
+06/02/2021 20:20:43 Parsing of Poll file: .\poll_files\94502073867_PollReport (16).csv ended.
+06/02/2021 20:20:44 Poll file: .\poll_files\94502073867_PollReport (17).csv is being parsed
+06/02/2021 20:20:50 Parsing of Poll file: .\poll_files\94502073867_PollReport (17).csv ended.
+06/02/2021 20:20:51 Poll file: .\poll_files\94502073867_PollReport (20).csv is being parsed
+06/02/2021 20:21:00 Parsing of Poll file: .\poll_files\94502073867_PollReport (20).csv ended.
+06/02/2021 20:21:01 Poll file: .\poll_files\94502073867_PollReport (21).csv is being parsed
+06/02/2021 20:21:11 Parsing of Poll file: .\poll_files\94502073867_PollReport (21).csv ended.
+06/02/2021 20:21:12 Poll file: .\poll_files\94502073867_PollReport (22).csv is being parsed
+06/02/2021 20:21:17 Parsing of Poll file: .\poll_files\94502073867_PollReport (22).csv ended.
+06/02/2021 20:21:18 Poll file: .\poll_files\94502073867_PollReport (3).csv is being parsed
+06/02/2021 20:21:18 Parsing of Poll file: .\poll_files\94502073867_PollReport (3).csv ended.
+06/02/2021 20:21:19 Poll file: .\poll_files\94502073867_PollReport (5).csv is being parsed
+06/02/2021 20:21:20 Parsing of Poll file: .\poll_files\94502073867_PollReport (5).csv ended.
+06/02/2021 20:21:21 Poll file: .\poll_files\94502073867_PollReport (7).csv is being parsed
+06/02/2021 20:21:21 Parsing of Poll file: .\poll_files\94502073867_PollReport (7).csv ended.
+06/02/2021 20:21:22 Poll file: .\poll_files\94502073867_PollReport (8).csv is being parsed
+06/02/2021 20:21:22 Parsing of Poll file: .\poll_files\94502073867_PollReport (8).csv ended.
+06/02/2021 20:21:23 Poll file: .\poll_files\94502073867_PollReport (9).csv is being parsed
+06/02/2021 20:21:23 Parsing of Poll file: .\poll_files\94502073867_PollReport (9).csv ended.
+06/02/2021 20:21:24 Poll file: .\poll_files\94502073867_PollReport_18-01-2021.csv is being parsed
+06/02/2021 20:21:25 Parsing of Poll file: .\poll_files\94502073867_PollReport_18-01-2021.csv ended.
+06/02/2021 20:21:26 Poll file: .\poll_files\94502073867_PollReport_19-10-2020.csv is being parsed
+06/02/2021 20:21:27 Parsing of Poll file: .\poll_files\94502073867_PollReport_19-10-2020.csv ended.
+06/02/2021 20:21:28 Poll file: .\poll_files\94502073867_PollReport_26-10-2020.csv is being parsed
+06/02/2021 20:21:31 Parsing of Poll file: .\poll_files\94502073867_PollReport_26-10-2020.csv ended.
+06/02/2021 20:21:32 Poll file: .\poll_files\97056655049_PollReport (1).csv is being parsed
+06/02/2021 20:21:32 Parsing of Poll file: .\poll_files\97056655049_PollReport (1).csv ended.
+06/02/2021 20:21:33 Poll file: .\poll_files\97056655049_PollReport (10).csv is being parsed
+06/02/2021 20:21:34 Parsing of Poll file: .\poll_files\97056655049_PollReport (10).csv ended.
+06/02/2021 20:21:35 Poll file: .\poll_files\97056655049_PollReport (15).csv is being parsed
+06/02/2021 20:21:35 Parsing of Poll file: .\poll_files\97056655049_PollReport (15).csv ended.
+06/02/2021 20:21:36 Poll file: .\poll_files\97056655049_PollReport (16).csv is being parsed
+06/02/2021 20:21:36 Parsing of Poll file: .\poll_files\97056655049_PollReport (16).csv ended.
+06/02/2021 20:21:37 Poll file: .\poll_files\97056655049_PollReport (23).csv is being parsed
+06/02/2021 20:21:45 Parsing of Poll file: .\poll_files\97056655049_PollReport (23).csv ended.
+06/02/2021 20:21:46 Poll file: .\poll_files\97056655049_PollReport (27).csv is being parsed
+06/02/2021 20:21:56 Parsing of Poll file: .\poll_files\97056655049_PollReport (27).csv ended.
+06/02/2021 20:21:57 Poll file: .\poll_files\97056655049_PollReport (28).csv is being parsed
+06/02/2021 20:21:57 Parsing of Poll file: .\poll_files\97056655049_PollReport (28).csv ended.
+06/02/2021 20:21:58 Poll file: .\poll_files\97056655049_PollReport (3).csv is being parsed
+06/02/2021 20:21:58 Parsing of Poll file: .\poll_files\97056655049_PollReport (3).csv ended.
+06/02/2021 20:21:59 Poll file: .\poll_files\97056655049_PollReport (4).csv is being parsed
+06/02/2021 20:21:59 Parsing of Poll file: .\poll_files\97056655049_PollReport (4).csv ended.
+06/02/2021 20:22:00 Poll file: .\poll_files\97056655049_PollReport (6).csv is being parsed
+06/02/2021 20:22:01 Parsing of Poll file: .\poll_files\97056655049_PollReport (6).csv ended.
+06/02/2021 20:22:02 Poll file: .\poll_files\97056655049_PollReport_12-01-2021.csv is being parsed
+06/02/2021 20:22:02 Parsing of Poll file: .\poll_files\97056655049_PollReport_12-01-2021.csv ended.
+06/02/2021 20:22:03 Poll file: .\poll_files\97056655049_PollReport_20-10-2020.csv is being parsed
+06/02/2021 20:22:03 Parsing of Poll file: .\poll_files\97056655049_PollReport_20-10-2020.csv ended.
+06/02/2021 20:22:03 Looking up for anomalies...
+06/02/2021 20:22:03 Anomaly detection ended!
+06/02/2021 20:22:04 Poll Statistics are being calculated...
+06/02/2021 20:26:18 System started!
+06/02/2021 20:26:19 Parsing Student List started : ./poll_files/studentList.XLS started
+06/02/2021 20:26:19 Parsing Student List : ./poll_files/studentList.XLS finished
+06/02/2021 20:26:19 Answer Sheets: ['.\\poll_answers\\CSE3063 OOSD Weekly Session 1 - Monday Quizzes ANSWER KEY.txt', '.\\poll_answers\\CSE3063 OOSD Weekly Session 2 - Tuesday Quizzes ANSWER KEY.txt'] are  being parsed
+06/02/2021 20:26:19 Answer Sheets have been parsed.
+06/02/2021 20:26:20 Poll file: .\poll_files\94502073867_PollReport (1).csv is being parsed
+06/02/2021 20:26:21 Parsing of Poll file: .\poll_files\94502073867_PollReport (1).csv ended.
+06/02/2021 20:26:22 Poll file: .\poll_files\94502073867_PollReport (12).csv is being parsed
+06/02/2021 20:26:22 Parsing of Poll file: .\poll_files\94502073867_PollReport (12).csv ended.
+06/02/2021 20:26:23 Poll file: .\poll_files\94502073867_PollReport (14).csv is being parsed
+06/02/2021 20:26:23 Parsing of Poll file: .\poll_files\94502073867_PollReport (14).csv ended.
+06/02/2021 20:26:24 Poll file: .\poll_files\94502073867_PollReport (16).csv is being parsed
+06/02/2021 20:26:29 Parsing of Poll file: .\poll_files\94502073867_PollReport (16).csv ended.
+06/02/2021 20:26:30 Poll file: .\poll_files\94502073867_PollReport (17).csv is being parsed
+06/02/2021 20:26:36 Parsing of Poll file: .\poll_files\94502073867_PollReport (17).csv ended.
+06/02/2021 20:26:37 Poll file: .\poll_files\94502073867_PollReport (20).csv is being parsed
+06/02/2021 20:26:46 Parsing of Poll file: .\poll_files\94502073867_PollReport (20).csv ended.
+06/02/2021 20:26:47 Poll file: .\poll_files\94502073867_PollReport (21).csv is being parsed
+06/02/2021 20:26:56 Parsing of Poll file: .\poll_files\94502073867_PollReport (21).csv ended.
+06/02/2021 20:26:57 Poll file: .\poll_files\94502073867_PollReport (22).csv is being parsed
+06/02/2021 20:27:02 Parsing of Poll file: .\poll_files\94502073867_PollReport (22).csv ended.
+06/02/2021 20:27:03 Poll file: .\poll_files\94502073867_PollReport (3).csv is being parsed
+06/02/2021 20:27:03 Parsing of Poll file: .\poll_files\94502073867_PollReport (3).csv ended.
+06/02/2021 20:27:04 Poll file: .\poll_files\94502073867_PollReport (5).csv is being parsed
+06/02/2021 20:27:04 Parsing of Poll file: .\poll_files\94502073867_PollReport (5).csv ended.
+06/02/2021 20:27:05 Poll file: .\poll_files\94502073867_PollReport (7).csv is being parsed
+06/02/2021 20:27:05 Parsing of Poll file: .\poll_files\94502073867_PollReport (7).csv ended.
+06/02/2021 20:27:06 Poll file: .\poll_files\94502073867_PollReport (8).csv is being parsed
+06/02/2021 20:27:07 Parsing of Poll file: .\poll_files\94502073867_PollReport (8).csv ended.
+06/02/2021 20:27:08 Poll file: .\poll_files\94502073867_PollReport (9).csv is being parsed
+06/02/2021 20:27:08 Parsing of Poll file: .\poll_files\94502073867_PollReport (9).csv ended.
+06/02/2021 20:27:09 Poll file: .\poll_files\94502073867_PollReport_18-01-2021.csv is being parsed
+06/02/2021 20:27:09 Parsing of Poll file: .\poll_files\94502073867_PollReport_18-01-2021.csv ended.
+06/02/2021 20:27:10 Poll file: .\poll_files\94502073867_PollReport_19-10-2020.csv is being parsed
+06/02/2021 20:27:11 Parsing of Poll file: .\poll_files\94502073867_PollReport_19-10-2020.csv ended.
+06/02/2021 20:27:12 Poll file: .\poll_files\94502073867_PollReport_26-10-2020.csv is being parsed
+06/02/2021 20:27:15 Parsing of Poll file: .\poll_files\94502073867_PollReport_26-10-2020.csv ended.
+06/02/2021 20:27:16 Poll file: .\poll_files\97056655049_PollReport (1).csv is being parsed
+06/02/2021 20:27:17 Parsing of Poll file: .\poll_files\97056655049_PollReport (1).csv ended.
+06/02/2021 20:27:18 Poll file: .\poll_files\97056655049_PollReport (10).csv is being parsed
+06/02/2021 20:27:18 Parsing of Poll file: .\poll_files\97056655049_PollReport (10).csv ended.
+06/02/2021 20:27:19 Poll file: .\poll_files\97056655049_PollReport (15).csv is being parsed
+06/02/2021 20:27:19 Parsing of Poll file: .\poll_files\97056655049_PollReport (15).csv ended.
+06/02/2021 20:27:20 Poll file: .\poll_files\97056655049_PollReport (16).csv is being parsed
+06/02/2021 20:27:20 Parsing of Poll file: .\poll_files\97056655049_PollReport (16).csv ended.
+06/02/2021 20:27:21 Poll file: .\poll_files\97056655049_PollReport (23).csv is being parsed
+06/02/2021 20:27:29 Parsing of Poll file: .\poll_files\97056655049_PollReport (23).csv ended.
+06/02/2021 20:27:30 Poll file: .\poll_files\97056655049_PollReport (27).csv is being parsed
+06/02/2021 20:27:40 Parsing of Poll file: .\poll_files\97056655049_PollReport (27).csv ended.
+06/02/2021 20:27:41 Poll file: .\poll_files\97056655049_PollReport (28).csv is being parsed
+06/02/2021 20:27:41 Parsing of Poll file: .\poll_files\97056655049_PollReport (28).csv ended.
+06/02/2021 20:27:42 Poll file: .\poll_files\97056655049_PollReport (3).csv is being parsed
+06/02/2021 20:27:42 Parsing of Poll file: .\poll_files\97056655049_PollReport (3).csv ended.
+06/02/2021 20:27:43 Poll file: .\poll_files\97056655049_PollReport (4).csv is being parsed
+06/02/2021 20:27:43 Parsing of Poll file: .\poll_files\97056655049_PollReport (4).csv ended.
+06/02/2021 20:27:44 Poll file: .\poll_files\97056655049_PollReport (6).csv is being parsed
+06/02/2021 20:27:44 Parsing of Poll file: .\poll_files\97056655049_PollReport (6).csv ended.
+06/02/2021 20:27:45 Poll file: .\poll_files\97056655049_PollReport_12-01-2021.csv is being parsed
+06/02/2021 20:27:46 Parsing of Poll file: .\poll_files\97056655049_PollReport_12-01-2021.csv ended.
+06/02/2021 20:27:47 Poll file: .\poll_files\97056655049_PollReport_20-10-2020.csv is being parsed
+06/02/2021 20:27:47 Parsing of Poll file: .\poll_files\97056655049_PollReport_20-10-2020.csv ended.
+06/02/2021 20:27:47 Looking up for anomalies...
+06/02/2021 20:27:47 Anomaly detection ended!
+06/02/2021 20:27:47 Poll Statistics are being calculated...
+06/02/2021 20:28:22 Poll Statistics have been calculated.
+06/02/2021 20:28:23 Poll Statistics  is being generated...
+06/02/2021 20:28:23 CSE3063 OOSD Weekly Session 1 - Monday_3_stats.xlsx file has been generated in 'poll_statistics' directory
+06/02/2021 20:28:23 CSE3063 OOSD Weekly Session 1 - Monday_4_stats.xlsx file has been generated in 'poll_statistics' directory
+06/02/2021 20:28:23 CSE3063 OOSD Weekly Session 1 - Monday_5_stats.xlsx file has been generated in 'poll_statistics' directory
+06/02/2021 20:28:24 CSE3063 OOSD Weekly Session 1 - Monday_6_stats.xlsx file has been generated in 'poll_statistics' directory
+06/02/2021 20:28:24 CSE3063 OOSD Weekly Session 1 - Monday_8_stats.xlsx file has been generated in 'poll_statistics' directory
+06/02/2021 20:28:24 CSE3063 OOSD Weekly Session 1 - Monday_9_stats.xlsx file has been generated in 'poll_statistics' directory
+06/02/2021 20:28:25 CSE3063 OOSD Weekly Session 1 - Monday_11_stats.xlsx file has been generated in 'poll_statistics' directory
+06/02/2021 20:28:25 CSE3063 OOSD Weekly Session 2 - Tuesday_3_stats.xlsx file has been generated in 'poll_statistics' directory
+06/02/2021 20:28:25 CSE3063 OOSD Weekly Session 1 - Monday_1_stats.xlsx file has been generated in 'poll_statistics' directory
+06/02/2021 20:28:25 CSE3063 OOSD Weekly Session 1 - Monday_2_stats.xlsx file has been generated in 'poll_statistics' directory
+06/02/2021 20:28:26 CSE3063 OOSD Weekly Session 1 - Monday_7_stats.xlsx file has been generated in 'poll_statistics' directory
+06/02/2021 20:28:26 CSE3063 OOSD Weekly Session 2 - Tuesday_1_stats.xlsx file has been generated in 'poll_statistics' directory
+06/02/2021 20:28:26 CSE3063 OOSD Weekly Session 2 - Tuesday_2_stats.xlsx file has been generated in 'poll_statistics' directory
+06/02/2021 20:28:26 CSE3063 OOSD Weekly Session 1 - Monday_10_stats.xlsx file has been generated in 'poll_statistics' directory
+06/02/2021 20:28:27 Attendence report is being generated...
+06/02/2021 20:28:28 Attendence report have been generated in 'attendence_results' directory.
+06/02/2021 20:28:29 Poll Results  is being generated...
+06/02/2021 20:28:29 CSE3063 OOSD Weekly Session 1 - Monday_3_result.xlsx file has been generated in 'poll_results' directory
+06/02/2021 20:28:29 CSE3063 OOSD Weekly Session 1 - Monday_4_result.xlsx file has been generated in 'poll_results' directory
+06/02/2021 20:28:29 CSE3063 OOSD Weekly Session 1 - Monday_5_result.xlsx file has been generated in 'poll_results' directory
+06/02/2021 20:28:29 CSE3063 OOSD Weekly Session 1 - Monday_6_result.xlsx file has been generated in 'poll_results' directory
+06/02/2021 20:28:29 CSE3063 OOSD Weekly Session 1 - Monday_8_result.xlsx file has been generated in 'poll_results' directory
+06/02/2021 20:28:29 CSE3063 OOSD Weekly Session 1 - Monday_9_result.xlsx file has been generated in 'poll_results' directory
+06/02/2021 20:28:29 CSE3063 OOSD Weekly Session 1 - Monday_11_result.xlsx file has been generated in 'poll_results' directory
+06/02/2021 20:28:29 CSE3063 OOSD Weekly Session 2 - Tuesday_3_result.xlsx file has been generated in 'poll_results' directory
+06/02/2021 20:28:29 CSE3063 OOSD Weekly Session 1 - Monday_1_result.xlsx file has been generated in 'poll_results' directory
+06/02/2021 20:28:29 CSE3063 OOSD Weekly Session 1 - Monday_2_result.xlsx file has been generated in 'poll_results' directory
+06/02/2021 20:28:29 CSE3063 OOSD Weekly Session 1 - Monday_7_result.xlsx file has been generated in 'poll_results' directory
+06/02/2021 20:28:30 CSE3063 OOSD Weekly Session 2 - Tuesday_1_result.xlsx file has been generated in 'poll_results' directory
+06/02/2021 20:28:30 CSE3063 OOSD Weekly Session 2 - Tuesday_2_result.xlsx file has been generated in 'poll_results' directory
+06/02/2021 20:28:30 CSE3063 OOSD Weekly Session 1 - Monday_10_result.xlsx file has been generated in 'poll_results' directory
+06/02/2021 20:28:31 Total Success Percentages.xlsx file is being generated...
+06/02/2021 20:28:31 Total Success Percentages.xlsx file has been generated in 'poll_results' directory
+06/02/2021 20:28:31 Process finished!!!
+06/02/2021 20:31:24 System started!
+06/02/2021 20:31:25 Parsing Student List started : ./poll_files/studentList.XLS started
+06/02/2021 20:31:25 Parsing Student List : ./poll_files/studentList.XLS finished
+06/02/2021 20:31:25 Answer Sheets: ['.\\poll_answers\\CSE3063 OOSD Weekly Session 1 - Monday Quizzes ANSWER KEY.txt', '.\\poll_answers\\CSE3063 OOSD Weekly Session 2 - Tuesday Quizzes ANSWER KEY.txt'] are  being parsed
+06/02/2021 20:31:25 Answer Sheets have been parsed.
+06/02/2021 20:31:26 Poll file: .\poll_files\94502073867_PollReport (1).csv is being parsed
+06/02/2021 20:31:26 Parsing of Poll file: .\poll_files\94502073867_PollReport (1).csv ended.
+06/02/2021 20:31:27 Poll file: .\poll_files\94502073867_PollReport (12).csv is being parsed
+06/02/2021 20:31:27 Parsing of Poll file: .\poll_files\94502073867_PollReport (12).csv ended.
+06/02/2021 20:31:28 Poll file: .\poll_files\94502073867_PollReport (14).csv is being parsed
+06/02/2021 20:31:28 Parsing of Poll file: .\poll_files\94502073867_PollReport (14).csv ended.
+06/02/2021 20:31:29 Poll file: .\poll_files\94502073867_PollReport (16).csv is being parsed
+06/02/2021 20:31:34 Parsing of Poll file: .\poll_files\94502073867_PollReport (16).csv ended.
+06/02/2021 20:31:35 Poll file: .\poll_files\94502073867_PollReport (17).csv is being parsed
+06/02/2021 20:31:41 Parsing of Poll file: .\poll_files\94502073867_PollReport (17).csv ended.
+06/02/2021 20:31:42 Poll file: .\poll_files\94502073867_PollReport (20).csv is being parsed
+06/02/2021 20:31:52 Parsing of Poll file: .\poll_files\94502073867_PollReport (20).csv ended.
+06/02/2021 20:31:53 Poll file: .\poll_files\94502073867_PollReport (21).csv is being parsed
+06/02/2021 20:32:02 Parsing of Poll file: .\poll_files\94502073867_PollReport (21).csv ended.
+06/02/2021 20:32:03 Poll file: .\poll_files\94502073867_PollReport (22).csv is being parsed
+06/02/2021 20:32:08 Parsing of Poll file: .\poll_files\94502073867_PollReport (22).csv ended.
+06/02/2021 20:32:09 Poll file: .\poll_files\94502073867_PollReport (3).csv is being parsed
+06/02/2021 20:32:09 Parsing of Poll file: .\poll_files\94502073867_PollReport (3).csv ended.
+06/02/2021 20:32:10 Poll file: .\poll_files\94502073867_PollReport (5).csv is being parsed
+06/02/2021 20:32:10 Parsing of Poll file: .\poll_files\94502073867_PollReport (5).csv ended.
+06/02/2021 20:32:11 Poll file: .\poll_files\94502073867_PollReport (7).csv is being parsed
+06/02/2021 20:32:11 Parsing of Poll file: .\poll_files\94502073867_PollReport (7).csv ended.
+06/02/2021 20:32:12 Poll file: .\poll_files\94502073867_PollReport (8).csv is being parsed
+06/02/2021 20:32:13 Parsing of Poll file: .\poll_files\94502073867_PollReport (8).csv ended.
+06/02/2021 20:32:14 Poll file: .\poll_files\94502073867_PollReport (9).csv is being parsed
+06/02/2021 20:32:14 Parsing of Poll file: .\poll_files\94502073867_PollReport (9).csv ended.
+06/02/2021 20:32:15 Poll file: .\poll_files\94502073867_PollReport_18-01-2021.csv is being parsed
+06/02/2021 20:32:15 Parsing of Poll file: .\poll_files\94502073867_PollReport_18-01-2021.csv ended.
+06/02/2021 20:32:16 Poll file: .\poll_files\94502073867_PollReport_19-10-2020.csv is being parsed
+06/02/2021 20:32:17 Parsing of Poll file: .\poll_files\94502073867_PollReport_19-10-2020.csv ended.
+06/02/2021 20:32:18 Poll file: .\poll_files\94502073867_PollReport_26-10-2020.csv is being parsed
+06/02/2021 20:32:21 Parsing of Poll file: .\poll_files\94502073867_PollReport_26-10-2020.csv ended.
+06/02/2021 20:32:22 Poll file: .\poll_files\97056655049_PollReport (1).csv is being parsed
+06/02/2021 20:32:23 Parsing of Poll file: .\poll_files\97056655049_PollReport (1).csv ended.
+06/02/2021 20:32:24 Poll file: .\poll_files\97056655049_PollReport (10).csv is being parsed
+06/02/2021 20:32:24 Parsing of Poll file: .\poll_files\97056655049_PollReport (10).csv ended.
+06/02/2021 20:32:25 Poll file: .\poll_files\97056655049_PollReport (15).csv is being parsed
+06/02/2021 20:32:25 Parsing of Poll file: .\poll_files\97056655049_PollReport (15).csv ended.
+06/02/2021 20:32:26 Poll file: .\poll_files\97056655049_PollReport (16).csv is being parsed
+06/02/2021 20:32:26 Parsing of Poll file: .\poll_files\97056655049_PollReport (16).csv ended.
+06/02/2021 20:32:27 Poll file: .\poll_files\97056655049_PollReport (23).csv is being parsed
+06/02/2021 20:32:35 Parsing of Poll file: .\poll_files\97056655049_PollReport (23).csv ended.
+06/02/2021 20:32:36 Poll file: .\poll_files\97056655049_PollReport (27).csv is being parsed
+06/02/2021 20:32:45 Parsing of Poll file: .\poll_files\97056655049_PollReport (27).csv ended.
+06/02/2021 20:32:46 Poll file: .\poll_files\97056655049_PollReport (28).csv is being parsed
+06/02/2021 20:32:46 Parsing of Poll file: .\poll_files\97056655049_PollReport (28).csv ended.
+06/02/2021 20:32:47 Poll file: .\poll_files\97056655049_PollReport (3).csv is being parsed
+06/02/2021 20:32:47 Parsing of Poll file: .\poll_files\97056655049_PollReport (3).csv ended.
+06/02/2021 20:32:49 Poll file: .\poll_files\97056655049_PollReport (4).csv is being parsed
+06/02/2021 20:32:49 Parsing of Poll file: .\poll_files\97056655049_PollReport (4).csv ended.
+06/02/2021 20:32:50 Poll file: .\poll_files\97056655049_PollReport (6).csv is being parsed
+06/02/2021 20:32:50 Parsing of Poll file: .\poll_files\97056655049_PollReport (6).csv ended.
+06/02/2021 20:32:51 Poll file: .\poll_files\97056655049_PollReport_12-01-2021.csv is being parsed
+06/02/2021 20:32:51 Parsing of Poll file: .\poll_files\97056655049_PollReport_12-01-2021.csv ended.
+06/02/2021 20:32:52 Poll file: .\poll_files\97056655049_PollReport_20-10-2020.csv is being parsed
+06/02/2021 20:32:52 Parsing of Poll file: .\poll_files\97056655049_PollReport_20-10-2020.csv ended.
+06/02/2021 20:32:52 Looking up for anomalies...
+06/02/2021 20:32:52 Anomaly detection ended!
+06/02/2021 20:32:52 Poll Statistics are being calculated...
+06/02/2021 20:36:42 System started!
+06/02/2021 20:36:43 Parsing Student List started : ./poll_files/studentList.XLS started
+06/02/2021 20:36:43 Parsing Student List : ./poll_files/studentList.XLS finished
+06/02/2021 20:36:43 Answer Sheets: ['.\\poll_answers\\CSE3063 OOSD Weekly Session 1 - Monday Quizzes ANSWER KEY.txt', '.\\poll_answers\\CSE3063 OOSD Weekly Session 2 - Tuesday Quizzes ANSWER KEY.txt'] are  being parsed
+06/02/2021 20:36:43 Answer Sheets have been parsed.
+06/02/2021 20:36:44 Poll file: .\poll_files\94502073867_PollReport (1).csv is being parsed
+06/02/2021 20:36:44 Parsing of Poll file: .\poll_files\94502073867_PollReport (1).csv ended.
+06/02/2021 20:36:45 Poll file: .\poll_files\94502073867_PollReport (12).csv is being parsed
+06/02/2021 20:36:45 Parsing of Poll file: .\poll_files\94502073867_PollReport (12).csv ended.
+06/02/2021 20:36:46 Poll file: .\poll_files\94502073867_PollReport (14).csv is being parsed
+06/02/2021 20:36:46 Parsing of Poll file: .\poll_files\94502073867_PollReport (14).csv ended.
+06/02/2021 20:36:47 Poll file: .\poll_files\94502073867_PollReport (16).csv is being parsed
+06/02/2021 20:36:52 Parsing of Poll file: .\poll_files\94502073867_PollReport (16).csv ended.
+06/02/2021 20:36:53 Poll file: .\poll_files\94502073867_PollReport (17).csv is being parsed
+06/02/2021 20:36:59 Parsing of Poll file: .\poll_files\94502073867_PollReport (17).csv ended.
+06/02/2021 20:37:00 Poll file: .\poll_files\94502073867_PollReport (20).csv is being parsed
+06/02/2021 20:37:10 Parsing of Poll file: .\poll_files\94502073867_PollReport (20).csv ended.
+06/02/2021 20:37:11 Poll file: .\poll_files\94502073867_PollReport (21).csv is being parsed
+06/02/2021 20:37:20 Parsing of Poll file: .\poll_files\94502073867_PollReport (21).csv ended.
+06/02/2021 20:37:21 Poll file: .\poll_files\94502073867_PollReport (22).csv is being parsed
+06/02/2021 20:37:26 Parsing of Poll file: .\poll_files\94502073867_PollReport (22).csv ended.
+06/02/2021 20:37:27 Poll file: .\poll_files\94502073867_PollReport (3).csv is being parsed
+06/02/2021 20:37:27 Parsing of Poll file: .\poll_files\94502073867_PollReport (3).csv ended.
+06/02/2021 20:37:28 Poll file: .\poll_files\94502073867_PollReport (5).csv is being parsed
+06/02/2021 20:37:29 Parsing of Poll file: .\poll_files\94502073867_PollReport (5).csv ended.
+06/02/2021 20:37:30 Poll file: .\poll_files\94502073867_PollReport (7).csv is being parsed
+06/02/2021 20:37:30 Parsing of Poll file: .\poll_files\94502073867_PollReport (7).csv ended.
+06/02/2021 20:37:31 Poll file: .\poll_files\94502073867_PollReport (8).csv is being parsed
+06/02/2021 20:37:31 Parsing of Poll file: .\poll_files\94502073867_PollReport (8).csv ended.
+06/02/2021 20:37:32 Poll file: .\poll_files\94502073867_PollReport (9).csv is being parsed
+06/02/2021 20:37:32 Parsing of Poll file: .\poll_files\94502073867_PollReport (9).csv ended.
+06/02/2021 20:37:33 Poll file: .\poll_files\94502073867_PollReport_18-01-2021.csv is being parsed
+06/02/2021 20:37:34 Parsing of Poll file: .\poll_files\94502073867_PollReport_18-01-2021.csv ended.
+06/02/2021 20:37:35 Poll file: .\poll_files\94502073867_PollReport_19-10-2020.csv is being parsed
+06/02/2021 20:37:36 Parsing of Poll file: .\poll_files\94502073867_PollReport_19-10-2020.csv ended.
+06/02/2021 20:37:37 Poll file: .\poll_files\94502073867_PollReport_26-10-2020.csv is being parsed
+06/02/2021 20:37:40 Parsing of Poll file: .\poll_files\94502073867_PollReport_26-10-2020.csv ended.
+06/02/2021 20:37:41 Poll file: .\poll_files\97056655049_PollReport (1).csv is being parsed
+06/02/2021 20:37:41 Parsing of Poll file: .\poll_files\97056655049_PollReport (1).csv ended.
+06/02/2021 20:37:42 Poll file: .\poll_files\97056655049_PollReport (10).csv is being parsed
+06/02/2021 20:37:42 Parsing of Poll file: .\poll_files\97056655049_PollReport (10).csv ended.
+06/02/2021 20:37:43 Poll file: .\poll_files\97056655049_PollReport (15).csv is being parsed
+06/02/2021 20:37:44 Parsing of Poll file: .\poll_files\97056655049_PollReport (15).csv ended.
+06/02/2021 20:37:45 Poll file: .\poll_files\97056655049_PollReport (16).csv is being parsed
+06/02/2021 20:37:45 Parsing of Poll file: .\poll_files\97056655049_PollReport (16).csv ended.
+06/02/2021 20:37:46 Poll file: .\poll_files\97056655049_PollReport (23).csv is being parsed
+06/02/2021 20:37:53 Parsing of Poll file: .\poll_files\97056655049_PollReport (23).csv ended.
+06/02/2021 20:37:54 Poll file: .\poll_files\97056655049_PollReport (27).csv is being parsed
+06/02/2021 20:38:03 Parsing of Poll file: .\poll_files\97056655049_PollReport (27).csv ended.
+06/02/2021 20:38:04 Poll file: .\poll_files\97056655049_PollReport (28).csv is being parsed
+06/02/2021 20:38:05 Parsing of Poll file: .\poll_files\97056655049_PollReport (28).csv ended.
+06/02/2021 20:38:06 Poll file: .\poll_files\97056655049_PollReport (3).csv is being parsed
+06/02/2021 20:38:06 Parsing of Poll file: .\poll_files\97056655049_PollReport (3).csv ended.
+06/02/2021 20:38:07 Poll file: .\poll_files\97056655049_PollReport (4).csv is being parsed
+06/02/2021 20:38:07 Parsing of Poll file: .\poll_files\97056655049_PollReport (4).csv ended.
+06/02/2021 20:38:08 Poll file: .\poll_files\97056655049_PollReport (6).csv is being parsed
+06/02/2021 20:38:08 Parsing of Poll file: .\poll_files\97056655049_PollReport (6).csv ended.
+06/02/2021 20:38:09 Poll file: .\poll_files\97056655049_PollReport_12-01-2021.csv is being parsed
+06/02/2021 20:38:10 Parsing of Poll file: .\poll_files\97056655049_PollReport_12-01-2021.csv ended.
+06/02/2021 20:38:11 Poll file: .\poll_files\97056655049_PollReport_20-10-2020.csv is being parsed
+06/02/2021 20:38:11 Parsing of Poll file: .\poll_files\97056655049_PollReport_20-10-2020.csv ended.
+06/02/2021 20:38:11 Looking up for anomalies...
+06/02/2021 20:38:11 Anomaly detection ended!
+06/02/2021 20:38:11 Poll Statistics are being calculated...
+06/02/2021 20:42:03 Poll Statistics have been calculated.
+06/02/2021 20:42:04 Poll Statistics  is being generated...
+06/02/2021 20:42:05 CSE3063 OOSD Weekly Session 1 - Monday_3_stats.xlsx file has been generated in 'poll_statistics' directory
+06/02/2021 20:42:05 CSE3063 OOSD Weekly Session 1 - Monday_4_stats.xlsx file has been generated in 'poll_statistics' directory
+06/02/2021 20:42:05 CSE3063 OOSD Weekly Session 1 - Monday_5_stats.xlsx file has been generated in 'poll_statistics' directory
+06/02/2021 20:42:05 CSE3063 OOSD Weekly Session 1 - Monday_6_stats.xlsx file has been generated in 'poll_statistics' directory
+06/02/2021 20:42:06 CSE3063 OOSD Weekly Session 1 - Monday_8_stats.xlsx file has been generated in 'poll_statistics' directory
+06/02/2021 20:42:06 CSE3063 OOSD Weekly Session 1 - Monday_9_stats.xlsx file has been generated in 'poll_statistics' directory
+06/02/2021 20:42:06 CSE3063 OOSD Weekly Session 1 - Monday_11_stats.xlsx file has been generated in 'poll_statistics' directory
+06/02/2021 20:42:06 CSE3063 OOSD Weekly Session 2 - Tuesday_3_stats.xlsx file has been generated in 'poll_statistics' directory
+06/02/2021 20:42:07 CSE3063 OOSD Weekly Session 1 - Monday_1_stats.xlsx file has been generated in 'poll_statistics' directory
+06/02/2021 20:42:07 CSE3063 OOSD Weekly Session 1 - Monday_2_stats.xlsx file has been generated in 'poll_statistics' directory
+06/02/2021 20:42:07 CSE3063 OOSD Weekly Session 1 - Monday_7_stats.xlsx file has been generated in 'poll_statistics' directory
+06/02/2021 20:42:07 CSE3063 OOSD Weekly Session 2 - Tuesday_1_stats.xlsx file has been generated in 'poll_statistics' directory
+06/02/2021 20:42:08 CSE3063 OOSD Weekly Session 2 - Tuesday_2_stats.xlsx file has been generated in 'poll_statistics' directory
+06/02/2021 20:42:08 CSE3063 OOSD Weekly Session 1 - Monday_10_stats.xlsx file has been generated in 'poll_statistics' directory
+06/02/2021 20:42:09 Attendence report is being generated...
+06/02/2021 20:42:09 Attendence report have been generated in 'attendence_results' directory.
+06/02/2021 20:42:10 Poll Results  is being generated...
+06/02/2021 20:42:10 CSE3063 OOSD Weekly Session 1 - Monday_3_result.xlsx file has been generated in 'poll_results' directory
+06/02/2021 20:42:10 CSE3063 OOSD Weekly Session 1 - Monday_4_result.xlsx file has been generated in 'poll_results' directory
+06/02/2021 20:42:10 CSE3063 OOSD Weekly Session 1 - Monday_5_result.xlsx file has been generated in 'poll_results' directory
+06/02/2021 20:42:10 CSE3063 OOSD Weekly Session 1 - Monday_6_result.xlsx file has been generated in 'poll_results' directory
+06/02/2021 20:42:10 CSE3063 OOSD Weekly Session 1 - Monday_8_result.xlsx file has been generated in 'poll_results' directory
+06/02/2021 20:42:10 CSE3063 OOSD Weekly Session 1 - Monday_9_result.xlsx file has been generated in 'poll_results' directory
+06/02/2021 20:42:11 CSE3063 OOSD Weekly Session 1 - Monday_11_result.xlsx file has been generated in 'poll_results' directory
+06/02/2021 20:42:11 CSE3063 OOSD Weekly Session 2 - Tuesday_3_result.xlsx file has been generated in 'poll_results' directory
+06/02/2021 20:42:11 CSE3063 OOSD Weekly Session 1 - Monday_1_result.xlsx file has been generated in 'poll_results' directory
+06/02/2021 20:42:11 CSE3063 OOSD Weekly Session 1 - Monday_2_result.xlsx file has been generated in 'poll_results' directory
+06/02/2021 20:42:11 CSE3063 OOSD Weekly Session 1 - Monday_7_result.xlsx file has been generated in 'poll_results' directory
+06/02/2021 20:42:11 CSE3063 OOSD Weekly Session 2 - Tuesday_1_result.xlsx file has been generated in 'poll_results' directory
+06/02/2021 20:42:11 CSE3063 OOSD Weekly Session 2 - Tuesday_2_result.xlsx file has been generated in 'poll_results' directory
+06/02/2021 20:42:11 CSE3063 OOSD Weekly Session 1 - Monday_10_result.xlsx file has been generated in 'poll_results' directory
+06/02/2021 20:42:12 Total Success Percentages.xlsx file is being generated...
+06/02/2021 20:42:12 Total Success Percentages.xlsx file has been generated in 'poll_results' directory
+06/02/2021 20:42:12 Process finished!!!

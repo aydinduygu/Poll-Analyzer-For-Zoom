@@ -137,7 +137,7 @@ class Parser:
 
 
 
-    def parse(self, filePath,paths, columnNames,answerKeyPaths):
+    def parse(self, filePath,paths, columnNames,answerKeyPaths,updateBar):
 
         studentList=self.parseStudentList(filePath,columnNames["name"], columnNames["surname"],columnNames["id"])
 
@@ -155,6 +155,8 @@ class Parser:
 
         quizNameList={}
         for myindex,path in enumerate(paths):
+
+            updateBar(int(50/len(paths)))
 
             self.__oProducer.addIntoExecutionLog("Poll file: "+path+" is being parsed")
 

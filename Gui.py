@@ -10,6 +10,8 @@ from PollAnalyzer import PollAnalyzer
 class Gui():
 
     def __init__(self):
+
+
         self.window = Tk()
         self.window.title("Poll Analyzer")
 
@@ -21,8 +23,8 @@ class Gui():
         self.lbl = Label(self.window,
                          text="Welcome to the Poll Analyzer,\nPut csv files into the directory 'poll_files' \nAnd answer txt files into poll_answers directories\nPress Start to analyze poll results",
                          font=("Arial", 10)).pack(pady=20)
-        bar = Progressbar(self.window, orient=HORIZONTAL, length=350)
-        bar.pack(pady=10)
+        self.bar = Progressbar(self.window, orient=HORIZONTAL, length=350,mode="determinate",maximum=100)
+        self.bar.pack(pady=10)
 
         buttonEnd = Button(self.window, text="Cancel", command=self.cancel).pack(side=RIGHT, padx=15, pady=5)
         buttonStart = Button(self.window, text="Start", command=self.start).pack(side=RIGHT, padx=5, pady=5)
@@ -42,7 +44,7 @@ class Gui():
 
         self.lbl = Label(self.window, text="Please wait... This may take a little time")
 
-        PollAnalyzer()
+        PollAnalyzer(self)
 
     def cancel(self):
         exit()
@@ -57,7 +59,10 @@ class Gui():
         print(studentListPath)
 
     def browseFiles2(self):
-        pollPath = filedialog.askopenfilename(initialdir="/",
+
+        pollPath=[]
+
+        pollPath = filedialog.askopenfiles(initialdir="/",
                                               title="Select a File",
                                               filetypes=(("Excel files",
                                                           "*.csv*"),
@@ -66,10 +71,20 @@ class Gui():
         print(pollPath)
 
     def browseFiles3(self):
-        answerPath = filedialog.askopenfilename(initialdir="/",
+
+        answerPath=[]
+        answerPath = filedialog.askopenfiles(initialdir="/",
                                                 title="Select a File",
                                                 filetypes=(("Text files",
                                                             "*.txt*"),
                                                            ("all files",
                                                             "*.*")))
         print(answerPath)
+
+
+    def updateBar(self,value):
+
+
+        self.bar['value']+=value
+        self.window.update_idletasks()
+        time.sleep(1)

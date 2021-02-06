@@ -11,9 +11,6 @@ from QuizPart import QuizPart
 from Question import Question
 from Student import Student
 
-
-
-
 #singleton pattern implemented
 class OutputProducer:
     __instance = None
