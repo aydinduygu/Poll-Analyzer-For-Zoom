@@ -48,15 +48,11 @@ class PollAnalyzer:
 
         parser = Parser(filePath, self.__fileNames, self.__answerKeys, columnNames)
 
-
         self.__studentList,self.__dataNotCorrelated,self.__stuNotCorrelated=parser.parse(filePath,self.__fileNames,columnNames,self.__answerKeys)
-
 
         self.calculateQuizStats()
 
         self.__myOutputProducer.printPollStat(self.__pollList)
-
-
         self.__myOutputProducer.printAttendenceReport(self.__studentList)
         self.__myOutputProducer.printPollResults(self.__studentList,self.__pollList)
         self.__myOutputProducer.printStudentOverallResults(self.__studentList,self.__pollList)
@@ -67,6 +63,7 @@ class PollAnalyzer:
 
     def calculateAttendance(self):
 
+        self.__myOutputProducer.addIntoExecutionLog("Attendence informations are being calculated...")
         num = 0
 
         for attendanceList in self.__attendanceData:
@@ -87,45 +84,7 @@ class PollAnalyzer:
                        self.__studentList[stuIndex].increaseAttendance()
                        self.__studentList[stuIndex].setNumClasses(num)
 
-
-
-
-
-
-
-    def calcQuestionStat(self):
-
-        i=0
-        for key in self.__pollList:
-
-            questions=[x.getQuestion().getQuestionText() for x in self.__pollList[key][0].getQuizes()[i].getQuizParts()
-                       if self.__pollList[key][0].getQuizes[i].getQuizName()==key]
-            answers=[]
-            trueAnswers=[x.getQuestion().getAnswer() for x in  self.__pollList[key][0].getQuizes()[i].getQuizParts()
-                         if self.__pollList[key][0].getQuizes[i].getQuizName()==key]
-
-            stuList = self.__pollList[key]
-            for index,stu in enumerate(stuList):
-
-                num = len(self.__pollList[key][0].getQuizes()[i].getQuizParts())
-
-                for j in range(num):
-                    a_dict={}
-                    q = self.__pollList[key][0].getQuizes()[i].getQuizParts()[j].getQuestion().getQuestionText()
-
-
-                    respond=stu.getQuizes()[i].getQuizParts()[j].getStudentRespond()
-
-                    for r in respond:
-
-                        if not r in a_dict:
-                            a_dict[r]=1
-                        else:
-                            a_dict[r]=a_dict[r]+1
-                    answers.append(a_dict)
-            i+=1
-            self.__quizQuestStat[key]=[questions,answers,trueAnswers]
-        a=5
+        self.__myOutputProducer.addIntoExecutionLog("Attendence informations have been calculated...")
 
 
     def getStuIndexWithUserName(self, username):
@@ -136,8 +95,6 @@ class PollAnalyzer:
             if y.lower() == username.lower():
                 return self.__studentList.index(stu)
 
-    def printStudentList(self):
-        print(*self.__studentList, sep='\n')
 
     def extractPollList(self):
 
@@ -154,6 +111,8 @@ class PollAnalyzer:
                         x.append(stu)
 
     def calculateQuizStats(self):
+
+        self.__myOutputProducer.addIntoExecutionLog("Poll Statistics are being calculated...")
 
         for stu in self.__studentList:
             for quiz in stu.getQuizes():
@@ -195,3 +154,5 @@ class PollAnalyzer:
                     for r in quizPart.getStudentRespond():
 
                        astat.addAnswer(r,stu,qStatDict[quizPart].numTotalResponders)
+
+        self.__myOutputProducer.addIntoExecutionLog("Poll Statistics have been calculated.")

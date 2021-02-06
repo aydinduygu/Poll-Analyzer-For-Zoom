@@ -140,17 +140,23 @@ class Parser:
     def parse(self, filePath,paths, columnNames,answerKeyPaths):
 
         studentList=self.parseStudentList(filePath,columnNames["name"], columnNames["surname"],columnNames["id"])
+
         answerKeys=[]
         quizes={}
+
+        self.__oProducer.addIntoExecutionLog("Answer Sheets: "+answerKeyPaths+" are started to being parsed")
         for path in answerKeyPaths:
 
             file = open(path, 'r')
             lines = file.readlines()
             answerKeys.append(self.parseQuizes(lines))
 
+        self.__oProducer.addIntoExecutionLog("Answer Sheets have been parsed.")
+
         quizNameList={}
         for myindex,path in enumerate(paths):
 
+            self.__oProducer.addIntoExecutionLog("Poll file: "+path+" is started to being parsed")
 
             #get first 5 lines of csv
             df_head=pd.read_table(Path(path),skiprows=2,nrows=1,error_bad_lines=False,sep=',')
@@ -329,6 +335,7 @@ class Parser:
             self.__dataNotCorrelated[path].drop(self.__dataNotCorrelated[path].columns[0], axis=1, inplace=True)
             self.__dataNotCorrelated[path] = self.__dataNotCorrelated[path].reset_index(drop=True)
             self.__dataNotCorrelated[path] = self.__dataNotCorrelated[path].reindex()
+            self.__oProducer.addIntoExecutionLog("Parsing of Poll file: " + path + " ended.")
 
         self.detectUncorStu(studentList)
         return studentList,self.__dataNotCorrelated,self.__stuNotCorrelated
@@ -337,8 +344,11 @@ class Parser:
 
     def detectUncorStu(self,studentList):
 
+        self.__oProducer.addIntoExecutionLog("Looking up for anomalies...")
         self.__stuNotCorrelated = [stu for stu in studentList
                                    if stu.getUsername() == None]
+        self.__oProducer.addIntoExecutionLog("Anomaly detection ended!")
+
 
     def parseStudentList(self, filePath, name: str, surname: str, id: str):
         self.__oProducer.addIntoExecutionLog("Parsing Student List started : " + filePath + " started")
