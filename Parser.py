@@ -6,6 +6,8 @@ import math
 import operator
 from TR_Text import tr_upper, tr_lower
 import locale
+import numpy as np
+import re
 
 # -*- coding: utf-8 -*-
 from StringComparator import StringComparator
@@ -14,7 +16,7 @@ from Quiz import Quiz
 from QuizPart import QuizPart
 from Question import Question
 from OutputProducer import OutputProducer
-
+from pathlib import Path
 
 
 class Parser:
@@ -38,55 +40,173 @@ class Parser:
         self.__stuNotCorrelated = []
         self.__dataNotCorrelated = {}
         self.__dataCorrelated={}
-        self.parse(csv_filePaths, columnNames, "Are you attending this lecture?")
-        self.parseAnswerKey(answerKeys,self.__studentList)
+        self.parse(csv_filePaths, columnNames, "Are you attending this lecture?",answerKeys)
 
 
-    def linearSearchStuList(self, string: str):
 
+    def binarySearchStuList(self,string: str):
 
-        for m in range(len(self.__studentList)):
+        l = 0
+        r = len(self.__studentList) - 1
 
+        while (l <= r):
+
+            m = int((l + r) / 2)
             string2 = self.__studentList[m].getName() + " " + self.__studentList[m].getSurname()
 
-            res = StringComparator(string, string2).cmp_ig_C_S_P_N
+            strcmp=StringComparator(string,string2).cmp_ig_C_S_P_N
 
-            if res == 0:
+            if (strcmp==0):
                 return m
+            elif (strcmp==1):
+                l = m + 1
+            else:
+                r = m - 1
+        return -1  # If element is not found  then it will return -1
 
-        return -1
 
-    def parse(self, paths, columnNames, attendenceQuestion):
+    def parseQuizes(self,answerSheetAsList):
 
-        for path in paths:
-            df = pd.df = pd.read_csv(path)
+        indexList=[index for index,value in enumerate(answerSheetAsList)
+                   if value.lower().__contains__("question") and value.lower().__contains__("poll")]
 
+
+        try:
+            polls = [answerSheetAsList[val:indexList[i + 1]] for i, val in enumerate(indexList) if indexList[i]!=indexList[-1] and answerSheetAsList[val]!='\n']
+        except :
+            pass
+
+        questions=[]
+
+        try:
+            for i,poll in enumerate(polls):
+                pollInfos=re.split('[\n\t]',poll[0])
+                qz=Quiz(None,None)
+                qz.setQuizName(pollInfos[0])
+                qz.setNumOfQuestions(int(pollInfos[1][0]))
+                polls[polls.index(poll)]=[item for item in poll if item!="\n"]
+                poll=polls[i]
+                poll=poll[1:]
+                indexList2 = [index for index, value in enumerate(poll) if
+                              not value[0:9].lower().__contains__("answer")]
+
+                q_dict={}
+                qText=""
+                for item in poll:
+
+                    if item.__contains__('\n'):
+                        item = item.replace('\n', '')
+
+                    if not item[0:9].lower().__contains__("answer"):
+
+                        item=item[2:]
+
+
+                        if item.__contains__('( Single Choice)'):
+                            item = item.replace('( Single Choice)', '')
+                        if item.__contains__('( Multiple Choice)'):
+                            item = item.replace('( Multiple Choice)', '')
+                        item=item.strip()
+                        q_dict[item]=[]
+                        qText=item
+                    else:
+
+                        item=item.replace('Answer','')
+                        item=item[3:]
+
+                        q_dict[qText].append(item)
+
+                for key in q_dict.keys():
+                    q=Question(None,key,q_dict[key])
+                    questions.append(q)
+
+
+        except :
+            pass
+        
+        questions=sorted(questions)
+        return questions
+
+    def binarySearchQuestions(self,question,questions):
+        l = 0
+        r = len(questions) - 1
+
+        while (l <= r):
+
+            m = int((l + r) / 2)
+
+
+            if (questions[m] == question):
+                return questions[m]
+            elif (question>questions[m]):
+                l = m + 1
+            else:
+                r = m - 1
+        return -1  # If element is not found  then it will return -1
+
+
+
+    def parse(self, paths, columnNames, attendenceQuestion,answerKeyPaths):
+
+        answerKeys=[]
+        quizes={}
+        for path in answerKeyPaths:
+
+            file = open(path, 'r')
+            lines = file.readlines()
+            answerKeys.append(self.parseQuizes(lines))
+
+        quizNameList={}
+        for myindex,path in enumerate(paths):
+
+
+            #get first 5 lines of csv
+            df_head=pd.read_table(Path(path),skiprows=2,nrows=1,error_bad_lines=False,sep=',')
+
+            quizName=self.__parseColumn(df_head,'Topic')[0]
+
+            #get after 5 lines
+            df = pd.read_csv(Path(path), skiprows=5,index_col=False,error_bad_lines=False)
+
+            #detect column numbers of username, email and datetime strings
             uName_cIndex = df.columns.get_loc(columnNames["username"])
             email_cIndex = df.columns.get_loc(columnNames["email"])
             date_cIndex = df.columns.get_loc(columnNames["datetime"])
 
-            df = pd.read_csv(path, skiprows=1, header=None)
-            df_att = df.loc[df[df.columns[date_cIndex + 1]].isin([attendenceQuestion])]
-            df_att = df_att.reset_index(drop=True)
-            df = df.reset_index(drop=True)
+            #read after 6 lines
+            df = pd.read_csv(Path(path), skiprows=6, index_col=False,header=None,error_bad_lines=False)
 
+            #detect number of rows and number of columns
             numColumn = len(df.columns)
             numRow = len(df.index)
 
+            #list of index numbers of questions
             q_IndexList = [x for x in range(date_cIndex + 1, numColumn - 1) if x % 2 == 0]
+
+            #list of index numbers of student responds
             a_IndexList = [x for x in range(date_cIndex + 1, numColumn - 1) if x % 2 != 0]
 
-            dfattList = list(df_att.index)
-            indexNames = df[df[df.columns[date_cIndex + 1]] == attendenceQuestion].index
+            #list row indexes of lines with attendence question
+            indexNames = df[df[df.columns[date_cIndex + 3]].isnull()].index
+
+            #generate an empty dataframe to keep inassociated data after method ended
             self.__dataNotCorrelated[path] = pd.DataFrame(columns=df.columns.tolist())
 
+            #extract class dates as different dataframe
             df_clsDates = df.copy(deep=True)
-
-            df_clsDates = pd.DataFrame(df[df.columns[date_cIndex]].str.split(" ", 3).tolist(),
-                                       columns=["month", "day", "year", "time"])
+            df_clsDates = pd.DataFrame(df[df.columns[date_cIndex]].str.split(" ", 3).tolist(),columns=["month", "day", "year", "time"])
             df_clsDates = pd.DataFrame(df_clsDates["month"] + " " + df_clsDates["day"] + " " + df_clsDates["year"])
             df_clsDates = df_clsDates.drop_duplicates(keep="first")
 
+            #extract lines with attencence question(lines with the column that is 3 after from date column is null)
+            df_att = df.loc[df[df.columns[date_cIndex + 3]].isnull()]
+            df_att = df_att.reset_index(drop=True)
+            df = df.reset_index(drop=True)
+
+            # list indexes of lines with the attendence question
+            dfattList = list(df_att.index)
+
+            #add class dates into attendence attributes of all students
             for index, row in df_clsDates.iterrows():
 
                 myClsdatetime = str(row.loc[0])
@@ -94,6 +214,8 @@ class Parser:
 
                 for stu in self.__studentList:
                     stu.getAttendence().add_clsDate(myClsdatetime.date())
+
+
 
             a = len(df.index)
             df.drop(indexNames, inplace=True, axis=0)
@@ -108,7 +230,7 @@ class Parser:
                     mydatetime = str(row.loc[df_att.columns[date_cIndex]])
                     mydatetime = datetime.datetime.strptime(mydatetime, "%b %d, %Y %H:%M:%S")
 
-                    stuIndex = self.linearSearchStuList(username)
+                    stuIndex = self.binarySearchStuList(username)
 
                     if stuIndex != -1:
                         stu = self.__studentList[stuIndex]
@@ -125,6 +247,11 @@ class Parser:
 
                         r = df_att.iloc[index, :]
                         self.__dataNotCorrelated[path].loc[index] = row.transpose()
+            if b!=0:
+                if not quizName in quizNameList:
+                    quizNameList[quizName] = 1
+                else:
+                    quizNameList[quizName] += 1
 
             for index, row in df.iterrows():
 
@@ -133,7 +260,7 @@ class Parser:
                 mydatetime = str(row.loc[df.columns[date_cIndex]])
                 mydatetime = datetime.datetime.strptime(mydatetime, "%b %d, %Y %H:%M:%S")
 
-                stuIndex = self.linearSearchStuList(username)
+                stuIndex = self.binarySearchStuList(username)
 
                 if stuIndex != -1:
                     stu = self.__studentList[stuIndex]
@@ -145,21 +272,58 @@ class Parser:
 
                     qpList = []
                     i = 1
+
+                    qz = Quiz(None, mydatetime.date())
                     for c in q_IndexList:
                         q = Question(i, str(row.loc[df.columns[c]]), "")
 
-                        answers=str(row.loc[df.columns[c + 1]]).split(sep=';')
+                        for ansKey in answerKeys:
+                            q2=self.binarySearchQuestions(q,ansKey)
+                            if q2!=-1:
+                                q2.setQuestionNumber(i)
+                                q=q2
+                                break
+
+                        responds=str(row.loc[df.columns[c + 1]]).split(sep=';')
+                        qp = QuizPart(q, responds)
+
+                        isRespondCorrect=False
+                        for r in responds:
+
+                            for a in q.getAnswer():
+
+                                strcmp=StringComparator(r,a).cmp_ig_CaseSpacePunc
+
+                                if strcmp==0:
+                                    qp.setIsCorrect(1)
+                                    qz.setNumCorrect(qz.getNumCorrect()+1)
+                                    isRespondCorrect=True
+                                    break
+
+                            if isRespondCorrect:
+                                break
 
 
-                        qp = QuizPart(q,answers)
+
+
+                        if not isRespondCorrect:
+                            qz.setNumWrong(qz.getNumWrong()+1)
+
+
                         qpList.append(qp)
                         i+=1
 
-                    qz = Quiz(qpList, mydatetime.date())
-
-
+                    qz.setQuizParts(qpList)
                     stu.getQuizes().append(qz)
-                    stu.getQuizes()[stu.getQuizes().index(qz)].setQuizName("quiz"+str(stu.getQuizes().index(qz)))
+
+                    for quiz in stu.getQuizes():
+                        if quiz.getQuizName()==(quizName+"_"+str(quizNameList[quizName])):
+                            quizNameList[quizName]+=1
+
+                    qz.setQuizName(quizName+"_"+str(quizNameList[quizName]))
+
+
+                    #stu.getQuizes()[stu.getQuizes().index(qz)].setQuizName("quiz"+str(stu.getQuizes().index(qz)))
 
 
                     stu.getAttendence().add_Attendence(mydatetime.date())
@@ -190,14 +354,21 @@ class Parser:
         studentIdList = self.__parseColumn(df, id)
 
         studentList = []
+        locale.setlocale(locale.LC_COLLATE,locale="tr-TR")
 
         for x in range(0, len(studentIdList)):
-            name = tr_lower(str(nameList[x]))
-            surname = tr_lower(str(surnameList[x]))
-            stu = Student(name, surname, studentIdList[x])
+            name = tr_upper(str(nameList[x]))
+            surname = tr_upper(str(surnameList[x]))
+            studentId=studentIdList[x]
+            stu = Student(name, surname, studentId)
             studentList.append(stu)
 
         self.__oProducer.addIntoExecutionLog("Parsing Student List : " + filePath + " finished")
+
+        letters = "abcçdefgğhıijklmnoöprsştuüvyz"
+        d = {i: letters.index(i) for i in letters}
+
+        studentList=sorted(studentList)
 
         return studentList
 
@@ -210,49 +381,6 @@ class Parser:
         nameList = [x for x in nameList if x != columName]
 
         return nameList
-
-
-
-    def parseAnswerKey(self, paths, studentList):
-
-        for path2 in paths:
-            df_withHeader = pd.read_excel(path2)
-            quizName = df_withHeader.columns[0]
-
-            df_answerKey = pd.read_excel(path2, skiprows=1, header=None)
-            questionList = df_answerKey.iloc[:, 0]
-            answerList = df_answerKey.iloc[:, 1]
-
-            qlist = []
-            alist = []
-            questionList = questionList.values
-            answerList = answerList.values
-
-            qlist.extend(questionList)
-            alist.extend(answerList)
-
-            numRows = len(df_answerKey.index)
-
-            length = len(studentList)
-            length2 = 0
-            length3 = 0
-
-            for i in range(length):
-                length2 = len(studentList[i].getQuizes())
-                for j in range(length2):
-                    length3 = len(studentList[i].getQuizes()[j].getQuizParts())
-                    for k in range(length3):
-
-                        for m in range(numRows):
-
-                            string1=studentList[i].getQuizes()[j].getQuizParts()[k].getQuestion().getQuestionText()
-                            string2=qlist[m]
-
-                            match=StringComparator(string1,string2).cmp_ig_C_S_P_N
-                            if match==0:
-
-                                studentList[i].getQuizes()[j].getQuizParts()[k].getQuestion().setAnswer(alist[m].split(sep=';'))
-
 
     def getStudentList(self):
         return self.__studentList

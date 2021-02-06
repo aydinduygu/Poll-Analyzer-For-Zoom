@@ -2,7 +2,9 @@ from OutputProducer import OutputProducer
 from Parser import Parser
 import glob, os
 from StringComparator import StringComparator
-
+from QuestionStat import QuestionStat
+from AnswerStat import AnswerStat
+from QuizStat import QuizStat
 
 class PollAnalyzer:
     __studentList = None
@@ -24,17 +26,20 @@ class PollAnalyzer:
         self.__pollList={}
         self.__quizQuestStat={}
 
-        path="./poll_files/"
-        path2="./poll_answers/"
+        path=".\poll_files"
+        path2=".\poll_answers"
 
-        for file in glob.glob(path+"*.csv"):
+        for file in glob.glob(path+r"/*.csv"):
+
+
             self.__fileNames.append(file)
 
+            print(file)
         for file in glob.glob("*.xls"):
             if file != "studentList.XLS":
                 self.__fileNames.append(file)
 
-        for file in glob.glob(path2+"*.xls"):
+        for file in glob.glob(path2+r"/*.txt"):
             self.__answerKeys.append(file)
 
         filePath = "./poll_files/studentList.XLS"
@@ -45,16 +50,14 @@ class PollAnalyzer:
         parser = Parser(filePath,self.__fileNames,self.__answerKeys,columnNames)
         self.__studentList=parser.getStudentList()
 
-        self.calculateQuizResults()
+        self.calculateQuizStats()
 
-        self.extractPollList()
+        self.__myOutputProducer.printPollStat(self.__pollList)
 
-        self.calcQuestionStat()
 
-        self.__myOutputProducer.printPollStatictics(self.__quizQuestStat)
         self.__myOutputProducer.printAttendenceReport(self.__studentList)
         self.__myOutputProducer.printPollResults(self.__studentList,self.__pollList)
-
+        self.__myOutputProducer.printStudentOverallResults(self.__studentList,self.__pollList)
 
 
     def getStudentList(self):
@@ -82,32 +85,10 @@ class PollAnalyzer:
                        self.__studentList[stuIndex].increaseAttendance()
                        self.__studentList[stuIndex].setNumClasses(num)
 
-    def calculateQuizResults(self):
 
-        for student in self.__studentList:
 
-            for quiz in student.getQuizes():
 
-                for quizPart in quiz.getQuizParts():
 
-                    match=0
-
-                    for r in quizPart.getStudentRespond():
-
-                        for a in quizPart.getQuestion().getAnswer():
-
-                            match = StringComparator(a,r).cmp_ig_C_S_P_N
-                            if match==0:
-                                break
-                        if match!=0:
-                            break
-
-                    if match==0:
-                        quizPart.setIsCorrect(1)
-                        quiz.setNumCorrect(quiz.getNumCorrect()+1)
-                    else:
-                        quizPart.setIsCorrect(0)
-                        quiz.setNumWrong(quiz.getNumWrong()+1)
 
 
     def calcQuestionStat(self):
@@ -115,29 +96,35 @@ class PollAnalyzer:
         i=0
         for key in self.__pollList:
 
-                num=len(self.__pollList[key][0].getQuizes()[i].getQuizParts())
+            questions=[x.getQuestion().getQuestionText() for x in self.__pollList[key][0].getQuizes()[i].getQuizParts()
+                       if self.__pollList[key][0].getQuizes[i].getQuizName()==key]
+            answers=[]
+            trueAnswers=[x.getQuestion().getAnswer() for x in  self.__pollList[key][0].getQuizes()[i].getQuizParts()
+                         if self.__pollList[key][0].getQuizes[i].getQuizName()==key]
 
-                questions=[x.getQuestion().getQuestionText() for x in self.__pollList[key][0].getQuizes()[i].getQuizParts()]
-                answers=[]
-                trueAnswers=[x.getQuestion().getAnswer() for x in  self.__pollList[key][0].getQuizes()[i].getQuizParts()]
+            stuList = self.__pollList[key]
+            for index,stu in enumerate(stuList):
+
+                num = len(self.__pollList[key][0].getQuizes()[i].getQuizParts())
+
                 for j in range(num):
                     a_dict={}
                     q = self.__pollList[key][0].getQuizes()[i].getQuizParts()[j].getQuestion().getQuestionText()
 
-                    stuList=self.__pollList[key]
-                    for stu in stuList:
-                        respond=stu.getQuizes()[i].getQuizParts()[j].getStudentRespond()
 
+                    respond=stu.getQuizes()[i].getQuizParts()[j].getStudentRespond()
 
-                        for r in respond:
+                    for r in respond:
 
-                            if not r in a_dict:
-                                a_dict[r]=1
-                            else:
-                                a_dict[r]=a_dict[r]+1
+                        if not r in a_dict:
+                            a_dict[r]=1
+                        else:
+                            a_dict[r]=a_dict[r]+1
                     answers.append(a_dict)
+            i+=1
+            self.__quizQuestStat[key]=[questions,answers,trueAnswers]
+        a=5
 
-                self.__quizQuestStat[key]=[questions,answers,trueAnswers]
 
     def getStuIndexWithUserName(self, username):
 
@@ -163,3 +150,46 @@ class PollAnalyzer:
                     x=self.__pollList[quiz.getQuizName()]
                     if not stu in x:
                         x.append(stu)
+
+    def calculateQuizStats(self):
+
+        for stu in self.__studentList:
+            for quiz in stu.getQuizes():
+                if not quiz.getQuizName() in self.__pollList:
+
+                    self.__pollList[quiz.getQuizName()] = QuizStat(quiz.getNumOfQuestions())
+
+
+                self.__pollList[quiz.getQuizName()].attendingStuList.append(stu)
+
+                qzStat=self.__pollList[quiz.getQuizName()]
+                qStatDict=qzStat.questionStatDict
+
+
+                for quizPart in quiz.getQuizParts():
+
+                    stu.numTotalQuestionSolved+=1
+
+                    if quizPart not in qzStat.quizParts:
+                        qzStat.quizParts.append(quizPart)
+
+                    if quizPart not in qStatDict:
+                        qStatDict[quizPart]=QuestionStat()
+
+                    if quizPart.getIsCorrect()==1:
+                        stu.numTotalCorrect+=1
+                        qStatDict[quizPart].addCorrectResp(stu)
+
+                    elif quizPart.getIsCorrect()==0:
+                        qStatDict[quizPart].addWrongResp(stu)
+                        stu.numTotalWrong+=1
+
+                    qStatDict[quizPart].question=quizPart.getQuestion()
+
+                    astat=qStatDict[quizPart].answerStat
+
+                    astat.setCorrectAnswer(quizPart.getQuestion().getAnswer())
+
+                    for r in quizPart.getStudentRespond():
+
+                       astat.addAnswer(r,stu,qStatDict[quizPart].numTotalResponders)

@@ -1,4 +1,5 @@
 from Quiz import Quiz
+from StringComparator import StringComparator
 from Attendence import Attendence
 
 
@@ -19,6 +20,10 @@ class Student:
         self.__studentId = studentId
         self.__quizes=[]
         self.__attendence=Attendence()
+        self.numAttendedQuizes=0
+        self.numTotalCorrect=0
+        self.numTotalWrong=0
+        self.numTotalQuestionSolved=0
 
     def __str__(self):
         return self.__studentId + " " + self.__name + " " + self.__surname
@@ -56,3 +61,33 @@ class Student:
 
     def getEmail(self):
         return self.__email
+
+    def __lt__(self, other):
+        name1=self.getName()+" "+self.getSurname()
+        name2=other.getName()+" "+other.getSurname()
+
+        strcmp=StringComparator(name1,name2)
+        if strcmp.cmp_ig_C_S_P_N==-1:
+            return True
+        else:
+            return False
+
+    def __gt__(self, other):
+        name1 = self.getName() + " " + self.getSurname()
+        name2 = other.getName() + " " + other.getSurname()
+
+        strcmp = StringComparator(name1, name2)
+        if strcmp.cmp_ig_C_S_P_N == 1:
+            return True
+        else:
+            return False
+
+    def __eq__(self, other):
+        name1 = self.getName() + " " + self.getSurname()
+        name2 = other.getName() + " " + other.getSurname()
+
+        strcmp = StringComparator(name1, name2)
+        if strcmp.cmp_ig_C_S_P_N == 0:
+            return True
+        else:
+            return False

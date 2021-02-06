@@ -16,12 +16,12 @@ class Attendence:
     def add_Attendence(self,date:datetime.date):
         if not date.strftime("%d/%m/%y") in self.__attDates:
             self.__attDates.add(date.strftime("%d/%m/%y"))
-            self.__numStuAttend+=1
+            self.__numStuAttend=len(self.__attDates)
 
     def add_clsDate(self,date:datetime.date):
         if not date.strftime("%d/%m/%y") in self.__clsDates:
             self.__clsDates.add(date.strftime("%d/%m/%y"))
-            self.__numClasses += 1
+            self.__numClasses = len(self.__clsDates)
 
     def getNumStuAttend(self):
         return self.__numStuAttend

@@ -161,7 +161,7 @@ class StringComparator:
         self.s2_lowerNoSpaceNoPunc = self.s2_lowerNoPunc.replace(" ", "")
         self.s1_upperNoSpaceNoPunc = self.s1_upperNoPunc.replace(" ", "")
         self.s2_upperNoSpaceNoPunc = self.s2_upperNoPunc.replace(" ", "")
-        self.cmp_ig_SpacePunc = self.compare(self.s1_lowerNoSpaceNoPunc, self.s2_lowerNoSpaceNoPunc)
+        self.cmp_ig_CaseSpacePunc = self.compare(self.s1_lowerNoSpaceNoPunc, self.s2_lowerNoSpaceNoPunc)
 
     def __comp_ig_C_S_P_N(self):
 
