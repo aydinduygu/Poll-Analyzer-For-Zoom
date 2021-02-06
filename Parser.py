@@ -215,6 +215,29 @@ class Parser:
 
     def parseAnswerKey(self, paths, studentList):
 
+     ''''
+    qlist = []
+    alist = []
+    temp = None
+
+    with open(paths) as f:
+        lines = f.readlines()
+        f.close()
+
+    lines_length = len(lines)
+    for i in range(lines_length):
+        if lines[i][0].isdigit() != 0:
+            if lines[i].find("( Multiple Choice)") != -1:
+                ind = lines[i].index('( Multiple') - len(lines[i]) - 1
+                qlist.append(lines[i][3:ind])
+            if lines[i].find("( Single Choice)") != -1:
+                ind = lines[i].index('( Single') - len(lines[i]) - 1
+                qlist.append(lines[i][3:ind])
+        if lines[i].find('Answer') != -1:
+            temp = lines[i][10:-1]
+            alist.append(temp)
+            '''
+
         for path2 in paths:
             df_withHeader = pd.read_excel(path2)
             quizName = df_withHeader.columns[0]
