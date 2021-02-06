@@ -10,7 +10,7 @@ from PollAnalyzer import PollAnalyzer
 class Gui():
 
     def __init__(self):
-
+        a=5
 
         self.window = Tk()
         self.window.title("Poll Analyzer")
