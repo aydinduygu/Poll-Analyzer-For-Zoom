@@ -7,7 +7,7 @@ import time
 from PollAnalyzer import PollAnalyzer
 
 
-class Gui():
+class Gui:
 
     def __init__(self):
         a = 5
@@ -27,24 +27,23 @@ class Gui():
         self.window.geometry("750x300+" + str(int((width - 750) / 2)) + "+" + str(int((height - 300) / 2)))
 
         self.lbl = Label(self.window,
-                         text="Welcome to the Poll Analyzer,\nPut csv files into the directory 'poll_files' \nAnd answer txt files into poll_answers directories\nPress Start to analyze poll results",
+                         text="Welcome to the Poll Analyzer,\nPut csv files into the directory 'poll_files' \nAnd "
+                              "answer txt files into poll_answers directories\nPress Start to analyze poll results",
                          font=("Arial", 10)).pack(pady=20)
         self.bar = Progressbar(self.window, orient=HORIZONTAL, length=350, mode="determinate", maximum=100)
         self.bar.pack(pady=10)
 
-        self.buttonEnd = Button(self.window, text="Cancel", command=self.cancel).pack(side=RIGHT, padx=15, pady=5)
-        self.buttonStart = Button(self.window, text="Start", command=self.start, state=DISABLED).pack(side=RIGHT,
-                                                                                                      padx=5,
-                                                                                                      pady=5)
-        button_explore = Button(self.window,
-                                text="Browse Student List",
-                                command=self.browseFiles).pack(side=LEFT, padx=20, pady=5)
-        button_explore2 = Button(self.window,
-                                 text="Browse Poll Reports",
-                                 command=self.browseFiles2).pack(side=LEFT, padx=20, pady=5)
-        button_explore3 = Button(self.window,
-                                 text="Browse Answer Key",
-                                 command=self.browseFiles3).pack(side=LEFT, padx=20, pady=5)
+        self.buttonEnd = Button(self.window, text="Cancel", command=self.cancel)
+        self.buttonEnd.pack(side=RIGHT, padx=15, pady=5)
+        self.buttonStart = Button(self.window, text="Start", command=self.start, state=DISABLED)
+        self.buttonStart.pack(side=RIGHT, padx=5, pady=5)
+
+        button_explore = Button(self.window,text="Browse Student List",command=self.browseFiles)
+        button_explore.pack(side=LEFT, padx=20, pady=5)
+        button_explore2 = Button(self.window,text="Browse Poll Reports",command=self.browseFiles2)
+        button_explore2.pack(side=LEFT, padx=20, pady=5)
+        button_explore3 = Button(self.window,text="Browse Answer Key",command=self.browseFiles3)
+        button_explore3.pack(side=LEFT, padx=20, pady=5)
         self.window.mainloop()
 
     def start(self):
@@ -64,10 +63,10 @@ class Gui():
                                                                       "*.XLS*"),
                                                                      ("all files",
                                                                       "*.*")))
-        if self.studentListPath != None:
+        if self.studentListPath is not None:
             self.a = True
         if self.a and self.b and self.c:
-            self.buttonStart["state"] = 'normal'
+            self.buttonStart["state"] = "NORMAL"
 
     def browseFiles2(self):
         self.pollPath = []
@@ -81,7 +80,7 @@ class Gui():
         if len(self.pollPath) != 0:
             self.b = True
         if self.a and self.b and self.c:
-            self.buttonStart["state"] = 'normal'
+            self.buttonStart["state"] = "NORMAL"
 
     def browseFiles3(self):
         self.answerPath = []
@@ -94,8 +93,7 @@ class Gui():
         if len(self.answerPath) != 0:
             self.c = True
         if self.a and self.b and self.c:
-
-            self.buttonStart(state=tk().ACTIVE)
+            self.buttonStart["state"] = "NORMAL"
 
     def updateBar(self, value):
         self.bar['value'] += value
