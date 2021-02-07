@@ -2,8 +2,8 @@ from datetime import datetime
 import pandas as pd
 import openpyxl
 from openpyxl import load_workbook
-from openpyxl.styles import Alignment,Font
-from openpyxl.chart import BarChart,BarChart3D,Reference,Series,layout
+from openpyxl.styles import Alignment, Font
+from openpyxl.chart import BarChart, BarChart3D, Reference, Series, layout
 from openpyxl.chart.marker import DataPoint
 from StringComparator import StringComparator
 import os
@@ -11,7 +11,8 @@ from QuizPart import QuizPart
 from Question import Question
 from Student import Student
 
-#singleton pattern implemented
+
+# singleton pattern implemented
 class OutputProducer:
     __instance = None
 
@@ -34,12 +35,10 @@ class OutputProducer:
 
         print(dt_string + " " + logInfo + '\n')
 
+    def printAttendenceReport(self, studentList):
 
-
-    def printAttendenceReport(self,studentList):
-        
         self.addIntoExecutionLog("Attendence report is being generated...")
-        
+
         if not os.path.exists('attendence_results'):
             os.makedirs('attendence_results')
 
@@ -76,38 +75,42 @@ class OutputProducer:
         df.to_excel("./attendence_results/attendence_report.xlsx")
         self.addIntoExecutionLog("Attendence report have been generated in 'attendence_results' directory.")
 
+    def printStudentOverallResults(self, studentList, poll_list):
 
-
-    def printStudentOverallResults(self,studentList,poll_list):
-        
         self.addIntoExecutionLog("Total Success Percentages.xlsx file is being generated...")
-        
+
         if not os.path.exists('poll_results'):
             os.makedirs('poll_results')
 
-        sum=0
+        sum = 0
         for poll in poll_list:
-            sum+=len(poll_list[poll].quizParts)
+            sum += len(poll_list[poll].quizParts)
 
-
-        overallResults=[]
+        overallResults = []
         for i, stu in enumerate(studentList):
-            name=stu.getName().capitalize()
-            surname=stu.getSurname().capitalize()
-            id=stu.getStudentId()
-            totalNumCorrect=stu.numTotalCorrect
-            totalNumWrong=stu.numTotalWrong
+            name = stu.getName().capitalize()
+            surname = stu.getSurname().capitalize()
+            id = stu.getStudentId()
+            totalNumCorrect = stu.numTotalCorrect
+            totalNumWrong = stu.numTotalWrong
 
-            data={"Student Id":id, "Name":name,"Surname":surname,"Correct Answer Rate":str(totalNumCorrect)+"/"+str(sum),"Wrong Answer Rate":str(totalNumWrong)+"/"+str(sum),"Correct Answer Percentage":float("{:.2f}".format(100*totalNumCorrect/sum))}
+            try:
+                temp = 100 * totalNumCorrect / sum
+            except ZeroDivisionError:
+                temp = 0
+
+            data = {"Student Id": id, "Name": name, "Surname": surname,
+                    "Correct Answer Rate": str(totalNumCorrect) + "/" + str(sum),
+                    "Wrong Answer Rate": str(totalNumWrong) + "/" + str(sum),
+                    "Correct Answer Percentage": float("{:.2f}".format(temp))}
             overallResults.append(data)
-        
-        overallResults=sorted(overallResults,key=lambda i: i["Correct Answer Percentage"],reverse=True)
+
+        overallResults = sorted(overallResults, key=lambda i: i["Correct Answer Percentage"], reverse=True)
 
         pd.DataFrame(overallResults).to_excel("./poll_results/Total Success Rates.xlsx")
         self.addIntoExecutionLog("Total Success Percentages.xlsx file has been generated in 'poll_results' directory")
 
-
-    def printPollResults(self,studentList,poll_List):
+    def printPollResults(self, studentList, poll_List):
 
         self.addIntoExecutionLog("Poll Results  is being generated...")
 
@@ -119,7 +122,7 @@ class OutputProducer:
 
             quizDataList = []
 
-            for j,stu in enumerate(studentList):
+            for j, stu in enumerate(studentList):
                 name = stu.getName().capitalize()
                 surname = stu.getSurname().capitalize()
                 id = stu.getStudentId()
@@ -127,10 +130,10 @@ class OutputProducer:
 
                 try:
 
-                    exist=False
+                    exist = False
                     for quiz in stu.getQuizes():
-                        if quiz.getQuizName()==key:
-                            exist=True
+                        if quiz.getQuizName() == key:
+                            exist = True
                             qlist = quiz.getQuizParts()
                             for q in qlist:
                                 data["q" + str(q.getQuestion().getQuestionNumber())] = q.getIsCorrect()
@@ -140,9 +143,9 @@ class OutputProducer:
                             data["Success Percentage"] = 100 * quiz.getNumCorrect() / len(qlist)
                             break
 
-                    if exist==False:
+                    if exist == False:
 
-                        for x in range(1,poll_List[key].numberOfQuestions + 1):
+                        for x in range(1, poll_List[key].numberOfQuestions + 1):
                             data["q" + str(x)] = " "
 
                     quizDataList.append(data)
@@ -158,25 +161,22 @@ class OutputProducer:
             pollResults[key].to_excel("./poll_results/" + key + "_result.xlsx")
             self.addIntoExecutionLog(key + "_result.xlsx file has been generated in 'poll_results' directory")
 
-    def printPollStat(self,quizStats):
+    def printPollStat(self, quizStats):
 
         self.addIntoExecutionLog("Poll Statistics  is being generated...")
 
         if not os.path.exists('poll_statistics'):
             os.makedirs('poll_statistics')
 
-        for i,keyQuizName in enumerate(quizStats):
-
+        for i, keyQuizName in enumerate(quizStats):
 
             writer = pd.ExcelWriter("./poll_statistics/" + keyQuizName + "_stats.xlsx", engine='xlsxwriter')
 
-            quizStat=quizStats[keyQuizName]
-
-
+            quizStat = quizStats[keyQuizName]
 
             for j, quizPart in enumerate(quizStat.questionStatDict):
-                questionStat=quizStat.questionStatDict[quizPart]
-                answerNumDict=questionStat.getAnswerStat().answerNumDict
+                questionStat = quizStat.questionStatDict[quizPart]
+                answerNumDict = questionStat.getAnswerStat().answerNumDict
 
                 dfAnswers = pd.DataFrame(answerNumDict, columns=answerNumDict.keys(), index=[0])
                 dfAnswers = dfAnswers.transpose().rename(columns={0: "count", 1: "%"})
@@ -188,9 +188,8 @@ class OutputProducer:
                 for key in answerNumDict:
                     dfAnswers.loc[key, '%'] = float("{:.2f}".format(100 * (answerNumDict[key] / mysum)))
 
-                dfAnswers.index.name=quizPart.getQuestion().getQuestionText()
-                dfAnswers.to_excel(writer, sheet_name="q" + str(j+1))
-
+                dfAnswers.index.name = quizPart.getQuestion().getQuestionText()
+                dfAnswers.to_excel(writer, sheet_name="q" + str(j + 1))
 
             writer.save()
 
@@ -205,17 +204,15 @@ class OutputProducer:
             my_orange = openpyxl.styles.colors.Color(rgb='FFE5CC')
             my_fill_orange = openpyxl.styles.fills.PatternFill(patternType='solid', fgColor=my_orange)
 
+            for k, ws in enumerate(wb.worksheets):
 
-            for k,ws in enumerate(wb.worksheets):
-
-                correctAnswer=""
+                correctAnswer = ""
                 for j, quizPart in enumerate(quizStat.questionStatDict):
-                    str2=str(ws['A1'].value)
-                    qmatch= StringComparator(quizPart.getQuestion().getQuestionText(),str2).cmp_ig_CaseSpacePunc
-                    if qmatch==0:
+                    str2 = str(ws['A1'].value)
+                    qmatch = StringComparator(quizPart.getQuestion().getQuestionText(), str2).cmp_ig_CaseSpacePunc
+                    if qmatch == 0:
                         correctAnswer = quizPart.getQuestion().getAnswer()
                         break
-
 
                 for row in ws.iter_rows():
                     for cell in row:
@@ -246,7 +243,7 @@ class OutputProducer:
                                 trueCellIndex = cell.row
                                 break
 
-                        if match!=0:
+                        if match != 0:
                             cell.fill = my_fill_red
 
                 ws['A1'].fill = my_fill_orange
@@ -298,10 +295,3 @@ class OutputProducer:
                 k += 1
             wb.save("./poll_statistics/" + keyQuizName + "_stats.xlsx")
             self.addIntoExecutionLog(keyQuizName + "_stats.xlsx file has been generated in 'poll_statistics' directory")
-
-
-
-
-
-
-
