@@ -1,11 +1,13 @@
 from threading import Thread
+from tkinter import INSERT
 
 from OutputProducer import OutputProducer
 from Parser import Parser
-import glob, os
 from QuestionStat import QuestionStat
 from QuizStat import QuizStat
-import sys
+import subprocess,os
+from tkinter import *
+
 
 
 class PollAnalyzer(Thread):
@@ -70,6 +72,12 @@ class PollAnalyzer(Thread):
             self.__gui.bar['value'] = 100
             self.__myOutputProducer.addIntoExecutionLog("Process finished!!!")
             self.thread_running=False
+            self.__gui.text.configure(state=NORMAL)
+            self.__gui.text.delete(1.0, END)
+            self.__gui.text.insert(INSERT, "Successfull...Process is completed...")
+            self.__gui.text.configure(state=DISABLED)
+            path = "./Results"
+            subprocess.Popen(f'explorer {os.path.realpath(path)}')
 
     def stop(self):
         sys.exit()

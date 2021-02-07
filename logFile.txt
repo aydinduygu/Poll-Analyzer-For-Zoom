@@ -4356,3 +4356,541 @@
 06/02/2021 20:42:12 Total Success Percentages.xlsx file is being generated...
 06/02/2021 20:42:12 Total Success Percentages.xlsx file has been generated in 'poll_results' directory
 06/02/2021 20:42:12 Process finished!!!
+07/02/2021 18:19:56 System started!
+07/02/2021 18:19:57 Parsing Student List started : C:/Users/Selimoglu/Desktop/Projects/phyton/CSE3063F20P2_GRP7/poll_files/studentList.XLS started
+07/02/2021 18:19:57 Parsing Student List : C:/Users/Selimoglu/Desktop/Projects/phyton/CSE3063F20P2_GRP7/poll_files/studentList.XLS finished
+07/02/2021 18:19:57 Answer Sheets: ('C:/Users/Selimoglu/Desktop/Projects/phyton/CSE3063F20P2_GRP7/poll_answers/CSE3063 OOSD Weekly Session 1 - Monday Quizzes ANSWER KEY.txt', 'C:/Users/Selimoglu/Desktop/Projects/phyton/CSE3063F20P2_GRP7/poll_answers/CSE3063 OOSD Weekly Session 2 - Tuesday Quizzes ANSWER KEY.txt') are  being parsed
+07/02/2021 18:19:57 Answer Sheets have been parsed.
+07/02/2021 18:19:58 Poll file: C:/Users/Selimoglu/Desktop/Projects/phyton/CSE3063F20P2_GRP7/poll_files/97056655049_PollReport_12-01-2021.csv is being parsed
+07/02/2021 18:19:58 Parsing of Poll file: C:/Users/Selimoglu/Desktop/Projects/phyton/CSE3063F20P2_GRP7/poll_files/97056655049_PollReport_12-01-2021.csv ended.
+07/02/2021 18:19:58 Looking up for anomalies...
+07/02/2021 18:19:58 Anomaly detection ended!
+07/02/2021 18:19:58 Poll Statistics are being calculated...
+07/02/2021 18:23:17 Poll Statistics have been calculated.
+07/02/2021 18:23:18 Poll Statistics  is being generated...
+07/02/2021 18:23:19 Attendence report is being generated...
+07/02/2021 18:23:19 Attendence report have been generated in 'attendence_results' directory.
+07/02/2021 18:23:20 Poll Results  is being generated...
+07/02/2021 18:23:21 Total Success Percentages.xlsx file is being generated...
+07/02/2021 18:23:21 Total Success Percentages.xlsx file has been generated in 'poll_results' directory
+07/02/2021 18:23:21 Process finished!!!
+07/02/2021 18:27:52 System started!
+07/02/2021 18:27:53 Parsing Student List started : C:/Users/Selimoglu/Desktop/Projects/phyton/CSE3063F20P2_GRP7/poll_files/studentList.XLS started
+07/02/2021 18:27:53 Parsing Student List : C:/Users/Selimoglu/Desktop/Projects/phyton/CSE3063F20P2_GRP7/poll_files/studentList.XLS finished
+07/02/2021 18:27:53 Answer Sheets: ('C:/Users/Selimoglu/Desktop/Projects/phyton/CSE3063F20P2_GRP7/poll_answers/CSE3063 OOSD Weekly Session 1 - Monday Quizzes ANSWER KEY.txt', 'C:/Users/Selimoglu/Desktop/Projects/phyton/CSE3063F20P2_GRP7/poll_answers/CSE3063 OOSD Weekly Session 2 - Tuesday Quizzes ANSWER KEY.txt') are  being parsed
+07/02/2021 18:27:53 Answer Sheets have been parsed.
+07/02/2021 18:27:54 Poll file: C:/Users/Selimoglu/Desktop/Projects/phyton/CSE3063F20P2_GRP7/poll_files/94502073867_PollReport (9).csv is being parsed
+07/02/2021 18:27:54 Parsing of Poll file: C:/Users/Selimoglu/Desktop/Projects/phyton/CSE3063F20P2_GRP7/poll_files/94502073867_PollReport (9).csv ended.
+07/02/2021 18:27:54 Looking up for anomalies...
+07/02/2021 18:27:54 Anomaly detection ended!
+07/02/2021 18:27:54 Poll Statistics are being calculated...
+07/02/2021 18:31:13 Poll Statistics have been calculated.
+07/02/2021 18:31:14 Poll Statistics  is being generated...
+07/02/2021 18:31:15 Attendence report is being generated...
+07/02/2021 18:31:15 Attendence report have been generated in 'attendence_results' directory.
+07/02/2021 18:31:16 Poll Results  is being generated...
+07/02/2021 18:31:17 Total Success Percentages.xlsx file is being generated...
+07/02/2021 18:31:17 Total Success Percentages.xlsx file has been generated in 'poll_results' directory
+07/02/2021 18:31:17 Process finished!!!
+07/02/2021 18:33:18 System started!
+07/02/2021 18:33:19 Parsing Student List started : C:/Users/Selimoglu/Desktop/Projects/phyton/CSE3063F20P2_GRP7/poll_files/studentList.XLS started
+07/02/2021 18:33:19 Parsing Student List : C:/Users/Selimoglu/Desktop/Projects/phyton/CSE3063F20P2_GRP7/poll_files/studentList.XLS finished
+07/02/2021 18:33:19 Answer Sheets: ('C:/Users/Selimoglu/Desktop/Projects/phyton/CSE3063F20P2_GRP7/poll_answers/CSE3063 OOSD Weekly Session 1 - Monday Quizzes ANSWER KEY.txt', 'C:/Users/Selimoglu/Desktop/Projects/phyton/CSE3063F20P2_GRP7/poll_answers/CSE3063 OOSD Weekly Session 2 - Tuesday Quizzes ANSWER KEY.txt') are  being parsed
+07/02/2021 18:33:19 Answer Sheets have been parsed.
+07/02/2021 18:33:20 Poll file: C:/Users/Selimoglu/Desktop/Projects/phyton/CSE3063F20P2_GRP7/poll_files/94502073867_PollReport (8).csv is being parsed
+07/02/2021 18:33:20 Parsing of Poll file: C:/Users/Selimoglu/Desktop/Projects/phyton/CSE3063F20P2_GRP7/poll_files/94502073867_PollReport (8).csv ended.
+07/02/2021 18:33:20 Looking up for anomalies...
+07/02/2021 18:33:20 Anomaly detection ended!
+07/02/2021 18:33:20 Poll Statistics are being calculated...
+07/02/2021 18:34:30 System started!
+07/02/2021 18:34:31 Parsing Student List started : C:/Users/Selimoglu/Desktop/Projects/phyton/CSE3063F20P2_GRP7/poll_files/studentList.XLS started
+07/02/2021 18:34:31 Parsing Student List : C:/Users/Selimoglu/Desktop/Projects/phyton/CSE3063F20P2_GRP7/poll_files/studentList.XLS finished
+07/02/2021 18:34:31 Answer Sheets: ('C:/Users/Selimoglu/Desktop/Projects/phyton/CSE3063F20P2_GRP7/poll_answers/CSE3063 OOSD Weekly Session 1 - Monday Quizzes ANSWER KEY.txt', 'C:/Users/Selimoglu/Desktop/Projects/phyton/CSE3063F20P2_GRP7/poll_answers/CSE3063 OOSD Weekly Session 2 - Tuesday Quizzes ANSWER KEY.txt') are  being parsed
+07/02/2021 18:34:31 Answer Sheets have been parsed.
+07/02/2021 18:34:32 Poll file: C:/Users/Selimoglu/Desktop/Projects/phyton/CSE3063F20P2_GRP7/poll_files/94502073867_PollReport (8).csv is being parsed
+07/02/2021 18:34:32 Parsing of Poll file: C:/Users/Selimoglu/Desktop/Projects/phyton/CSE3063F20P2_GRP7/poll_files/94502073867_PollReport (8).csv ended.
+07/02/2021 18:34:32 Looking up for anomalies...
+07/02/2021 18:34:32 Anomaly detection ended!
+07/02/2021 18:34:32 Poll Statistics are being calculated...
+07/02/2021 18:34:41 System started!
+07/02/2021 18:34:42 System started!
+07/02/2021 18:34:42 System started!
+07/02/2021 18:34:42 Parsing Student List started : C:/Users/Selimoglu/Desktop/Projects/phyton/CSE3063F20P2_GRP7/poll_files/studentList.XLS started
+07/02/2021 18:34:42 Parsing Student List : C:/Users/Selimoglu/Desktop/Projects/phyton/CSE3063F20P2_GRP7/poll_files/studentList.XLS finished
+07/02/2021 18:34:42 Answer Sheets: ('C:/Users/Selimoglu/Desktop/Projects/phyton/CSE3063F20P2_GRP7/poll_answers/CSE3063 OOSD Weekly Session 1 - Monday Quizzes ANSWER KEY.txt', 'C:/Users/Selimoglu/Desktop/Projects/phyton/CSE3063F20P2_GRP7/poll_answers/CSE3063 OOSD Weekly Session 2 - Tuesday Quizzes ANSWER KEY.txt') are  being parsed
+07/02/2021 18:34:42 Answer Sheets have been parsed.
+07/02/2021 18:34:42 System started!
+07/02/2021 18:34:42 System started!
+07/02/2021 18:34:42 System started!
+07/02/2021 18:34:43 System started!
+07/02/2021 18:34:43 Parsing Student List started : C:/Users/Selimoglu/Desktop/Projects/phyton/CSE3063F20P2_GRP7/poll_files/studentList.XLS started
+07/02/2021 18:34:43 Parsing Student List : C:/Users/Selimoglu/Desktop/Projects/phyton/CSE3063F20P2_GRP7/poll_files/studentList.XLS finished
+07/02/2021 18:34:43 Answer Sheets: ('C:/Users/Selimoglu/Desktop/Projects/phyton/CSE3063F20P2_GRP7/poll_answers/CSE3063 OOSD Weekly Session 1 - Monday Quizzes ANSWER KEY.txt', 'C:/Users/Selimoglu/Desktop/Projects/phyton/CSE3063F20P2_GRP7/poll_answers/CSE3063 OOSD Weekly Session 2 - Tuesday Quizzes ANSWER KEY.txt') are  being parsed
+07/02/2021 18:34:43 Answer Sheets have been parsed.
+07/02/2021 18:34:43 Parsing Student List started : C:/Users/Selimoglu/Desktop/Projects/phyton/CSE3063F20P2_GRP7/poll_files/studentList.XLS started
+07/02/2021 18:34:43 Parsing Student List : C:/Users/Selimoglu/Desktop/Projects/phyton/CSE3063F20P2_GRP7/poll_files/studentList.XLS finished
+07/02/2021 18:34:43 Answer Sheets: ('C:/Users/Selimoglu/Desktop/Projects/phyton/CSE3063F20P2_GRP7/poll_answers/CSE3063 OOSD Weekly Session 1 - Monday Quizzes ANSWER KEY.txt', 'C:/Users/Selimoglu/Desktop/Projects/phyton/CSE3063F20P2_GRP7/poll_answers/CSE3063 OOSD Weekly Session 2 - Tuesday Quizzes ANSWER KEY.txt') are  being parsed
+07/02/2021 18:34:43 System started!
+07/02/2021 18:34:43 Answer Sheets have been parsed.
+07/02/2021 18:34:43 Poll file: C:/Users/Selimoglu/Desktop/Projects/phyton/CSE3063F20P2_GRP7/poll_files/94502073867_PollReport (8).csv is being parsed
+07/02/2021 18:34:43 Parsing Student List started : C:/Users/Selimoglu/Desktop/Projects/phyton/CSE3063F20P2_GRP7/poll_files/studentList.XLS started
+07/02/2021 18:34:43 Parsing Student List : C:/Users/Selimoglu/Desktop/Projects/phyton/CSE3063F20P2_GRP7/poll_files/studentList.XLS finished
+07/02/2021 18:34:43 Answer Sheets: ('C:/Users/Selimoglu/Desktop/Projects/phyton/CSE3063F20P2_GRP7/poll_answers/CSE3063 OOSD Weekly Session 1 - Monday Quizzes ANSWER KEY.txt', 'C:/Users/Selimoglu/Desktop/Projects/phyton/CSE3063F20P2_GRP7/poll_answers/CSE3063 OOSD Weekly Session 2 - Tuesday Quizzes ANSWER KEY.txt') are  being parsed
+07/02/2021 18:34:43 Parsing Student List started : C:/Users/Selimoglu/Desktop/Projects/phyton/CSE3063F20P2_GRP7/poll_files/studentList.XLS started
+07/02/2021 18:34:43 Answer Sheets have been parsed.
+07/02/2021 18:34:43 Parsing Student List : C:/Users/Selimoglu/Desktop/Projects/phyton/CSE3063F20P2_GRP7/poll_files/studentList.XLS finished
+07/02/2021 18:34:43 Parsing Student List started : C:/Users/Selimoglu/Desktop/Projects/phyton/CSE3063F20P2_GRP7/poll_files/studentList.XLS started
+07/02/2021 18:34:43 Answer Sheets: ('C:/Users/Selimoglu/Desktop/Projects/phyton/CSE3063F20P2_GRP7/poll_answers/CSE3063 OOSD Weekly Session 1 - Monday Quizzes ANSWER KEY.txt', 'C:/Users/Selimoglu/Desktop/Projects/phyton/CSE3063F20P2_GRP7/poll_answers/CSE3063 OOSD Weekly Session 2 - Tuesday Quizzes ANSWER KEY.txt') are  being parsed
+07/02/2021 18:34:43 Parsing of Poll file: C:/Users/Selimoglu/Desktop/Projects/phyton/CSE3063F20P2_GRP7/poll_files/94502073867_PollReport (8).csv ended.
+07/02/2021 18:34:44 Parsing Student List started : C:/Users/Selimoglu/Desktop/Projects/phyton/CSE3063F20P2_GRP7/poll_files/studentList.XLS started
+07/02/2021 18:34:44 Answer Sheets have been parsed.
+07/02/2021 18:34:44 Looking up for anomalies...
+07/02/2021 18:34:44 Anomaly detection ended!
+07/02/2021 18:34:44 Parsing Student List : C:/Users/Selimoglu/Desktop/Projects/phyton/CSE3063F20P2_GRP7/poll_files/studentList.XLS finished
+07/02/2021 18:34:44 Answer Sheets: ('C:/Users/Selimoglu/Desktop/Projects/phyton/CSE3063F20P2_GRP7/poll_answers/CSE3063 OOSD Weekly Session 1 - Monday Quizzes ANSWER KEY.txt', 'C:/Users/Selimoglu/Desktop/Projects/phyton/CSE3063F20P2_GRP7/poll_answers/CSE3063 OOSD Weekly Session 2 - Tuesday Quizzes ANSWER KEY.txt') are  being parsed
+07/02/2021 18:34:44 Parsing Student List : C:/Users/Selimoglu/Desktop/Projects/phyton/CSE3063F20P2_GRP7/poll_files/studentList.XLS finished
+07/02/2021 18:34:44 Poll Statistics are being calculated...
+07/02/2021 18:34:44 Answer Sheets: ('C:/Users/Selimoglu/Desktop/Projects/phyton/CSE3063F20P2_GRP7/poll_answers/CSE3063 OOSD Weekly Session 1 - Monday Quizzes ANSWER KEY.txt', 'C:/Users/Selimoglu/Desktop/Projects/phyton/CSE3063F20P2_GRP7/poll_answers/CSE3063 OOSD Weekly Session 2 - Tuesday Quizzes ANSWER KEY.txt') are  being parsed
+07/02/2021 18:34:44 Poll file: C:/Users/Selimoglu/Desktop/Projects/phyton/CSE3063F20P2_GRP7/poll_files/94502073867_PollReport (8).csv is being parsed
+07/02/2021 18:34:44 Answer Sheets have been parsed.
+07/02/2021 18:34:44 Answer Sheets have been parsed.
+07/02/2021 18:34:44 Parsing Student List started : C:/Users/Selimoglu/Desktop/Projects/phyton/CSE3063F20P2_GRP7/poll_files/studentList.XLS started
+07/02/2021 18:34:44 Poll file: C:/Users/Selimoglu/Desktop/Projects/phyton/CSE3063F20P2_GRP7/poll_files/94502073867_PollReport (8).csv is being parsed
+07/02/2021 18:34:44 Parsing of Poll file: C:/Users/Selimoglu/Desktop/Projects/phyton/CSE3063F20P2_GRP7/poll_files/94502073867_PollReport (8).csv ended.
+07/02/2021 18:34:44 Looking up for anomalies...
+07/02/2021 18:34:44 Anomaly detection ended!
+07/02/2021 18:34:44 Parsing Student List : C:/Users/Selimoglu/Desktop/Projects/phyton/CSE3063F20P2_GRP7/poll_files/studentList.XLS finished
+07/02/2021 18:34:44 Poll Statistics are being calculated...
+op/Projects/phyton/CSE3063F20P2_GRP7/poll_answers/CSE3063 OOSD Weekly Session 1 - Monday Quizzes ANSWER KEY.txt', 'C:/Users/Selimoglu/Desktop/Projects/phyton/CSE3063F20P2_GRP7/poll_answers/CSE3063 OOSD Weekly Session 2 - Tuesday Quizzes ANSWER KEY.txt') are  being parsed
+07/02/2021 18:34:44 System started!
+07/02/2021 18:34:44 Answer Sheets have been parsed.
+07/02/2021 18:34:44 Parsing of Poll file: C:/Users/Selimoglu/Desktop/Projects/phyton/CSE3063F20P2_GRP7/poll_files/94502073867_PollReport (8).csv ended.
+07/02/2021 18:34:44 Looking up for anomalies...
+07/02/2021 18:34:44 Anomaly detection ended!
+07/02/2021 18:34:44 Poll Statistics are being calculated...
+07/02/2021 18:34:44 Poll file: C:/Users/Selimoglu/Desktop/Projects/phyton/CSE3063F20P2_GRP7/poll_files/94502073867_PollReport (8).csv is being parsed
+07/02/2021 18:34:45 System started!
+07/02/2021 18:34:45 Parsing of Poll file: C:/Users/Selimoglu/Desktop/Projects/phyton/CSE3063F20P2_GRP7/poll_files/94502073867_PollReport (8).csv ended.
+07/02/2021 18:34:45 Looking up for anomalies...
+07/02/2021 18:34:45 Anomaly detection ended!
+07/02/2021 18:34:45 Poll Statistics are being calculated...
+07/02/2021 18:34:45 System started!
+07/02/2021 18:34:45 Poll file: C:/Users/Selimoglu/Desktop/Projects/phyton/CSE3063F20P2_GRP7/poll_files/94502073867_PollReport (8).csv is being parsed
+07/02/2021 18:34:45 Parsing of Poll file: C:/Users/Selimoglu/Desktop/Projects/phyton/CSE3063F20P2_GRP7/poll_files/94502073867_PollReport (8).csv ended.
+07/02/2021 18:34:45 System started!
+07/02/2021 18:34:45 Looking up for anomalies...
+07/02/2021 18:34:45 Anomaly detection ended!
+07/02/2021 18:34:45 Poll Statistics are being calculated...
+07/02/2021 18:34:45 Poll file: C:/Users/Selimoglu/Desktop/Projects/phyton/CSE3063F20P2_GRP7/poll_files/94502073867_PollReport (8).csv is being parsed
+07/02/2021 18:34:45 Poll file: C:/Users/Selimoglu/Desktop/Projects/phyton/CSE3063F20P2_GRP7/poll_files/94502073867_PollReport (8).csv is being parsed
+07/02/2021 18:34:45 System started!
+07/02/2021 18:34:45 Parsing of Poll file: C:/Users/Selimoglu/Desktop/Projects/phyton/CSE3063F20P2_GRP7/poll_files/94502073867_PollReport (8).csv ended.
+07/02/2021 18:34:45 Parsing of Poll file: C:/Users/Selimoglu/Desktop/Projects/phyton/CSE3063F20P2_GRP7/poll_files/94502073867_PollReport (8).csv ended.
+07/02/2021 18:34:45 Looking up for anomalies...
+07/02/2021 18:34:45 Looking up for anomalies...
+07/02/2021 18:34:45 Anomaly detection ended!
+07/02/2021 18:34:45 Anomaly detection ended!
+07/02/2021 18:34:45 Poll Statistics are being calculated...
+07/02/2021 18:34:45 Poll Statistics are being calculated...
+07/02/2021 18:34:45 System started!
+07/02/2021 18:34:45 Poll file: C:/Users/Selimoglu/Desktop/Projects/phyton/CSE3063F20P2_GRP7/poll_files/94502073867_PollReport (8).csv is being parsed
+07/02/2021 18:34:45 Parsing Student List started : C:/Users/Selimoglu/Desktop/Projects/phyton/CSE3063F20P2_GRP7/poll_files/studentList.XLS started
+07/02/2021 18:34:45 Parsing Student List : C:/Users/Selimoglu/Desktop/Projects/phyton/CSE3063F20P2_GRP7/poll_files/studentList.XLS finished
+07/02/2021 18:34:45 Answer Sheets: ('C:/Users/Selimoglu/Desktop/Projects/phyton/CSE3063F20P2_GRP7/poll_answers/CSE3063 OOSD Weekly Session 1 - Monday Quizzes ANSWER KEY.txt', 'C:/Users/Selimoglu/Desktop/Projects/phyton/CSE3063F20P2_GRP7/poll_answers/CSE3063 OOSD Weekly Session 2 - Tuesday Quizzes ANSWER KEY.txt') are  being parsed
+07/02/2021 18:34:46 System started!
+07/02/2021 18:34:46 Parsing Student List started : C:/Users/Selimoglu/Desktop/Projects/phyton/CSE3063F20P2_GRP7/poll_files/studentList.XLS started
+07/02/2021 18:34:46 Answer Sheets have been parsed.
+07/02/2021 18:34:46 Parsing Student List : C:/Users/Selimoglu/Desktop/Projects/phyton/CSE3063F20P2_GRP7/poll_files/studentList.XLS finished
+07/02/2021 18:34:46 Parsing Student List started : C:/Users/Selimoglu/Desktop/Projects/phyton/CSE3063F20P2_GRP7/poll_files/studentList.XLS started
+07/02/2021 18:34:46 Parsing of Poll file: C:/Users/Selimoglu/Desktop/Projects/phyton/CSE3063F20P2_GRP7/poll_files/94502073867_PollReport (8).csv ended.
+07/02/2021 18:34:46 Answer Sheets: ('C:/Users/Selimoglu/Desktop/Projects/phyton/CSE3063F20P2_GRP7/poll_answers/CSE3063 OOSD Weekly Session 1 - Monday Quizzes ANSWER KEY.txt', 'C:/Users/Selimoglu/Desktop/Projects/phyton/CSE3063F20P2_GRP7/poll_answers/CSE3063 OOSD Weekly Session 2 - Tuesday Quizzes ANSWER KEY.txt') are  being parsed
+07/02/2021 18:34:46 Parsing Student List : C:/Users/Selimoglu/Desktop/Projects/phyton/CSE3063F20P2_GRP7/poll_files/studentList.XLS finished
+07/02/2021 18:34:46 Looking up for anomalies...
+07/02/2021 18:34:46 System started!
+07/02/2021 18:34:46 Parsing Student List started : C:/Users/Selimoglu/Desktop/Projects/phyton/CSE3063F20P2_GRP7/poll_files/studentList.XLS started
+07/02/2021 18:34:46 Answer Sheets: ('C:/Users/Selimoglu/Desktop/Projects/phyton/CSE3063F20P2_GRP7/poll_answers/CSE3063 OOSD Weekly Session 1 - Monday Quizzes ANSWER KEY.txt', 'C:/Users/Selimoglu/Desktop/Projects/phyton/CSE3063F20P2_GRP7/poll_answers/CSE3063 OOSD Weekly Session 2 - Tuesday Quizzes ANSWER KEY.txt') are  being parsed
+07/02/2021 18:34:46 Anomaly detection ended!
+07/02/2021 18:34:46 Answer Sheets have been parsed.
+07/02/2021 18:34:46 Poll Statistics are being calculated...
+07/02/2021 18:34:46 Parsing Student List : C:/Users/Selimoglu/Desktop/Projects/phyton/CSE3063F20P2_GRP7/poll_files/studentList.XLS finished
+07/02/2021 18:34:46 Answer Sheets have been parsed.
+07/02/2021 18:34:46 Answer Sheets: ('C:/Users/Selimoglu/Desktop/Projects/phyton/CSE3063F20P2_GRP7/poll_answers/CSE3063 OOSD Weekly Session 1 - Monday Quizzes ANSWER KEY.txt', 'C:/Users/Selimoglu/Desktop/Projects/phyton/CSE3063F20P2_GRP7/poll_answers/CSE3063 OOSD Weekly Session 2 - Tuesday Quizzes ANSWER KEY.txt') are  being parsed
+07/02/2021 18:34:46 System started!
+07/02/2021 18:34:46 Answer Sheets have been parsed.
+07/02/2021 18:34:46 Parsing Student List started : C:/Users/Selimoglu/Desktop/Projects/phyton/CSE3063F20P2_GRP7/poll_files/studentList.XLS started
+07/02/2021 18:34:46 Parsing Student List : C:/Users/Selimoglu/Desktop/Projects/phyton/CSE3063F20P2_GRP7/poll_files/studentList.XLS finished
+07/02/2021 18:34:46 Parsing Student List started : C:/Users/Selimoglu/Desktop/Projects/phyton/CSE3063F20P2_GRP7/poll_files/studentList.XLS started
+07/02/2021 18:34:46 Answer Sheets: ('C:/Users/Selimoglu/Desktop/Projects/phyton/CSE3063F20P2_GRP7/poll_answers/CSE3063 OOSD Weekly Session 1 - Monday Quizzes ANSWER KEY.txt', 'C:/Users/Selimoglu/Desktop/Projects/phyton/CSE3063F20P2_GRP7/poll_answers/CSE3063 OOSD Weekly Session 2 - Tuesday Quizzes ANSWER KEY.txt') are  being parsed
+07/02/2021 18:34:47 Parsing Student List : C:/Users/Selimoglu/Desktop/Projects/phyton/CSE3063F20P2_GRP7/poll_files/studentList.XLS finished
+07/02/2021 18:34:47 Answer Sheets: ('C:/Users/Selimoglu/Desktop/Projects/phyton/CSE3063F20P2_GRP7/poll_answers/CSE3063 OOSD Weekly Session 1 - Monday Quizzes ANSWER KEY.txt', 'C:/Users/Selimoglu/Desktop/Projects/phyton/CSE3063F20P2_GRP7/poll_answers/CSE3063 OOSD Weekly Session 2 - Tuesday Quizzes ANSWER KEY.txt') are  being parsed
+07/02/2021 18:34:47 Answer Sheets have been parsed.
+07/02/2021 18:34:47 Answer Sheets have been parsed.
+07/02/2021 18:34:47 System started!
+07/02/2021 18:34:47 Parsing Student List started : C:/Users/Selimoglu/Desktop/Projects/phyton/CSE3063F20P2_GRP7/poll_files/studentList.XLS started
+07/02/2021 18:34:47 Poll file: C:/Users/Selimoglu/Desktop/Projects/phyton/CSE3063F20P2_GRP7/poll_files/94502073867_PollReport (8).csv is being parsed
+07/02/2021 18:34:47 Parsing Student List : C:/Users/Selimoglu/Desktop/Projects/phyton/CSE3063F20P2_GRP7/poll_files/studentList.XLS finished
+07/02/2021 18:34:47 Answer Sheets: ('C:/Users/Selimoglu/Desktop/Projects/phyton/CSE3063F20P2_GRP7/poll_answers/CSE3063 OOSD Weekly Session 1 - Monday Quizzes ANSWER KEY.txt', 'C:/Users/Selimoglu/Desktop/Projects/phyton/CSE3063F20P2_GRP7/poll_answers/CSE3063 OOSD Weekly Session 2 - Tuesday Quizzes ANSWER KEY.txt') are  being parsed
+07/02/2021 18:34:47 System started!
+07/02/2021 18:34:47 Parsing Student List started : C:/Users/Selimoglu/Desktop/Projects/phyton/CSE3063F20P2_GRP7/poll_files/studentList.XLS started
+07/02/2021 18:34:47 Answer Sheets have been parsed.
+07/02/2021 18:34:47 Poll file: C:/Users/Selimoglu/Desktop/Projects/phyton/CSE3063F20P2_GRP7/poll_files/94502073867_PollReport (8).csv is being parsed
+07/02/2021 18:34:47 Parsing of Poll file: C:/Users/Selimoglu/Desktop/Projects/phyton/CSE3063F20P2_GRP7/poll_files/94502073867_PollReport (8).csv ended.
+07/02/2021 18:34:47 Parsing Student List : C:/Users/Selimoglu/Desktop/Projects/phyton/CSE3063F20P2_GRP7/poll_files/studentList.XLS finished
+07/02/2021 18:34:47 Looking up for anomalies...
+07/02/2021 18:34:47 Anomaly detection ended!
+07/02/2021 18:34:47 Answer Sheets: ('C:/Users/Selimoglu/Desktop/Projects/phyton/CSE3063F20P2_GRP7/poll_answers/CSE3063 OOSD Weekly Session 1 - Monday Quizzes ANSWER KEY.txt', 'C:/Users/Selimoglu/Desktop/Projects/phyton/CSE3063F20P2_GRP7/poll_answers/CSE3063 OOSD Weekly Session 2 - Tuesday Quizzes ANSWER KEY.txt') are  being parsed
+07/02/2021 18:34:47 Poll Statistics are being calculated...
+07/02/2021 18:34:47 Poll file: C:/Users/Selimoglu/Desktop/Projects/phyton/CSE3063F20P2_GRP7/poll_files/94502073867_PollReport (8).csv is being parsed
+07/02/2021 18:34:47 Parsing Student List started : C:/Users/Selimoglu/Desktop/Projects/phyton/CSE3063F20P2_GRP7/poll_files/studentList.XLS started
+07/02/2021 18:34:47 Poll file: C:/Users/Selimoglu/Desktop/Projects/phyton/CSE3063F20P2_GRP7/poll_files/94502073867_PollReport (8).csv is being parsed
+07/02/2021 18:34:47 Answer Sheets have been parsed.
+07/02/2021 18:34:47 System started!
+07/02/2021 18:34:47 Parsing Student List : C:/Users/Selimoglu/Desktop/Projects/phyton/CSE3063F20P2_GRP7/poll_files/studentList.XLS finished
+07/02/2021 18:34:48 Answer Sheets: ('C:/Users/Selimoglu/Desktop/Projects/phyton/CSE3063F20P2_GRP7/poll_answers/CSE3063 OOSD Weekly Session 1 - Monday Quizzes ANSWER KEY.txt', 'C:/Users/Selimoglu/Desktop/Projects/phyton/CSE3063F20P2_GRP7/poll_answers/CSE3063 OOSD Weekly Session 2 - Tuesday Quizzes ANSWER KEY.txt') are  being parsed
+07/02/2021 18:34:48 Poll file: C:/Users/Selimoglu/Desktop/Projects/phyton/CSE3063F20P2_GRP7/poll_files/94502073867_PollReport (8).csv is being parsed
+07/02/2021 18:34:48 Parsing Student List started : C:/Users/Selimoglu/Desktop/Projects/phyton/CSE3063F20P2_GRP7/poll_files/studentList.XLS started
+07/02/2021 18:34:48 Poll file: C:/Users/Selimoglu/Desktop/Projects/phyton/CSE3063F20P2_GRP7/poll_files/94502073867_PollReport (8).csv is being parsed
+07/02/2021 18:34:48 Parsing of Poll file: C:/Users/Selimoglu/Desktop/Projects/phyton/CSE3063F20P2_GRP7/poll_files/94502073867_PollReport (8).csv ended.
+07/02/2021 18:34:48 Answer Sheets have been parsed.
+07/02/2021 18:34:48 Looking up for anomalies...
+07/02/2021 18:34:48 Parsing Student List : C:/Users/Selimoglu/Desktop/Projects/phyton/CSE3063F20P2_GRP7/poll_files/studentList.XLS finished
+07/02/2021 18:34:48 Anomaly detection ended!
+07/02/2021 18:34:48 Poll Statistics are being calculated...
+07/02/2021 18:34:48 Parsing Student List started : C:/Users/Selimoglu/Desktop/Projects/phyton/CSE3063F20P2_GRP7/poll_files/studentList.XLS started
+07/02/2021 18:34:48 Answer Sheets: ('C:/Users/Selimoglu/Desktop/Projects/phyton/CSE3063F20P2_GRP7/poll_answers/CSE3063 OOSD Weekly Session 1 - Monday Quizzes ANSWER KEY.txt', 'C:/Users/Selimoglu/Desktop/Projects/phyton/CSE3063F20P2_GRP7/poll_answers/CSE3063 OOSD Weekly Session 2 - Tuesday Quizzes ANSWER KEY.txt') are  being parsed
+07/02/2021 18:34:48 Parsing of Poll file: C:/Users/Selimoglu/Desktop/Projects/phyton/CSE3063F20P2_GRP7/poll_files/94502073867_PollReport (8).csv ended.
+07/02/2021 18:34:48 Looking up for anomalies...
+07/02/2021 18:34:48 Parsing of Poll file: C:/Users/Selimoglu/Desktop/Projects/phyton/CSE3063F20P2_GRP7/poll_files/94502073867_PollReport (8).csv ended.
+07/02/2021 18:34:48 Anomaly detection ended!
+07/02/2021 18:34:48 Poll file: C:/Users/Selimoglu/Desktop/Projects/phyton/CSE3063F20P2_GRP7/poll_files/94502073867_PollReport (8).csv is being parsed
+07/02/2021 18:34:48 Parsing Student List : C:/Users/Selimoglu/Desktop/Projects/phyton/CSE3063F20P2_GRP7/poll_files/studentList.XLS finished
+07/02/2021 18:34:48 Poll Statistics are being calculated...
+07/02/2021 18:34:48 Looking up for anomalies...
+07/02/2021 18:34:48 Anomaly detection ended!
+07/02/2021 18:34:48 Poll Statistics are being calculated...
+07/02/2021 18:34:48 Answer Sheets: ('C:/Users/Selimoglu/Desktop/Projects/phyton/CSE3063F20P2_GRP7/poll_answers/CSE3063 OOSD Weekly Session 1 - Monday Quizzes ANSWER KEY.txt', 'C:/Users/Selimoglu/Desktop/Projects/phyton/CSE3063F20P2_GRP7/poll_answers/CSE3063 OOSD Weekly Session 2 - Tuesday Quizzes ANSWER KEY.txt') are  being parsed
+07/02/2021 18:34:48 Answer Sheets have been parsed.
+07/02/2021 18:34:49 Parsing of Poll file: C:/Users/Selimoglu/Desktop/Projects/phyton/CSE3063F20P2_GRP7/poll_files/94502073867_PollReport (8).csv ended.
+07/02/2021 18:34:49 Parsing Student List started : C:/Users/Selimoglu/Desktop/Projects/phyton/CSE3063F20P2_GRP7/poll_files/studentList.XLS started
+07/02/2021 18:34:49 Looking up for anomalies...
+07/02/2021 18:34:49 Answer Sheets have been parsed.
+07/02/2021 18:34:49 Poll file: C:/Users/Selimoglu/Desktop/Projects/phyton/CSE3063F20P2_GRP7/poll_files/94502073867_PollReport (8).csv is being parsed
+07/02/2021 18:34:49 Anomaly detection ended!
+07/02/2021 18:34:49 System started!
+07/02/2021 18:34:49 Parsing of Poll file: C:/Users/Selimoglu/Desktop/Projects/phyton/CSE3063F20P2_GRP7/poll_files/94502073867_PollReport (8).csv ended.
+07/02/2021 18:34:49 Parsing Student List : C:/Users/Selimoglu/Desktop/Projects/phyton/CSE3063F20P2_GRP7/poll_files/studentList.XLS finished
+07/02/2021 18:34:49 Poll Statistics are being calculated...
+07/02/2021 18:34:49 Looking up for anomalies...
+07/02/2021 18:34:49 Anomaly detection ended!
+07/02/2021 18:34:49 Answer Sheets: ('C:/Users/Selimoglu/Desktop/Projects/phyton/CSE3063F20P2_GRP7/poll_answers/CSE3063 OOSD Weekly Session 1 - Monday Quizzes ANSWER KEY.txt', 'C:/Users/Selimoglu/Desktop/Projects/phyton/CSE3063F20P2_GRP7/poll_answers/CSE3063 OOSD Weekly Session 2 - Tuesday Quizzes ANSWER KEY.txt') are  being parsed
+07/02/2021 18:34:49 Poll Statistics are being calculated...
+07/02/2021 18:34:49 Poll file: C:/Users/Selimoglu/Desktop/Projects/phyton/CSE3063F20P2_GRP7/poll_files/94502073867_PollReport (8).csv is being parsed
+07/02/2021 18:34:49 Answer Sheets have been parsed.
+07/02/2021 18:34:49 Parsing of Poll file: C:/Users/Selimoglu/Desktop/Projects/phyton/CSE3063F20P2_GRP7/poll_files/94502073867_PollReport (8).csv ended.
+07/02/2021 18:34:49 Looking up for anomalies...
+07/02/2021 18:34:49 Anomaly detection ended!
+07/02/2021 18:34:49 Poll Statistics are being calculated...
+07/02/2021 18:34:49 Parsing of Poll file: C:/Users/Selimoglu/Desktop/Projects/phyton/CSE3063F20P2_GRP7/poll_files/94502073867_PollReport (8).csv ended.
+07/02/2021 18:34:49 Looking up for anomalies...
+07/02/2021 18:34:49 Anomaly detection ended!
+07/02/2021 18:34:49 System started!
+07/02/2021 18:34:49 Poll Statistics are being calculated...
+07/02/2021 18:34:49 Parsing of Poll file: C:/Users/Selimoglu/Desktop/Projects/phyton/CSE3063F20P2_GRP7/poll_files/94502073867_PollReport (8).csv ended.
+07/02/2021 18:34:49 Looking up for anomalies...
+07/02/2021 18:34:49 Anomaly detection ended!
+07/02/2021 18:34:49 Poll Statistics are being calculated...
+07/02/2021 18:34:50 Poll file: C:/Users/Selimoglu/Desktop/Projects/phyton/CSE3063F20P2_GRP7/poll_files/94502073867_PollReport (8).csv is being parsed
+07/02/2021 18:34:50 Parsing of Poll file: C:/Users/Selimoglu/Desktop/Projects/phyton/CSE3063F20P2_GRP7/poll_files/94502073867_PollReport (8).csv ended.
+07/02/2021 18:34:50 Looking up for anomalies...
+07/02/2021 18:34:50 Anomaly detection ended!
+07/02/2021 18:34:50 Poll Statistics are being calculated...
+07/02/2021 18:34:50 Poll file: C:/Users/Selimoglu/Desktop/Projects/phyton/CSE3063F20P2_GRP7/poll_files/94502073867_PollReport (8).csv is being parsed
+07/02/2021 18:34:50 Parsing Student List started : C:/Users/Selimoglu/Desktop/Projects/phyton/CSE3063F20P2_GRP7/poll_files/studentList.XLS started
+07/02/2021 18:34:50 Parsing Student List : C:/Users/Selimoglu/Desktop/Projects/phyton/CSE3063F20P2_GRP7/poll_files/studentList.XLS finished
+07/02/2021 18:34:50 Parsing of Poll file: C:/Users/Selimoglu/Desktop/Projects/phyton/CSE3063F20P2_GRP7/poll_files/94502073867_PollReport (8).csv ended.
+07/02/2021 18:34:50 Poll file: C:/Users/Selimoglu/Desktop/Projects/phyton/CSE3063F20P2_GRP7/poll_files/94502073867_PollReport (8).csv is being parsed
+07/02/2021 18:34:50 Answer Sheets: ('C:/Users/Selimoglu/Desktop/Projects/phyton/CSE3063F20P2_GRP7/poll_answers/CSE3063 OOSD Weekly Session 1 - Monday Quizzes ANSWER KEY.txt', 'C:/Users/Selimoglu/Desktop/Projects/phyton/CSE3063F20P2_GRP7/poll_answers/CSE3063 OOSD Weekly Session 2 - Tuesday Quizzes ANSWER KEY.txt') are  being parsed
+07/02/2021 18:34:50 Looking up for anomalies...
+07/02/2021 18:34:50 Anomaly detection ended!
+07/02/2021 18:34:50 Poll Statistics are being calculated...
+07/02/2021 18:34:51 Parsing Student List started : C:/Users/Selimoglu/Desktop/Projects/phyton/CSE3063F20P2_GRP7/poll_files/studentList.XLS started
+07/02/2021 18:34:51 Answer Sheets have been parsed.
+07/02/2021 18:34:51 Parsing Student List : C:/Users/Selimoglu/Desktop/Projects/phyton/CSE3063F20P2_GRP7/poll_files/studentList.XLS finished
+07/02/2021 18:34:51 Answer Sheets: ('C:/Users/Selimoglu/Desktop/Projects/phyton/CSE3063F20P2_GRP7/poll_answers/CSE3063 OOSD Weekly Session 1 - Monday Quizzes ANSWER KEY.txt', 'C:/Users/Selimoglu/Desktop/Projects/phyton/CSE3063F20P2_GRP7/poll_answers/CSE3063 OOSD Weekly Session 2 - Tuesday Quizzes ANSWER KEY.txt') are  being parsed
+07/02/2021 18:34:51 Parsing of Poll file: C:/Users/Selimoglu/Desktop/Projects/phyton/CSE3063F20P2_GRP7/poll_files/94502073867_PollReport (8).csv ended.
+07/02/2021 18:34:51 Answer Sheets have been parsed.
+07/02/2021 18:34:51 Looking up for anomalies...
+07/02/2021 18:34:51 Anomaly detection ended!
+07/02/2021 18:34:51 Poll Statistics are being calculated...
+07/02/2021 18:34:52 Poll file: C:/Users/Selimoglu/Desktop/Projects/phyton/CSE3063F20P2_GRP7/poll_files/94502073867_PollReport (8).csv is being parsed
+07/02/2021 18:34:52 Poll file: C:/Users/Selimoglu/Desktop/Projects/phyton/CSE3063F20P2_GRP7/poll_files/94502073867_PollReport (8).csv is being parsed
+07/02/2021 18:34:52 Parsing of Poll file: C:/Users/Selimoglu/Desktop/Projects/phyton/CSE3063F20P2_GRP7/poll_files/94502073867_PollReport (8).csv ended.
+07/02/2021 18:34:52 Looking up for anomalies...
+07/02/2021 18:34:52 Anomaly detection ended!
+07/02/2021 18:34:52 Poll Statistics are being calculated...
+07/02/2021 18:34:52 Parsing of Poll file: C:/Users/Selimoglu/Desktop/Projects/phyton/CSE3063F20P2_GRP7/poll_files/94502073867_PollReport (8).csv ended.
+07/02/2021 18:34:52 Looking up for anomalies...
+07/02/2021 18:34:52 Anomaly detection ended!
+07/02/2021 18:34:52 Poll Statistics are being calculated...
+07/02/2021 18:34:58 System started!
+07/02/2021 18:34:58 System started!
+07/02/2021 18:34:58 System started!
+07/02/2021 18:34:58 System started!
+07/02/2021 18:34:58 System started!
+07/02/2021 18:34:59 Parsing Student List started : C:/Users/Selimoglu/Desktop/Projects/phyton/CSE3063F20P2_GRP7/poll_files/studentList.XLS started
+07/02/2021 18:34:59 Parsing Student List : C:/Users/Selimoglu/Desktop/Projects/phyton/CSE3063F20P2_GRP7/poll_files/studentList.XLS finished
+07/02/2021 18:34:59 Answer Sheets: ('C:/Users/Selimoglu/Desktop/Projects/phyton/CSE3063F20P2_GRP7/poll_answers/CSE3063 OOSD Weekly Session 1 - Monday Quizzes ANSWER KEY.txt', 'C:/Users/Selimoglu/Desktop/Projects/phyton/CSE3063F20P2_GRP7/poll_answers/CSE3063 OOSD Weekly Session 2 - Tuesday Quizzes ANSWER KEY.txt') are  being parsed
+07/02/2021 18:34:59 System started!
+07/02/2021 18:34:59 Parsing Student List started : C:/Users/Selimoglu/Desktop/Projects/phyton/CSE3063F20P2_GRP7/poll_files/studentList.XLS started
+07/02/2021 18:34:59 Answer Sheets have been parsed.
+07/02/2021 18:34:59 Parsing Student List : C:/Users/Selimoglu/Desktop/Projects/phyton/CSE3063F20P2_GRP7/poll_files/studentList.XLS finished
+07/02/2021 18:34:59 Answer Sheets: ('C:/Users/Selimoglu/Desktop/Projects/phyton/CSE3063F20P2_GRP7/poll_answers/CSE3063 OOSD Weekly Session 1 - Monday Quizzes ANSWER KEY.txt', 'C:/Users/Selimoglu/Desktop/Projects/phyton/CSE3063F20P2_GRP7/poll_answers/CSE3063 OOSD Weekly Session 2 - Tuesday Quizzes ANSWER KEY.txt') are  being parsed
+07/02/2021 18:34:59 Answer Sheets have been parsed.
+07/02/2021 18:34:59 Parsing Student List started : C:/Users/Selimoglu/Desktop/Projects/phyton/CSE3063F20P2_GRP7/poll_files/studentList.XLS started
+07/02/2021 18:34:59 Parsing Student List : C:/Users/Selimoglu/Desktop/Projects/phyton/CSE3063F20P2_GRP7/poll_files/studentList.XLS finished
+07/02/2021 18:34:59 Answer Sheets: ('C:/Users/Selimoglu/Desktop/Projects/phyton/CSE3063F20P2_GRP7/poll_answers/CSE3063 OOSD Weekly Session 1 - Monday Quizzes ANSWER KEY.txt', 'C:/Users/Selimoglu/Desktop/Projects/phyton/CSE3063F20P2_GRP7/poll_answers/CSE3063 OOSD Weekly Session 2 - Tuesday Quizzes ANSWER KEY.txt') are  being parsed
+07/02/2021 18:34:59 Answer Sheets have been parsed.
+07/02/2021 18:34:59 Parsing Student List started : C:/Users/Selimoglu/Desktop/Projects/phyton/CSE3063F20P2_GRP7/poll_files/studentList.XLS started
+07/02/2021 18:34:59 Parsing Student List : C:/Users/Selimoglu/Desktop/Projects/phyton/CSE3063F20P2_GRP7/poll_files/studentList.XLS finished
+07/02/2021 18:34:59 Answer Sheets: ('C:/Users/Selimoglu/Desktop/Projects/phyton/CSE3063F20P2_GRP7/poll_answers/CSE3063 OOSD Weekly Session 1 - Monday Quizzes ANSWER KEY.txt', 'C:/Users/Selimoglu/Desktop/Projects/phyton/CSE3063F20P2_GRP7/poll_answers/CSE3063 OOSD Weekly Session 2 - Tuesday Quizzes ANSWER KEY.txt') are  being parsed
+07/02/2021 18:34:59 Answer Sheets have been parsed.
+07/02/2021 18:34:59 Parsing Student List started : C:/Users/Selimoglu/Desktop/Projects/phyton/CSE3063F20P2_GRP7/poll_files/studentList.XLS started
+07/02/2021 18:34:59 Parsing Student List : C:/Users/Selimoglu/Desktop/Projects/phyton/CSE3063F20P2_GRP7/poll_files/studentList.XLS finished
+07/02/2021 18:34:59 Answer Sheets: ('C:/Users/Selimoglu/Desktop/Projects/phyton/CSE3063F20P2_GRP7/poll_answers/CSE3063 OOSD Weekly Session 1 - Monday Quizzes ANSWER KEY.txt', 'C:/Users/Selimoglu/Desktop/Projects/phyton/CSE3063F20P2_GRP7/poll_answers/CSE3063 OOSD Weekly Session 2 - Tuesday Quizzes ANSWER KEY.txt') are  being parsed
+07/02/2021 18:35:00 Answer Sheets have been parsed.
+07/02/2021 18:35:00 Parsing Student List started : C:/Users/Selimoglu/Desktop/Projects/phyton/CSE3063F20P2_GRP7/poll_files/studentList.XLS started
+07/02/2021 18:35:00 Parsing Student List : C:/Users/Selimoglu/Desktop/Projects/phyton/CSE3063F20P2_GRP7/poll_files/studentList.XLS finished
+07/02/2021 18:35:00 System started!
+07/02/2021 18:35:00 Poll file: C:/Users/Selimoglu/Desktop/Projects/phyton/CSE3063F20P2_GRP7/poll_files/94502073867_PollReport (8).csv is being parsed
+uizzes ANSWER KEY.txt', 'C:/Users/Selimoglu/Desktop/Projects/phyton/CSE3063F20P2_GRP7/poll_answers/CSE3063 OOSD Weekly Session 2 - Tuesday Quizzes ANSWER KEY.txt') are  being parsed
+07/02/2021 18:35:00 Poll file: C:/Users/Selimoglu/Desktop/Projects/phyton/CSE3063F20P2_GRP7/poll_files/94502073867_PollReport (8).csv is being parsed
+07/02/2021 18:35:00 Answer Sheets have been parsed.
+07/02/2021 18:35:00 Parsing of Poll file: C:/Users/Selimoglu/Desktop/Projects/phyton/CSE3063F20P2_GRP7/poll_files/94502073867_PollReport (8).csv ended.
+07/02/2021 18:35:00 Looking up for anomalies...
+07/02/2021 18:35:00 Poll file: C:/Users/Selimoglu/Desktop/Projects/phyton/CSE3063F20P2_GRP7/poll_files/94502073867_PollReport (8).csv is being parsed
+07/02/2021 18:35:00 Anomaly detection ended!
+07/02/2021 18:35:00 Poll Statistics are being calculated...
+07/02/2021 18:35:00 Parsing of Poll file: C:/Users/Selimoglu/Desktop/Projects/phyton/CSE3063F20P2_GRP7/poll_files/94502073867_PollReport (8).csv ended.
+07/02/2021 18:35:00 System started!
+07/02/2021 18:35:00 Looking up for anomalies...
+07/02/2021 18:35:00 Poll file: C:/Users/Selimoglu/Desktop/Projects/phyton/CSE3063F20P2_GRP7/poll_files/94502073867_PollReport (8).csv is being parsed
+07/02/2021 18:35:00 Anomaly detection ended!
+07/02/2021 18:35:00 Poll Statistics are being calculated...
+07/02/2021 18:35:00 System started!
+07/02/2021 18:35:01 Parsing of Poll file: C:/Users/Selimoglu/Desktop/Projects/phyton/CSE3063F20P2_GRP7/poll_files/94502073867_PollReport (8).csv ended.
+07/02/2021 18:35:01 Looking up for anomalies...
+07/02/2021 18:35:01 Anomaly detection ended!
+07/02/2021 18:35:01 Poll file: C:/Users/Selimoglu/Desktop/Projects/phyton/CSE3063F20P2_GRP7/poll_files/94502073867_PollReport (8).csv is being parsed
+07/02/2021 18:35:01 Poll Statistics are being calculated...
+07/02/2021 18:35:01 Parsing of Poll file: C:/Users/Selimoglu/Desktop/Projects/phyton/CSE3063F20P2_GRP7/poll_files/94502073867_PollReport (8).csv ended.
+07/02/2021 18:35:01 System started!
+07/02/2021 18:35:01 Looking up for anomalies...
+07/02/2021 18:35:01 Anomaly detection ended!
+07/02/2021 18:35:01 Poll Statistics are being calculated...
+07/02/2021 18:35:01 Parsing of Poll file: C:/Users/Selimoglu/Desktop/Projects/phyton/CSE3063F20P2_GRP7/poll_files/94502073867_PollReport (8).csv ended.
+07/02/2021 18:35:01 Looking up for anomalies...
+07/02/2021 18:35:01 Anomaly detection ended!
+07/02/2021 18:35:01 Poll Statistics are being calculated...
+07/02/2021 18:35:01 Parsing Student List started : C:/Users/Selimoglu/Desktop/Projects/phyton/CSE3063F20P2_GRP7/poll_files/studentList.XLS started
+07/02/2021 18:35:01 Parsing Student List : C:/Users/Selimoglu/Desktop/Projects/phyton/CSE3063F20P2_GRP7/poll_files/studentList.XLS finished
+07/02/2021 18:35:01 Answer Sheets: ('C:/Users/Selimoglu/Desktop/Projects/phyton/CSE3063F20P2_GRP7/poll_answers/CSE3063 OOSD Weekly Session 1 - Monday Quizzes ANSWER KEY.txt', 'C:/Users/Selimoglu/Desktop/Projects/phyton/CSE3063F20P2_GRP7/poll_answers/CSE3063 OOSD Weekly Session 2 - Tuesday Quizzes ANSWER KEY.txt') are  being parsed
+07/02/2021 18:35:01 Answer Sheets have been parsed.
+07/02/2021 18:35:01 Poll file: C:/Users/Selimoglu/Desktop/Projects/phyton/CSE3063F20P2_GRP7/poll_files/94502073867_PollReport (8).csv is being parsed
+07/02/2021 18:35:01 Parsing of Poll file: C:/Users/Selimoglu/Desktop/Projects/phyton/CSE3063F20P2_GRP7/poll_files/94502073867_PollReport (8).csv ended.
+07/02/2021 18:35:01 Looking up for anomalies...
+07/02/2021 18:35:01 Anomaly detection ended!
+07/02/2021 18:35:01 Poll Statistics are being calculated...
+07/02/2021 18:35:01 Parsing Student List started : C:/Users/Selimoglu/Desktop/Projects/phyton/CSE3063F20P2_GRP7/poll_files/studentList.XLS started
+07/02/2021 18:35:01 Parsing Student List : C:/Users/Selimoglu/Desktop/Projects/phyton/CSE3063F20P2_GRP7/poll_files/studentList.XLS finished
+07/02/2021 18:35:02 Answer Sheets: ('C:/Users/Selimoglu/Desktop/Projects/phyton/CSE3063F20P2_GRP7/poll_answers/CSE3063 OOSD Weekly Session 1 - Monday Quizzes ANSWER KEY.txt', 'C:/Users/Selimoglu/Desktop/Projects/phyton/CSE3063F20P2_GRP7/poll_answers/CSE3063 OOSD Weekly Session 2 - Tuesday Quizzes ANSWER KEY.txt') are  being parsed
+07/02/2021 18:35:02 Answer Sheets have been parsed.
+07/02/2021 18:35:02 Parsing Student List started : C:/Users/Selimoglu/Desktop/Projects/phyton/CSE3063F20P2_GRP7/poll_files/studentList.XLS started
+07/02/2021 18:35:02 Parsing Student List : C:/Users/Selimoglu/Desktop/Projects/phyton/CSE3063F20P2_GRP7/poll_files/studentList.XLS finished
+07/02/2021 18:35:02 Answer Sheets: ('C:/Users/Selimoglu/Desktop/Projects/phyton/CSE3063F20P2_GRP7/poll_answers/CSE3063 OOSD Weekly Session 1 - Monday Quizzes ANSWER KEY.txt', 'C:/Users/Selimoglu/Desktop/Projects/phyton/CSE3063F20P2_GRP7/poll_answers/CSE3063 OOSD Weekly Session 2 - Tuesday Quizzes ANSWER KEY.txt') are  being parsed
+07/02/2021 18:35:02 Parsing Student List started : C:/Users/Selimoglu/Desktop/Projects/phyton/CSE3063F20P2_GRP7/poll_files/studentList.XLS started
+07/02/2021 18:35:02 Answer Sheets have been parsed.
+07/02/2021 18:35:02 Parsing Student List : C:/Users/Selimoglu/Desktop/Projects/phyton/CSE3063F20P2_GRP7/poll_files/studentList.XLS finished
+07/02/2021 18:35:02 Answer Sheets: ('C:/Users/Selimoglu/Desktop/Projects/phyton/CSE3063F20P2_GRP7/poll_answers/CSE3063 OOSD Weekly Session 1 - Monday Quizzes ANSWER KEY.txt', 'C:/Users/Selimoglu/Desktop/Projects/phyton/CSE3063F20P2_GRP7/poll_answers/CSE3063 OOSD Weekly Session 2 - Tuesday Quizzes ANSWER KEY.txt') are  being parsed
+07/02/2021 18:35:02 Answer Sheets have been parsed.
+07/02/2021 18:35:02 Poll file: C:/Users/Selimoglu/Desktop/Projects/phyton/CSE3063F20P2_GRP7/poll_files/94502073867_PollReport (8).csv is being parsed
+07/02/2021 18:35:02 Parsing of Poll file: C:/Users/Selimoglu/Desktop/Projects/phyton/CSE3063F20P2_GRP7/poll_files/94502073867_PollReport (8).csv ended.
+07/02/2021 18:35:02 Looking up for anomalies...
+07/02/2021 18:35:02 Anomaly detection ended!
+07/02/2021 18:35:02 Poll Statistics are being calculated...
+07/02/2021 18:35:03 Poll file: C:/Users/Selimoglu/Desktop/Projects/phyton/CSE3063F20P2_GRP7/poll_files/94502073867_PollReport (8).csv is being parsed
+07/02/2021 18:35:03 Poll file: C:/Users/Selimoglu/Desktop/Projects/phyton/CSE3063F20P2_GRP7/poll_files/94502073867_PollReport (8).csv is being parsed
+07/02/2021 18:35:03 Parsing of Poll file: C:/Users/Selimoglu/Desktop/Projects/phyton/CSE3063F20P2_GRP7/poll_files/94502073867_PollReport (8).csv ended.
+07/02/2021 18:35:03 Looking up for anomalies...
+07/02/2021 18:35:03 Anomaly detection ended!
+07/02/2021 18:35:03 Poll Statistics are being calculated...
+07/02/2021 18:35:03 Poll file: C:/Users/Selimoglu/Desktop/Projects/phyton/CSE3063F20P2_GRP7/poll_files/94502073867_PollReport (8).csv is being parsed
+07/02/2021 18:35:03 Parsing of Poll file: C:/Users/Selimoglu/Desktop/Projects/phyton/CSE3063F20P2_GRP7/poll_files/94502073867_PollReport (8).csv ended.
+07/02/2021 18:35:03 Looking up for anomalies...
+07/02/2021 18:35:03 Anomaly detection ended!
+07/02/2021 18:35:03 Poll Statistics are being calculated...
+07/02/2021 18:35:03 Parsing of Poll file: C:/Users/Selimoglu/Desktop/Projects/phyton/CSE3063F20P2_GRP7/poll_files/94502073867_PollReport (8).csv ended.
+07/02/2021 18:35:03 Looking up for anomalies...
+07/02/2021 18:35:03 Anomaly detection ended!
+07/02/2021 18:35:03 Poll Statistics are being calculated...
+07/02/2021 18:35:46 System started!
+07/02/2021 18:35:46 System started!
+07/02/2021 18:35:46 System started!
+07/02/2021 18:35:47 Parsing Student List started : C:/Users/Selimoglu/Desktop/Projects/phyton/CSE3063F20P2_GRP7/poll_files/studentList.XLS started
+07/02/2021 18:35:47 Parsing Student List : C:/Users/Selimoglu/Desktop/Projects/phyton/CSE3063F20P2_GRP7/poll_files/studentList.XLS finished
+07/02/2021 18:35:47 Answer Sheets: ('C:/Users/Selimoglu/Desktop/Projects/phyton/CSE3063F20P2_GRP7/poll_answers/CSE3063 OOSD Weekly Session 1 - Monday Quizzes ANSWER KEY.txt', 'C:/Users/Selimoglu/Desktop/Projects/phyton/CSE3063F20P2_GRP7/poll_answers/CSE3063 OOSD Weekly Session 2 - Tuesday Quizzes ANSWER KEY.txt') are  being parsed
+07/02/2021 18:35:47 Answer Sheets have been parsed.
+07/02/2021 18:35:47 Parsing Student List started : C:/Users/Selimoglu/Desktop/Projects/phyton/CSE3063F20P2_GRP7/poll_files/studentList.XLS started
+07/02/2021 18:35:47 Parsing Student List : C:/Users/Selimoglu/Desktop/Projects/phyton/CSE3063F20P2_GRP7/poll_files/studentList.XLS finished
+07/02/2021 18:35:47 Answer Sheets: ('C:/Users/Selimoglu/Desktop/Projects/phyton/CSE3063F20P2_GRP7/poll_answers/CSE3063 OOSD Weekly Session 1 - Monday Quizzes ANSWER KEY.txt', 'C:/Users/Selimoglu/Desktop/Projects/phyton/CSE3063F20P2_GRP7/poll_answers/CSE3063 OOSD Weekly Session 2 - Tuesday Quizzes ANSWER KEY.txt') are  being parsed
+07/02/2021 18:35:47 Parsing Student List started : C:/Users/Selimoglu/Desktop/Projects/phyton/CSE3063F20P2_GRP7/poll_files/studentList.XLS started
+07/02/2021 18:35:47 Answer Sheets have been parsed.
+07/02/2021 18:35:47 Parsing Student List : C:/Users/Selimoglu/Desktop/Projects/phyton/CSE3063F20P2_GRP7/poll_files/studentList.XLS finished
+07/02/2021 18:35:47 Answer Sheets: ('C:/Users/Selimoglu/Desktop/Projects/phyton/CSE3063F20P2_GRP7/poll_answers/CSE3063 OOSD Weekly Session 1 - Monday Quizzes ANSWER KEY.txt', 'C:/Users/Selimoglu/Desktop/Projects/phyton/CSE3063F20P2_GRP7/poll_answers/CSE3063 OOSD Weekly Session 2 - Tuesday Quizzes ANSWER KEY.txt') are  being parsed
+07/02/2021 18:35:47 Answer Sheets have been parsed.
+07/02/2021 18:35:48 Poll file: C:/Users/Selimoglu/Desktop/Projects/phyton/CSE3063F20P2_GRP7/poll_files/94502073867_PollReport (8).csv is being parsed
+07/02/2021 18:35:48 Parsing of Poll file: C:/Users/Selimoglu/Desktop/Projects/phyton/CSE3063F20P2_GRP7/poll_files/94502073867_PollReport (8).csv ended.
+07/02/2021 18:35:48 Looking up for anomalies...
+07/02/2021 18:35:48 Anomaly detection ended!
+07/02/2021 18:35:48 Poll Statistics are being calculated...
+07/02/2021 18:35:48 Poll file: C:/Users/Selimoglu/Desktop/Projects/phyton/CSE3063F20P2_GRP7/poll_files/94502073867_PollReport (8).csv is being parsed
+07/02/2021 18:35:49 Poll file: C:/Users/Selimoglu/Desktop/Projects/phyton/CSE3063F20P2_GRP7/poll_files/94502073867_PollReport (8).csv is being parsed
+07/02/2021 18:35:49 Parsing of Poll file: C:/Users/Selimoglu/Desktop/Projects/phyton/CSE3063F20P2_GRP7/poll_files/94502073867_PollReport (8).csv ended.
+07/02/2021 18:35:49 Looking up for anomalies...
+07/02/2021 18:35:49 Anomaly detection ended!
+07/02/2021 18:35:49 Poll Statistics are being calculated...
+07/02/2021 18:35:49 Parsing of Poll file: C:/Users/Selimoglu/Desktop/Projects/phyton/CSE3063F20P2_GRP7/poll_files/94502073867_PollReport (8).csv ended.
+07/02/2021 18:35:49 Looking up for anomalies...
+07/02/2021 18:35:49 Anomaly detection ended!
+07/02/2021 18:35:49 Poll Statistics are being calculated...
+07/02/2021 18:37:27 System started!
+07/02/2021 18:37:28 Parsing Student List started : C:/Users/Selimoglu/Desktop/Projects/phyton/CSE3063F20P2_GRP7/poll_files/studentList.XLS started
+07/02/2021 18:37:28 Parsing Student List : C:/Users/Selimoglu/Desktop/Projects/phyton/CSE3063F20P2_GRP7/poll_files/studentList.XLS finished
+07/02/2021 18:37:28 Answer Sheets: ('C:/Users/Selimoglu/Desktop/Projects/phyton/CSE3063F20P2_GRP7/poll_answers/CSE3063 OOSD Weekly Session 1 - Monday Quizzes ANSWER KEY.txt', 'C:/Users/Selimoglu/Desktop/Projects/phyton/CSE3063F20P2_GRP7/poll_answers/CSE3063 OOSD Weekly Session 2 - Tuesday Quizzes ANSWER KEY.txt') are  being parsed
+07/02/2021 18:37:28 Answer Sheets have been parsed.
+07/02/2021 18:37:29 Poll file: C:/Users/Selimoglu/Desktop/Projects/phyton/CSE3063F20P2_GRP7/poll_files/94502073867_PollReport (5).csv is being parsed
+07/02/2021 18:37:29 Parsing of Poll file: C:/Users/Selimoglu/Desktop/Projects/phyton/CSE3063F20P2_GRP7/poll_files/94502073867_PollReport (5).csv ended.
+07/02/2021 18:37:29 Looking up for anomalies...
+07/02/2021 18:37:29 Anomaly detection ended!
+07/02/2021 18:37:29 Poll Statistics are being calculated...
+07/02/2021 18:40:56 System started!
+07/02/2021 18:40:58 Parsing Student List started : C:/Users/Selimoglu/Desktop/Projects/phyton/CSE3063F20P2_GRP7/poll_files/studentList.XLS started
+07/02/2021 18:40:58 Parsing Student List : C:/Users/Selimoglu/Desktop/Projects/phyton/CSE3063F20P2_GRP7/poll_files/studentList.XLS finished
+07/02/2021 18:40:58 Answer Sheets: ('C:/Users/Selimoglu/Desktop/Projects/phyton/CSE3063F20P2_GRP7/poll_answers/CSE3063 OOSD Weekly Session 1 - Monday Quizzes ANSWER KEY.txt', 'C:/Users/Selimoglu/Desktop/Projects/phyton/CSE3063F20P2_GRP7/poll_answers/CSE3063 OOSD Weekly Session 2 - Tuesday Quizzes ANSWER KEY.txt') are  being parsed
+07/02/2021 18:40:58 Answer Sheets have been parsed.
+07/02/2021 18:40:59 Poll file: C:/Users/Selimoglu/Desktop/Projects/phyton/CSE3063F20P2_GRP7/poll_files/94502073867_PollReport (1).csv is being parsed
+07/02/2021 18:40:59 Parsing of Poll file: C:/Users/Selimoglu/Desktop/Projects/phyton/CSE3063F20P2_GRP7/poll_files/94502073867_PollReport (1).csv ended.
+07/02/2021 18:40:59 Looking up for anomalies...
+07/02/2021 18:40:59 Anomaly detection ended!
+07/02/2021 18:40:59 Poll Statistics are being calculated...
+07/02/2021 18:42:00 System started!
+07/02/2021 18:42:01 Parsing Student List started :  started
+07/02/2021 18:43:41 System started!
+07/02/2021 18:43:42 Parsing Student List started : C:/Users/Selimoglu/Desktop/Projects/phyton/CSE3063F20P2_GRP7/poll_files/studentList.XLS started
+07/02/2021 18:43:43 Parsing Student List : C:/Users/Selimoglu/Desktop/Projects/phyton/CSE3063F20P2_GRP7/poll_files/studentList.XLS finished
+07/02/2021 18:43:43 Answer Sheets: ('C:/Users/Selimoglu/Desktop/Projects/phyton/CSE3063F20P2_GRP7/poll_answers/CSE3063 OOSD Weekly Session 1 - Monday Quizzes ANSWER KEY.txt', 'C:/Users/Selimoglu/Desktop/Projects/phyton/CSE3063F20P2_GRP7/poll_answers/CSE3063 OOSD Weekly Session 2 - Tuesday Quizzes ANSWER KEY.txt') are  being parsed
+07/02/2021 18:43:43 Answer Sheets have been parsed.
+07/02/2021 18:43:44 Poll file: C:/Users/Selimoglu/Desktop/Projects/phyton/CSE3063F20P2_GRP7/poll_files/94502073867_PollReport (5).csv is being parsed
+07/02/2021 18:43:44 Parsing of Poll file: C:/Users/Selimoglu/Desktop/Projects/phyton/CSE3063F20P2_GRP7/poll_files/94502073867_PollReport (5).csv ended.
+07/02/2021 18:43:44 Looking up for anomalies...
+07/02/2021 18:43:44 Anomaly detection ended!
+07/02/2021 18:43:44 Poll Statistics are being calculated...
+07/02/2021 18:55:11 System started!
+07/02/2021 18:55:12 Parsing Student List started : C:/Users/Selimoglu/Desktop/Projects/phyton/CSE3063F20P2_GRP7/poll_files/studentList.XLS started
+07/02/2021 18:55:12 Parsing Student List : C:/Users/Selimoglu/Desktop/Projects/phyton/CSE3063F20P2_GRP7/poll_files/studentList.XLS finished
+07/02/2021 18:55:12 Answer Sheets: ('C:/Users/Selimoglu/Desktop/Projects/phyton/CSE3063F20P2_GRP7/poll_answers/CSE3063 OOSD Weekly Session 1 - Monday Quizzes ANSWER KEY.txt', 'C:/Users/Selimoglu/Desktop/Projects/phyton/CSE3063F20P2_GRP7/poll_answers/CSE3063 OOSD Weekly Session 2 - Tuesday Quizzes ANSWER KEY.txt') are  being parsed
+07/02/2021 18:55:12 Answer Sheets have been parsed.
+07/02/2021 18:55:13 Poll file: C:/Users/Selimoglu/Desktop/Projects/phyton/CSE3063F20P2_GRP7/poll_files/94502073867_PollReport (7).csv is being parsed
+07/02/2021 18:55:14 Parsing of Poll file: C:/Users/Selimoglu/Desktop/Projects/phyton/CSE3063F20P2_GRP7/poll_files/94502073867_PollReport (7).csv ended.
+07/02/2021 18:55:14 Looking up for anomalies...
+07/02/2021 18:55:14 Anomaly detection ended!
+07/02/2021 18:55:14 Poll Statistics are being calculated...
+07/02/2021 18:58:32 Poll Statistics have been calculated.
+07/02/2021 18:58:33 Poll Statistics  is being generated...
+07/02/2021 18:58:34 Attendence report is being generated...
+07/02/2021 18:58:34 Attendence report have been generated in 'attendence_results' directory.
+07/02/2021 18:58:35 Poll Results  is being generated...
+07/02/2021 18:58:36 Total Success Percentages.xlsx file is being generated...
+07/02/2021 18:58:36 Total Success Percentages.xlsx file has been generated in 'poll_results' directory
+07/02/2021 18:58:36 Process finished!!!
+07/02/2021 19:10:15 System started!
+07/02/2021 19:10:16 Parsing Student List started : C:/Users/Selimoglu/Desktop/Projects/phyton/CSE3063F20P2_GRP7/poll_files/studentList.XLS started
+07/02/2021 19:10:16 Parsing Student List : C:/Users/Selimoglu/Desktop/Projects/phyton/CSE3063F20P2_GRP7/poll_files/studentList.XLS finished
+07/02/2021 19:10:16 Answer Sheets: ('C:/Users/Selimoglu/Desktop/Projects/phyton/CSE3063F20P2_GRP7/poll_answers/CSE3063 OOSD Weekly Session 1 - Monday Quizzes ANSWER KEY.txt', 'C:/Users/Selimoglu/Desktop/Projects/phyton/CSE3063F20P2_GRP7/poll_answers/CSE3063 OOSD Weekly Session 2 - Tuesday Quizzes ANSWER KEY.txt') are  being parsed
+07/02/2021 19:10:16 Answer Sheets have been parsed.
+07/02/2021 19:10:17 Poll file: C:/Users/Selimoglu/Desktop/Projects/phyton/CSE3063F20P2_GRP7/poll_files/94502073867_PollReport (5).csv is being parsed
+07/02/2021 19:10:17 Parsing of Poll file: C:/Users/Selimoglu/Desktop/Projects/phyton/CSE3063F20P2_GRP7/poll_files/94502073867_PollReport (5).csv ended.
+07/02/2021 19:10:17 Looking up for anomalies...
+07/02/2021 19:10:17 Anomaly detection ended!
+07/02/2021 19:10:17 Poll Statistics are being calculated...
+07/02/2021 19:25:46 System started!
+07/02/2021 19:25:47 Parsing Student List started : C:/Users/Selimoglu/Desktop/Projects/phyton/CSE3063F20P2_GRP7/poll_files/studentList.XLS started
+07/02/2021 19:25:47 Parsing Student List : C:/Users/Selimoglu/Desktop/Projects/phyton/CSE3063F20P2_GRP7/poll_files/studentList.XLS finished
+07/02/2021 19:25:47 Answer Sheets: ('C:/Users/Selimoglu/Desktop/Projects/phyton/CSE3063F20P2_GRP7/poll_answers/CSE3063 OOSD Weekly Session 1 - Monday Quizzes ANSWER KEY.txt', 'C:/Users/Selimoglu/Desktop/Projects/phyton/CSE3063F20P2_GRP7/poll_answers/CSE3063 OOSD Weekly Session 2 - Tuesday Quizzes ANSWER KEY.txt') are  being parsed
+07/02/2021 19:25:47 Answer Sheets have been parsed.
+07/02/2021 19:25:48 Poll file: C:/Users/Selimoglu/Desktop/Projects/phyton/CSE3063F20P2_GRP7/poll_files/94502073867_PollReport (7).csv is being parsed
+07/02/2021 19:25:48 Parsing of Poll file: C:/Users/Selimoglu/Desktop/Projects/phyton/CSE3063F20P2_GRP7/poll_files/94502073867_PollReport (7).csv ended.
+07/02/2021 19:25:48 Looking up for anomalies...
+07/02/2021 19:25:48 Anomaly detection ended!
+07/02/2021 19:25:48 Poll Statistics are being calculated...
+07/02/2021 19:29:07 Poll Statistics have been calculated.
+07/02/2021 19:29:08 Poll Statistics  is being generated...
+07/02/2021 19:29:09 Attendence report is being generated...
+07/02/2021 19:29:09 Attendence report have been generated in 'attendence_results' directory.
+07/02/2021 19:29:10 Poll Results  is being generated...
+07/02/2021 19:29:11 Total Success Percentages.xlsx file is being generated...
+07/02/2021 19:29:11 Total Success Percentages.xlsx file has been generated in 'poll_results' directory
+07/02/2021 19:29:11 Process finished!!!
+07/02/2021 19:30:27 System started!
+07/02/2021 19:30:28 Parsing Student List started : C:/Users/Selimoglu/Desktop/Projects/phyton/CSE3063F20P2_GRP7/poll_files/studentList.XLS started
+07/02/2021 19:30:28 Parsing Student List : C:/Users/Selimoglu/Desktop/Projects/phyton/CSE3063F20P2_GRP7/poll_files/studentList.XLS finished
+07/02/2021 19:30:28 Answer Sheets: ('C:/Users/Selimoglu/Desktop/Projects/phyton/CSE3063F20P2_GRP7/poll_answers/CSE3063 OOSD Weekly Session 1 - Monday Quizzes ANSWER KEY.txt', 'C:/Users/Selimoglu/Desktop/Projects/phyton/CSE3063F20P2_GRP7/poll_answers/CSE3063 OOSD Weekly Session 2 - Tuesday Quizzes ANSWER KEY.txt') are  being parsed
+07/02/2021 19:30:28 Answer Sheets have been parsed.
+07/02/2021 19:30:29 Poll file: C:/Users/Selimoglu/Desktop/Projects/phyton/CSE3063F20P2_GRP7/poll_files/94502073867_PollReport (1).csv is being parsed
+07/02/2021 19:30:29 Parsing of Poll file: C:/Users/Selimoglu/Desktop/Projects/phyton/CSE3063F20P2_GRP7/poll_files/94502073867_PollReport (1).csv ended.
+07/02/2021 19:30:29 Looking up for anomalies...
+07/02/2021 19:30:29 Anomaly detection ended!
+07/02/2021 19:30:29 Poll Statistics are being calculated...
+07/02/2021 19:33:48 Poll Statistics have been calculated.
+07/02/2021 19:33:49 Poll Statistics  is being generated...
+07/02/2021 19:33:50 Attendence report is being generated...
+07/02/2021 19:33:50 Attendence report have been generated in 'attendence_results' directory.
+07/02/2021 19:33:51 Poll Results  is being generated...
+07/02/2021 19:33:52 Total Success Percentages.xlsx file is being generated...
+07/02/2021 19:33:52 Total Success Percentages.xlsx file has been generated in 'poll_results' directory
+07/02/2021 19:33:52 Process finished!!!
+07/02/2021 19:38:05 System started!
+07/02/2021 19:38:06 Parsing Student List started : C:/Users/Selimoglu/Desktop/Projects/phyton/CSE3063F20P2_GRP7/poll_files/studentList.XLS started
+07/02/2021 19:38:06 Parsing Student List : C:/Users/Selimoglu/Desktop/Projects/phyton/CSE3063F20P2_GRP7/poll_files/studentList.XLS finished
+07/02/2021 19:38:06 Answer Sheets: ('C:/Users/Selimoglu/Desktop/Projects/phyton/CSE3063F20P2_GRP7/poll_answers/CSE3063 OOSD Weekly Session 1 - Monday Quizzes ANSWER KEY.txt', 'C:/Users/Selimoglu/Desktop/Projects/phyton/CSE3063F20P2_GRP7/poll_answers/CSE3063 OOSD Weekly Session 2 - Tuesday Quizzes ANSWER KEY.txt') are  being parsed
+07/02/2021 19:38:06 Answer Sheets have been parsed.
+07/02/2021 19:38:07 Poll file: C:/Users/Selimoglu/Desktop/Projects/phyton/CSE3063F20P2_GRP7/poll_files/94502073867_PollReport (1).csv is being parsed
+07/02/2021 19:38:07 Parsing of Poll file: C:/Users/Selimoglu/Desktop/Projects/phyton/CSE3063F20P2_GRP7/poll_files/94502073867_PollReport (1).csv ended.
+07/02/2021 19:38:07 Looking up for anomalies...
+07/02/2021 19:38:07 Anomaly detection ended!
+07/02/2021 19:38:07 Poll Statistics are being calculated...
+07/02/2021 19:41:25 Poll Statistics have been calculated.
+07/02/2021 19:41:26 Poll Statistics  is being generated...
+07/02/2021 19:41:27 Attendence report is being generated...
+07/02/2021 19:41:27 Attendence report have been generated in 'attendence_results' directory.
+07/02/2021 19:41:28 Poll Results  is being generated...
+07/02/2021 19:41:29 Total Success Percentages.xlsx file is being generated...
+07/02/2021 19:41:30 Total Success Percentages.xlsx file has been generated in 'poll_results' directory
+07/02/2021 19:41:30 Process finished!!!
+07/02/2021 19:49:31 System started!
+07/02/2021 19:49:32 Parsing Student List started : C:/Users/Selimoglu/Desktop/Projects/phyton/CSE3063F20P2_GRP7/poll_files/studentList.XLS started
+07/02/2021 19:49:32 Parsing Student List : C:/Users/Selimoglu/Desktop/Projects/phyton/CSE3063F20P2_GRP7/poll_files/studentList.XLS finished
+07/02/2021 19:49:32 Answer Sheets: ('C:/Users/Selimoglu/Desktop/Projects/phyton/CSE3063F20P2_GRP7/poll_answers/CSE3063 OOSD Weekly Session 1 - Monday Quizzes ANSWER KEY.txt', 'C:/Users/Selimoglu/Desktop/Projects/phyton/CSE3063F20P2_GRP7/poll_answers/CSE3063 OOSD Weekly Session 2 - Tuesday Quizzes ANSWER KEY.txt') are  being parsed
+07/02/2021 19:49:32 Answer Sheets have been parsed.
+07/02/2021 19:49:33 Poll file: C:/Users/Selimoglu/Desktop/Projects/phyton/CSE3063F20P2_GRP7/poll_files/97056655049_PollReport (10).csv is being parsed
+07/02/2021 19:49:33 Parsing of Poll file: C:/Users/Selimoglu/Desktop/Projects/phyton/CSE3063F20P2_GRP7/poll_files/97056655049_PollReport (10).csv ended.
+07/02/2021 19:49:33 Looking up for anomalies...
+07/02/2021 19:49:33 Anomaly detection ended!
+07/02/2021 19:49:33 Poll Statistics are being calculated...
+07/02/2021 19:52:52 Poll Statistics have been calculated.
+07/02/2021 19:52:53 Poll Statistics  is being generated...
+07/02/2021 19:52:54 Attendence report is being generated...
+07/02/2021 19:52:54 Attendence report have been generated in 'attendence_results' directory.
+07/02/2021 19:52:55 Poll Results  is being generated...
+07/02/2021 19:52:56 Total Success Percentages.xlsx file is being generated...
+07/02/2021 19:52:56 Total Success Percentages.xlsx file has been generated in 'poll_results' directory
+07/02/2021 19:52:56 Process finished!!!

@@ -6,8 +6,7 @@ import tkinter as tk
 from ttkthemes import ThemedStyle
 import time
 from PollAnalyzer import PollAnalyzer
-import sys
-
+import subprocess,os
 
 class Gui():
 
@@ -65,15 +64,15 @@ class Gui():
         self.button_explore2.grid(row=2,column=0, padx=20, pady=5)
         self.button_explore3 = Button(browseButFrame,text="Browse Answer Key",command=self.browseFiles3)
         self.button_explore3.grid(row=3,column=0, padx=20, pady=5)
-
         self.root.mainloop()
-        
-    def start(self):
 
+
+    def start(self):
+        self.text.configure(state=NORMAL)
         self.text.delete(1.0,END)
         self.text.insert(INSERT,"Please wait! This may take a little time....")
+        self.text.configure(state=DISABLED)
         self.text.grid(pady=(20, 0), padx=16, sticky=W + E + S)
-
         self.pollAnalyzer=PollAnalyzer(self, self.studentListPath, self.pollPath, self.answerPath)
         self.pollAnalyzer.start()
 
