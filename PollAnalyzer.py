@@ -1,11 +1,14 @@
+from threading import Thread
+
 from OutputProducer import OutputProducer
 from Parser import Parser
 import glob, os
 from QuestionStat import QuestionStat
 from QuizStat import QuizStat
+import sys
 
 
-class PollAnalyzer:
+class PollAnalyzer(Thread):
     __studentList = None
     __fileNames = None
     __answerKeys=None
@@ -14,43 +17,62 @@ class PollAnalyzer:
     __pollList=None
 
 
-    def __init__(self,gui,studentListPath,pollPath,answerPath):
+    def __init__(self, gui, studentListPath, pollPath, answerPath):
 
-        self.__studentList=[]
+
+        super().__init__()
+
+        thread_running = False
+
+        self.__studentList = []
         self.__studentListPath = studentListPath
-        self.__fileNames=pollPath
-        self.__attendanceData=[]
-        self.__answerKeys=answerPath
+        self.__fileNames = pollPath
+        self.__attendanceData = []
+        self.__answerKeys = answerPath
         self.__myOutputProducer = OutputProducer.instance()
         self.__myOutputProducer.addIntoExecutionLog("System started!")
-        self.__pollList={}
-        self.__dataNotCorrelated={}
-        self.__stuNotCorrelated=[]
-        self.__gui=gui
+        self.__pollList = {}
+        self.__dataNotCorrelated = {}
+        self.__stuNotCorrelated = []
+        self.__gui = gui
 
-        columnNames={"name":"Adı","surname":"Soyadı","id":"Öğrenci No","username":"User Name","email":"User Email","datetime":"Submitted Date/Time"}
 
-        parser = Parser(self.__studentListPath, self.__fileNames, self.__answerKeys, columnNames)
-        self.__gui.updateBar(5)
+    def run(self):
+        self.thread_running = True
 
-        self.__studentList,self.__dataNotCorrelated,self.__stuNotCorrelated=parser.parse(self.__studentListPath,self.__fileNames,columnNames,self.__answerKeys,self.__gui.updateBar)
+        while self.thread_running==True:
 
-        self.calculateQuizStats()
+            columnNames = {"name": "Adı", "surname": "Soyadı", "id": "Öğrenci No", "username": "User Name",
+                           "email": "User Email", "datetime": "Submitted Date/Time"}
 
-        self.__gui.updateBar(5)
+            parser = Parser(self.__studentListPath, self.__fileNames, self.__answerKeys, columnNames)
+            self.__gui.updateBar(5)
 
-        self.__myOutputProducer.printPollStat(self.__pollList)
-        self.__gui.updateBar(5)
+            self.__studentList, self.__dataNotCorrelated, self.__stuNotCorrelated = parser.parse(self.__studentListPath,
+                                                                                                 self.__fileNames,
+                                                                                                 columnNames,
+                                                                                                 self.__answerKeys,
+                                                                                                 self.__gui.updateBar)
 
-        self.__myOutputProducer.printAttendenceReport(self.__studentList)
-        self.__gui.updateBar(5)
+            self.calculateQuizStats()
 
-        self.__myOutputProducer.printPollResults(self.__studentList,self.__pollList)
-        self.__gui.updateBar(5)
-        self.__myOutputProducer.printStudentOverallResults(self.__studentList,self.__pollList)
-        self.__gui.bar['value']=100
-        self.__myOutputProducer.addIntoExecutionLog("Process finished!!!")
+            self.__gui.updateBar(5)
 
+            self.__myOutputProducer.printPollStat(self.__pollList)
+            self.__gui.updateBar(5)
+
+            self.__myOutputProducer.printAttendenceReport(self.__studentList)
+            self.__gui.updateBar(5)
+
+            self.__myOutputProducer.printPollResults(self.__studentList, self.__pollList)
+            self.__gui.updateBar(5)
+            self.__myOutputProducer.printStudentOverallResults(self.__studentList, self.__pollList)
+            self.__gui.bar['value'] = 100
+            self.__myOutputProducer.addIntoExecutionLog("Process finished!!!")
+            self.thread_running=False
+
+    def stop(self):
+        sys.exit()
 
     def getStudentList(self):
         return self.__studentList
