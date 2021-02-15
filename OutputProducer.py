@@ -38,9 +38,11 @@ class OutputProducer:
     def printAttendenceReport(self, studentList):
 
         self.addIntoExecutionLog("Attendence report is being generated...")
+        if not os.path.exists('Results'):
+            os.makedirs('Results')
 
-        if not os.path.exists('attendence_results'):
-            os.makedirs('attendence_results')
+        if not os.path.exists('./Results/attendence_results'):
+            os.makedirs('./Results/attendence_results')
 
         global qlist, attPer
         attdatalist = []
@@ -72,15 +74,18 @@ class OutputProducer:
             attdatalist.append(data)
 
         df = pd.DataFrame(attdatalist)
-        df.to_excel("./attendence_results/attendence_report.xlsx")
+        df.to_excel("./Results/attendence_results/attendence_report.xlsx")
         self.addIntoExecutionLog("Attendence report have been generated in 'attendence_results' directory.")
 
     def printStudentOverallResults(self, studentList, poll_list):
 
         self.addIntoExecutionLog("Total Success Percentages.xlsx file is being generated...")
 
-        if not os.path.exists('poll_results'):
-            os.makedirs('poll_results')
+        if not os.path.exists('Results'):
+            os.makedirs('Results')
+
+        if not os.path.exists('./Results/poll_results'):
+            os.makedirs('./Results/poll_results')
 
         sum = 0
         for poll in poll_list:
@@ -107,7 +112,7 @@ class OutputProducer:
 
         overallResults = sorted(overallResults, key=lambda i: i["Correct Answer Percentage"], reverse=True)
 
-        pd.DataFrame(overallResults).to_excel("./poll_results/Total Success Rates.xlsx")
+        pd.DataFrame(overallResults).to_excel("./Results/poll_results/Total Success Rates.xlsx")
         self.addIntoExecutionLog("Total Success Percentages.xlsx file has been generated in 'poll_results' directory")
 
     def printPollResults(self, studentList, poll_List):
@@ -115,8 +120,11 @@ class OutputProducer:
         self.addIntoExecutionLog("Poll Results  is being generated...")
 
         pollResults = {}
-        if not os.path.exists('poll_results'):
-            os.makedirs('poll_results')
+        if not os.path.exists('Results'):
+            os.makedirs('Results')
+
+        if not os.path.exists('./Results/poll_results'):
+            os.makedirs('./Results/poll_results')
 
         for i, key in enumerate(poll_List):
 
@@ -158,19 +166,22 @@ class OutputProducer:
             i += 1
 
         for key in pollResults:
-            pollResults[key].to_excel("./poll_results/" + key + "_result.xlsx")
+            pollResults[key].to_excel("./Results/poll_results/" + key + "_result.xlsx")
             self.addIntoExecutionLog(key + "_result.xlsx file has been generated in 'poll_results' directory")
 
     def printPollStat(self, quizStats):
 
         self.addIntoExecutionLog("Poll Statistics  is being generated...")
 
-        if not os.path.exists('poll_statistics'):
-            os.makedirs('poll_statistics')
+        if not os.path.exists('Results'):
+            os.makedirs('Results')
+
+        if not os.path.exists('./Results/poll_statistics'):
+            os.makedirs('./Results/poll_statistics')
 
         for i, keyQuizName in enumerate(quizStats):
 
-            writer = pd.ExcelWriter("./poll_statistics/" + keyQuizName + "_stats.xlsx", engine='xlsxwriter')
+            writer = pd.ExcelWriter("./Results/poll_statistics/" + keyQuizName + "_stats.xlsx", engine='xlsxwriter')
 
             quizStat = quizStats[keyQuizName]
 
@@ -193,7 +204,7 @@ class OutputProducer:
 
             writer.save()
 
-            wb = load_workbook("./poll_statistics/" + keyQuizName + "_stats.xlsx")
+            wb = load_workbook("./Results/poll_statistics/" + keyQuizName + "_stats.xlsx")
 
             my_blue = openpyxl.styles.colors.Color(rgb='CCE5FF')
             my_fill_blue = openpyxl.styles.fills.PatternFill(patternType='solid', fgColor=my_blue)
@@ -293,5 +304,5 @@ class OutputProducer:
                 p.y_axis.title = "%"
                 ws.add_chart(p, "D1")
                 k += 1
-            wb.save("./poll_statistics/" + keyQuizName + "_stats.xlsx")
+            wb.save("./Results/poll_statistics/" + keyQuizName + "_stats.xlsx")
             self.addIntoExecutionLog(keyQuizName + "_stats.xlsx file has been generated in 'poll_statistics' directory")
