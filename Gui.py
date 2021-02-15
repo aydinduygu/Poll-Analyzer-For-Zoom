@@ -66,12 +66,15 @@ class Gui():
         self.button_explore3 = Button(browseButFrame,text="Browse Answer Key",command=self.browseFiles3)
         self.button_explore3.grid(row=3,column=0, padx=20, pady=5)
 
+        list1=1
+        list2=2
+
         self.root.mainloop()
         
     def start(self):
 
         self.text.delete(1.0,END)
-        self.text.insert(INSERT,"Please wait! This may take a little time....")
+        self.text.insert(END,"Please wait! This may take a little time....")
         self.text.grid(pady=(20, 0), padx=16, sticky=W + E + S)
 
         self.pollAnalyzer=PollAnalyzer(self, self.studentListPath, self.pollPath, self.answerPath)
@@ -117,6 +120,54 @@ class Gui():
         if self.a and self.b and self.c:
 
             self.buttonStart['state']=ACTIVE
+
+    def anomalyMatchWindow(self,stuList,usernames):
+
+        stuList=sorted(stuList)
+        usernames=sorted(usernames)
+        anomaly=Tk()
+
+        width = self.root.winfo_screenwidth()
+        height = self.root.winfo_screenheight()
+
+        self.root.geometry("660x340+" + str(int((width - 660) / 2)) + "+" + str(int((height - 340) / 2)))
+
+        style = ThemedStyle(anomaly)
+        style.set_theme("radiance")
+
+
+        scrollbar=Scrollbar(anomaly)
+        l1=tk.Listbox(anomaly,height=20,width=50,exportselection=0)
+        l1.config(yscrollcommand=scrollbar.set)
+        l2=tk.Listbox(anomaly,height=20,width=50,exportselection=0)
+        for i,stu in enumerate(stuList):
+            l1.insert(i,stu)
+
+        for i,uname in enumerate(usernames):
+            l2.insert(i,uname)
+
+
+
+        lb=tk.Label(anomaly,text="Match Students with Usernames")
+        lb.grid(row=0,column=0)
+        l1.grid(row=1,column=0)
+        l2.grid(row=1,column=1)
+        b=Button(anomaly,text="match",command=lambda :self.match(l1,l2))
+        b2=Button(anomaly,text="continue",command=anomaly.destroy)
+        b2.grid(row=2,column=2)
+        b.grid(row=2,column=1)
+        anomaly.mainloop()
+        a=5
+
+
+    def match(self,l1,l2):
+
+        stu=l1.get(l1.curselection())
+        uname=l2.get(l2.curselection())
+        self.pollAnalyzer.matchAnomaly(stu,uname)
+        l1.delete(l1.curselection())
+        l2.delete(l2.curselection())
+        a=5
 
     def updateBar(self, value):
         self.bar['value'] += value

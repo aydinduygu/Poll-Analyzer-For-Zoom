@@ -6,6 +6,8 @@ import glob, os
 from QuestionStat import QuestionStat
 from QuizStat import QuizStat
 import sys
+import  pandas as pd
+import datetime
 
 
 class PollAnalyzer(Thread):
@@ -45,15 +47,18 @@ class PollAnalyzer(Thread):
             columnNames = {"name": "Adı", "surname": "Soyadı", "id": "Öğrenci No", "username": "User Name",
                            "email": "User Email", "datetime": "Submitted Date/Time"}
 
-            parser = Parser(self.__studentListPath, self.__fileNames, self.__answerKeys, columnNames)
+            self.parser = Parser(self.__studentListPath, self.__fileNames, self.__answerKeys, columnNames)
             self.__gui.updateBar(5)
 
-            self.__studentList, self.__dataNotCorrelated, self.__stuNotCorrelated = parser.parse(self.__studentListPath,
+            self.__studentList, self.__dataNotCorrelated, self.__stuNotCorrelated,self.__answerKeys = self.parser.parse(self.__studentListPath,
                                                                                                  self.__fileNames,
                                                                                                  columnNames,
                                                                                                  self.__answerKeys,
                                                                                                  self.__gui.updateBar)
 
+
+            unames=self.findUnamesNotCor()
+            self.__gui.anomalyMatchWindow(self.__stuNotCorrelated, unames)
             self.calculateQuizStats()
 
             self.__gui.updateBar(5)
@@ -77,6 +82,31 @@ class PollAnalyzer(Thread):
     def getStudentList(self):
         return self.__studentList
 
+    def matchAnomaly(self,student,uname):
+
+        index = self.parser.binarySearchStuList(student, self.__studentList)
+        for key in self.__dataNotCorrelated:
+
+            df=self.__dataNotCorrelated[key]
+            try:
+                self.__studentList,self.__dataNotCorrelated,self.__stuNotCorrelated=self.parser.associateData(student,uname,df,0,1,2,self.__studentList,key,self.__answerKeys)
+            except :
+                pass
+        a=5
+
+
+
+
+
+    def findUnamesNotCor(self):
+        mylist=[]
+        for key in self.__dataNotCorrelated:
+            list=self.parser.parseColumn(self.__dataNotCorrelated[key],1)
+            for item in list:
+                if item not in mylist:
+                    mylist.append(item)
+            
+        return mylist
     def calculateAttendance(self):
 
         self.__myOutputProducer.addIntoExecutionLog("Attendence informations are being calculated...")

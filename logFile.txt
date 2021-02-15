@@ -4356,3 +4356,1241 @@
 06/02/2021 20:42:12 Total Success Percentages.xlsx file is being generated...
 06/02/2021 20:42:12 Total Success Percentages.xlsx file has been generated in 'poll_results' directory
 06/02/2021 20:42:12 Process finished!!!
+06/02/2021 23:56:47 System started!
+06/02/2021 23:56:48 Parsing Student List started : C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/studentList.XLS started
+06/02/2021 23:56:49 Parsing Student List : C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/studentList.XLS finished
+06/02/2021 23:56:49 Answer Sheets: ('C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_answers/CSE3063 OOSD Weekly Session 1 - Monday Quizzes ANSWER KEY.txt', 'C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_answers/CSE3063 OOSD Weekly Session 2 - Tuesday Quizzes ANSWER KEY.txt') are  being parsed
+06/02/2021 23:56:49 Answer Sheets have been parsed.
+06/02/2021 23:56:50 Poll file: C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/94502073867_PollReport (1).csv is being parsed
+06/02/2021 23:56:50 Parsing of Poll file: C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/94502073867_PollReport (1).csv ended.
+06/02/2021 23:56:51 Poll file: C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/94502073867_PollReport (3).csv is being parsed
+06/02/2021 23:56:51 Parsing of Poll file: C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/94502073867_PollReport (3).csv ended.
+06/02/2021 23:56:52 Poll file: C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/94502073867_PollReport (5).csv is being parsed
+06/02/2021 23:56:52 Parsing of Poll file: C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/94502073867_PollReport (5).csv ended.
+06/02/2021 23:56:53 Poll file: C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/94502073867_PollReport (7).csv is being parsed
+06/02/2021 23:56:53 Parsing of Poll file: C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/94502073867_PollReport (7).csv ended.
+06/02/2021 23:56:54 Poll file: C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/94502073867_PollReport (8).csv is being parsed
+06/02/2021 23:56:55 Parsing of Poll file: C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/94502073867_PollReport (8).csv ended.
+06/02/2021 23:56:56 Poll file: C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/94502073867_PollReport (9).csv is being parsed
+06/02/2021 23:56:56 Parsing of Poll file: C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/94502073867_PollReport (9).csv ended.
+06/02/2021 23:56:57 Poll file: C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/94502073867_PollReport (12).csv is being parsed
+06/02/2021 23:58:44 System started!
+06/02/2021 23:58:45 Parsing Student List started : C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/studentList.XLS started
+06/02/2021 23:58:45 Parsing Student List : C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/studentList.XLS finished
+06/02/2021 23:58:45 Answer Sheets: ('C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_answers/CSE3063 OOSD Weekly Session 1 - Monday Quizzes ANSWER KEY.txt', 'C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_answers/CSE3063 OOSD Weekly Session 2 - Tuesday Quizzes ANSWER KEY.txt') are  being parsed
+06/02/2021 23:58:45 Answer Sheets have been parsed.
+06/02/2021 23:58:46 Poll file: C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/94502073867_PollReport (1).csv is being parsed
+06/02/2021 23:58:46 Parsing of Poll file: C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/94502073867_PollReport (1).csv ended.
+06/02/2021 23:58:47 Poll file: C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/94502073867_PollReport (3).csv is being parsed
+06/02/2021 23:58:47 Parsing of Poll file: C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/94502073867_PollReport (3).csv ended.
+06/02/2021 23:58:48 Poll file: C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/94502073867_PollReport (5).csv is being parsed
+06/02/2021 23:58:49 Parsing of Poll file: C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/94502073867_PollReport (5).csv ended.
+06/02/2021 23:58:50 Poll file: C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/94502073867_PollReport (7).csv is being parsed
+06/02/2021 23:58:50 Parsing of Poll file: C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/94502073867_PollReport (7).csv ended.
+06/02/2021 23:58:51 Poll file: C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/94502073867_PollReport (8).csv is being parsed
+06/02/2021 23:58:51 Parsing of Poll file: C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/94502073867_PollReport (8).csv ended.
+06/02/2021 23:58:52 Poll file: C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/94502073867_PollReport (9).csv is being parsed
+06/02/2021 23:58:52 Parsing of Poll file: C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/94502073867_PollReport (9).csv ended.
+06/02/2021 23:58:53 Poll file: C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/94502073867_PollReport (12).csv is being parsed
+06/02/2021 23:58:53 Parsing of Poll file: C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/94502073867_PollReport (12).csv ended.
+06/02/2021 23:58:54 Poll file: C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/94502073867_PollReport (14).csv is being parsed
+06/02/2021 23:58:55 Parsing of Poll file: C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/94502073867_PollReport (14).csv ended.
+06/02/2021 23:58:56 Poll file: C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/94502073867_PollReport (16).csv is being parsed
+06/02/2021 23:58:59 Parsing of Poll file: C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/94502073867_PollReport (16).csv ended.
+06/02/2021 23:59:01 Poll file: C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/94502073867_PollReport (17).csv is being parsed
+06/02/2021 23:59:05 Parsing of Poll file: C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/94502073867_PollReport (17).csv ended.
+06/02/2021 23:59:06 Poll file: C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/94502073867_PollReport (20).csv is being parsed
+06/02/2021 23:59:25 Parsing of Poll file: C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/94502073867_PollReport (20).csv ended.
+06/02/2021 23:59:26 Poll file: C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/94502073867_PollReport (21).csv is being parsed
+07/02/2021 00:02:40 System started!
+07/02/2021 00:02:41 Parsing Student List started : C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/studentList.XLS started
+07/02/2021 00:02:41 Parsing Student List : C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/studentList.XLS finished
+07/02/2021 00:02:41 Answer Sheets: ('C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_answers/CSE3063 OOSD Weekly Session 1 - Monday Quizzes ANSWER KEY.txt', 'C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_answers/CSE3063 OOSD Weekly Session 2 - Tuesday Quizzes ANSWER KEY.txt') are  being parsed
+07/02/2021 00:02:41 Answer Sheets have been parsed.
+07/02/2021 00:02:42 Poll file: C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/94502073867_PollReport (1).csv is being parsed
+07/02/2021 00:02:42 Parsing of Poll file: C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/94502073867_PollReport (1).csv ended.
+07/02/2021 00:02:43 Poll file: C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/94502073867_PollReport (3).csv is being parsed
+07/02/2021 00:02:43 Parsing of Poll file: C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/94502073867_PollReport (3).csv ended.
+07/02/2021 00:02:44 Poll file: C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/94502073867_PollReport (5).csv is being parsed
+07/02/2021 00:02:44 Parsing of Poll file: C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/94502073867_PollReport (5).csv ended.
+07/02/2021 00:02:46 Poll file: C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/94502073867_PollReport (7).csv is being parsed
+07/02/2021 00:02:46 Parsing of Poll file: C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/94502073867_PollReport (7).csv ended.
+07/02/2021 00:02:47 Poll file: C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/94502073867_PollReport (8).csv is being parsed
+07/02/2021 00:02:47 Parsing of Poll file: C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/94502073867_PollReport (8).csv ended.
+07/02/2021 00:02:48 Poll file: C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/94502073867_PollReport (9).csv is being parsed
+07/02/2021 00:02:48 Parsing of Poll file: C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/94502073867_PollReport (9).csv ended.
+07/02/2021 00:02:49 Poll file: C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/94502073867_PollReport (12).csv is being parsed
+07/02/2021 00:02:49 Parsing of Poll file: C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/94502073867_PollReport (12).csv ended.
+07/02/2021 00:02:50 Poll file: C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/94502073867_PollReport (14).csv is being parsed
+07/02/2021 00:02:50 Parsing of Poll file: C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/94502073867_PollReport (14).csv ended.
+07/02/2021 00:02:51 Poll file: C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/94502073867_PollReport (16).csv is being parsed
+07/02/2021 00:02:56 Parsing of Poll file: C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/94502073867_PollReport (16).csv ended.
+07/02/2021 00:02:57 Poll file: C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/94502073867_PollReport (17).csv is being parsed
+07/02/2021 00:11:21 System started!
+07/02/2021 00:11:22 Parsing Student List started : C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/studentList.XLS started
+07/02/2021 00:11:22 Parsing Student List : C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/studentList.XLS finished
+07/02/2021 00:11:22 Answer Sheets: ('C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_answers/CSE3063 OOSD Weekly Session 1 - Monday Quizzes ANSWER KEY.txt', 'C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_answers/CSE3063 OOSD Weekly Session 2 - Tuesday Quizzes ANSWER KEY.txt') are  being parsed
+07/02/2021 00:11:22 Answer Sheets have been parsed.
+07/02/2021 00:11:23 Poll file: C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/94502073867_PollReport (1).csv is being parsed
+07/02/2021 00:11:24 Parsing of Poll file: C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/94502073867_PollReport (1).csv ended.
+07/02/2021 00:11:25 Poll file: C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/94502073867_PollReport (3).csv is being parsed
+07/02/2021 00:11:25 Parsing of Poll file: C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/94502073867_PollReport (3).csv ended.
+07/02/2021 00:11:26 Poll file: C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/94502073867_PollReport (5).csv is being parsed
+07/02/2021 00:11:26 Parsing of Poll file: C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/94502073867_PollReport (5).csv ended.
+07/02/2021 00:11:27 Poll file: C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/94502073867_PollReport (7).csv is being parsed
+07/02/2021 00:11:27 Parsing of Poll file: C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/94502073867_PollReport (7).csv ended.
+07/02/2021 00:11:28 Poll file: C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/94502073867_PollReport (8).csv is being parsed
+07/02/2021 00:11:28 Parsing of Poll file: C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/94502073867_PollReport (8).csv ended.
+07/02/2021 00:11:29 Poll file: C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/94502073867_PollReport (9).csv is being parsed
+07/02/2021 00:11:30 Parsing of Poll file: C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/94502073867_PollReport (9).csv ended.
+07/02/2021 00:11:31 Poll file: C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/94502073867_PollReport (12).csv is being parsed
+07/02/2021 00:11:31 Parsing of Poll file: C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/94502073867_PollReport (12).csv ended.
+07/02/2021 00:11:32 Poll file: C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/94502073867_PollReport (14).csv is being parsed
+07/02/2021 00:11:32 Parsing of Poll file: C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/94502073867_PollReport (14).csv ended.
+07/02/2021 00:11:33 Poll file: C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/94502073867_PollReport (16).csv is being parsed
+07/02/2021 00:11:37 Parsing of Poll file: C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/94502073867_PollReport (16).csv ended.
+07/02/2021 00:11:38 Poll file: C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/94502073867_PollReport (17).csv is being parsed
+07/02/2021 00:11:43 Parsing of Poll file: C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/94502073867_PollReport (17).csv ended.
+07/02/2021 00:11:44 Poll file: C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/94502073867_PollReport (20).csv is being parsed
+07/02/2021 00:11:52 Parsing of Poll file: C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/94502073867_PollReport (20).csv ended.
+07/02/2021 00:11:53 Poll file: C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/94502073867_PollReport (21).csv is being parsed
+07/02/2021 00:12:01 Parsing of Poll file: C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/94502073867_PollReport (21).csv ended.
+07/02/2021 00:12:02 Poll file: C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/94502073867_PollReport (22).csv is being parsed
+07/02/2021 00:12:06 Parsing of Poll file: C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/94502073867_PollReport (22).csv ended.
+07/02/2021 00:12:07 Poll file: C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/94502073867_PollReport_18-01-2021.csv is being parsed
+07/02/2021 00:12:08 Parsing of Poll file: C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/94502073867_PollReport_18-01-2021.csv ended.
+07/02/2021 00:12:09 Poll file: C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/94502073867_PollReport_19-10-2020.csv is being parsed
+07/02/2021 00:12:10 Parsing of Poll file: C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/94502073867_PollReport_19-10-2020.csv ended.
+07/02/2021 00:12:11 Poll file: C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/94502073867_PollReport_26-10-2020.csv is being parsed
+07/02/2021 00:12:14 Parsing of Poll file: C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/94502073867_PollReport_26-10-2020.csv ended.
+07/02/2021 00:12:15 Poll file: C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/97056655049_PollReport (1).csv is being parsed
+07/02/2021 00:12:15 Parsing of Poll file: C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/97056655049_PollReport (1).csv ended.
+07/02/2021 00:12:16 Poll file: C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/97056655049_PollReport (3).csv is being parsed
+07/02/2021 00:12:16 Parsing of Poll file: C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/97056655049_PollReport (3).csv ended.
+07/02/2021 00:12:17 Poll file: C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/97056655049_PollReport (4).csv is being parsed
+07/02/2021 00:12:17 Parsing of Poll file: C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/97056655049_PollReport (4).csv ended.
+07/02/2021 00:12:18 Poll file: C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/97056655049_PollReport (6).csv is being parsed
+07/02/2021 00:12:18 Parsing of Poll file: C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/97056655049_PollReport (6).csv ended.
+07/02/2021 00:12:19 Poll file: C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/97056655049_PollReport (10).csv is being parsed
+07/02/2021 00:12:20 Parsing of Poll file: C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/97056655049_PollReport (10).csv ended.
+07/02/2021 00:12:21 Poll file: C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/97056655049_PollReport (15).csv is being parsed
+07/02/2021 00:12:21 Parsing of Poll file: C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/97056655049_PollReport (15).csv ended.
+07/02/2021 00:12:22 Poll file: C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/97056655049_PollReport (16).csv is being parsed
+07/02/2021 00:12:22 Parsing of Poll file: C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/97056655049_PollReport (16).csv ended.
+07/02/2021 00:12:23 Poll file: C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/97056655049_PollReport (23).csv is being parsed
+07/02/2021 00:12:30 Parsing of Poll file: C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/97056655049_PollReport (23).csv ended.
+07/02/2021 00:12:31 Poll file: C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/97056655049_PollReport (27).csv is being parsed
+07/02/2021 00:12:41 Parsing of Poll file: C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/97056655049_PollReport (27).csv ended.
+07/02/2021 00:12:42 Poll file: C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/97056655049_PollReport (28).csv is being parsed
+07/02/2021 00:12:42 Parsing of Poll file: C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/97056655049_PollReport (28).csv ended.
+07/02/2021 00:12:43 Poll file: C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/97056655049_PollReport_12-01-2021.csv is being parsed
+07/02/2021 00:12:43 Parsing of Poll file: C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/97056655049_PollReport_12-01-2021.csv ended.
+07/02/2021 00:12:44 Poll file: C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/97056655049_PollReport_20-10-2020.csv is being parsed
+07/02/2021 00:12:45 Parsing of Poll file: C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/97056655049_PollReport_20-10-2020.csv ended.
+07/02/2021 00:12:45 Looking up for anomalies...
+07/02/2021 00:12:45 Anomaly detection ended!
+07/02/2021 00:12:45 Poll Statistics are being calculated...
+07/02/2021 16:26:54 System started!
+07/02/2021 16:27:57 System started!
+07/02/2021 16:27:58 Parsing Student List started : C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/studentList.XLS started
+07/02/2021 16:27:58 Parsing Student List : C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/studentList.XLS finished
+07/02/2021 16:27:58 Answer Sheets: ('C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_answers/CSE3063 OOSD Weekly Session 1 - Monday Quizzes ANSWER KEY.txt', 'C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_answers/CSE3063 OOSD Weekly Session 2 - Tuesday Quizzes ANSWER KEY.txt') are  being parsed
+07/02/2021 16:27:58 Answer Sheets have been parsed.
+07/02/2021 16:27:59 Poll file: C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/94502073867_PollReport (1).csv is being parsed
+07/02/2021 16:27:59 Parsing of Poll file: C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/94502073867_PollReport (1).csv ended.
+07/02/2021 16:28:00 Poll file: C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/94502073867_PollReport (3).csv is being parsed
+07/02/2021 16:28:00 Parsing of Poll file: C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/94502073867_PollReport (3).csv ended.
+07/02/2021 16:28:01 Poll file: C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/94502073867_PollReport (5).csv is being parsed
+07/02/2021 16:28:02 Parsing of Poll file: C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/94502073867_PollReport (5).csv ended.
+07/02/2021 16:28:03 Poll file: C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/94502073867_PollReport (7).csv is being parsed
+07/02/2021 16:28:03 Parsing of Poll file: C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/94502073867_PollReport (7).csv ended.
+07/02/2021 16:28:04 Poll file: C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/94502073867_PollReport (8).csv is being parsed
+07/02/2021 16:28:04 Parsing of Poll file: C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/94502073867_PollReport (8).csv ended.
+07/02/2021 16:28:05 Poll file: C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/94502073867_PollReport (9).csv is being parsed
+07/02/2021 16:28:05 Parsing of Poll file: C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/94502073867_PollReport (9).csv ended.
+07/02/2021 16:28:06 Poll file: C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/94502073867_PollReport (12).csv is being parsed
+07/02/2021 16:28:06 Parsing of Poll file: C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/94502073867_PollReport (12).csv ended.
+07/02/2021 16:28:07 Poll file: C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/94502073867_PollReport (14).csv is being parsed
+07/02/2021 16:28:08 Parsing of Poll file: C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/94502073867_PollReport (14).csv ended.
+07/02/2021 16:28:09 Poll file: C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/94502073867_PollReport (16).csv is being parsed
+07/02/2021 16:28:13 Parsing of Poll file: C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/94502073867_PollReport (16).csv ended.
+07/02/2021 16:28:14 Poll file: C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/94502073867_PollReport (17).csv is being parsed
+07/02/2021 16:28:19 Parsing of Poll file: C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/94502073867_PollReport (17).csv ended.
+07/02/2021 16:28:20 Poll file: C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/94502073867_PollReport (20).csv is being parsed
+07/02/2021 16:32:24 System started!
+07/02/2021 16:32:25 Parsing Student List started : C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/studentList.XLS started
+07/02/2021 16:32:25 Parsing Student List : C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/studentList.XLS finished
+07/02/2021 16:32:25 Answer Sheets: ('C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_answers/CSE3063 OOSD Weekly Session 1 - Monday Quizzes ANSWER KEY.txt', 'C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_answers/CSE3063 OOSD Weekly Session 2 - Tuesday Quizzes ANSWER KEY.txt') are  being parsed
+07/02/2021 16:32:25 Answer Sheets have been parsed.
+07/02/2021 16:32:26 Poll file: C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/94502073867_PollReport (1).csv is being parsed
+07/02/2021 16:32:26 Parsing of Poll file: C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/94502073867_PollReport (1).csv ended.
+07/02/2021 16:32:27 Poll file: C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/94502073867_PollReport (3).csv is being parsed
+07/02/2021 16:32:27 Parsing of Poll file: C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/94502073867_PollReport (3).csv ended.
+07/02/2021 16:32:28 Poll file: C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/94502073867_PollReport (5).csv is being parsed
+07/02/2021 16:32:29 Parsing of Poll file: C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/94502073867_PollReport (5).csv ended.
+07/02/2021 16:32:30 Poll file: C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/94502073867_PollReport (7).csv is being parsed
+07/02/2021 16:32:30 Parsing of Poll file: C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/94502073867_PollReport (7).csv ended.
+07/02/2021 16:32:31 Poll file: C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/94502073867_PollReport (8).csv is being parsed
+07/02/2021 16:32:31 Parsing of Poll file: C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/94502073867_PollReport (8).csv ended.
+07/02/2021 16:39:24 System started!
+07/02/2021 16:39:25 Parsing Student List started : C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/studentList.XLS started
+07/02/2021 16:39:25 Parsing Student List : C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/studentList.XLS finished
+07/02/2021 16:39:25 Answer Sheets: ('C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_answers/CSE3063 OOSD Weekly Session 1 - Monday Quizzes ANSWER KEY.txt', 'C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_answers/CSE3063 OOSD Weekly Session 2 - Tuesday Quizzes ANSWER KEY.txt') are  being parsed
+07/02/2021 16:39:25 Answer Sheets have been parsed.
+07/02/2021 16:39:26 Poll file: C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/94502073867_PollReport (1).csv is being parsed
+07/02/2021 16:39:27 Parsing of Poll file: C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/94502073867_PollReport (1).csv ended.
+07/02/2021 16:39:28 Poll file: C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/94502073867_PollReport (3).csv is being parsed
+07/02/2021 16:39:28 Parsing of Poll file: C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/94502073867_PollReport (3).csv ended.
+07/02/2021 16:39:29 Poll file: C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/94502073867_PollReport (5).csv is being parsed
+07/02/2021 16:39:29 Parsing of Poll file: C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/94502073867_PollReport (5).csv ended.
+07/02/2021 16:40:46 System started!
+07/02/2021 16:40:47 Parsing Student List started : C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/studentList.XLS started
+07/02/2021 16:40:47 Parsing Student List : C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/studentList.XLS finished
+07/02/2021 16:40:47 Answer Sheets: ('C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_answers/CSE3063 OOSD Weekly Session 1 - Monday Quizzes ANSWER KEY.txt', 'C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_answers/CSE3063 OOSD Weekly Session 2 - Tuesday Quizzes ANSWER KEY.txt') are  being parsed
+07/02/2021 16:40:47 Answer Sheets have been parsed.
+07/02/2021 16:40:48 Poll file: C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/94502073867_PollReport (1).csv is being parsed
+07/02/2021 16:40:48 Parsing of Poll file: C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/94502073867_PollReport (1).csv ended.
+07/02/2021 16:40:49 Poll file: C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/94502073867_PollReport (3).csv is being parsed
+07/02/2021 16:40:49 Parsing of Poll file: C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/94502073867_PollReport (3).csv ended.
+07/02/2021 16:40:50 Poll file: C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/94502073867_PollReport (5).csv is being parsed
+07/02/2021 16:40:50 Parsing of Poll file: C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/94502073867_PollReport (5).csv ended.
+07/02/2021 16:41:52 System started!
+07/02/2021 16:41:53 Parsing Student List started : C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/studentList.XLS started
+07/02/2021 16:41:53 Parsing Student List : C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/studentList.XLS finished
+07/02/2021 16:41:53 Answer Sheets: ('C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_answers/CSE3063 OOSD Weekly Session 1 - Monday Quizzes ANSWER KEY.txt', 'C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_answers/CSE3063 OOSD Weekly Session 2 - Tuesday Quizzes ANSWER KEY.txt') are  being parsed
+07/02/2021 16:41:53 Answer Sheets have been parsed.
+07/02/2021 16:41:54 Poll file: C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/94502073867_PollReport (1).csv is being parsed
+07/02/2021 16:41:54 Parsing of Poll file: C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/94502073867_PollReport (1).csv ended.
+07/02/2021 16:41:55 Poll file: C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/94502073867_PollReport (3).csv is being parsed
+07/02/2021 16:41:56 Parsing of Poll file: C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/94502073867_PollReport (3).csv ended.
+07/02/2021 16:41:57 Poll file: C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/94502073867_PollReport (5).csv is being parsed
+07/02/2021 16:41:57 Parsing of Poll file: C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/94502073867_PollReport (5).csv ended.
+07/02/2021 16:41:58 Poll file: C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/94502073867_PollReport (7).csv is being parsed
+07/02/2021 16:41:58 Parsing of Poll file: C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/94502073867_PollReport (7).csv ended.
+07/02/2021 16:41:59 Poll file: C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/94502073867_PollReport (8).csv is being parsed
+07/02/2021 16:41:59 Parsing of Poll file: C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/94502073867_PollReport (8).csv ended.
+07/02/2021 16:42:00 Poll file: C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/94502073867_PollReport (9).csv is being parsed
+07/02/2021 16:42:00 Parsing of Poll file: C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/94502073867_PollReport (9).csv ended.
+07/02/2021 16:42:02 Poll file: C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/94502073867_PollReport (12).csv is being parsed
+07/02/2021 16:42:02 Parsing of Poll file: C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/94502073867_PollReport (12).csv ended.
+07/02/2021 16:42:03 Poll file: C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/94502073867_PollReport (14).csv is being parsed
+07/02/2021 16:42:03 Parsing of Poll file: C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/94502073867_PollReport (14).csv ended.
+07/02/2021 16:42:04 Poll file: C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/94502073867_PollReport (16).csv is being parsed
+07/02/2021 16:42:08 Parsing of Poll file: C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/94502073867_PollReport (16).csv ended.
+07/02/2021 16:42:09 Poll file: C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/94502073867_PollReport (17).csv is being parsed
+07/02/2021 16:42:14 Parsing of Poll file: C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/94502073867_PollReport (17).csv ended.
+07/02/2021 16:42:15 Poll file: C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/94502073867_PollReport (20).csv is being parsed
+07/02/2021 16:42:22 Parsing of Poll file: C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/94502073867_PollReport (20).csv ended.
+07/02/2021 16:42:23 Poll file: C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/94502073867_PollReport (21).csv is being parsed
+07/02/2021 16:42:30 Parsing of Poll file: C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/94502073867_PollReport (21).csv ended.
+07/02/2021 16:42:31 Poll file: C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/94502073867_PollReport (22).csv is being parsed
+07/02/2021 16:42:35 Parsing of Poll file: C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/94502073867_PollReport (22).csv ended.
+07/02/2021 16:42:36 Poll file: C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/94502073867_PollReport_18-01-2021.csv is being parsed
+07/02/2021 16:42:37 Parsing of Poll file: C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/94502073867_PollReport_18-01-2021.csv ended.
+07/02/2021 16:42:38 Poll file: C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/94502073867_PollReport_19-10-2020.csv is being parsed
+07/02/2021 16:42:39 Parsing of Poll file: C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/94502073867_PollReport_19-10-2020.csv ended.
+07/02/2021 16:42:40 Poll file: C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/94502073867_PollReport_26-10-2020.csv is being parsed
+07/02/2021 16:42:42 Parsing of Poll file: C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/94502073867_PollReport_26-10-2020.csv ended.
+07/02/2021 16:42:43 Poll file: C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/97056655049_PollReport (1).csv is being parsed
+07/02/2021 16:42:43 Parsing of Poll file: C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/97056655049_PollReport (1).csv ended.
+07/02/2021 16:42:44 Poll file: C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/97056655049_PollReport (3).csv is being parsed
+07/02/2021 16:42:44 Parsing of Poll file: C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/97056655049_PollReport (3).csv ended.
+07/02/2021 16:42:45 Poll file: C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/97056655049_PollReport (4).csv is being parsed
+07/02/2021 16:42:46 Parsing of Poll file: C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/97056655049_PollReport (4).csv ended.
+07/02/2021 16:42:47 Poll file: C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/97056655049_PollReport (6).csv is being parsed
+07/02/2021 16:42:47 Parsing of Poll file: C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/97056655049_PollReport (6).csv ended.
+07/02/2021 16:42:48 Poll file: C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/97056655049_PollReport (10).csv is being parsed
+07/02/2021 16:42:48 Parsing of Poll file: C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/97056655049_PollReport (10).csv ended.
+07/02/2021 16:42:49 Poll file: C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/97056655049_PollReport (15).csv is being parsed
+07/02/2021 16:42:49 Parsing of Poll file: C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/97056655049_PollReport (15).csv ended.
+07/02/2021 16:42:50 Poll file: C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/97056655049_PollReport (16).csv is being parsed
+07/02/2021 16:42:50 Parsing of Poll file: C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/97056655049_PollReport (16).csv ended.
+07/02/2021 16:42:51 Poll file: C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/97056655049_PollReport (23).csv is being parsed
+07/02/2021 16:42:58 Parsing of Poll file: C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/97056655049_PollReport (23).csv ended.
+07/02/2021 16:42:59 Poll file: C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/97056655049_PollReport (27).csv is being parsed
+07/02/2021 16:43:06 Parsing of Poll file: C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/97056655049_PollReport (27).csv ended.
+07/02/2021 16:43:07 Poll file: C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/97056655049_PollReport (28).csv is being parsed
+07/02/2021 16:43:08 Parsing of Poll file: C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/97056655049_PollReport (28).csv ended.
+07/02/2021 16:43:09 Poll file: C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/97056655049_PollReport_12-01-2021.csv is being parsed
+07/02/2021 16:43:09 Parsing of Poll file: C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/97056655049_PollReport_12-01-2021.csv ended.
+07/02/2021 16:43:10 Poll file: C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/97056655049_PollReport_20-10-2020.csv is being parsed
+07/02/2021 16:43:10 Parsing of Poll file: C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/97056655049_PollReport_20-10-2020.csv ended.
+07/02/2021 16:43:10 Looking up for anomalies...
+07/02/2021 16:43:10 Anomaly detection ended!
+07/02/2021 16:43:10 Poll Statistics are being calculated...
+07/02/2021 16:46:56 Poll Statistics have been calculated.
+07/02/2021 16:46:57 Poll Statistics  is being generated...
+07/02/2021 16:46:57 CSE3063 OOSD Weekly Session 1 - Monday_3_stats.xlsx file has been generated in 'poll_statistics' directory
+07/02/2021 16:46:58 CSE3063 OOSD Weekly Session 1 - Monday_4_stats.xlsx file has been generated in 'poll_statistics' directory
+07/02/2021 16:46:58 CSE3063 OOSD Weekly Session 1 - Monday_5_stats.xlsx file has been generated in 'poll_statistics' directory
+07/02/2021 16:46:58 CSE3063 OOSD Weekly Session 1 - Monday_6_stats.xlsx file has been generated in 'poll_statistics' directory
+07/02/2021 16:46:58 CSE3063 OOSD Weekly Session 1 - Monday_8_stats.xlsx file has been generated in 'poll_statistics' directory
+07/02/2021 16:46:59 CSE3063 OOSD Weekly Session 1 - Monday_9_stats.xlsx file has been generated in 'poll_statistics' directory
+07/02/2021 16:46:59 CSE3063 OOSD Weekly Session 1 - Monday_11_stats.xlsx file has been generated in 'poll_statistics' directory
+07/02/2021 16:46:59 CSE3063 OOSD Weekly Session 2 - Tuesday_3_stats.xlsx file has been generated in 'poll_statistics' directory
+07/02/2021 16:46:59 CSE3063 OOSD Weekly Session 1 - Monday_1_stats.xlsx file has been generated in 'poll_statistics' directory
+07/02/2021 16:47:00 CSE3063 OOSD Weekly Session 1 - Monday_2_stats.xlsx file has been generated in 'poll_statistics' directory
+07/02/2021 16:47:00 CSE3063 OOSD Weekly Session 1 - Monday_7_stats.xlsx file has been generated in 'poll_statistics' directory
+07/02/2021 16:47:00 CSE3063 OOSD Weekly Session 2 - Tuesday_1_stats.xlsx file has been generated in 'poll_statistics' directory
+07/02/2021 16:47:01 CSE3063 OOSD Weekly Session 2 - Tuesday_2_stats.xlsx file has been generated in 'poll_statistics' directory
+07/02/2021 16:47:01 CSE3063 OOSD Weekly Session 1 - Monday_10_stats.xlsx file has been generated in 'poll_statistics' directory
+07/02/2021 16:47:02 Attendence report is being generated...
+07/02/2021 16:47:02 Attendence report have been generated in 'attendence_results' directory.
+07/02/2021 16:47:03 Poll Results  is being generated...
+07/02/2021 16:47:03 CSE3063 OOSD Weekly Session 1 - Monday_3_result.xlsx file has been generated in 'poll_results' directory
+07/02/2021 16:47:03 CSE3063 OOSD Weekly Session 1 - Monday_4_result.xlsx file has been generated in 'poll_results' directory
+07/02/2021 16:47:03 CSE3063 OOSD Weekly Session 1 - Monday_5_result.xlsx file has been generated in 'poll_results' directory
+07/02/2021 16:47:03 CSE3063 OOSD Weekly Session 1 - Monday_6_result.xlsx file has been generated in 'poll_results' directory
+07/02/2021 16:47:03 CSE3063 OOSD Weekly Session 1 - Monday_8_result.xlsx file has been generated in 'poll_results' directory
+07/02/2021 16:47:03 CSE3063 OOSD Weekly Session 1 - Monday_9_result.xlsx file has been generated in 'poll_results' directory
+07/02/2021 16:47:03 CSE3063 OOSD Weekly Session 1 - Monday_11_result.xlsx file has been generated in 'poll_results' directory
+07/02/2021 16:47:03 CSE3063 OOSD Weekly Session 2 - Tuesday_3_result.xlsx file has been generated in 'poll_results' directory
+07/02/2021 16:47:03 CSE3063 OOSD Weekly Session 1 - Monday_1_result.xlsx file has been generated in 'poll_results' directory
+07/02/2021 16:47:03 CSE3063 OOSD Weekly Session 1 - Monday_2_result.xlsx file has been generated in 'poll_results' directory
+07/02/2021 16:47:04 CSE3063 OOSD Weekly Session 1 - Monday_7_result.xlsx file has been generated in 'poll_results' directory
+07/02/2021 16:47:04 CSE3063 OOSD Weekly Session 2 - Tuesday_1_result.xlsx file has been generated in 'poll_results' directory
+07/02/2021 16:47:04 CSE3063 OOSD Weekly Session 2 - Tuesday_2_result.xlsx file has been generated in 'poll_results' directory
+07/02/2021 16:47:04 CSE3063 OOSD Weekly Session 1 - Monday_10_result.xlsx file has been generated in 'poll_results' directory
+07/02/2021 16:47:05 Total Success Percentages.xlsx file is being generated...
+07/02/2021 16:47:05 Total Success Percentages.xlsx file has been generated in 'poll_results' directory
+07/02/2021 16:47:05 Process finished!!!
+07/02/2021 17:14:22 System started!
+07/02/2021 17:14:23 Parsing Student List started : C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/studentList.XLS started
+07/02/2021 17:14:23 Parsing Student List : C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/studentList.XLS finished
+07/02/2021 17:14:23 Answer Sheets: ('C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_answers/CSE3063 OOSD Weekly Session 1 - Monday Quizzes ANSWER KEY.txt', 'C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_answers/CSE3063 OOSD Weekly Session 2 - Tuesday Quizzes ANSWER KEY.txt') are  being parsed
+07/02/2021 17:14:23 Answer Sheets have been parsed.
+07/02/2021 17:14:24 Poll file: C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/94502073867_PollReport (1).csv is being parsed
+07/02/2021 17:14:24 Parsing of Poll file: C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/94502073867_PollReport (1).csv ended.
+07/02/2021 17:14:25 Poll file: C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/94502073867_PollReport (3).csv is being parsed
+07/02/2021 17:14:25 Parsing of Poll file: C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/94502073867_PollReport (3).csv ended.
+07/02/2021 17:14:26 Poll file: C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/94502073867_PollReport (5).csv is being parsed
+07/02/2021 17:14:26 Parsing of Poll file: C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/94502073867_PollReport (5).csv ended.
+07/02/2021 17:14:27 Poll file: C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/94502073867_PollReport (7).csv is being parsed
+07/02/2021 17:14:27 Parsing of Poll file: C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/94502073867_PollReport (7).csv ended.
+07/02/2021 17:14:28 Poll file: C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/94502073867_PollReport (8).csv is being parsed
+07/02/2021 17:14:29 Parsing of Poll file: C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/94502073867_PollReport (8).csv ended.
+07/02/2021 17:14:30 Poll file: C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/94502073867_PollReport (9).csv is being parsed
+07/02/2021 17:14:30 Parsing of Poll file: C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/94502073867_PollReport (9).csv ended.
+07/02/2021 17:32:09 System started!
+07/02/2021 17:32:10 Parsing Student List started : C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/studentList.XLS started
+07/02/2021 17:32:10 Parsing Student List : C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/studentList.XLS finished
+07/02/2021 17:32:10 Answer Sheets: ('C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_answers/CSE3063 OOSD Weekly Session 1 - Monday Quizzes ANSWER KEY.txt', 'C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_answers/CSE3063 OOSD Weekly Session 2 - Tuesday Quizzes ANSWER KEY.txt') are  being parsed
+07/02/2021 17:32:10 Answer Sheets have been parsed.
+07/02/2021 17:32:11 Poll file: C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/94502073867_PollReport (1).csv is being parsed
+07/02/2021 17:32:12 Parsing of Poll file: C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/94502073867_PollReport (1).csv ended.
+07/02/2021 17:32:13 Poll file: C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/94502073867_PollReport (3).csv is being parsed
+07/02/2021 17:32:13 Parsing of Poll file: C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/94502073867_PollReport (3).csv ended.
+07/02/2021 17:32:14 Poll file: C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/94502073867_PollReport (5).csv is being parsed
+07/02/2021 17:32:15 Parsing of Poll file: C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/94502073867_PollReport (5).csv ended.
+07/02/2021 17:32:16 Poll file: C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/94502073867_PollReport (7).csv is being parsed
+07/02/2021 17:32:16 Parsing of Poll file: C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/94502073867_PollReport (7).csv ended.
+07/02/2021 17:32:17 Poll file: C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/94502073867_PollReport (8).csv is being parsed
+07/02/2021 17:32:17 Parsing of Poll file: C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/94502073867_PollReport (8).csv ended.
+07/02/2021 17:32:19 Poll file: C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/94502073867_PollReport (9).csv is being parsed
+07/02/2021 17:32:19 Parsing of Poll file: C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/94502073867_PollReport (9).csv ended.
+07/02/2021 17:32:20 Poll file: C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/94502073867_PollReport (12).csv is being parsed
+07/02/2021 17:32:20 Parsing of Poll file: C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/94502073867_PollReport (12).csv ended.
+07/02/2021 17:32:21 Poll file: C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/94502073867_PollReport (14).csv is being parsed
+07/02/2021 17:32:22 Parsing of Poll file: C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/94502073867_PollReport (14).csv ended.
+07/02/2021 17:32:23 Poll file: C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/94502073867_PollReport (16).csv is being parsed
+07/02/2021 17:32:32 Parsing of Poll file: C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/94502073867_PollReport (16).csv ended.
+07/02/2021 17:32:33 Poll file: C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/94502073867_PollReport (17).csv is being parsed
+07/02/2021 17:32:42 Parsing of Poll file: C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/94502073867_PollReport (17).csv ended.
+07/02/2021 17:32:43 Poll file: C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/94502073867_PollReport (20).csv is being parsed
+07/02/2021 17:32:59 Parsing of Poll file: C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/94502073867_PollReport (20).csv ended.
+07/02/2021 17:33:00 Poll file: C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/94502073867_PollReport (21).csv is being parsed
+07/02/2021 17:33:14 Parsing of Poll file: C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/94502073867_PollReport (21).csv ended.
+07/02/2021 17:33:15 Poll file: C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/94502073867_PollReport (22).csv is being parsed
+07/02/2021 17:33:23 Parsing of Poll file: C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/94502073867_PollReport (22).csv ended.
+07/02/2021 17:33:24 Poll file: C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/94502073867_PollReport_18-01-2021.csv is being parsed
+07/02/2021 17:33:25 Parsing of Poll file: C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/94502073867_PollReport_18-01-2021.csv ended.
+07/02/2021 17:33:26 Poll file: C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/94502073867_PollReport_19-10-2020.csv is being parsed
+07/02/2021 17:33:28 Parsing of Poll file: C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/94502073867_PollReport_19-10-2020.csv ended.
+07/02/2021 17:33:29 Poll file: C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/94502073867_PollReport_26-10-2020.csv is being parsed
+07/02/2021 17:33:34 Parsing of Poll file: C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/94502073867_PollReport_26-10-2020.csv ended.
+07/02/2021 17:33:35 Poll file: C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/97056655049_PollReport (1).csv is being parsed
+07/02/2021 17:33:35 Parsing of Poll file: C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/97056655049_PollReport (1).csv ended.
+07/02/2021 17:33:36 Poll file: C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/97056655049_PollReport (3).csv is being parsed
+07/02/2021 17:33:37 Parsing of Poll file: C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/97056655049_PollReport (3).csv ended.
+07/02/2021 17:33:38 Poll file: C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/97056655049_PollReport (4).csv is being parsed
+07/02/2021 17:33:38 Parsing of Poll file: C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/97056655049_PollReport (4).csv ended.
+07/02/2021 17:33:39 Poll file: C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/97056655049_PollReport (6).csv is being parsed
+07/02/2021 17:33:40 Parsing of Poll file: C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/97056655049_PollReport (6).csv ended.
+07/02/2021 17:33:41 Poll file: C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/97056655049_PollReport (10).csv is being parsed
+07/02/2021 17:33:41 Parsing of Poll file: C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/97056655049_PollReport (10).csv ended.
+07/02/2021 17:33:42 Poll file: C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/97056655049_PollReport (15).csv is being parsed
+07/02/2021 17:33:43 Parsing of Poll file: C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/97056655049_PollReport (15).csv ended.
+07/02/2021 17:33:44 Poll file: C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/97056655049_PollReport (16).csv is being parsed
+07/02/2021 17:33:44 Parsing of Poll file: C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/97056655049_PollReport (16).csv ended.
+07/02/2021 17:33:45 Poll file: C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/97056655049_PollReport (23).csv is being parsed
+07/02/2021 17:33:57 Parsing of Poll file: C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/97056655049_PollReport (23).csv ended.
+07/02/2021 17:33:58 Poll file: C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/97056655049_PollReport (27).csv is being parsed
+07/02/2021 17:34:12 Parsing of Poll file: C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/97056655049_PollReport (27).csv ended.
+07/02/2021 17:34:14 Poll file: C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/97056655049_PollReport (28).csv is being parsed
+07/02/2021 17:34:14 Parsing of Poll file: C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/97056655049_PollReport (28).csv ended.
+07/02/2021 17:34:15 Poll file: C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/97056655049_PollReport_12-01-2021.csv is being parsed
+07/02/2021 17:34:16 Parsing of Poll file: C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/97056655049_PollReport_12-01-2021.csv ended.
+07/02/2021 17:34:17 Poll file: C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/97056655049_PollReport_20-10-2020.csv is being parsed
+07/02/2021 17:34:17 Parsing of Poll file: C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/97056655049_PollReport_20-10-2020.csv ended.
+07/02/2021 17:34:17 Looking up for anomalies...
+07/02/2021 17:34:17 Anomaly detection ended!
+07/02/2021 17:35:18 System started!
+07/02/2021 17:35:19 Parsing Student List started : C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/studentList.XLS started
+07/02/2021 17:35:19 Parsing Student List : C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/studentList.XLS finished
+07/02/2021 17:35:19 Answer Sheets: ('C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_answers/CSE3063 OOSD Weekly Session 1 - Monday Quizzes ANSWER KEY.txt', 'C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_answers/CSE3063 OOSD Weekly Session 2 - Tuesday Quizzes ANSWER KEY.txt') are  being parsed
+07/02/2021 17:35:19 Answer Sheets have been parsed.
+07/02/2021 17:35:20 Poll file: C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/94502073867_PollReport (1).csv is being parsed
+07/02/2021 17:35:20 Parsing of Poll file: C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/94502073867_PollReport (1).csv ended.
+07/02/2021 17:35:20 Looking up for anomalies...
+07/02/2021 17:35:20 Anomaly detection ended!
+07/02/2021 17:40:17 System started!
+07/02/2021 17:40:18 Parsing Student List started : C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/studentList.XLS started
+07/02/2021 17:40:19 Parsing Student List : C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/studentList.XLS finished
+07/02/2021 17:40:19 Answer Sheets: ('C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_answers/CSE3063 OOSD Weekly Session 1 - Monday Quizzes ANSWER KEY.txt', 'C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_answers/CSE3063 OOSD Weekly Session 2 - Tuesday Quizzes ANSWER KEY.txt') are  being parsed
+07/02/2021 17:40:19 Answer Sheets have been parsed.
+07/02/2021 17:40:20 Poll file: C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/94502073867_PollReport (1).csv is being parsed
+07/02/2021 17:40:20 Parsing of Poll file: C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/94502073867_PollReport (1).csv ended.
+07/02/2021 17:40:20 Looking up for anomalies...
+07/02/2021 17:40:20 Anomaly detection ended!
+07/02/2021 17:43:25 System started!
+07/02/2021 17:43:26 Parsing Student List started : C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/studentList.XLS started
+07/02/2021 17:43:26 Parsing Student List : C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/studentList.XLS finished
+07/02/2021 17:43:27 Answer Sheets: ('C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_answers/CSE3063 OOSD Weekly Session 1 - Monday Quizzes ANSWER KEY.txt', 'C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_answers/CSE3063 OOSD Weekly Session 2 - Tuesday Quizzes ANSWER KEY.txt') are  being parsed
+07/02/2021 17:43:27 Answer Sheets have been parsed.
+07/02/2021 17:43:28 Poll file: C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/94502073867_PollReport (1).csv is being parsed
+07/02/2021 17:43:28 Parsing of Poll file: C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/94502073867_PollReport (1).csv ended.
+07/02/2021 17:43:28 Looking up for anomalies...
+07/02/2021 17:43:28 Anomaly detection ended!
+07/02/2021 17:53:35 System started!
+07/02/2021 17:53:36 Parsing Student List started : C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/studentList.XLS started
+07/02/2021 17:53:36 Parsing Student List : C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/studentList.XLS finished
+07/02/2021 17:53:36 Answer Sheets: ('C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_answers/CSE3063 OOSD Weekly Session 1 - Monday Quizzes ANSWER KEY.txt', 'C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_answers/CSE3063 OOSD Weekly Session 2 - Tuesday Quizzes ANSWER KEY.txt') are  being parsed
+07/02/2021 17:53:36 Answer Sheets have been parsed.
+07/02/2021 17:53:37 Poll file: C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/94502073867_PollReport (1).csv is being parsed
+07/02/2021 17:53:38 Parsing of Poll file: C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/94502073867_PollReport (1).csv ended.
+07/02/2021 17:53:38 Looking up for anomalies...
+07/02/2021 17:53:38 Anomaly detection ended!
+07/02/2021 17:55:13 System started!
+07/02/2021 17:55:14 Parsing Student List started : C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/studentList.XLS started
+07/02/2021 17:55:14 Parsing Student List : C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/studentList.XLS finished
+07/02/2021 17:55:14 Answer Sheets: ('C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_answers/CSE3063 OOSD Weekly Session 1 - Monday Quizzes ANSWER KEY.txt', 'C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_answers/CSE3063 OOSD Weekly Session 2 - Tuesday Quizzes ANSWER KEY.txt') are  being parsed
+07/02/2021 17:55:14 Answer Sheets have been parsed.
+07/02/2021 17:55:15 Poll file: C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/94502073867_PollReport (1).csv is being parsed
+07/02/2021 17:55:16 Parsing of Poll file: C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/94502073867_PollReport (1).csv ended.
+07/02/2021 17:55:16 Looking up for anomalies...
+07/02/2021 17:55:16 Anomaly detection ended!
+07/02/2021 17:56:23 System started!
+07/02/2021 17:56:24 Parsing Student List started : C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/studentList.XLS started
+07/02/2021 17:56:24 Parsing Student List : C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/studentList.XLS finished
+07/02/2021 17:56:24 Answer Sheets: ('C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_answers/CSE3063 OOSD Weekly Session 1 - Monday Quizzes ANSWER KEY.txt', 'C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_answers/CSE3063 OOSD Weekly Session 2 - Tuesday Quizzes ANSWER KEY.txt') are  being parsed
+07/02/2021 17:56:24 Answer Sheets have been parsed.
+07/02/2021 17:56:25 Poll file: C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/94502073867_PollReport (1).csv is being parsed
+07/02/2021 17:56:26 Parsing of Poll file: C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/94502073867_PollReport (1).csv ended.
+07/02/2021 17:56:26 Looking up for anomalies...
+07/02/2021 17:56:26 Anomaly detection ended!
+07/02/2021 18:05:24 System started!
+07/02/2021 18:05:25 Parsing Student List started : C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/studentList.XLS started
+07/02/2021 18:05:25 Parsing Student List : C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/studentList.XLS finished
+07/02/2021 18:05:25 Answer Sheets: ('C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_answers/CSE3063 OOSD Weekly Session 1 - Monday Quizzes ANSWER KEY.txt', 'C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_answers/CSE3063 OOSD Weekly Session 2 - Tuesday Quizzes ANSWER KEY.txt') are  being parsed
+07/02/2021 18:05:25 Answer Sheets have been parsed.
+07/02/2021 18:05:26 Poll file: C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/94502073867_PollReport (1).csv is being parsed
+07/02/2021 18:05:27 Parsing of Poll file: C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/94502073867_PollReport (1).csv ended.
+07/02/2021 18:05:28 Poll file: C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/94502073867_PollReport (3).csv is being parsed
+07/02/2021 18:05:28 Parsing of Poll file: C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/94502073867_PollReport (3).csv ended.
+07/02/2021 18:05:29 Poll file: C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/94502073867_PollReport (5).csv is being parsed
+07/02/2021 18:05:30 Parsing of Poll file: C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/94502073867_PollReport (5).csv ended.
+07/02/2021 18:05:31 Poll file: C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/94502073867_PollReport (7).csv is being parsed
+07/02/2021 18:05:31 Parsing of Poll file: C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/94502073867_PollReport (7).csv ended.
+07/02/2021 18:05:32 Poll file: C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/94502073867_PollReport (8).csv is being parsed
+07/02/2021 18:05:32 Parsing of Poll file: C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/94502073867_PollReport (8).csv ended.
+07/02/2021 18:05:33 Poll file: C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/94502073867_PollReport (9).csv is being parsed
+07/02/2021 18:05:34 Parsing of Poll file: C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/94502073867_PollReport (9).csv ended.
+07/02/2021 18:05:35 Poll file: C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/94502073867_PollReport (12).csv is being parsed
+07/02/2021 18:05:35 Parsing of Poll file: C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/94502073867_PollReport (12).csv ended.
+07/02/2021 18:06:09 System started!
+07/02/2021 18:06:10 Parsing Student List started : C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/studentList.XLS started
+07/02/2021 18:06:10 Parsing Student List : C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/studentList.XLS finished
+07/02/2021 18:06:10 Answer Sheets: ('C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_answers/CSE3063 OOSD Weekly Session 1 - Monday Quizzes ANSWER KEY.txt', 'C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_answers/CSE3063 OOSD Weekly Session 2 - Tuesday Quizzes ANSWER KEY.txt') are  being parsed
+07/02/2021 18:06:10 Answer Sheets have been parsed.
+07/02/2021 18:06:11 Poll file: C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/94502073867_PollReport (1).csv is being parsed
+07/02/2021 18:06:12 Parsing of Poll file: C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/94502073867_PollReport (1).csv ended.
+07/02/2021 18:06:12 Looking up for anomalies...
+07/02/2021 18:06:12 Anomaly detection ended!
+07/02/2021 18:08:14 System started!
+07/02/2021 18:08:15 Parsing Student List started : C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/studentList.XLS started
+07/02/2021 18:08:15 Parsing Student List : C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/studentList.XLS finished
+07/02/2021 18:08:15 Answer Sheets: ('C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_answers/CSE3063 OOSD Weekly Session 1 - Monday Quizzes ANSWER KEY.txt', 'C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_answers/CSE3063 OOSD Weekly Session 2 - Tuesday Quizzes ANSWER KEY.txt') are  being parsed
+07/02/2021 18:08:16 Answer Sheets have been parsed.
+07/02/2021 18:08:17 Poll file: C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/94502073867_PollReport (1).csv is being parsed
+07/02/2021 18:08:17 Parsing of Poll file: C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/94502073867_PollReport (1).csv ended.
+07/02/2021 18:08:17 Looking up for anomalies...
+07/02/2021 18:08:17 Anomaly detection ended!
+07/02/2021 18:24:15 System started!
+07/02/2021 18:24:16 Parsing Student List started : C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/studentList.XLS started
+07/02/2021 18:24:16 Parsing Student List : C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/studentList.XLS finished
+07/02/2021 18:24:16 Answer Sheets: ('C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_answers/CSE3063 OOSD Weekly Session 1 - Monday Quizzes ANSWER KEY.txt', 'C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_answers/CSE3063 OOSD Weekly Session 2 - Tuesday Quizzes ANSWER KEY.txt') are  being parsed
+07/02/2021 18:24:16 Answer Sheets have been parsed.
+07/02/2021 18:24:17 Poll file: C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/94502073867_PollReport (1).csv is being parsed
+07/02/2021 18:24:18 Parsing of Poll file: C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/94502073867_PollReport (1).csv ended.
+07/02/2021 18:24:18 Looking up for anomalies...
+07/02/2021 18:24:18 Anomaly detection ended!
+07/02/2021 18:27:20 System started!
+07/02/2021 18:27:21 Parsing Student List started : C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/studentList.XLS started
+07/02/2021 18:27:21 Parsing Student List : C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/studentList.XLS finished
+07/02/2021 18:27:21 Answer Sheets: ('C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_answers/CSE3063 OOSD Weekly Session 1 - Monday Quizzes ANSWER KEY.txt', 'C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_answers/CSE3063 OOSD Weekly Session 2 - Tuesday Quizzes ANSWER KEY.txt') are  being parsed
+07/02/2021 18:27:21 Answer Sheets have been parsed.
+07/02/2021 18:27:22 Poll file: C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/94502073867_PollReport (1).csv is being parsed
+07/02/2021 18:27:23 Parsing of Poll file: C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/94502073867_PollReport (1).csv ended.
+07/02/2021 18:27:23 Looking up for anomalies...
+07/02/2021 18:27:23 Anomaly detection ended!
+07/02/2021 18:36:04 System started!
+07/02/2021 18:36:05 Parsing Student List started : C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/studentList.XLS started
+07/02/2021 18:36:06 Parsing Student List : C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/studentList.XLS finished
+07/02/2021 18:36:06 Answer Sheets: ('C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_answers/CSE3063 OOSD Weekly Session 1 - Monday Quizzes ANSWER KEY.txt', 'C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_answers/CSE3063 OOSD Weekly Session 2 - Tuesday Quizzes ANSWER KEY.txt') are  being parsed
+07/02/2021 18:36:06 Answer Sheets have been parsed.
+07/02/2021 18:36:07 Poll file: C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/94502073867_PollReport (1).csv is being parsed
+07/02/2021 18:36:07 Parsing of Poll file: C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/94502073867_PollReport (1).csv ended.
+07/02/2021 18:36:07 Looking up for anomalies...
+07/02/2021 18:36:07 Anomaly detection ended!
+07/02/2021 18:37:07 System started!
+07/02/2021 18:37:08 Parsing Student List started : C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/studentList.XLS started
+07/02/2021 18:37:09 Parsing Student List : C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/studentList.XLS finished
+07/02/2021 18:37:09 Answer Sheets: ('C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_answers/CSE3063 OOSD Weekly Session 1 - Monday Quizzes ANSWER KEY.txt', 'C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_answers/CSE3063 OOSD Weekly Session 2 - Tuesday Quizzes ANSWER KEY.txt') are  being parsed
+07/02/2021 18:37:09 Answer Sheets have been parsed.
+07/02/2021 18:37:10 Poll file: C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/94502073867_PollReport (1).csv is being parsed
+07/02/2021 18:37:10 Parsing of Poll file: C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/94502073867_PollReport (1).csv ended.
+07/02/2021 18:37:10 Looking up for anomalies...
+07/02/2021 18:37:10 Anomaly detection ended!
+07/02/2021 18:50:37 System started!
+07/02/2021 18:50:38 Parsing Student List started : C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/studentList.XLS started
+07/02/2021 18:50:38 Parsing Student List : C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/studentList.XLS finished
+07/02/2021 18:50:38 Answer Sheets: ('C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_answers/CSE3063 OOSD Weekly Session 1 - Monday Quizzes ANSWER KEY.txt', 'C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_answers/CSE3063 OOSD Weekly Session 2 - Tuesday Quizzes ANSWER KEY.txt') are  being parsed
+07/02/2021 18:50:38 Answer Sheets have been parsed.
+07/02/2021 18:50:39 Poll file: C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/94502073867_PollReport (1).csv is being parsed
+07/02/2021 18:50:39 Parsing of Poll file: C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/94502073867_PollReport (1).csv ended.
+07/02/2021 18:50:39 Looking up for anomalies...
+07/02/2021 18:50:39 Anomaly detection ended!
+07/02/2021 18:54:36 System started!
+07/02/2021 18:54:37 Parsing Student List started : C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/studentList.XLS started
+07/02/2021 18:54:37 Parsing Student List : C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/studentList.XLS finished
+07/02/2021 18:54:37 Answer Sheets: ('C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_answers/CSE3063 OOSD Weekly Session 1 - Monday Quizzes ANSWER KEY.txt', 'C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_answers/CSE3063 OOSD Weekly Session 2 - Tuesday Quizzes ANSWER KEY.txt') are  being parsed
+07/02/2021 18:54:37 Answer Sheets have been parsed.
+07/02/2021 18:54:38 Poll file: C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/94502073867_PollReport (1).csv is being parsed
+07/02/2021 18:54:38 Parsing of Poll file: C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/94502073867_PollReport (1).csv ended.
+07/02/2021 18:54:38 Looking up for anomalies...
+07/02/2021 18:54:38 Anomaly detection ended!
+07/02/2021 18:57:14 System started!
+07/02/2021 18:57:15 Parsing Student List started : C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/studentList.XLS started
+07/02/2021 18:57:15 Parsing Student List : C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/studentList.XLS finished
+07/02/2021 18:57:15 Answer Sheets: ('C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_answers/CSE3063 OOSD Weekly Session 1 - Monday Quizzes ANSWER KEY.txt', 'C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_answers/CSE3063 OOSD Weekly Session 2 - Tuesday Quizzes ANSWER KEY.txt') are  being parsed
+07/02/2021 18:57:15 Answer Sheets have been parsed.
+07/02/2021 18:57:16 Poll file: C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/94502073867_PollReport (1).csv is being parsed
+07/02/2021 18:57:16 Parsing of Poll file: C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/94502073867_PollReport (1).csv ended.
+07/02/2021 18:57:16 Looking up for anomalies...
+07/02/2021 18:57:16 Anomaly detection ended!
+07/02/2021 19:01:38 System started!
+07/02/2021 19:01:39 Parsing Student List started : C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/studentList.XLS started
+07/02/2021 19:01:39 Parsing Student List : C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/studentList.XLS finished
+07/02/2021 19:01:39 Answer Sheets: ('C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_answers/CSE3063 OOSD Weekly Session 1 - Monday Quizzes ANSWER KEY.txt', 'C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_answers/CSE3063 OOSD Weekly Session 2 - Tuesday Quizzes ANSWER KEY.txt') are  being parsed
+07/02/2021 19:01:39 Answer Sheets have been parsed.
+07/02/2021 19:01:40 Poll file: C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/94502073867_PollReport (1).csv is being parsed
+07/02/2021 19:01:41 Parsing of Poll file: C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/94502073867_PollReport (1).csv ended.
+07/02/2021 19:01:41 Looking up for anomalies...
+07/02/2021 19:01:41 Anomaly detection ended!
+07/02/2021 19:05:43 System started!
+07/02/2021 19:05:44 Parsing Student List started : C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/studentList.XLS started
+07/02/2021 19:05:44 Parsing Student List : C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/studentList.XLS finished
+07/02/2021 19:05:44 Answer Sheets: ('C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_answers/CSE3063 OOSD Weekly Session 1 - Monday Quizzes ANSWER KEY.txt',) are  being parsed
+07/02/2021 19:05:45 Answer Sheets have been parsed.
+07/02/2021 19:05:46 Poll file: C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/94502073867_PollReport (1).csv is being parsed
+07/02/2021 19:05:46 Parsing of Poll file: C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/94502073867_PollReport (1).csv ended.
+07/02/2021 19:05:46 Looking up for anomalies...
+07/02/2021 19:05:46 Anomaly detection ended!
+07/02/2021 19:07:19 System started!
+07/02/2021 19:07:21 Parsing Student List started : C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/studentList.XLS started
+07/02/2021 19:07:21 Parsing Student List : C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/studentList.XLS finished
+07/02/2021 19:07:21 Answer Sheets: ('C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_answers/CSE3063 OOSD Weekly Session 1 - Monday Quizzes ANSWER KEY.txt', 'C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_answers/CSE3063 OOSD Weekly Session 2 - Tuesday Quizzes ANSWER KEY.txt') are  being parsed
+07/02/2021 19:07:21 Answer Sheets have been parsed.
+07/02/2021 19:07:22 Poll file: C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/94502073867_PollReport (1).csv is being parsed
+07/02/2021 19:07:22 Parsing of Poll file: C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/94502073867_PollReport (1).csv ended.
+07/02/2021 19:07:22 Looking up for anomalies...
+07/02/2021 19:07:22 Anomaly detection ended!
+07/02/2021 19:07:45 Poll Statistics are being calculated...
+07/02/2021 20:00:58 System started!
+07/02/2021 20:00:59 Parsing Student List started : C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/studentList.XLS started
+07/02/2021 20:01:00 Parsing Student List : C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/studentList.XLS finished
+07/02/2021 20:01:00 Answer Sheets: ('C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_answers/CSE3063 OOSD Weekly Session 1 - Monday Quizzes ANSWER KEY.txt', 'C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_answers/CSE3063 OOSD Weekly Session 2 - Tuesday Quizzes ANSWER KEY.txt') are  being parsed
+07/02/2021 20:01:00 Answer Sheets have been parsed.
+07/02/2021 20:01:01 Poll file: C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/94502073867_PollReport (1).csv is being parsed
+07/02/2021 20:01:01 Parsing of Poll file: C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/94502073867_PollReport (1).csv ended.
+07/02/2021 20:01:01 Looking up for anomalies...
+07/02/2021 20:01:01 Anomaly detection ended!
+07/02/2021 20:02:16 System started!
+07/02/2021 20:02:17 Parsing Student List started : C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/studentList.XLS started
+07/02/2021 20:02:17 Parsing Student List : C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/studentList.XLS finished
+07/02/2021 20:02:18 Answer Sheets: ('C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_answers/CSE3063 OOSD Weekly Session 1 - Monday Quizzes ANSWER KEY.txt', 'C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_answers/CSE3063 OOSD Weekly Session 2 - Tuesday Quizzes ANSWER KEY.txt') are  being parsed
+07/02/2021 20:02:18 Answer Sheets have been parsed.
+07/02/2021 20:02:19 Poll file: C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/94502073867_PollReport (1).csv is being parsed
+07/02/2021 20:02:19 Parsing of Poll file: C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/94502073867_PollReport (1).csv ended.
+07/02/2021 20:02:19 Looking up for anomalies...
+07/02/2021 20:02:19 Anomaly detection ended!
+07/02/2021 20:03:58 System started!
+07/02/2021 20:03:59 Parsing Student List started : C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/studentList.XLS started
+07/02/2021 20:04:00 Parsing Student List : C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/studentList.XLS finished
+07/02/2021 20:04:00 Answer Sheets: ('C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_answers/CSE3063 OOSD Weekly Session 1 - Monday Quizzes ANSWER KEY.txt', 'C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_answers/CSE3063 OOSD Weekly Session 2 - Tuesday Quizzes ANSWER KEY.txt') are  being parsed
+07/02/2021 20:04:00 Answer Sheets have been parsed.
+07/02/2021 20:04:01 Poll file: C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/94502073867_PollReport (1).csv is being parsed
+07/02/2021 20:04:01 Parsing of Poll file: C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/94502073867_PollReport (1).csv ended.
+07/02/2021 20:04:01 Looking up for anomalies...
+07/02/2021 20:04:01 Anomaly detection ended!
+07/02/2021 20:07:53 System started!
+07/02/2021 20:07:54 Parsing Student List started : C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/studentList.XLS started
+07/02/2021 20:07:54 Parsing Student List : C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/studentList.XLS finished
+07/02/2021 20:07:54 Answer Sheets: ('C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_answers/CSE3063 OOSD Weekly Session 1 - Monday Quizzes ANSWER KEY.txt', 'C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_answers/CSE3063 OOSD Weekly Session 2 - Tuesday Quizzes ANSWER KEY.txt') are  being parsed
+07/02/2021 20:07:54 Answer Sheets have been parsed.
+07/02/2021 20:07:55 Poll file: C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/94502073867_PollReport (1).csv is being parsed
+07/02/2021 20:07:56 Parsing of Poll file: C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/94502073867_PollReport (1).csv ended.
+07/02/2021 20:07:56 Looking up for anomalies...
+07/02/2021 20:07:56 Anomaly detection ended!
+07/02/2021 20:32:04 System started!
+07/02/2021 20:32:05 Parsing Student List started : C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/studentList.XLS started
+07/02/2021 20:32:05 Parsing Student List : C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/studentList.XLS finished
+07/02/2021 20:32:05 Answer Sheets: ('C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_answers/CSE3063 OOSD Weekly Session 1 - Monday Quizzes ANSWER KEY.txt', 'C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_answers/CSE3063 OOSD Weekly Session 2 - Tuesday Quizzes ANSWER KEY.txt') are  being parsed
+07/02/2021 20:32:05 Answer Sheets have been parsed.
+07/02/2021 20:32:06 Poll file: C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/94502073867_PollReport (1).csv is being parsed
+07/02/2021 20:34:27 System started!
+07/02/2021 20:34:28 Parsing Student List started : C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/studentList.XLS started
+07/02/2021 20:34:28 Parsing Student List : C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/studentList.XLS finished
+07/02/2021 20:34:28 Answer Sheets: ('C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_answers/CSE3063 OOSD Weekly Session 1 - Monday Quizzes ANSWER KEY.txt', 'C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_answers/CSE3063 OOSD Weekly Session 2 - Tuesday Quizzes ANSWER KEY.txt') are  being parsed
+07/02/2021 20:34:28 Answer Sheets have been parsed.
+07/02/2021 20:34:29 Poll file: C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/94502073867_PollReport (1).csv is being parsed
+07/02/2021 20:36:46 System started!
+07/02/2021 20:36:47 Parsing Student List started : C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/studentList.XLS started
+07/02/2021 20:36:47 Parsing Student List : C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/studentList.XLS finished
+07/02/2021 20:36:47 Answer Sheets: ('C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_answers/CSE3063 OOSD Weekly Session 1 - Monday Quizzes ANSWER KEY.txt', 'C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_answers/CSE3063 OOSD Weekly Session 2 - Tuesday Quizzes ANSWER KEY.txt') are  being parsed
+07/02/2021 20:36:47 Answer Sheets have been parsed.
+07/02/2021 20:36:48 Poll file: C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/94502073867_PollReport (1).csv is being parsed
+07/02/2021 20:37:32 System started!
+07/02/2021 20:37:33 Parsing Student List started : C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/studentList.XLS started
+07/02/2021 20:37:33 Parsing Student List : C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/studentList.XLS finished
+07/02/2021 20:37:33 Answer Sheets: ('C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_answers/CSE3063 OOSD Weekly Session 1 - Monday Quizzes ANSWER KEY.txt', 'C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_answers/CSE3063 OOSD Weekly Session 2 - Tuesday Quizzes ANSWER KEY.txt') are  being parsed
+07/02/2021 20:37:33 Answer Sheets have been parsed.
+07/02/2021 20:37:34 Poll file: C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/94502073867_PollReport (1).csv is being parsed
+07/02/2021 20:38:25 System started!
+07/02/2021 20:38:26 Parsing Student List started : C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/studentList.XLS started
+07/02/2021 20:38:26 Parsing Student List : C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/studentList.XLS finished
+07/02/2021 20:38:26 Answer Sheets: ('C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_answers/CSE3063 OOSD Weekly Session 1 - Monday Quizzes ANSWER KEY.txt', 'C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_answers/CSE3063 OOSD Weekly Session 2 - Tuesday Quizzes ANSWER KEY.txt') are  being parsed
+07/02/2021 20:38:26 Answer Sheets have been parsed.
+07/02/2021 20:38:27 Poll file: C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/94502073867_PollReport (1).csv is being parsed
+07/02/2021 20:38:27 Parsing of Poll file: C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/94502073867_PollReport (1).csv ended.
+07/02/2021 20:38:27 Looking up for anomalies...
+07/02/2021 20:38:27 Anomaly detection ended!
+07/02/2021 20:38:36 Poll Statistics are being calculated...
+07/02/2021 20:52:39 System started!
+07/02/2021 20:52:40 Parsing Student List started : C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/studentList.XLS started
+07/02/2021 20:52:40 Parsing Student List : C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/studentList.XLS finished
+07/02/2021 20:52:40 Answer Sheets: ('C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_answers/CSE3063 OOSD Weekly Session 1 - Monday Quizzes ANSWER KEY.txt', 'C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_answers/CSE3063 OOSD Weekly Session 2 - Tuesday Quizzes ANSWER KEY.txt') are  being parsed
+07/02/2021 20:52:40 Answer Sheets have been parsed.
+07/02/2021 20:52:41 Poll file: C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/94502073867_PollReport (1).csv is being parsed
+07/02/2021 20:54:01 System started!
+07/02/2021 20:54:02 Parsing Student List started : C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/studentList.XLS started
+07/02/2021 20:54:02 Parsing Student List : C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/studentList.XLS finished
+07/02/2021 20:54:02 Answer Sheets: ('C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_answers/CSE3063 OOSD Weekly Session 1 - Monday Quizzes ANSWER KEY.txt', 'C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_answers/CSE3063 OOSD Weekly Session 2 - Tuesday Quizzes ANSWER KEY.txt') are  being parsed
+07/02/2021 20:54:02 Answer Sheets have been parsed.
+07/02/2021 20:54:03 Poll file: C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/94502073867_PollReport (1).csv is being parsed
+07/02/2021 20:54:04 Looking up for anomalies...
+07/02/2021 20:54:04 Anomaly detection ended!
+07/02/2021 20:54:04 Parsing of Poll file: C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/94502073867_PollReport (1).csv ended.
+07/02/2021 20:54:04 Looking up for anomalies...
+07/02/2021 20:54:04 Anomaly detection ended!
+07/02/2021 20:56:15 System started!
+07/02/2021 20:56:16 Parsing Student List started : C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/studentList.XLS started
+07/02/2021 20:56:16 Parsing Student List : C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/studentList.XLS finished
+07/02/2021 20:56:17 Answer Sheets: ('C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_answers/CSE3063 OOSD Weekly Session 1 - Monday Quizzes ANSWER KEY.txt', 'C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_answers/CSE3063 OOSD Weekly Session 2 - Tuesday Quizzes ANSWER KEY.txt') are  being parsed
+07/02/2021 20:56:17 Answer Sheets have been parsed.
+07/02/2021 20:56:18 Poll file: C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/94502073867_PollReport (1).csv is being parsed
+07/02/2021 20:56:29 Looking up for anomalies...
+07/02/2021 20:56:29 Anomaly detection ended!
+07/02/2021 20:56:29 Parsing of Poll file: C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/94502073867_PollReport (1).csv ended.
+07/02/2021 20:56:29 Looking up for anomalies...
+07/02/2021 20:56:29 Anomaly detection ended!
+07/02/2021 20:58:48 System started!
+07/02/2021 20:58:49 Parsing Student List started : C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/studentList.XLS started
+07/02/2021 20:58:49 Parsing Student List : C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/studentList.XLS finished
+07/02/2021 20:58:49 Answer Sheets: ('C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_answers/CSE3063 OOSD Weekly Session 1 - Monday Quizzes ANSWER KEY.txt', 'C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_answers/CSE3063 OOSD Weekly Session 2 - Tuesday Quizzes ANSWER KEY.txt') are  being parsed
+07/02/2021 20:58:49 Answer Sheets have been parsed.
+07/02/2021 20:58:50 Poll file: C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/94502073867_PollReport (1).csv is being parsed
+07/02/2021 20:59:13 Looking up for anomalies...
+07/02/2021 20:59:13 Anomaly detection ended!
+07/02/2021 20:59:13 Parsing of Poll file: C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/94502073867_PollReport (1).csv ended.
+07/02/2021 20:59:13 Looking up for anomalies...
+07/02/2021 20:59:13 Anomaly detection ended!
+07/02/2021 21:06:13 System started!
+07/02/2021 21:06:14 Parsing Student List started : C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/studentList.XLS started
+07/02/2021 21:06:14 Parsing Student List : C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/studentList.XLS finished
+07/02/2021 21:06:14 Answer Sheets: ('C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_answers/CSE3063 OOSD Weekly Session 1 - Monday Quizzes ANSWER KEY.txt', 'C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_answers/CSE3063 OOSD Weekly Session 2 - Tuesday Quizzes ANSWER KEY.txt') are  being parsed
+07/02/2021 21:06:14 Answer Sheets have been parsed.
+07/02/2021 21:06:15 Poll file: C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/94502073867_PollReport (1).csv is being parsed
+07/02/2021 21:06:16 Looking up for anomalies...
+07/02/2021 21:06:16 Anomaly detection ended!
+07/02/2021 21:06:16 Parsing of Poll file: C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/94502073867_PollReport (1).csv ended.
+07/02/2021 21:06:16 Looking up for anomalies...
+07/02/2021 21:06:16 Anomaly detection ended!
+07/02/2021 21:08:01 System started!
+07/02/2021 21:08:02 Parsing Student List started : C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/studentList.XLS started
+07/02/2021 21:08:02 Parsing Student List : C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/studentList.XLS finished
+07/02/2021 21:08:02 Answer Sheets: ('C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_answers/CSE3063 OOSD Weekly Session 1 - Monday Quizzes ANSWER KEY.txt', 'C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_answers/CSE3063 OOSD Weekly Session 2 - Tuesday Quizzes ANSWER KEY.txt') are  being parsed
+07/02/2021 21:08:02 Answer Sheets have been parsed.
+07/02/2021 21:08:03 Poll file: C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/94502073867_PollReport (1).csv is being parsed
+07/02/2021 21:08:04 Looking up for anomalies...
+07/02/2021 21:08:04 Anomaly detection ended!
+07/02/2021 21:08:04 Parsing of Poll file: C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/94502073867_PollReport (1).csv ended.
+07/02/2021 21:08:04 Looking up for anomalies...
+07/02/2021 21:08:04 Anomaly detection ended!
+07/02/2021 21:13:22 System started!
+07/02/2021 21:13:23 Parsing Student List started : C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/studentList.XLS started
+07/02/2021 21:13:23 Parsing Student List : C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/studentList.XLS finished
+07/02/2021 21:13:23 Answer Sheets: ('C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_answers/CSE3063 OOSD Weekly Session 1 - Monday Quizzes ANSWER KEY.txt', 'C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_answers/CSE3063 OOSD Weekly Session 2 - Tuesday Quizzes ANSWER KEY.txt') are  being parsed
+07/02/2021 21:13:23 Answer Sheets have been parsed.
+07/02/2021 21:13:24 Poll file: C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/94502073867_PollReport (1).csv is being parsed
+07/02/2021 21:13:25 Looking up for anomalies...
+07/02/2021 21:13:25 Anomaly detection ended!
+07/02/2021 21:13:25 Parsing of Poll file: C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/94502073867_PollReport (1).csv ended.
+07/02/2021 21:13:25 Looking up for anomalies...
+07/02/2021 21:13:25 Anomaly detection ended!
+07/02/2021 21:16:44 System started!
+07/02/2021 21:16:45 Parsing Student List started : C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/studentList.XLS started
+07/02/2021 21:16:45 Parsing Student List : C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/studentList.XLS finished
+07/02/2021 21:16:45 Answer Sheets: ('C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_answers/CSE3063 OOSD Weekly Session 1 - Monday Quizzes ANSWER KEY.txt', 'C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_answers/CSE3063 OOSD Weekly Session 2 - Tuesday Quizzes ANSWER KEY.txt') are  being parsed
+07/02/2021 21:16:46 Answer Sheets have been parsed.
+07/02/2021 21:16:47 Poll file: C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/94502073867_PollReport (1).csv is being parsed
+07/02/2021 21:18:35 System started!
+07/02/2021 21:18:36 Parsing Student List started : C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/studentList.XLS started
+07/02/2021 21:18:36 Parsing Student List : C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/studentList.XLS finished
+07/02/2021 21:18:36 Answer Sheets: ('C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_answers/CSE3063 OOSD Weekly Session 1 - Monday Quizzes ANSWER KEY.txt', 'C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_answers/CSE3063 OOSD Weekly Session 2 - Tuesday Quizzes ANSWER KEY.txt') are  being parsed
+07/02/2021 21:18:36 Answer Sheets have been parsed.
+07/02/2021 21:18:37 Poll file: C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/94502073867_PollReport (1).csv is being parsed
+07/02/2021 21:18:38 Looking up for anomalies...
+07/02/2021 21:18:38 Anomaly detection ended!
+07/02/2021 21:18:38 Parsing of Poll file: C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/94502073867_PollReport (1).csv ended.
+07/02/2021 21:18:38 Looking up for anomalies...
+07/02/2021 21:18:38 Anomaly detection ended!
+07/02/2021 21:20:15 System started!
+07/02/2021 21:20:16 Parsing Student List started : C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/studentList.XLS started
+07/02/2021 21:20:16 Parsing Student List : C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/studentList.XLS finished
+07/02/2021 21:20:17 Answer Sheets: ('C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_answers/CSE3063 OOSD Weekly Session 1 - Monday Quizzes ANSWER KEY.txt', 'C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_answers/CSE3063 OOSD Weekly Session 2 - Tuesday Quizzes ANSWER KEY.txt') are  being parsed
+07/02/2021 21:20:17 Answer Sheets have been parsed.
+07/02/2021 21:20:18 Poll file: C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/94502073867_PollReport (1).csv is being parsed
+07/02/2021 21:20:19 Looking up for anomalies...
+07/02/2021 21:20:19 Anomaly detection ended!
+07/02/2021 21:20:19 Parsing of Poll file: C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/94502073867_PollReport (1).csv ended.
+07/02/2021 21:20:19 Looking up for anomalies...
+07/02/2021 21:20:19 Anomaly detection ended!
+07/02/2021 21:24:20 System started!
+07/02/2021 21:24:21 Parsing Student List started : C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/studentList.XLS started
+07/02/2021 21:24:21 Parsing Student List : C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/studentList.XLS finished
+07/02/2021 21:24:22 Answer Sheets: ('C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_answers/CSE3063 OOSD Weekly Session 1 - Monday Quizzes ANSWER KEY.txt', 'C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_answers/CSE3063 OOSD Weekly Session 2 - Tuesday Quizzes ANSWER KEY.txt') are  being parsed
+07/02/2021 21:24:22 Answer Sheets have been parsed.
+07/02/2021 21:24:23 Poll file: C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/94502073867_PollReport (1).csv is being parsed
+07/02/2021 21:24:35 Looking up for anomalies...
+07/02/2021 21:24:35 Anomaly detection ended!
+07/02/2021 21:24:35 Parsing of Poll file: C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/94502073867_PollReport (1).csv ended.
+07/02/2021 21:24:35 Looking up for anomalies...
+07/02/2021 21:24:35 Anomaly detection ended!
+07/02/2021 21:27:39 System started!
+07/02/2021 21:27:40 Parsing Student List started : C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/studentList.XLS started
+07/02/2021 21:27:41 Parsing Student List : C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/studentList.XLS finished
+07/02/2021 21:27:41 Answer Sheets: ('C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_answers/CSE3063 OOSD Weekly Session 1 - Monday Quizzes ANSWER KEY.txt', 'C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_answers/CSE3063 OOSD Weekly Session 2 - Tuesday Quizzes ANSWER KEY.txt') are  being parsed
+07/02/2021 21:27:41 Answer Sheets have been parsed.
+07/02/2021 21:27:42 Poll file: C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/94502073867_PollReport (1).csv is being parsed
+07/02/2021 21:27:43 Looking up for anomalies...
+07/02/2021 21:27:43 Anomaly detection ended!
+07/02/2021 21:27:43 Parsing of Poll file: C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/94502073867_PollReport (1).csv ended.
+07/02/2021 21:27:43 Looking up for anomalies...
+07/02/2021 21:27:43 Anomaly detection ended!
+07/02/2021 21:30:25 System started!
+07/02/2021 21:30:26 Parsing Student List started : C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/studentList.XLS started
+07/02/2021 21:30:26 Parsing Student List : C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/studentList.XLS finished
+07/02/2021 21:30:26 Answer Sheets: ('C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_answers/CSE3063 OOSD Weekly Session 1 - Monday Quizzes ANSWER KEY.txt', 'C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_answers/CSE3063 OOSD Weekly Session 2 - Tuesday Quizzes ANSWER KEY.txt') are  being parsed
+07/02/2021 21:30:26 Answer Sheets have been parsed.
+07/02/2021 21:30:27 Poll file: C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/94502073867_PollReport (1).csv is being parsed
+07/02/2021 21:30:29 Looking up for anomalies...
+07/02/2021 21:30:29 Anomaly detection ended!
+07/02/2021 21:30:29 Parsing of Poll file: C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/94502073867_PollReport (1).csv ended.
+07/02/2021 21:30:29 Looking up for anomalies...
+07/02/2021 21:30:29 Anomaly detection ended!
+07/02/2021 21:32:01 Looking up for anomalies...
+07/02/2021 21:32:01 Anomaly detection ended!
+07/02/2021 21:55:24 System started!
+07/02/2021 21:55:25 Parsing Student List started : C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/studentList.XLS started
+07/02/2021 21:55:25 Parsing Student List : C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/studentList.XLS finished
+07/02/2021 21:55:25 Answer Sheets: ('C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_answers/CSE3063 OOSD Weekly Session 1 - Monday Quizzes ANSWER KEY.txt', 'C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_answers/CSE3063 OOSD Weekly Session 2 - Tuesday Quizzes ANSWER KEY.txt') are  being parsed
+07/02/2021 21:55:25 Answer Sheets have been parsed.
+07/02/2021 21:55:26 Poll file: C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/94502073867_PollReport (1).csv is being parsed
+07/02/2021 21:56:22 System started!
+07/02/2021 21:56:23 Parsing Student List started : C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/studentList.XLS started
+07/02/2021 21:56:23 Parsing Student List : C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/studentList.XLS finished
+07/02/2021 21:56:23 Answer Sheets: ('C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_answers/CSE3063 OOSD Weekly Session 1 - Monday Quizzes ANSWER KEY.txt', 'C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_answers/CSE3063 OOSD Weekly Session 2 - Tuesday Quizzes ANSWER KEY.txt') are  being parsed
+07/02/2021 21:56:24 Answer Sheets have been parsed.
+07/02/2021 21:56:25 Poll file: C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/94502073867_PollReport (1).csv is being parsed
+07/02/2021 21:56:38 Looking up for anomalies...
+07/02/2021 21:56:38 Anomaly detection ended!
+07/02/2021 21:56:38 Parsing of Poll file: C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/94502073867_PollReport (1).csv ended.
+07/02/2021 21:56:38 Looking up for anomalies...
+07/02/2021 21:56:38 Anomaly detection ended!
+07/02/2021 21:57:46 System started!
+07/02/2021 21:57:47 Parsing Student List started : C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/studentList.XLS started
+07/02/2021 21:57:47 Parsing Student List : C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/studentList.XLS finished
+07/02/2021 21:57:47 Answer Sheets: ('C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_answers/CSE3063 OOSD Weekly Session 1 - Monday Quizzes ANSWER KEY.txt', 'C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_answers/CSE3063 OOSD Weekly Session 2 - Tuesday Quizzes ANSWER KEY.txt') are  being parsed
+07/02/2021 21:57:48 Answer Sheets have been parsed.
+07/02/2021 21:57:49 Poll file: C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/94502073867_PollReport (1).csv is being parsed
+07/02/2021 21:57:50 Looking up for anomalies...
+07/02/2021 21:57:50 Anomaly detection ended!
+07/02/2021 21:57:50 Parsing of Poll file: C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/94502073867_PollReport (1).csv ended.
+07/02/2021 21:57:50 Looking up for anomalies...
+07/02/2021 21:57:50 Anomaly detection ended!
+07/02/2021 22:02:02 System started!
+07/02/2021 22:02:03 Parsing Student List started : C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/studentList.XLS started
+07/02/2021 22:02:03 Parsing Student List : C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/studentList.XLS finished
+07/02/2021 22:02:04 Answer Sheets: ('C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_answers/CSE3063 OOSD Weekly Session 1 - Monday Quizzes ANSWER KEY.txt', 'C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_answers/CSE3063 OOSD Weekly Session 2 - Tuesday Quizzes ANSWER KEY.txt') are  being parsed
+07/02/2021 22:02:04 Answer Sheets have been parsed.
+07/02/2021 22:02:05 Poll file: C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/94502073867_PollReport (1).csv is being parsed
+07/02/2021 22:02:10 Looking up for anomalies...
+07/02/2021 22:02:10 Anomaly detection ended!
+07/02/2021 22:02:10 Parsing of Poll file: C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/94502073867_PollReport (1).csv ended.
+07/02/2021 22:02:11 Looking up for anomalies...
+07/02/2021 22:02:11 Anomaly detection ended!
+07/02/2021 22:08:05 System started!
+07/02/2021 22:08:06 Parsing Student List started : C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/studentList.XLS started
+07/02/2021 22:08:06 Parsing Student List : C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/studentList.XLS finished
+07/02/2021 22:08:07 Answer Sheets: ('C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_answers/CSE3063 OOSD Weekly Session 1 - Monday Quizzes ANSWER KEY.txt', 'C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_answers/CSE3063 OOSD Weekly Session 2 - Tuesday Quizzes ANSWER KEY.txt') are  being parsed
+07/02/2021 22:08:07 Answer Sheets have been parsed.
+07/02/2021 22:08:08 Poll file: C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/94502073867_PollReport (1).csv is being parsed
+07/02/2021 22:08:08 Looking up for anomalies...
+07/02/2021 22:08:08 Anomaly detection ended!
+07/02/2021 22:08:08 Parsing of Poll file: C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/94502073867_PollReport (1).csv ended.
+07/02/2021 22:08:08 Looking up for anomalies...
+07/02/2021 22:08:08 Anomaly detection ended!
+07/02/2021 22:12:22 System started!
+07/02/2021 22:12:23 Parsing Student List started : C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/studentList.XLS started
+07/02/2021 22:12:23 Parsing Student List : C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/studentList.XLS finished
+07/02/2021 22:12:23 Answer Sheets: ('C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_answers/CSE3063 OOSD Weekly Session 1 - Monday Quizzes ANSWER KEY.txt', 'C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_answers/CSE3063 OOSD Weekly Session 2 - Tuesday Quizzes ANSWER KEY.txt') are  being parsed
+07/02/2021 22:12:23 Answer Sheets have been parsed.
+07/02/2021 22:12:24 Poll file: C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/94502073867_PollReport (1).csv is being parsed
+07/02/2021 22:12:25 Looking up for anomalies...
+07/02/2021 22:12:25 Anomaly detection ended!
+07/02/2021 22:12:25 Parsing of Poll file: C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/94502073867_PollReport (1).csv ended.
+07/02/2021 22:12:25 Looking up for anomalies...
+07/02/2021 22:12:25 Anomaly detection ended!
+07/02/2021 22:15:15 System started!
+07/02/2021 22:15:16 Parsing Student List started : C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/studentList.XLS started
+07/02/2021 22:15:16 Parsing Student List : C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/studentList.XLS finished
+07/02/2021 22:15:16 Answer Sheets: ('C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_answers/CSE3063 OOSD Weekly Session 1 - Monday Quizzes ANSWER KEY.txt', 'C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_answers/CSE3063 OOSD Weekly Session 2 - Tuesday Quizzes ANSWER KEY.txt') are  being parsed
+07/02/2021 22:15:16 Answer Sheets have been parsed.
+07/02/2021 22:15:17 Poll file: C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/94502073867_PollReport (1).csv is being parsed
+07/02/2021 22:15:18 Looking up for anomalies...
+07/02/2021 22:15:18 Anomaly detection ended!
+07/02/2021 22:15:18 Parsing of Poll file: C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/94502073867_PollReport (1).csv ended.
+07/02/2021 22:15:18 Looking up for anomalies...
+07/02/2021 22:15:18 Anomaly detection ended!
+07/02/2021 22:16:55 System started!
+07/02/2021 22:16:56 Parsing Student List started : C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/studentList.XLS started
+07/02/2021 22:16:56 Parsing Student List : C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/studentList.XLS finished
+07/02/2021 22:16:57 Answer Sheets: ('C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_answers/CSE3063 OOSD Weekly Session 1 - Monday Quizzes ANSWER KEY.txt', 'C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_answers/CSE3063 OOSD Weekly Session 2 - Tuesday Quizzes ANSWER KEY.txt') are  being parsed
+07/02/2021 22:16:57 Answer Sheets have been parsed.
+07/02/2021 22:16:58 Poll file: C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/94502073867_PollReport (1).csv is being parsed
+07/02/2021 22:16:58 Looking up for anomalies...
+07/02/2021 22:16:58 Anomaly detection ended!
+07/02/2021 22:16:58 Parsing of Poll file: C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/94502073867_PollReport (1).csv ended.
+07/02/2021 22:16:58 Looking up for anomalies...
+07/02/2021 22:16:58 Anomaly detection ended!
+07/02/2021 22:19:46 System started!
+07/02/2021 22:19:47 Parsing Student List started : C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/studentList.XLS started
+07/02/2021 22:19:47 Parsing Student List : C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/studentList.XLS finished
+07/02/2021 22:19:47 Answer Sheets: ('C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_answers/CSE3063 OOSD Weekly Session 1 - Monday Quizzes ANSWER KEY.txt', 'C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_answers/CSE3063 OOSD Weekly Session 2 - Tuesday Quizzes ANSWER KEY.txt') are  being parsed
+07/02/2021 22:19:48 Answer Sheets have been parsed.
+07/02/2021 22:19:49 Poll file: C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/94502073867_PollReport (1).csv is being parsed
+07/02/2021 22:19:49 Looking up for anomalies...
+07/02/2021 22:19:49 Anomaly detection ended!
+07/02/2021 22:19:49 Parsing of Poll file: C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/94502073867_PollReport (1).csv ended.
+07/02/2021 22:19:49 Looking up for anomalies...
+07/02/2021 22:19:49 Anomaly detection ended!
+07/02/2021 22:23:07 System started!
+07/02/2021 22:23:09 Parsing Student List started : C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/studentList.XLS started
+07/02/2021 22:23:09 Parsing Student List : C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/studentList.XLS finished
+07/02/2021 22:23:09 Answer Sheets: ('C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_answers/CSE3063 OOSD Weekly Session 1 - Monday Quizzes ANSWER KEY.txt', 'C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_answers/CSE3063 OOSD Weekly Session 2 - Tuesday Quizzes ANSWER KEY.txt') are  being parsed
+07/02/2021 22:23:09 Answer Sheets have been parsed.
+07/02/2021 22:23:10 Poll file: C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/94502073867_PollReport (1).csv is being parsed
+07/02/2021 22:23:10 Looking up for anomalies...
+07/02/2021 22:23:10 Anomaly detection ended!
+07/02/2021 22:23:10 Parsing of Poll file: C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/94502073867_PollReport (1).csv ended.
+07/02/2021 22:23:10 Looking up for anomalies...
+07/02/2021 22:23:10 Anomaly detection ended!
+07/02/2021 22:23:51 System started!
+07/02/2021 22:23:52 Parsing Student List started : C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/studentList.XLS started
+07/02/2021 22:23:53 Parsing Student List : C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/studentList.XLS finished
+07/02/2021 22:23:53 Answer Sheets: ('C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_answers/CSE3063 OOSD Weekly Session 1 - Monday Quizzes ANSWER KEY.txt', 'C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_answers/CSE3063 OOSD Weekly Session 2 - Tuesday Quizzes ANSWER KEY.txt') are  being parsed
+07/02/2021 22:23:53 Answer Sheets have been parsed.
+07/02/2021 22:23:54 Poll file: C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/94502073867_PollReport (1).csv is being parsed
+07/02/2021 22:23:54 System started!
+07/02/2021 22:23:54 Looking up for anomalies...
+07/02/2021 22:23:54 Anomaly detection ended!
+07/02/2021 22:23:54 Parsing of Poll file: C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/94502073867_PollReport (1).csv ended.
+07/02/2021 22:23:54 Looking up for anomalies...
+07/02/2021 22:23:54 Anomaly detection ended!
+07/02/2021 22:23:56 Parsing Student List started : C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/studentList.XLS started
+07/02/2021 22:23:56 Parsing Student List : C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/studentList.XLS finished
+07/02/2021 22:23:56 Answer Sheets: ('C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_answers/CSE3063 OOSD Weekly Session 1 - Monday Quizzes ANSWER KEY.txt', 'C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_answers/CSE3063 OOSD Weekly Session 2 - Tuesday Quizzes ANSWER KEY.txt') are  being parsed
+07/02/2021 22:23:56 Answer Sheets have been parsed.
+07/02/2021 22:23:57 Poll file: C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/94502073867_PollReport (1).csv is being parsed
+07/02/2021 22:23:57 Looking up for anomalies...
+07/02/2021 22:23:57 Anomaly detection ended!
+07/02/2021 22:23:57 Parsing of Poll file: C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/94502073867_PollReport (1).csv ended.
+07/02/2021 22:23:57 Looking up for anomalies...
+07/02/2021 22:23:57 Anomaly detection ended!
+07/02/2021 22:24:04 Poll Statistics are being calculated...
+07/02/2021 22:29:22 System started!
+07/02/2021 22:29:23 Parsing Student List started : C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/studentList.XLS started
+07/02/2021 22:29:23 Parsing Student List : C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/studentList.XLS finished
+07/02/2021 22:29:23 Answer Sheets: ('C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_answers/CSE3063 OOSD Weekly Session 1 - Monday Quizzes ANSWER KEY.txt', 'C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_answers/CSE3063 OOSD Weekly Session 2 - Tuesday Quizzes ANSWER KEY.txt') are  being parsed
+07/02/2021 22:29:24 Answer Sheets have been parsed.
+07/02/2021 22:29:25 Poll file: C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/94502073867_PollReport (1).csv is being parsed
+07/02/2021 22:29:25 Looking up for anomalies...
+07/02/2021 22:29:25 Anomaly detection ended!
+07/02/2021 22:29:25 Parsing of Poll file: C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/94502073867_PollReport (1).csv ended.
+07/02/2021 22:29:25 Looking up for anomalies...
+07/02/2021 22:29:25 Anomaly detection ended!
+07/02/2021 22:35:25 System started!
+07/02/2021 22:35:26 Parsing Student List started : C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/studentList.XLS started
+07/02/2021 22:35:26 Parsing Student List : C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/studentList.XLS finished
+07/02/2021 22:35:26 Answer Sheets: ('C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_answers/CSE3063 OOSD Weekly Session 1 - Monday Quizzes ANSWER KEY.txt', 'C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_answers/CSE3063 OOSD Weekly Session 2 - Tuesday Quizzes ANSWER KEY.txt') are  being parsed
+07/02/2021 22:35:26 Answer Sheets have been parsed.
+07/02/2021 22:35:27 Poll file: C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/94502073867_PollReport (1).csv is being parsed
+07/02/2021 22:35:28 Looking up for anomalies...
+07/02/2021 22:35:28 Anomaly detection ended!
+07/02/2021 22:35:28 Parsing of Poll file: C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/94502073867_PollReport (1).csv ended.
+07/02/2021 22:35:28 Looking up for anomalies...
+07/02/2021 22:35:28 Anomaly detection ended!
+07/02/2021 22:37:22 System started!
+07/02/2021 22:37:23 Parsing Student List started : C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/studentList.XLS started
+07/02/2021 22:37:23 Parsing Student List : C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/studentList.XLS finished
+07/02/2021 22:37:23 Answer Sheets: ('C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_answers/CSE3063 OOSD Weekly Session 1 - Monday Quizzes ANSWER KEY.txt', 'C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_answers/CSE3063 OOSD Weekly Session 2 - Tuesday Quizzes ANSWER KEY.txt') are  being parsed
+07/02/2021 22:37:24 Answer Sheets have been parsed.
+07/02/2021 22:37:25 Poll file: C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/94502073867_PollReport (1).csv is being parsed
+07/02/2021 22:37:25 Looking up for anomalies...
+07/02/2021 22:37:25 Anomaly detection ended!
+07/02/2021 22:37:25 Parsing of Poll file: C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/94502073867_PollReport (1).csv ended.
+07/02/2021 22:37:25 Looking up for anomalies...
+07/02/2021 22:37:25 Anomaly detection ended!
+07/02/2021 22:41:49 System started!
+07/02/2021 22:41:50 Parsing Student List started : C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/studentList.XLS started
+07/02/2021 22:41:50 Parsing Student List : C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/studentList.XLS finished
+07/02/2021 22:41:50 Answer Sheets: ('C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_answers/CSE3063 OOSD Weekly Session 1 - Monday Quizzes ANSWER KEY.txt', 'C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_answers/CSE3063 OOSD Weekly Session 2 - Tuesday Quizzes ANSWER KEY.txt') are  being parsed
+07/02/2021 22:41:50 Answer Sheets have been parsed.
+07/02/2021 22:41:51 Poll file: C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/94502073867_PollReport (1).csv is being parsed
+07/02/2021 22:41:52 Looking up for anomalies...
+07/02/2021 22:41:52 Anomaly detection ended!
+07/02/2021 22:41:52 Parsing of Poll file: C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/94502073867_PollReport (1).csv ended.
+07/02/2021 22:41:52 Looking up for anomalies...
+07/02/2021 22:41:52 Anomaly detection ended!
+07/02/2021 22:44:17 System started!
+07/02/2021 22:44:18 Parsing Student List started : C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/studentList.XLS started
+07/02/2021 22:44:18 Parsing Student List : C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/studentList.XLS finished
+07/02/2021 22:44:18 Answer Sheets: ('C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_answers/CSE3063 OOSD Weekly Session 1 - Monday Quizzes ANSWER KEY.txt', 'C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_answers/CSE3063 OOSD Weekly Session 2 - Tuesday Quizzes ANSWER KEY.txt') are  being parsed
+07/02/2021 22:44:18 Answer Sheets have been parsed.
+07/02/2021 22:44:19 Poll file: C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/94502073867_PollReport (1).csv is being parsed
+07/02/2021 22:44:19 Looking up for anomalies...
+07/02/2021 22:44:19 Anomaly detection ended!
+07/02/2021 22:44:19 Parsing of Poll file: C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/94502073867_PollReport (1).csv ended.
+07/02/2021 22:44:19 Looking up for anomalies...
+07/02/2021 22:44:19 Anomaly detection ended!
+07/02/2021 22:45:24 System started!
+07/02/2021 22:45:25 Parsing Student List started : C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/studentList.XLS started
+07/02/2021 22:45:25 Parsing Student List : C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/studentList.XLS finished
+07/02/2021 22:45:25 Answer Sheets: ('C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_answers/CSE3063 OOSD Weekly Session 1 - Monday Quizzes ANSWER KEY.txt', 'C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_answers/CSE3063 OOSD Weekly Session 2 - Tuesday Quizzes ANSWER KEY.txt') are  being parsed
+07/02/2021 22:45:25 Answer Sheets have been parsed.
+07/02/2021 22:45:26 Poll file: C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/94502073867_PollReport (1).csv is being parsed
+07/02/2021 22:46:00 Looking up for anomalies...
+07/02/2021 22:46:00 Anomaly detection ended!
+07/02/2021 22:46:00 Parsing of Poll file: C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/94502073867_PollReport (1).csv ended.
+07/02/2021 22:46:00 Looking up for anomalies...
+07/02/2021 22:46:00 Anomaly detection ended!
+07/02/2021 22:47:56 System started!
+07/02/2021 22:47:57 Parsing Student List started : C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/studentList.XLS started
+07/02/2021 22:47:57 Parsing Student List : C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/studentList.XLS finished
+07/02/2021 22:47:57 Answer Sheets: ('C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_answers/CSE3063 OOSD Weekly Session 1 - Monday Quizzes ANSWER KEY.txt', 'C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_answers/CSE3063 OOSD Weekly Session 2 - Tuesday Quizzes ANSWER KEY.txt') are  being parsed
+07/02/2021 22:47:57 Answer Sheets have been parsed.
+07/02/2021 22:47:58 Poll file: C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/94502073867_PollReport (1).csv is being parsed
+07/02/2021 22:47:59 Looking up for anomalies...
+07/02/2021 22:47:59 Anomaly detection ended!
+07/02/2021 22:47:59 Parsing of Poll file: C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/94502073867_PollReport (1).csv ended.
+07/02/2021 22:47:59 Looking up for anomalies...
+07/02/2021 22:47:59 Anomaly detection ended!
+07/02/2021 22:50:11 System started!
+07/02/2021 22:50:12 Parsing Student List started : C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/studentList.XLS started
+07/02/2021 22:50:12 Parsing Student List : C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/studentList.XLS finished
+07/02/2021 22:50:12 Answer Sheets: ('C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_answers/CSE3063 OOSD Weekly Session 1 - Monday Quizzes ANSWER KEY.txt', 'C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_answers/CSE3063 OOSD Weekly Session 2 - Tuesday Quizzes ANSWER KEY.txt') are  being parsed
+07/02/2021 22:50:12 Answer Sheets have been parsed.
+07/02/2021 22:50:13 Poll file: C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/94502073867_PollReport (1).csv is being parsed
+07/02/2021 22:50:14 Looking up for anomalies...
+07/02/2021 22:50:14 Anomaly detection ended!
+07/02/2021 22:50:14 Parsing of Poll file: C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/94502073867_PollReport (1).csv ended.
+07/02/2021 22:50:14 Looking up for anomalies...
+07/02/2021 22:50:14 Anomaly detection ended!
+07/02/2021 22:51:40 System started!
+07/02/2021 22:51:41 Parsing Student List started : C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/studentList.XLS started
+07/02/2021 22:51:41 Parsing Student List : C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/studentList.XLS finished
+07/02/2021 22:51:42 Answer Sheets: ('C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_answers/CSE3063 OOSD Weekly Session 1 - Monday Quizzes ANSWER KEY.txt', 'C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_answers/CSE3063 OOSD Weekly Session 2 - Tuesday Quizzes ANSWER KEY.txt') are  being parsed
+07/02/2021 22:51:42 Answer Sheets have been parsed.
+07/02/2021 22:51:43 Poll file: C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/94502073867_PollReport (1).csv is being parsed
+07/02/2021 22:51:43 Looking up for anomalies...
+07/02/2021 22:51:43 Anomaly detection ended!
+07/02/2021 22:51:43 Parsing of Poll file: C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/94502073867_PollReport (1).csv ended.
+07/02/2021 22:51:43 Looking up for anomalies...
+07/02/2021 22:51:43 Anomaly detection ended!
+07/02/2021 23:23:46 System started!
+07/02/2021 23:23:47 Parsing Student List started : C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/studentList.XLS started
+07/02/2021 23:23:47 Parsing Student List : C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/studentList.XLS finished
+07/02/2021 23:23:47 Answer Sheets: ('C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_answers/CSE3063 OOSD Weekly Session 1 - Monday Quizzes ANSWER KEY.txt', 'C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_answers/CSE3063 OOSD Weekly Session 2 - Tuesday Quizzes ANSWER KEY.txt') are  being parsed
+07/02/2021 23:23:47 Answer Sheets have been parsed.
+07/02/2021 23:23:48 Poll file: C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/94502073867_PollReport_18-01-2021.csv is being parsed
+07/02/2021 23:23:49 Looking up for anomalies...
+07/02/2021 23:23:49 Anomaly detection ended!
+07/02/2021 23:23:49 Parsing of Poll file: C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/94502073867_PollReport_18-01-2021.csv ended.
+07/02/2021 23:23:50 Poll file: C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/94502073867_PollReport_19-10-2020.csv is being parsed
+07/02/2021 23:23:52 Looking up for anomalies...
+07/02/2021 23:23:52 Anomaly detection ended!
+07/02/2021 23:23:52 Parsing of Poll file: C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/94502073867_PollReport_19-10-2020.csv ended.
+07/02/2021 23:23:53 Poll file: C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/94502073867_PollReport_26-10-2020.csv is being parsed
+07/02/2021 23:23:58 Looking up for anomalies...
+07/02/2021 23:23:58 Anomaly detection ended!
+07/02/2021 23:23:58 Parsing of Poll file: C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/94502073867_PollReport_26-10-2020.csv ended.
+07/02/2021 23:23:58 Looking up for anomalies...
+07/02/2021 23:23:58 Anomaly detection ended!
+07/02/2021 23:24:20 Looking up for anomalies...
+07/02/2021 23:24:20 Anomaly detection ended!
+07/02/2021 23:26:02 System started!
+07/02/2021 23:26:03 Parsing Student List started : C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/studentList.XLS started
+07/02/2021 23:26:03 Parsing Student List : C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/studentList.XLS finished
+07/02/2021 23:26:03 Answer Sheets: ('C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_answers/CSE3063 OOSD Weekly Session 1 - Monday Quizzes ANSWER KEY.txt', 'C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_answers/CSE3063 OOSD Weekly Session 2 - Tuesday Quizzes ANSWER KEY.txt') are  being parsed
+07/02/2021 23:26:03 Answer Sheets have been parsed.
+07/02/2021 23:26:04 Poll file: C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/94502073867_PollReport_18-01-2021.csv is being parsed
+07/02/2021 23:26:05 Looking up for anomalies...
+07/02/2021 23:26:05 Anomaly detection ended!
+07/02/2021 23:26:05 Parsing of Poll file: C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/94502073867_PollReport_18-01-2021.csv ended.
+07/02/2021 23:26:06 Poll file: C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/94502073867_PollReport_19-10-2020.csv is being parsed
+07/02/2021 23:26:08 Looking up for anomalies...
+07/02/2021 23:26:08 Anomaly detection ended!
+07/02/2021 23:26:08 Parsing of Poll file: C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/94502073867_PollReport_19-10-2020.csv ended.
+07/02/2021 23:26:09 Poll file: C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/94502073867_PollReport_26-10-2020.csv is being parsed
+07/02/2021 23:26:15 Looking up for anomalies...
+07/02/2021 23:26:15 Anomaly detection ended!
+07/02/2021 23:26:15 Parsing of Poll file: C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/94502073867_PollReport_26-10-2020.csv ended.
+07/02/2021 23:26:15 Looking up for anomalies...
+07/02/2021 23:26:15 Anomaly detection ended!
+07/02/2021 23:33:24 System started!
+07/02/2021 23:33:25 Parsing Student List started : C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/studentList.XLS started
+07/02/2021 23:33:25 Parsing Student List : C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/studentList.XLS finished
+07/02/2021 23:33:26 Answer Sheets: ('C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_answers/CSE3063 OOSD Weekly Session 1 - Monday Quizzes ANSWER KEY.txt', 'C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_answers/CSE3063 OOSD Weekly Session 2 - Tuesday Quizzes ANSWER KEY.txt') are  being parsed
+07/02/2021 23:33:26 Answer Sheets have been parsed.
+07/02/2021 23:33:27 Poll file: C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/94502073867_PollReport_18-01-2021.csv is being parsed
+07/02/2021 23:33:34 Looking up for anomalies...
+07/02/2021 23:33:34 Anomaly detection ended!
+07/02/2021 23:33:34 Parsing of Poll file: C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/94502073867_PollReport_18-01-2021.csv ended.
+07/02/2021 23:33:35 Poll file: C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/94502073867_PollReport_19-10-2020.csv is being parsed
+07/02/2021 23:33:37 Looking up for anomalies...
+07/02/2021 23:33:37 Anomaly detection ended!
+07/02/2021 23:33:37 Parsing of Poll file: C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/94502073867_PollReport_19-10-2020.csv ended.
+07/02/2021 23:33:38 Poll file: C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/94502073867_PollReport_26-10-2020.csv is being parsed
+07/02/2021 23:33:44 Looking up for anomalies...
+07/02/2021 23:33:44 Anomaly detection ended!
+07/02/2021 23:33:44 Parsing of Poll file: C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/94502073867_PollReport_26-10-2020.csv ended.
+07/02/2021 23:33:44 Looking up for anomalies...
+07/02/2021 23:33:44 Anomaly detection ended!
+07/02/2021 23:36:23 System started!
+07/02/2021 23:36:24 Parsing Student List started : C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/studentList.XLS started
+07/02/2021 23:36:24 Parsing Student List : C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/studentList.XLS finished
+07/02/2021 23:36:24 Answer Sheets: ('C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_answers/CSE3063 OOSD Weekly Session 1 - Monday Quizzes ANSWER KEY.txt', 'C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_answers/CSE3063 OOSD Weekly Session 2 - Tuesday Quizzes ANSWER KEY.txt') are  being parsed
+07/02/2021 23:36:24 Answer Sheets have been parsed.
+07/02/2021 23:36:25 Poll file: C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/94502073867_PollReport_18-01-2021.csv is being parsed
+07/02/2021 23:36:26 Looking up for anomalies...
+07/02/2021 23:36:26 Anomaly detection ended!
+07/02/2021 23:36:26 Parsing of Poll file: C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/94502073867_PollReport_18-01-2021.csv ended.
+07/02/2021 23:36:27 Poll file: C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/94502073867_PollReport_19-10-2020.csv is being parsed
+07/02/2021 23:36:29 Looking up for anomalies...
+07/02/2021 23:36:29 Anomaly detection ended!
+07/02/2021 23:36:29 Parsing of Poll file: C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/94502073867_PollReport_19-10-2020.csv ended.
+07/02/2021 23:36:30 Poll file: C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/94502073867_PollReport_26-10-2020.csv is being parsed
+07/02/2021 23:36:36 Looking up for anomalies...
+07/02/2021 23:36:36 Anomaly detection ended!
+07/02/2021 23:36:36 Parsing of Poll file: C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/94502073867_PollReport_26-10-2020.csv ended.
+07/02/2021 23:36:36 Looking up for anomalies...
+07/02/2021 23:36:36 Anomaly detection ended!
+07/02/2021 23:38:11 System started!
+07/02/2021 23:38:12 Parsing Student List started : C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/studentList.XLS started
+07/02/2021 23:38:12 Parsing Student List : C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/studentList.XLS finished
+07/02/2021 23:38:12 Answer Sheets: ('C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_answers/CSE3063 OOSD Weekly Session 1 - Monday Quizzes ANSWER KEY.txt', 'C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_answers/CSE3063 OOSD Weekly Session 2 - Tuesday Quizzes ANSWER KEY.txt') are  being parsed
+07/02/2021 23:38:12 Answer Sheets have been parsed.
+07/02/2021 23:38:13 Poll file: C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/94502073867_PollReport_18-01-2021.csv is being parsed
+07/02/2021 23:38:14 Looking up for anomalies...
+07/02/2021 23:38:14 Anomaly detection ended!
+07/02/2021 23:38:14 Parsing of Poll file: C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/94502073867_PollReport_18-01-2021.csv ended.
+07/02/2021 23:38:15 Poll file: C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/94502073867_PollReport_19-10-2020.csv is being parsed
+07/02/2021 23:38:17 Looking up for anomalies...
+07/02/2021 23:38:17 Anomaly detection ended!
+07/02/2021 23:38:17 Parsing of Poll file: C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/94502073867_PollReport_19-10-2020.csv ended.
+07/02/2021 23:38:18 Poll file: C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/94502073867_PollReport_26-10-2020.csv is being parsed
+07/02/2021 23:38:24 Looking up for anomalies...
+07/02/2021 23:38:24 Anomaly detection ended!
+07/02/2021 23:38:24 Parsing of Poll file: C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/94502073867_PollReport_26-10-2020.csv ended.
+07/02/2021 23:38:24 Looking up for anomalies...
+07/02/2021 23:38:24 Anomaly detection ended!
+07/02/2021 23:38:30 Looking up for anomalies...
+07/02/2021 23:38:30 Anomaly detection ended!
+07/02/2021 23:44:01 System started!
+07/02/2021 23:44:02 Parsing Student List started : C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/studentList.XLS started
+07/02/2021 23:44:02 Parsing Student List : C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/studentList.XLS finished
+07/02/2021 23:44:02 Answer Sheets: ('C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_answers/CSE3063 OOSD Weekly Session 1 - Monday Quizzes ANSWER KEY.txt', 'C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_answers/CSE3063 OOSD Weekly Session 2 - Tuesday Quizzes ANSWER KEY.txt') are  being parsed
+07/02/2021 23:44:02 Answer Sheets have been parsed.
+07/02/2021 23:44:03 Poll file: C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/94502073867_PollReport (1).csv is being parsed
+07/02/2021 23:44:04 Looking up for anomalies...
+07/02/2021 23:44:04 Anomaly detection ended!
+07/02/2021 23:44:04 Parsing of Poll file: C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/94502073867_PollReport (1).csv ended.
+07/02/2021 23:44:05 Poll file: C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/94502073867_PollReport_18-01-2021.csv is being parsed
+07/02/2021 23:44:05 Looking up for anomalies...
+07/02/2021 23:44:05 Anomaly detection ended!
+07/02/2021 23:44:05 Parsing of Poll file: C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/94502073867_PollReport_18-01-2021.csv ended.
+07/02/2021 23:44:06 Poll file: C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/94502073867_PollReport_19-10-2020.csv is being parsed
+07/02/2021 23:44:09 Looking up for anomalies...
+07/02/2021 23:44:09 Anomaly detection ended!
+07/02/2021 23:44:09 Parsing of Poll file: C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/94502073867_PollReport_19-10-2020.csv ended.
+07/02/2021 23:44:09 Looking up for anomalies...
+07/02/2021 23:44:09 Anomaly detection ended!
+07/02/2021 23:45:47 System started!
+07/02/2021 23:45:48 Parsing Student List started : C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/studentList.XLS started
+07/02/2021 23:45:48 Parsing Student List : C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/studentList.XLS finished
+07/02/2021 23:45:49 Answer Sheets: ('C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_answers/CSE3063 OOSD Weekly Session 1 - Monday Quizzes ANSWER KEY.txt', 'C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_answers/CSE3063 OOSD Weekly Session 2 - Tuesday Quizzes ANSWER KEY.txt') are  being parsed
+07/02/2021 23:45:49 Answer Sheets have been parsed.
+07/02/2021 23:45:50 Poll file: C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/94502073867_PollReport (17).csv is being parsed
+07/02/2021 23:46:00 Looking up for anomalies...
+07/02/2021 23:46:00 Anomaly detection ended!
+07/02/2021 23:46:00 Parsing of Poll file: C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/94502073867_PollReport (17).csv ended.
+07/02/2021 23:46:01 Poll file: C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/94502073867_PollReport_18-01-2021.csv is being parsed
+07/02/2021 23:46:01 Looking up for anomalies...
+07/02/2021 23:46:01 Anomaly detection ended!
+07/02/2021 23:46:01 Parsing of Poll file: C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/94502073867_PollReport_18-01-2021.csv ended.
+07/02/2021 23:46:02 Poll file: C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/94502073867_PollReport_19-10-2020.csv is being parsed
+07/02/2021 23:46:05 Looking up for anomalies...
+07/02/2021 23:46:05 Anomaly detection ended!
+07/02/2021 23:46:05 Parsing of Poll file: C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/94502073867_PollReport_19-10-2020.csv ended.
+07/02/2021 23:46:05 Looking up for anomalies...
+07/02/2021 23:46:05 Anomaly detection ended!
+07/02/2021 23:49:18 System started!
+07/02/2021 23:49:19 Parsing Student List started : C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/studentList.XLS started
+07/02/2021 23:49:19 Parsing Student List : C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/studentList.XLS finished
+07/02/2021 23:49:19 Answer Sheets: ('C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_answers/CSE3063 OOSD Weekly Session 1 - Monday Quizzes ANSWER KEY.txt', 'C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_answers/CSE3063 OOSD Weekly Session 2 - Tuesday Quizzes ANSWER KEY.txt') are  being parsed
+07/02/2021 23:49:19 Answer Sheets have been parsed.
+07/02/2021 23:49:20 Poll file: C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/94502073867_PollReport_18-01-2021.csv is being parsed
+07/02/2021 23:49:21 Looking up for anomalies...
+07/02/2021 23:49:21 Anomaly detection ended!
+07/02/2021 23:49:21 Parsing of Poll file: C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/94502073867_PollReport_18-01-2021.csv ended.
+07/02/2021 23:49:22 Poll file: C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/94502073867_PollReport_19-10-2020.csv is being parsed
+07/02/2021 23:49:24 Looking up for anomalies...
+07/02/2021 23:49:24 Anomaly detection ended!
+07/02/2021 23:49:24 Parsing of Poll file: C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/94502073867_PollReport_19-10-2020.csv ended.
+07/02/2021 23:49:25 Poll file: C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/94502073867_PollReport_26-10-2020.csv is being parsed
+07/02/2021 23:49:30 Looking up for anomalies...
+07/02/2021 23:49:30 Anomaly detection ended!
+07/02/2021 23:49:30 Parsing of Poll file: C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/94502073867_PollReport_26-10-2020.csv ended.
+07/02/2021 23:49:30 Looking up for anomalies...
+07/02/2021 23:49:30 Anomaly detection ended!
+07/02/2021 23:49:37 Looking up for anomalies...
+07/02/2021 23:49:37 Anomaly detection ended!
+07/02/2021 23:50:34 System started!
+07/02/2021 23:50:35 Parsing Student List started : C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/studentList.XLS started
+07/02/2021 23:50:35 Parsing Student List : C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/studentList.XLS finished
+07/02/2021 23:50:35 Answer Sheets: ('C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_answers/CSE3063 OOSD Weekly Session 1 - Monday Quizzes ANSWER KEY.txt', 'C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_answers/CSE3063 OOSD Weekly Session 2 - Tuesday Quizzes ANSWER KEY.txt') are  being parsed
+07/02/2021 23:50:35 Answer Sheets have been parsed.
+07/02/2021 23:50:36 Poll file: C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/94502073867_PollReport_18-01-2021.csv is being parsed
+07/02/2021 23:50:37 Looking up for anomalies...
+07/02/2021 23:50:37 Anomaly detection ended!
+07/02/2021 23:50:37 Parsing of Poll file: C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/94502073867_PollReport_18-01-2021.csv ended.
+07/02/2021 23:50:38 Poll file: C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/94502073867_PollReport_19-10-2020.csv is being parsed
+07/02/2021 23:50:40 Looking up for anomalies...
+07/02/2021 23:50:40 Anomaly detection ended!
+07/02/2021 23:50:40 Parsing of Poll file: C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/94502073867_PollReport_19-10-2020.csv ended.
+07/02/2021 23:50:41 Poll file: C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/94502073867_PollReport_26-10-2020.csv is being parsed
+07/02/2021 23:50:47 Looking up for anomalies...
+07/02/2021 23:50:47 Anomaly detection ended!
+07/02/2021 23:50:47 Parsing of Poll file: C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/94502073867_PollReport_26-10-2020.csv ended.
+07/02/2021 23:50:47 Looking up for anomalies...
+07/02/2021 23:50:47 Anomaly detection ended!
+07/02/2021 23:50:53 Looking up for anomalies...
+07/02/2021 23:50:53 Anomaly detection ended!
+07/02/2021 23:59:08 System started!
+07/02/2021 23:59:09 Parsing Student List started : C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/studentList.XLS started
+07/02/2021 23:59:09 Parsing Student List : C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/studentList.XLS finished
+07/02/2021 23:59:09 Answer Sheets: ('C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_answers/CSE3063 OOSD Weekly Session 1 - Monday Quizzes ANSWER KEY.txt', 'C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_answers/CSE3063 OOSD Weekly Session 2 - Tuesday Quizzes ANSWER KEY.txt') are  being parsed
+07/02/2021 23:59:09 Answer Sheets have been parsed.
+07/02/2021 23:59:10 Poll file: C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/94502073867_PollReport_18-01-2021.csv is being parsed
+07/02/2021 23:59:10 Looking up for anomalies...
+07/02/2021 23:59:10 Anomaly detection ended!
+07/02/2021 23:59:10 Parsing of Poll file: C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/94502073867_PollReport_18-01-2021.csv ended.
+07/02/2021 23:59:11 Poll file: C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/94502073867_PollReport_19-10-2020.csv is being parsed
+07/02/2021 23:59:13 Looking up for anomalies...
+07/02/2021 23:59:13 Anomaly detection ended!
+07/02/2021 23:59:13 Parsing of Poll file: C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/94502073867_PollReport_19-10-2020.csv ended.
+07/02/2021 23:59:13 Looking up for anomalies...
+07/02/2021 23:59:13 Anomaly detection ended!
+07/02/2021 23:59:19 Looking up for anomalies...
+07/02/2021 23:59:19 Anomaly detection ended!
+08/02/2021 00:01:27 Looking up for anomalies...
+08/02/2021 00:01:27 Anomaly detection ended!
+08/02/2021 00:07:37 System started!
+08/02/2021 00:07:38 Parsing Student List started : C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/studentList.XLS started
+08/02/2021 00:07:38 Parsing Student List : C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/studentList.XLS finished
+08/02/2021 00:07:38 Answer Sheets: ('C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_answers/CSE3063 OOSD Weekly Session 1 - Monday Quizzes ANSWER KEY.txt', 'C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_answers/CSE3063 OOSD Weekly Session 2 - Tuesday Quizzes ANSWER KEY.txt') are  being parsed
+08/02/2021 00:07:38 Answer Sheets have been parsed.
+08/02/2021 00:07:39 Poll file: C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/94502073867_PollReport_18-01-2021.csv is being parsed
+08/02/2021 00:07:40 Looking up for anomalies...
+08/02/2021 00:07:40 Anomaly detection ended!
+08/02/2021 00:07:40 Parsing of Poll file: C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/94502073867_PollReport_18-01-2021.csv ended.
+08/02/2021 00:07:40 Looking up for anomalies...
+08/02/2021 00:07:40 Anomaly detection ended!
+08/02/2021 00:08:32 System started!
+08/02/2021 00:08:33 Parsing Student List started : C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/studentList.XLS started
+08/02/2021 00:08:33 Parsing Student List : C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/studentList.XLS finished
+08/02/2021 00:08:34 Answer Sheets: ('C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_answers/CSE3063 OOSD Weekly Session 1 - Monday Quizzes ANSWER KEY.txt', 'C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_answers/CSE3063 OOSD Weekly Session 2 - Tuesday Quizzes ANSWER KEY.txt') are  being parsed
+08/02/2021 00:08:34 Answer Sheets have been parsed.
+08/02/2021 00:08:35 Poll file: C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/94502073867_PollReport_18-01-2021.csv is being parsed
+08/02/2021 00:08:35 Looking up for anomalies...
+08/02/2021 00:08:35 Anomaly detection ended!
+08/02/2021 00:08:35 Parsing of Poll file: C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/94502073867_PollReport_18-01-2021.csv ended.
+08/02/2021 00:08:35 Looking up for anomalies...
+08/02/2021 00:08:35 Anomaly detection ended!
+08/02/2021 00:08:41 Looking up for anomalies...
+08/02/2021 00:08:41 Anomaly detection ended!
+08/02/2021 00:08:52 Poll Statistics are being calculated...
+08/02/2021 00:12:11 Poll Statistics have been calculated.
+08/02/2021 00:12:12 Poll Statistics  is being generated...
+15/02/2021 14:38:21 System started!
+15/02/2021 14:38:22 Parsing Student List started : C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/studentList.XLS started
+15/02/2021 14:38:22 Parsing Student List : C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/studentList.XLS finished
+15/02/2021 14:38:22 Answer Sheets: ('C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_answers/CSE3063 OOSD Weekly Session 1 - Monday Quizzes ANSWER KEY.txt', 'C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_answers/CSE3063 OOSD Weekly Session 2 - Tuesday Quizzes ANSWER KEY.txt') are  being parsed
+15/02/2021 14:38:22 Answer Sheets have been parsed.
+15/02/2021 14:38:23 Poll file: C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/94502073867_PollReport (1).csv is being parsed
+15/02/2021 14:38:23 Looking up for anomalies...
+15/02/2021 14:38:23 Anomaly detection ended!
+15/02/2021 14:38:23 Parsing of Poll file: C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/94502073867_PollReport (1).csv ended.
+15/02/2021 14:38:24 Poll file: C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/94502073867_PollReport (3).csv is being parsed
+15/02/2021 14:38:25 Looking up for anomalies...
+15/02/2021 14:38:25 Anomaly detection ended!
+15/02/2021 14:38:25 Parsing of Poll file: C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/94502073867_PollReport (3).csv ended.
+15/02/2021 14:38:26 Poll file: C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/94502073867_PollReport (5).csv is being parsed
+15/02/2021 14:38:26 Looking up for anomalies...
+15/02/2021 14:38:26 Anomaly detection ended!
+15/02/2021 14:38:26 Parsing of Poll file: C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/94502073867_PollReport (5).csv ended.
+15/02/2021 14:38:27 Poll file: C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/94502073867_PollReport (7).csv is being parsed
+15/02/2021 14:38:27 Looking up for anomalies...
+15/02/2021 14:38:27 Anomaly detection ended!
+15/02/2021 14:38:27 Parsing of Poll file: C:/Users/brusw/PycharmProjects/CSE3063F20P2_GRP7/poll_files/94502073867_PollReport (7).csv ended.
